@@ -32,7 +32,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="livre" n="169">
+            <div type="livre" n="1">
                 <div type="chapitre" n="169">
                     <ab type="excerptum" xml:id="De_ebriet._169" xml:lang="grc" ana="#dix_tropes">
             <milestone unit="paragraph" n="169"/> τὸν μέντοι σεμνυνόμενον ἢ ἐπὶ τῷ
