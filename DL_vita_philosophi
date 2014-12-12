@@ -1,0 +1,143 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vitae philosophorum</title>
+                <title key="Vitae philosophorum" ref="urn:cts:greekLit:tlg0004.tlg001"/>
+                <author key="Diogenes Laertius"
+                    ref="http://catalog.perseus.org/catalog/Mtlg0004Dioge">Diogène Laërce</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Ecole Normale Supérieure de Lyon</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl n="Description de la source principale">Hicks, Robert Drew, W. Heinemann,
+                    1925</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term xml:id="Pyrrhonisme">Pyrrhonisme</term>
+                    <term xml:id="quatrième_trope">4ème trope</term>
+
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="livre" n="9">
+                <div type="chapitre" n="76">
+                    <ab type="testimonium" xml:id="T_54" n="54" corresp="#Pyrrho" ana="#Pyrrhonisme"
+                        xml:lang="gr">
+                        <bibl>T54 Decleva Caizzi</bibl>
+                        <milestone unit="paragraph"/>ἀναιροῦσι δ᾽ οἱ σκεπτικοὶ καὶ αὐτὴν τὴν "Οὐδὲν
+                        μᾶλλον" φωνήν: ὡς γὰρ οὐ μᾶλλόν ἐστι πρόνοια ἢ οὐκ ἔστιν, οὕτω καὶ τὸ Οὐδὲν
+                        μᾶλλον οὐ μᾶλλόν ἐστιν ἢ οὐκ ἔστι. <q type="fragmentum" source="#Timon"
+                            xml:id="Silles_1" xml:lang="gr"> σημαίνει οὖν ἡ φωνή, καθά φησι καὶ
+                                <persName>Τίμων</persName> ἐν τῷ Πύθωνι, "τὸ μηδὲν ὁρίζειν, ἀλλ᾽
+                            ἀπροσθετεῖν." </q>
+                    </ab>
+                    <!-- revoir les références du Python dans Di Marco -->
+                    <ab type="translatio" n="54" corresp="#T_54" xml:lang="fr"> Les sceptiques
+                        détruisent aussi l'expression "pas davantage" : de même que pas davantage la
+                        providence est qu'elle n'est pas, de même pas davantage le "pas davantage"
+                        est qu'il n'est pas. <q type="translatio" corresp="#Silles_1" xml:lang="fr">
+                            Cette formule signifie donc, comme le dit <persName>Timon
+                            </persName> dans le Python, "ne rien déterminer, mais s’abstenir de toute
+                            position additionnelle"</q>
+                    </ab>
+                </div>
+                <div type="chapitre" n="78">
+                    <ab type="testimonium" xml:lang="grc" xml:id="DL_78"
+                        ana="#dix_tropes" corresp="#Aenesidemus">
+                        <milestone unit="paragraph" n="78"/>Ἔστιν οὖν ὁ Πυρρώνειος λόγος μήνυσίς τις
+                        τῶν φαινομένων ἢ τῶν ὁπωσοῦν νοουμένων, καθ᾽ ἣν πάντα πᾶσι συμβάλλεται καὶ
+                        συγκρινόμενα πολλὴν ἀνωμαλίαν καὶ ταραχὴν ἔχοντα εὑρίσκεται, καθά φησιν
+                        Αἰνεσίδημος ἐν τῇ εἰς τὰ Πυρρώνεια ὑποτυπώσει. πρὸς δὲ τὰς ἐν ταῖς σκέψεσιν
+                        ἀντιθέσεις προαποδεικνύντες καθ᾽ οὓς τρόπους πείθει τὰ πράγματα, κατὰ τοὺς
+                        αὐτοὺς ἀνῄρουν τὴν περὶ αὐτῶν πίστιν: πείθειν γὰρ τά τε κατ᾽ αἴσθησιν
+                        συμφώνως ἔχοντα καὶ τὰ μηδέποτε ἢ σπανίως γοῦν μεταπίπτοντα τά τε συνήθη καὶ
+                        τὰ νόμοις διεσταλμένα καὶ τὰ τέρποντα καὶ τὰ θαυμαζόμενα. <milestone
+                            unit="paragraph" n="79"/> ἐδείκνυσαν οὖν ἀπὸ τῶν ἐναντίων τοῖς πείθουσιν
+                        ἴσας τὰς πιθανότητας. Αἱ δ᾽ ἀπορίαι κατὰ τὰς21 συμφωνίας τῶν φαινομένων ἢ
+                        νοουμένων, ἃς ἀπεδίδοσαν, ἦσαν κατὰ δέκα τρόπους, καθ᾽ οὓς τὰ ὑποκείμενα
+                        παραλλάττοντα ἐφαίνετο. τούτους δὲ τοὺς δέκα τρόπους τίθησιν.</ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#DL_78">
+                        <milestone unit="paragraph" n="78"/>Le discours pyrrhonien est donc une
+                        manière de faire mention de ce qui apparaît, ou de ce qui est pensé d’une
+                        façon ou d’une autre, mention dans laquelle tout est confronté à tout, et se
+                        révèle par cette comparaison comme rempli d’irrégularité et
+                        d’embrouillamini, comme le dit Enésidème dans son Esquisse introductive au
+                        pyrrhonisme. Pour élaborer les oppositions qui se révèlent dans les
+                        recherches, ils commençaient par exposer les modes selon lesquels les choses
+                        nous paraissent plausibles, puis, selon les mêmes modes, ils abolissaient
+                        notre persuasion à leur sujet&#xA0;: ce qui est plausible en effet, selon
+                        eux, ce sont les données de la sensation quand elles sont en concordance,
+                        les choses qui ne changent jamais, ou du moins rarement, les choses
+                        familières, les choses instituées par les lois et les coutumes, [celles qui]
+                        plaisent, celles qui nous étonnent.<milestone unit="paragraph" n="79"/> Ils
+                        montraient donc, en prenant appui sur ce qui s’oppose à ce qui nous
+                        persuade, que les plausibilités sont égales de part et d’autre. Les apories
+                        qu’ils ont exposées, et qui affectent les concordances dans ce qui apparaît
+                        ou dans ce qui est pensé, se répartissaient en dix tropes, selon lesquels
+                        les objets se manifestent avec des écarts.</ab>
+                </div>
+                <div type="chapitre" n="82">
+                    <ab type="testimonium" xml:lang="grc" xml:id="DL_82"
+                        ana="#dix_tropes #quatrième_trope" corresp="#Aenesidemus">                         <milestone unit="paragraph" n="82"/>Τέταρτος ὁ παρὰ τὰς διαθέσεις καὶ κοινῶς παραλλαγάς, οἷον ὑγίειαν, νόσον,
+                        ὕπνον, ἐγρήγορσιν, χαράν, λύπην, νεότητα, γῆρας, θάρσος, φόβον, ἔνδειαν,
+                        πλήρωσιν, μῖσος, φιλίαν, θερμασίαν, ψύξιν: παρὰ τὸ πνεῖν, παρὰ τὸ πιεσθῆναι
+                        τοὺς πόρους. ἀλλοῖα οὖν φαίνεται τὰ προσπίπτοντα παρὰ τὰς ποιὰς διαθέσεις.
+                        οὐδὲ γὰρ οἱ μαινόμενοι παρὰ φύσιν ἔχουσι: τί γὰρ μᾶλλον ἐκεῖνοι ἢ ἡμεῖς; καὶ
+                        γὰρ ἡμεῖς τὸν ἥλιον ὡς ἑστῶτα βλέπομεν. Θέων δ᾽ ὁ Τιθοραιεὺς ὁ στωικὸς
+                        κοιμώμενος περιεπάτει ἐν τῷ ὕπνῳ καὶ Περικλέους δοῦλος ἐπ᾽ ἄκρου τοῦ τέγους. </ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#DL_82"><milestone unit="paragraph" n="82"/>Le quatrième est celui qui
+                        prend appui sur les dispositions et plus généralement sur les écarts, par
+                        exemple santé et maladie, sommeil et veille, joie et peine, jeunesse et
+                        vieillesse, hardiesse et crainte, manque et plénitude, haine et amour,
+                        échauffement et refroidissement, selon aussi que l'on respire facilement ou
+                        que les canaux respiratoires sont obstrués. Les impressions qui surviennent
+                        paraissent donc différentes selon que les dispositions du sujet sont telles
+                        ou telles. Il n'y a même pas lieu d'objecter que les fous sont dans un état
+                        contre nature : car pourquoi davantage eux que nous ? Nous-mêmes, en effet,
+                        nous voyons le soleil comme immobile. Le Stoïcien Théon de Tithoréase
+                        promenait endormi, pendant son sommeil, et l'esclave de Périclès marchait
+                        sur le bord du toit. </ab>
+                    <!-- revoir trad et texte grec -->
+                </div>
+                <div type="chapitre" n="105">
+                    <ab type="testimonium" xml:lang="grc" xml:id="DL_105" ana="#Timon">
+                        <milestone unit="paragraph" n="105"/>καὶ ὅτι κινεῖταί τις βλέπομεν, καὶ ὅτι
+                        φθείρεται πῶς δὲ ταῦτα γίνεται οὐκ ἴσμεν. μόνον οὖν, φασίν, ἀνθιστάμεθα πρὸς
+                        τὰ παρυφιστάμενα τοῖς φαινομένοις ἄδηλα. καὶ γὰρ ὅτε τὴν εἰκόνα ἐξοχὰς
+                        λέγομεν ἔχειν, τὸ φαινόμενον διασαφοῦμεν: ὅταν δ᾽ εἴπωμεν μὴ ἔχειν αὐτὴν
+                        ἐξοχάς, οὐκέτι ὃ φαίνεται, ἕτερον δὲ λέγομεν: ὅθεν καὶ ὁ Τίμων ἐν τῷ Πύθωνί
+                        φησι μὴ ἐκβεβηκέναι τὴν συνήθειαν. καὶ ἐν τοῖς Ἰνδαλμοῖς οὕτω λέγει,<q
+                            type="fragmentum" source="#Timon" xml:id="Indalmoi_1" xml:lang="grc">
+                            ἀλλὰ τὸ φαινόμενον πάντη σθένει οὗπερ ἂν ἔλθῃ.</q> καὶ <q
+                            type="fragmentum" source="#Timon" xml:id="Sur_les_sensations_1"
+                            xml:lang="grc">ἐν τοῖς Περὶ αἰσθήσεών φησι, "τὸ μέλι ὅτι ἐστὶ γλυκὺ οὐ
+                            τίθημι, τὸ δ᾽ ὅτι φαίνεται ὁμολογῶ.</q>
+                    </ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#DL_105">
+                        <milestone unit="paragraph" n="105"/>De fait, lorsque nous disons qu'une
+                        image a du relief, nous décrivons ce qui apparaît ; mais lorsque nous disons
+                        qu'elle n'a pas de relief, nous ne disons plus ce qui apparaît mais autre
+                        chose. C'est pourquoi Timon dit, dans son Python, qu'il n'a pas transgressé
+                        les limites de l'usage ordinaire. Et dans ses Ιmages, il s'exprime ainsi :<q
+                            type="translatio" corresp="#Indalmoi_1">"Mais l'apparence règne partout,
+                            où qu'elle aille."</q> Et <q type="translatio"
+                            corresp="#Sur_les_sensations_1">dans son traité Sur les sensations, il
+                            dit "que le miel soit doux, je ne l'assure pas ; mais qu'il paraisse
+                            doux, je l'accorde. </q>
+                    </ab>
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
