@@ -1,0 +1,134 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="skepsis">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Σκέψις</title>
+            <respStmt>
+               <resp>Responsable du site</resp>
+               <name>
+                  <ref target="participants.xml/#SM"/>Stéphane Marchand</name>
+               <name type="email">stephane.marchand@ens-lyon.fr</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hébergeur du site</resp>
+               <name>
+                  <ref target="http://www.ens-lyon.eu/">Ecole Normale Supérieure de
+                     Lyon</ref>
+               </name>
+            </respStmt>
+            <respStmt>
+               <resp>intégration du site</resp>
+               <name>AHN</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <ref target="http://www.ens-lyon.eu/">Ecole Normale Supérieure de
+                  Lyon</ref>
+            </publisher>
+            <authority>Jean-François Pinton</authority>
+            <pubPlace>Lyon</pubPlace>
+            <address>
+          <addrLine>15 Parvis René Descartes</addrLine>
+          <addrLine>69342 Lyon cedex 07</addrLine>
+        </address>
+            <availability status="restricted">
+               <licence target="http://creativecommons.org/licenses/by-sa/3.0/fr/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div>
+            <head>À propos</head>
+            <div>
+               <head>Caveat</head>
+               <p>La base Σκέψις a ouvert le 08/10/2014 et est en cours de développement. L'état
+                  dans laquelle vous la trouvez est donc provisoire</p>
+            </div>
+            <div n="credits">
+               <div>
+                  <head>Responsable scientifique, édition, traduction des textes</head>
+                  <p>Stéphane Marchand, ENS de Lyon (CID/IHPC, UMR 5037)</p>
+               </div>
+               <div>
+                  <head>Gestion et outillage des données numériques, développements informatiques,
+                     diffusion :</head>
+                  <p>
+                     <list>
+                        <item>Valérie Beaugiraud, CNRS/IHPC</item>
+                        <item>Maud Ingarao, ENS de Lyon/IHPC, Atelier des Humanités numériques (AHN)</item>
+                        <item>Jean-Philippe Magué, ENS de Lyon/ICAR, Atelier des Humanités numériques  (AHN)</item>
+                     </list>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </front>
+      <body>
+         <div>
+            <div n="home">
+               <head>Σκέψις : Base de textes électroniques sur le scepticisme ancien</head>
+               <div>
+                  <head>Caveat</head>
+                  <p>La base Σκέψις a ouvert le 08/10/2014 et est en cours de développement. L'état
+                     dans laquelle vous la trouvez est donc provisoire</p>
+               </div>
+               <div>
+                  <head>Description du projet scientifique</head>
+                  <p>Dans l'Antiquité, le scepticisme désigne un double phénomène : un problème
+                     philosophique, le problème de la possibilité de la connaissance, mais aussi un
+                     ensemble de traditions philosophiques, la tradition pyrrhonienne et la
+                     tradition académicienne. La base Σκέψις propose d'utiliser les possibilités
+                     ouvertes par l'encodage XML/TEI pour rassembler et donner à lire l'ensemble des
+                     textes sur le phénomène sceptique dans l'Antiquité.</p>
+                  <p>Trois entrées possibles dans les textes sont aménagées :<list>
+                     <item>une entrée par collection de livres (dite VOLUMEN) où le lecteur dispose
+                        des textes en langue originale et sa traduction (inédite) à partir de la
+                        structure éditoriale des textes tels qu'ils sont édités sur papier. On
+                        pourra ainsi lire les <title>Esquisses Pyrrhoniennes</title>de Sextus
+                        Empiricus, les <title>Académiques</title>de Cicéron, etc...</item>
+                     <item>une entrée par philosophes des traditions sceptiques (dite PHILOSOPHUS)
+                        où le lecteur pourra disposer des textes (œuvres complètes, fragments et
+                        témoignages) attribués au philosophe en question. Le lecteur pourra ainsi
+                        accéder à la totalité des témoignages sur Pyrrhon, aux fragments
+                        d'Enésidème, de Carnéade, etc...</item>
+                     <item>une entrée par mots-clefs liés au scepticisme (dite NOTIO) : le lecteur
+                        pourra ainsi disposer d'un ensemble de textes liés aux problématiques
+                        sceptiques comme l'épochè, l'isosthénie, etc...</item>
+                  </list>
+                  </p>
+                  <p>Parallèlement à ces entrées, une base bibliographique sera proposée sur chaque
+                     philosophe, accompagnée d'une biographie.</p>
+               </div>
+               <div>
+                  <head>Description du projet technique</head>
+                  <p>L'encodage des textes sera fait en suivant les normes de la TEI, et plus
+                     spécifiquement celles d'<ref target="http://www.stoa.org/epidoc/gl/latest/">EPIDOC</ref>. En
+                     conformité avec les principes de la philologie numérique, les textes – souvent
+                     fragmentaires et établis à partir de citations – seront édités de manière à
+                     exprimer correctement les différentes niveaux de citations, en suivant les
+                     préconisations de <ref target="http://www.homermultitext.org/hmt-doc/cite/index.html">CITE ARCHITECTURE</ref>, et <ref target="http://www.homermultitext.org/hmt-doc/cite/texts/cts.html">Canonical Text
+                        Services</ref>.
+                     L'exploitation et la diffusion du corpus s'appuieront sur une base de données
+                     XML native (BaseX) et bénéficieront de l'expertise développée par <ref target="http://ahn.ens-lyon.fr">l'Atelier des
+                        Humanités Numériques de l'ENS de Lyon</ref>à travers
+                     l'application SynopsX. </p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
