@@ -1,0 +1,105 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Philosophus</title>
+                <editor key="Marchand, Stéphane">Stéphane Marchand
+                        <forename>Stéphane</forename>
+          <surname>Marchand</surname>
+        </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Ecole Normale Supérieure de Lyon</publisher>
+                <pubPlace>adresse</pubPlace>
+                <availability>
+                    <licence target="http://http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="Pyrrho">
+                        <persName xml:lang="fr">Pyrrhon d'Elis</persName>
+                        <persName xml:lang="la">Pyrrho</persName>
+                        <birth notBefore="-0365" notAfter="-0360">?365-360 a.C. </birth>
+                        <death when="-0260">260 a.C. </death>
+                    </person>
+                  <person xml:id="Timon">
+                      <persName xml:lang="fr">Timon de Phliunte</persName>
+                  </person>
+                    <person xml:id="Arcesilas">
+                        <persName xml:lang="fr">Arcésilas</persName>
+                    </person>
+                    <person xml:id="Carneades">
+                        <persName xml:lang="fr">Carnéade</persName>
+                    </person>
+                                       <person xml:id="Aenesidemus">
+                         <persName xml:lang="fr">Énésidème</persName>
+                         <persName xml:lang="la">Aenesidemus</persName>
+                  </person>
+                    <person xml:id="Sextus">
+                        <persName xml:lang="fr">Sextus Empiricus</persName>
+                        <persName xml:lang="la">Sextus Empiricus</persName>
+                    </person>
+                </listPerson>
+
+            </particDesc>
+        </profileDesc>
+
+    </teiHeader>
+    <TEI xml:id="Pyrrho_bio">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title/>
+                    <author/>
+                </titleStmt>
+                <publicationStmt>
+                    <p/>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <p/>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="MyTextNumber2">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title/>
+                    <author/>
+                </titleStmt>
+                <publicationStmt>
+                    <p/>
+                </publicationStmt>
+                <sourceDesc>
+                    <p/>
+                </sourceDesc>
+            </fileDesc>
+        </teiHeader>
+        <text>
+            <body>
+                <div>
+                    <p/>
+                </div>
+            </body>
+        </text>
+    </TEI>
+
+</teiCorpus>
