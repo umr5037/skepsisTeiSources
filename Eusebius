@@ -1,0 +1,184 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Preparatio Evangelica</title>
+                <title key="Praeparationis Evangelicae" ref="urn:cts:greekLit:tlg2018.tlg001"/>
+                <author key="Eusebius Caesariensis (0260?-0340?)"
+                    ref="http://catalog.perseus.org/catalog/Mtlg2018Euseb">Eusèbe de
+                    Césarée</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Ecole Normale Supérieure de Lyon</publisher>
+            </publicationStmt>
+            <sourceDesc>
+
+                <bibl n="Description de la source principale">K. Mras, Eusebius Werke, Band 8: Die
+                    Praeparatio evangelica</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term xml:id="Pyrrhonisme">Pyrrhonisme</term>
+                    <term xml:id="dix_tropes">10 tropes d'Aenesidemus</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="livre" n="14">
+                <div type="chapitre" n="18">
+                    <head xml:lang="grc">ιηʹ. ΠΡΟΣ ΤΟΥΣ ΚΑΤΑ ΠΥΡΡΩΝΑ ΣΚΕΠΤΙΚΟΥΣ ΗΤΟΙ ΕΦΕΚΤΙΚΟΥΣ
+                        ΕΠΙΚΛΗΘΕΝΤΑΣ ΜΗΔΕΝ ΚΑΤΑΛΗΠΤΟΝ ΕΙΝΑΙ ΑΠΟΦΗΝΑΜΕΝΟΥΣ </head>
+                    <head xml:lang="fr">chapitre 18 : Contre les sceptiques à la manière de
+                            <persName>Pyrrhon</persName>, qu’on appelle aussi éphectiques, qui
+                        affirment que rien ne peut être saisi.</head>
+                    <!-- <note>ce n'est peut-être pas le
+                                titre d'Eusèbe, si l'on en croit le texte qui précède ; Chiesara
+                                attribue cependant le titre et les index à Eusèbe</note> -->
+                    <q type="fragmentum" xml:lang="grc" source="#Aristocles" n="4">
+                        <bibl>F4 Chiesara</bibl>
+                        <ab type="testimonium" xml:id="Pyrrho_T53" n="53" corresp="#Pyrrho"
+                            ana="#Pyrrhonisme" xml:lang="grc">
+                            <bibl>T53 Decleva Caizzi</bibl>
+                            <milestone unit="paragraph" n="1"/> Ἀναγκαίως δ’ ἔχει πρὸ παντὸς
+                            διασκέψασθαι περὶ τῆς ἡμῶν αὐτῶν γνώσεως· εἰ γὰρ αὐτοὶ μηδὲν πεφύκαμεν
+                            γνωρίζειν, οὐδὲν ἔτι δεῖ περὶ τῶν ἄλλων σκοπεῖν. Ἐγένοντο μὲν οὖν καὶ
+                            τῶν πάλαι τινὲς οἱ ἀφέντες τήνδε τὴν φωνήν, οἷς ἀντείρηκεν
+                                <persName>Ἀριστοτέλης</persName>. <milestone unit="paragraph" n="2"
+                            /> Ἴσχυσε μέντοι τοιαῦτα λέγων καὶ <persName>Πύρρων</persName> ὁ Ἠλεῖος.
+                            Ἀλλ’ αὐτὸς μὲν οὐδὲν ἐν γραφῇ καταλέλοιπεν.Ὁ δέ γε μαθητὴς αὐτοῦ 
+                                <persName>Τίμων</persName> φησὶ <q source="#Timon" type="citation"
+                                > δεῖν τὸν μέλλοντα εὐδαιμονήσειν εἰς τρία ταῦτα βλέπειν· πρῶτον μὲν
+                                ὁποῖα πέφυκε τὰ πράγματα, δεύτερον δὲ τίνα χρὴ τρόπον ἡμᾶς πρὸς αὐτὰ
+                                διακεῖσθαι, τελευταῖον δὲ τί &#xA0; περιέσται τοῖς οὕτως ἔχουσι.
+                                    <milestone unit="paragraph" n="3"/> Τὰ μὲν οὖν πράγματά <rs
+                                    ref="#Timon"> φησιν</rs>
+                                <rs ref="#Pyrrhon"> αὐτὸν </rs> ἀποφαίνειν <q source="#Pyrrhon"
+                                    type="citation"> ἐπ’ ἴσης ἀδιάφορα καὶ ἀστάθμητα καὶ ἀνεπίκριτα·
+                                    διὰ τοῦτο μήτε τὰς αἰσθήσεις ἡμῶν μήτε τὰς δόξας ἀληθεύειν ἢ
+                                    ψεύδεσθαι.</q>
+                                <milestone unit="paragraph" n="4"/> Διὰ τοῦτο οὖν μηδὲ πιστεύειν
+                                αὐταῖς δεῖν, ἀλλ’ ἀδοξάστους καὶ ἀκλινεῖς καὶ ἀκραδάντους εἶναι,
+                                περὶ ἑνὸς ἑκάστου λέγοντας, ὅτι οὐ μᾶλλον ἔστιν ἢ οὐκ ἔστιν, ἢ καὶ
+                                ἔστι καὶ οὐκ ἔστιν, ἢ οὔτε ἔστιν, οὔτ’ οὐκ ἔστιν.</q>
+                            <milestone unit="paragraph" n="5"/> Τοῖς μέντοι γε διακειμένοις οὕτω
+                            περιέσεσθαι <persName>Τίμων</persName> φησὶ πρῶτον μὲν ἀφασίαν, ἔπειτα
+                            δ’ ἀταραξίαν, <q source="#Aenesidemus" type="citation"> 
+                                <persName>Αἰνησίδημος</persName> δὲ ἡδονήν.</q>
+                        </ab>
+                        <ab type="testimonium" xml:lang="grc" xml:id="Eusebius_xiv_xviii_11"
+                            ana="#dix_tropes" corresp="#Aenesidemus">
+                            <milestone unit="paragraph" n="11"/>ὁπόταν γε μὴν Αἰνησίδημος ἐν τῇ
+                            Ὑποτυπώσει τοὺς ἐννέα διεξίῃ τρόπους (κατὰ τοσούτους γὰρ ἀποφαίνειν
+                            ἄδηλα τὰ πράγματα πεπείραται), πότερον αὐτὸν φῶμεν εἰδότα λέγειν αὐτοὺς
+                            ἢ ἀγνοοῦντα; φησὶ γὰρ ὅτι τὰ ζῷα διαφέρει καὶ ἡμεῖς αὐτοὶ καὶ αἱ πόλεις
+                            καὶ οἱ βίοι καὶ τὰ ἔθη καὶ οἱ νόμοι· καὶ τὰς αἰσθήσεις δέ φησιν ἡμῶν
+                            ἀσθενεῖς &#xA0;εἶναι καὶ πολλὰ τὰ ἔξωθεν λυμαινόμενα τὴν γνῶσιν,
+                            ἀποστήματα καὶ μεγέθη καὶ κινήσεις· ἔτι δὲ τὸ μὴ ὁμοίως διακεῖσθαι νέους
+                            καὶ πρεσβυτέρους καὶ ἐγρηγορότας καὶ κοιμωμένους καὶ ὑγιαίνοντας καὶ
+                            νοσοῦντας· οὐδενός τε <milestone unit="paragraph" n="12"/>ἡμᾶς ἁπλοῦ καὶ
+                            ἀκραιφνοῦς ἀντιλαμβάνεσθαι· πάντα γὰρ εἶναι συγκεχυμένα καὶ πρός τι
+                            λεγόμενα. ταῦτα δή, φημί, καὶ τὰ τοιαῦτα κομψολογοῦντα αὐτὸν ἡδέως ἄν
+                            τις ἤρετο, πότερον εὖ εἰδὼς λέγοι διότι τὰ πράγματα τοῦτον ἔχει τὸν
+                            τρόπον ἢ ἀγνοῶν· εἰ μὲν γὰρ οὐκ ᾔδει, πῶς ἂν ἡμεῖς αὐτῷ πιστεύοιμεν; εἰ
+                            δ’ ἐγίνωσκε, κομιδῇ τις ἦν ἠλίθιος ἅμα μὲν ἄδηλα πάντα ἀποφαινόμενος,
+                                &#xA0;<milestone unit="paragraph" n="13"/>&#xA0;ἅμα δὲ τοσαῦτα λέγων
+                            εἰδέναι. καὶ μὴν ὁπότε γε τὰ τοιαῦτα διεξίοιεν, οὐδὲν ἀλλ’ ἢ ἐπαγωγήν
+                            τινα λέγουσι, δεικνύντες ὁποῖ’ ἄττα εἴη τὰ φαινόμενα καὶ τὰ καθ’ ἕκαστα·
+                            τὸ δὲ τοιοῦτο καὶ ἔστι καὶ λέγεται πίστις. εἰ μὲν οὖν καὶ τὰ καθ’
+                            ἕκαστα· τὸ δὲ τοιοῦτο καὶ ἔστι καὶ λέγεται πίστις. εἰ μὲν οὖν αὐτῇ
+                            συγκατατίθενται, δῆλον ὅτι δοξάζουσιν· εἰ δ’ οὐ πιστεύουσιν, οὐδ’ ἂν
+                                <milestone unit="paragraph" n="14"/>&#xA0;ἡμεῖς προσέχειν αὐτοῖς
+                            βουληθείημεν</ab>
+                    </q>
+                    <p>(...)</p>
+                    <ab type="testimonium" xml:lang="grc" xml:id="Pyrrho_T58" corresp="#Pyrrho">
+                        <bibl>T. 58 DC</bibl>
+                        <milestone unit="paragraph" n="18"/>(....)ἐνθυμεῖσθαι μέντοι χρὴ καὶ ταῦτα
+                        γὰρ ἂν γένοιτο πολίτης ἢ δικαστὴς ἢ σύμβουλος ἢ φίλος ἢ ἁπλῶς εἰπεῖν
+                        ἄνθρωπος ὅ γε τοιοῦτος; ἢ τί τῶν κακῶν οὐ τολμήσειεν ἂν ὁ μηδὲν ὡς ἀληθῶς
+                        οἰόμενος εἶναι κακὸν ἢ αἰσχρὸν ἢ δίκαιον ἢ ἄδικον; οὐδὲ γὰρ ἐκεῖνο φαίη τις
+                        ἄν, ὅτι τοὺς νόμους δεδοίκασι καὶ τὰς τιμωρίας οἱ τοιοῦτοι· πῶς γὰρ οἵ
+                            <milestone unit="paragraph" n="19"/> γε ἀπαθεῖς καὶ ἀτάραχοι, καθάπερ
+                        αὐτοί φασιν, ὄντες; </ab>
+
+                    <ab type="translatio" xml:lang="fr">
+                        <q type="translatio" source="#Aristocles" n="4">
+                            <ab type="translatio" corresp="#Pyrrho_T53" n="53">
+                                <milestone unit="paragraph" n="1"/>Avant toute chose, il est
+                                nécessaire d’examiner attentivement notre propre connaissance, car
+                                si au contraire par nature nous ne connaissons rien, alors il ne
+                                sert à rien de faire des recherches sur les autres choses.
+                                    <milestone unit="paragraph" n="2"/>Or, effectivement chez les
+                                Anciens aussi certains l’ont affirmé, contre lesquels
+                                    <persName>Aristote</persName> a produit une réfutation.
+                                    <persName>Pyrrhon</persName> d’Élis a lui aussi tenu avec force
+                                de tels propos&#xA0;: quant à lui, il n’a laissé aucun écrit, en
+                                revanche son disciple <persName>Timon</persName> dit que celui qui
+                                veut être heureux doit avoir en vue les trois choses
+                                suivantes&#xA0;: premièrement, quelle est la nature des choses,
+                                deuxièmement, quelle doit être notre disposition vis-à-vis d’elles,
+                                enfin que résulte-t-il pour ceux qui ont adopté une telle
+                                disposition. <milestone unit="paragraph" n="3"/>
+                                <rs ref="#Timon"> Il </rs> dit qu’<rs ref="#Pyrrho"> il</rs> révélait
+                                qu’en ce qui concerne les choses, celles-ci sont également
+                                indifférenciées, instables et indéterminées, et que par conséquent
+                                ni nos sensations, ni nos opinions ne disent la vérité ni ne nous
+                                trompent. <milestone unit="paragraph" n="4"/>C’est la raison pour
+                                laquelle il ne faut pas leur accorder notre confiance, mais être
+                                sans opinion, sans inclination, inébranlables, et dire de chaque
+                                chose pas davantage «&#xA0;elle est&#xA0;» que «&#xA0;elle n’est
+                                pas&#xA0;», ou «&#xA0;à la fois elle est et elle n’est pas&#xA0;»,
+                                ou «&#xA0;elle n'est pas et elle n’est pas n’est pas&#xA0;».
+                                    <milestone unit="paragraph" n="5"/>Pour ceux qui se sont
+                                disposés de cette façon, <persName>Timon</persName> dit qu’il en
+                                résultera d’abord l’aphasie, ensuite l’ataraxie et pour
+                                    <persName>Énésidème</persName> le plaisir. </ab>
+                        </q>(...)</ab>
+                    <p>(...)</p>
+                    <!-- revoir la traduction ; Desplaces -->
+                    <ab type="translatio" xml:lang="fr" corresp="#Eusebius_xiv_xviii_11">
+                        <milestone unit="paragraph" n="11"/>Maintenant, quand Enésidème, dans son
+                        Esquisses, expose les neuf tropes – il lui en faut ce nombre pour essayer de
+                        démontrer l’incertitude des choses - , dirons-nous qu’il en parle en
+                        connaissance de cause ou par ignorance ? Il dit qu’il y a des différences
+                        parmi les vivants, parmi nous-mêmes, dans les cités, les vies, les mœurs,
+                        les lois ; il dit que nos sens sont faibles et que bien des causes
+                        extérieures détruisent la connaissance, distances, grandeurs, mouvements,
+                        que les dispositions ne sont pas les mêmes dans la jeunesse et la
+                        vieillesse, la veille et le sommeil, la santé et la maladie ; que nous ne
+                        percevons rien de simple et de pur ; car tout ce qu’on dit ne l’est que
+                        relativement et confusément.<milestone unit="paragraph" n="12"/> Devant ces
+                        subtilités, dis-je, et d'autres du même genre, on se plairait à demander si
+                        on prête aux choses un tel mode en connaissance de cause ou par ignorance ;
+                        car s'il ne savait pas, comment le croirions nous ? Et s'il avait la
+                        connaissance, il apparaîtrait complètement stupide à déclarer tout incertain
+                        dans le temps où il prétend le savoir. <milestone unit="paragraph" n="13"
+                        />D'ailleurs, quand ils font cet exposé, il ne font qu'induire, en montrant
+                        ce que sont les phénomènes et les cas singuliers ; or c'est là ce qui est et
+                        qu'on appelle foi ; si donc ils donnent à celle-ci leur assentiment, il est
+                        clair qu'ils opinent ; et s'ils ne croient pas,<milestone unit="paragraph"
+                            n="14"/> nous leur refuserons notre attention </ab>
+                    <!-- revoir la traduction ; Desplaces -->
+
+                    <ab type="translatio" xml:lang="fr" corresp="#Pyrrho_T58">
+                        <milestone unit="paragraph" n="18"/>(...)Il faut aussi considérer ceci :
+                        quel citoyen, quel juge, quel conseiller, quel ami, ou finalement quel homme
+                        serait un pareil individu ? devant quels forfaits reculerait-il, lui qui ne
+                        regarde rien comme vraiment mal ou honteux, juste ou injuste. Car qu’on
+                        n’aille pas dire que ces gens-là craignent les lois et les
+                            châtiments,<milestone unit="paragraph" n="19"/> avec l’insensibilité et
+                        l’ataraxie dont ils se targuent. </ab>
+                    <!-- revoir la traduction ; Desplaces -->
+
+                </div>
+            </div>
+        </body>
+
+    </text>
+</TEI>
