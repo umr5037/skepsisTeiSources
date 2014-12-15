@@ -1,0 +1,194 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Adversus Mathematicos VII-XI</title>
+                <title key="adversus Mathematicos" ref="urn:cts:greekLit:tlg0544.tlg002-grc1"/>
+                <author key="Sextus Empiricus(0160?-0210?)" ref="http://catalog.perseus.org/catalog/Mtlg0544Sextu">Sextus Empiricus</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Ecole Normale Supérieure de Lyon</publisher>
+            </publicationStmt>
+            <sourceDesc>
+
+                <bibl n="Description de la source principale">Adversus Mathematicos, Book VII-XI,
+                    Sexti Empirici Opera, Vol I, Mutschmann, Hermann edidit in aedibus B. G.
+                    Teubneri, 1914</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term xml:id="Pyrrhonisme">Pyrrhonisme</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+
+            <div type="livre" n="VIII">
+                <div type="chapitre" n="8">
+                    <ab type="testimonium" corresp="#Aenesidemus" ana="#Pyrrhonisme #φαινόμενον" xml:id="AM_8_8" xml:lang="gr">
+                        <milestone unit="paragraph" n="8"/> οἱ δὲ περὶ τὸν
+                            <persName>Αἰνησίδημον</persName> καθ’ <persName>Ἡράκλειτον</persName>
+                        καὶ τὸν <persName>Ἐπίκουρον</persName> ἐπὶ τὰ αἰσθητὰ κοινῶς κατενεχθέντες
+                        ἐν εἴδει διέστησαν. οἱ μὲν γὰρ περὶ τὸν <persName>Αἰνησίδημον
+                        </persName>λέγουσί τινα τῶν φαινομένων διαφοράν, καὶ φασὶ τούτων τὰ μὲν
+                        κοινῶς <note>[πᾶσι] add. Bekker</note>φαίνεσθαι τὰ δὲ ἰδίως τινί, ὧν ἀληθῆ
+                        μὲν εἶναι τὰ κοινῶς πᾶσι φαινόμενα, ψευδῆ δὲ τὰ μὴ τοιαῦτα· ὅθεν καὶ ἀληθὲς
+                        φερωνύμως εἰρῆσθαι τὸ μὴ λῆθον τὴν <milestone unit="paragraph" n="9"/>
+                        κοινὴν γνώμην.<lb/> ὁ δὲ <persName>Ἐπίκουρος</persName> τὰ μὲν αἰσθητὰ πάντα
+                        ἔλεγεν ἀληθῆ καὶ ὄντα. οὐ διήνεγκε γὰρ ἀληθὲς εἶναί τι λέγειν ἢ ὑπάρχον·
+                        ἔνθεν καὶ ὑπογράφων τἀληθὲς καὶ ψεῦδος “ἔστι” φησὶν “ἀληθὲς τὸ οὕτως ἔχον ὡς
+                        λέγεται ἔχειν”, καὶ “ψεῦδός ἐστι” φησὶ “τὸ οὐχ οὕτως ἔχον ὡς λέγεται ἔχειν”.
+                        τήν τε αἴσθησιν ἀντιληπτικὴν οὖσαν τῶν ὑποπιπτόντων αὐτῇ, καὶ μήτε
+                        ἀφαιροῦσάν τι μήτε προστιθεῖσαν μήτε μετατιθεῖσαν τῷ ἄλογον εἶναι, διὰ
+                        παντός τε ἀληθεύειν καὶ οὕτω τὸ ὂν λαμβάνειν ὡς εἶχε φύσεως αὐτὸ ἐκεῖνο. </ab>
+
+                    <ab type="translatio" corresp="#AM_8_8" xml:lang="fr">
+                        <milestone unit="paragraph" n="8"/> Les disciples
+                            d'<persName>Énésidème</persName> suivant <persName>Héraclite</persName>
+                        et ceux d'<persName>Épicure</persName>, tombant sur des conclusions communes
+                        à propos des sensibles, diffèrent spécifiquement. En effet, les disciples
+                            d'<persName>Énésidème</persName> affirment qu'il y a une différence
+                        entre les phénomènes, et disent que parmi les phénomènes, certains
+                        apparaissent de façon commune, et d'autres en particulier à quelqu'un ;
+                        parmi eux, sont vrais les phénomènes qui apparaissent à tous de façon
+                        commune, mais sont faux ceux qui ne sont pas ainsi. De là vient aussi que ce
+                        qui n'est pas caché (τὸ μὴ λῆθον)<milestone unit="paragraph" n="9"/> au sens
+                        commun est dit, avec un nom significatif, vrai (ἀληθὲς).<lb/> Épicure, en
+                        revanche dit que tous les sensibles sont vrais et existants. En effet, il ne
+                        fait pas de différence entre dire qu'une chose est vraie ou qu'elle est
+                        existante : c'est pourquoi aussi lorsqu'il décrit le vrai et le faux il dit
+                        : « est vrai ce qui est tel qu'il est dit être » et « est faux ce qui n'est
+                        pas tel qu'il est dit être ». En outre, [il dit que] comme la sensation est
+                        propre à recevoir ce qui vient à sa rencontre et n'enlève ni n'ajoute ni ne
+                        change quoique ce soit du fait qu'elle est sans raison, elle dit toujours
+                        vrai et saisit ce qui est tel qu'il est lui-même par nature. En revanche,
+                        les objets d'opinions diffèrent des sensibles qui sont toujours vrais, et
+                        parmi eux certains sont vrais, d'autres faux, comme nous l'avons montré au
+                        début.</ab>
+                </div>
+
+                <div type="chapitre" n="215">
+                    <ab type="excerptum" xml:lang="grc" ana="#Pyrrhonisme #φαινόμενον" xml:id="AM_XI_215" corresp="#Aenesidemus">
+                        <milestone unit="paragraph" n="215"/> Ὁ δὲ Αἰνησίδημος ἐν τῷ τετάρτῳ τῶν
+                        Πυρρωνείων λόγων εἰς τὴν αὐτὴν ὑπόθεσιν καὶ ἀπὸ τῆς αὐτῆς σχεδὸν δυνάμεως
+                        λόγον ἐρωτᾷ τοιοῦτον· <q type="fragmentum" source="#Aenesidemus" xml:id="Aenesidemus_F_1" xml:lang="grc">“εἰ τὰ φαινόμενα πᾶσι τοῖς
+                            ὁμοίως διακειμένοις παραπλησίως φαίνεται καὶ τὰ σημεῖά ἐστι φαινόμενα,
+                            τὰ σημεῖα πᾶσι τοῖς ὁμοίως διακειμένοις παραπλησίως φαίνεται. οὐχὶ δέ γε
+                            τὰ σημεῖα πᾶσι τοῖς ὁμοίως διακειμένοις παραπλησίως φαίνεται· τὰ δὲ
+                            φαινόμενα πᾶσι τοῖς ὁμοίως διακειμένοις παραπλησίως φαίνεται· οὐκ
+                                <milestone unit="paragraph" n="216"/>&#xA0;ἄρα φαινόμενά ἐστι τὰ
+                            σημεῖα.”</q> καὶ δὴ τοίνυν φαινόμενα μὲν ἔοικε καλεῖν ὁ Αἰνησίδημος τὰ
+                        αἰσθητά, λόγον δὲ ἐρωτᾷ καθ’ ὃν δεύτερος ἀναπόδεικτος ἐπιβάλλει τρίτῳ, οὗ τὸ
+                        σχῆμά ἐστι τοιοῦτο “εἰ τὸ πρῶτον καὶ τὸ δεύτερον, τὸ τρίτον· οὐχὶ δὲ τὸ
+                        τρίτον, ἀλλὰ καὶ τὸ πρῶτον· οὐκ ἄρα τὸ δεύτερον.” <milestone unit="paragraph" n="217"/>&#xA0;καὶ ὅτι τῷ ὄντι οὕτως ἔχει, μικρὸν
+                        ὕστερον διδάξομεν· νῦν δ’ ὡς ὑγιῆ ἐστιν αὐτοῦ τὰ λήμματα καὶ ἕπεται τούτοις
+                        ἡ ἐπιφορά, ἁπλούστερον ἀποδείξομεν. </ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#AM_XI_215">
+                        <milestone unit="paragraph" n="215"/> Énésidème dans le quatrième livre des
+                        Discours Pyrrhoniens propose, sur le même objet et avec plus ou moins le
+                        même effet, cet argument&#xA0;: <q type="translatio" corresp="#Aenesidemus_F_1" xml:lang="fr">«&#xA0;si les phénomènes
+                            apparaissent de façon semblable à tous ceux qui sont disposés de la même
+                            façon et que les signes sont des phénomènes, alors les signes
+                            apparaissent de façon semblable à tous ceux qui sont disposés de la même
+                            façon. Mais les signes n'apparaissent pas de façon semblable à tous ceux
+                            qui sont disposés de la même façon. Donc<milestone unit="paragraph" n="216"/> les signes ne sont pas des phénomènes&#xA0;»</q>. Et ici
+                        il semble bien qu’Énésidème, d'une part, appelle les choses sensibles des
+                        phénomènes, d'autre part il propose un argument selon lequel un second
+                        indémontrable s'ajoute à un troisième, dont la forme est la suivante&#xA0;:
+                        «&#xA0;si le premier et le deuxième [sont vrais], alors le troisième [est
+                        vrai]; or le troisième n'est pas [vrai], mais le premier [l’]est; donc le
+                        deuxième n'est pas [vrai] ».<milestone unit="paragraph" n="217"/> Qu'il en
+                        est ainsi en réalité, nous le montrerons un peu plus tard. Pour l'instant
+                        nous allons montrer de manière plus simple que les prémisses de ce
+                        raisonnement sont valides et que la conclusion s'enchaîne bien à elles.</ab>
+                </div>
+                <div type="chapitre" n="234">
+                    <ab type="testimonium" xml:lang="grc" ana="#Pyrrhonisme #φαινόμενον" xml:id="AM_XI_234" corresp="#Aenesidemus">
+                        <milestone unit="paragraph" n="234"/>ἐξ ἀνομογενῶν δὲ λοιπόν ἐστι καθάπερ ὁ
+                        παρὰ τῷ Αἰνησιδήμῳ περὶ σημείου ἐρωτηθείς, ἔχων δὲ οὕτως· “εἰ τὰ φαινόμενα
+                        πᾶσι τοῖς ὁμοίως διακειμένοις παραπλησίως φαίνεται καὶ τὰ σημεῖά ἐστι
+                        φαινόμενα, τὰ σημεῖα πᾶσι τοῖς ὁμοίως διακειμένοις παραπλησίως φαίνεται· τὰ
+                        δέ γε σημεῖα οὐ πᾶσι τοῖς ὁμοίως διακειμένοις παραπλησίως φαίνεται· τὰ δὲ
+                        φαινόμενα πᾶσι τοῖς ὁμοίως διακειμένοις παραπλησίως φαίνεται· οὐκ ἄρα
+                        φαινόμενά ἐστι τὰ σημεῖα.”</ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#AM_XI_234"> </ab>
+                </div>
+            </div>
+            <div type="livre" n="XI">
+                <div type="chapitre" n="69">
+                    <ab type="excerptum" xml:lang="grc" xml:id="AM_XI_69" ana="#Pyrrhonisme #φαινόμενον">
+                        <milestone unit="chapitre" n="69"/> εἰ τοίνυν ἔστι τι φύσει ἀγαθὸν καὶ ἔστι
+                        τι φύσει κακόν, τοῦτο ὀφείλει κοινὸν εἶναι πάντων καὶ πᾶσιν ὑπάρχειν ἀγαθὸν
+                        ἢ κακόν. ὥσπερ γὰρ τὸ πῦρ φύσει ἀλεαντικὸν καθεστὼς πάντας ἀλεαίνει καὶ οὐχ
+                        οὓς μὲν ἀλεαίνει, οὓς δὲ ψύχει, καὶ ὃν τρόπον ἡ χιὼν ψύχουσα οὐχὶ τοὺς μὲν
+                        ψύχει, τοὺς δὲ ἀλεαίνει, πάντας δ’ ὁμοίως ψύχει, οὕτω τὸ φύσει ἀγαθὸν πᾶσιν
+                        ὀφείλει τυγχάνειν ἀγαθὸν καὶ οὐχὶ <milestone unit="chapitre" n="70"/>&#xA0;τοῖς μὲν ἀγαθόν, τοῖς δ’ οὐκ ἀγαθόν. </ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#AM_XI_69">Ainsi, s'il existe par
+                        nature quelque chose de bon ou quelque chose de mal, cette chose doit être
+                        commune à tous et être bonne ou mauvaise pour tous. En effet, de même que le
+                        feu, qui est par nature susceptible de réchauffer, réchauffe tout le monde
+                        et n'en réchauffe pas certains en même temps qu'elle en réchauffe d'autres,
+                        et de la même manière, la neige, qui refroidit, n'en refroidit pas certains
+                        tandis qu'elle en réchauffe d'autres, de la même manière ce qui est ce qui
+                        est bon par nature doit être bon pour tous et <milestone unit="chapitre" n="70"/> non bon pour certains et mauvais pour d'autres.</ab>
+                </div>
+
+                <div type="chapitre" n="160">
+                    <ab type="excerptum" ana="#Pyrrhonisme" xml:lang="grc" xml:id="AM_XI_160">
+                        <milestone unit="chapitre" n="160"/> οὐκοῦν ὁ περὶ πάντων ἐπέχων τῶν κατὰ
+                        δόξαν τελειοτάτην καρποῦται τὴν εὐδαιμονίαν,<milestone unit="chapitre" n="161"/> ἐν δὲ τοῖς ἀκουσίοις καὶ ἀλόγοις κινήμασι ταράττεται μέν (<q source="Homerus">« οὐ γὰρ ἀπὸ δρυός ἐστι παλαιφάτου, οὐδ’ ἀπὸ πέτρης,
+                            ἀλλ’ ἀνδρῶν γένος ἦεν »</q>), <milestone unit="chapitre" n="162"/>
+                        μετριοπαθῶς δὲ διατίθεται. ὅθεν καὶ καταφρονεῖν ἀναγκαῖον τῶν εἰς
+                        ἀνενεργησίαν αὐτὸν περικλείεσθαι νομιζόν. <milestone unit="chapitre" n="163"/> των ἢ εἰς ἀπέμφασιν, καὶ εἰς ἀνενεργησίαν μέν, ὅτι τοῦ βίου παντὸς ἐν
+                        αἱρέσεσι καὶ φυγαῖς ὄντος ὁ μήτε αἱρούμενός τι μήτε φύγων δυνάμει τὸν βίον
+                        ἀρνεῖται καί τινος<milestone unit="chapitre" n="164"/> φυτοῦ τρόπον ἐπεῖχεν,
+                        εἰς ἀπέμφασιν δέ, ὅτι ὑπὸ τυράννω ποτὲ γενόμενος καὶ τῶν ἀρρήτων τι ποιεῖν
+                        ἀναγκαζόμενος ἢ οὐχ ὑπομενεῖ τὸ προσταττόμενον, ἀλλ’ ἑκούσιον ἑλεῖται
+                        θάνατον, ἢ φεύγων τὰς βασάνους ποιήσει τὸ κελευόμενον, οὕτω τε οὐκέτι <q type="citation" source="#Timon"> “ἀφυγὴς καὶ ἀναίρετος ἔσται”</q>κατὰ
+                        τὸν Τίμωνα, ἀλλὰ τὸ μὲν ἑλεῖται, τοῦ δ’ ἀποστήσεται, ὅπερ ἦν τῶν μετὰ
+                        πείσματος κατειληφότων τὸ φευκτόν<milestone unit="chapitre" n="165"/> τι
+                        εἶναι καὶ αἱρετόν. ταῦτα δὴ λέγοντες οὐ συνιᾶσιν, ὅτι κατὰ μὲν τὸν φιλόσοφον
+                        λόγον οὐ βιοῖ ὁ σκεπτικός (ἀνενέργητος γάρ ἐστιν ὅσον ἐπὶ τούτῳ), κατὰ δὲ
+                        τὴν ἀφιλόσοφον τήρησιν δύναται τὰ μὲν αἱρεῖσθαι, τὰ δὲ φεύγειν.<milestone unit="chapitre" n="166"/> ἀναγκαζόμενός τε ὑπὸ τυράννου τι τῶν
+                        ἀπηγορευμένων πράττειν, τῇ κατὰ τοὺς πατρίους νόμους καὶ τὰ ἔθη προλήψει
+                        τυχὸν τὸ μὲν ἑλεῖται, τὸ δὲ φεύξεται· καὶ ῥᾷόν γε οἴσει τὸ σκληρὸν παρὰ τὸν
+                        ἀπὸ τῶν δογμάτων, ὅτι οὐδὲν<milestone unit="chapitre" n="167"/> ἔξωθεν
+                        τούτων προσδοξάζει καθάπερ ἐκεῖνος. </ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#AM_XI_160">
+                        <milestone unit="chapitre" n="160"/> Donc celui qui suspend [son jugement]
+                        sur tout ce qui dépend de l’opinion jouit d’un bonheur parfait,<milestone unit="chapitre" n="161"/> et même s’il est troublé dans ses sentiments
+                        involontaires et irrationnels car « il n’est pas fils d’un chêne ou d’une
+                        pierre, mais il était du genre humain » ,<milestone unit="chapitre" n="163"/> il est affecté avec modération. Pour cette raison il faut aussi mépriser
+                        ceux qui pensent que le sceptique est réduit à l’inaction ou à la
+                        contradiction. À l’inaction, au prétexte que, la vie tout entière consistant
+                        dans des choix et des refus, celui qui ne choisit ni ne fuit rien refuse en
+                        puissance la vie et gît là comme<milestone unit="chapitre" n="164"/> une
+                        plante. À la contradiction, parce que, une fois sous le pouvoir d’un tyran
+                        et contraint de faire quelque chose d’indicible, soit il n’accepte pas
+                        l’ordre et choisit volontairement la mort, soit fuyant les souffrances, il
+                        fera ce qu’on lui ordonne et ainsi ne sera pas « privé de choix et de refus
+                        » comme le dit Timon, mais choisira une chose et s’éloignera de l’autre, ce
+                        qui serait du ressort de ceux qui saisissent avec confiance qu’il y a
+                        quelque chose à fuir<milestone unit="chapitre" n="165"/> et quelque chose à
+                        choisir. Mais lorsqu’ils disent cela, ils ne comprennent pas que le
+                        sceptique ne vit pas suivant un raisonnement philosophique (le sceptique est
+                        inactif, en effet, en ce qui concerne ce dernier), mais suivant
+                        l’observation non philosophique, il peut choisir certaines choses et en fuir
+                            d’autres.<milestone unit="chapitre" n="166"/> Donc s’il est contraint
+                        par un tyran à faire quelque chose de défendu, il choisira au cas par cas
+                        une chose et en fuira une autre selon la préconception des lois nationales
+                        et des coutumes. Et il supportera plus facilement la dureté que les autres
+                        dogmatiques parce que, par rapport aux dogmatiques, il n’ajoute rien
+                        d’extérieur à ces questions. </ab>
+                </div>
+
+            </div>
+
+        </body>
+    </text>
+</TEI>
