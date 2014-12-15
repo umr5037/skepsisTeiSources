@@ -1,0 +1,118 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pyrrhoniae hypotyposes</title>
+                <title key="Pyrrhoniae hypotyposes" ref="urn:cts:greekLit:tlg0544.tlg001"/>
+                <author key="Sextus Empiricus(0160?-0210?)" ref="http://catalog.perseus.org/catalog/Mtlg0544Sextu">Sextus Empiricus</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Ecole Normale Supérieure de Lyon</publisher>
+            </publicationStmt>
+            <sourceDesc>
+
+                <bibl n="Description de la source principale">Pyrrhoniae hypotyposes, Sexti Empirici
+                    Opera, Vol I, Mutschmann, Hermann edidit in aedibus B. G. Teubneri , 1912</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term xml:id="Pyrrhonisme">Pyrrhonisme</term>
+
+                    <term xml:id="φαινόμενον">φαινόμενον</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="livre" n="1">
+                <div type="chapitre" n="11">
+                    <ab type="excerptum" ana="#Pyrrhonisme #φαινόμενον" xml:lang="grc" xml:id="PH_I_22">
+                        <milestone unit="paragraph" n="22"/>κριτήριον τοίνυν φαμὲν εἶναι τῆς
+                        σκεπτικῆς ἀγωγῆς τὸ φαινόμενον, δυνάμει τὴν φαντασίαν οὕτω καλοῦντες· ἐν
+                        πείσει γὰρ καὶ ἀβουλήτῳ πάθει κειμένη ἀζήτητός ἐστιν. </ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#PH_I_22">
+                        <milestone unit="paragraph" n="22"/>Donc nous disons que le phénomène est
+                        critère de la voie sceptique, en appelant ainsi ce qui est en puissance
+                        l’impression ; en effet, puisque elle réside dans une affection et un affect
+                        involontaire, elle ne fait pas l’objet de la recherche</ab>
+                </div>
+                <div type="chapitre" n="14">
+                    <head xml:lang="grc">ιδʹ περὶ τῶν δέκα τρόπων</head>
+                    <head xml:lang="fr">Sur les dix tropes</head>
+                    <!-- traduction à reprende + statut de ce texte : fragment, témoignage ??? -->
+                    <ab type="excerptum" ana="#Pyrrhonisme  #dix_tropes" xml:lang="grc" xml:id="PH_I_36-39">
+            <milestone unit="paragraph" n="36"/>Παραδίδονται τοίνυν
+                        συνήθως παρὰ τοῖς ἀρχαιοτέροις σκεπτικοῖς τρόποι, δι’ ὧν ἡ ἐποχὴ συνάγεσθαι
+                        δοκεῖ, δέκα τὸν ἀριθμόν, οὓς καὶ λόγους καὶ τύπους συνωνύμως καλοῦσιν. εἰσὶ
+                        δὲ οὗτοι, πρῶτος ὁ παρὰ τὴν τῶν ζῴων ἐξαλλαγήν, δεύτερος ὁ παρὰ τὴν τῶν
+                        ἀνθρώπων διαφοράν, τρίτος&#xA0;ὁ παρὰ τὰς διαφόρους τῶν αἰσθητηρίων κατασκευάς,
+                        τέταρτος ὁ παρὰ τὰς περιστάσεις, πέμπτος ὁ παρὰ τὰς θέσεις καὶ τὰ διαστήματα
+                        καὶ τοὺς τόπους, ἕκτος ὁ παρὰ τὰς <milestone unit="paragraph" n="37"/>&#xA0;ἐπιμιξίας, ἕβδομος ὁ παρὰ τὰς ποσότητας καὶ σκευασίας τῶν ὑποκειμένων,
+                        ὄγδοος ὁ ἀπὸ τοῦ πρός τι, ἔννατος ὁ παρὰ τὰς συνεχεῖς ἢ σπανίους ἐγκυρήσεις,
+                        δέκατος ὁ παρὰ τὰς ἀγωγὰς καὶ τὰ ἔθη καὶ τοὺς νόμους καὶ τὰς μυθικὰς
+                            <milestone unit="paragraph" n="38"/>πίστεις καὶ τὰς δογματικὰς
+                        ὑπολήψεις. χρώμεθα δὲ τῇ τάξει ταύτῃ θετικῶς. τούτων δὲ ἐπαναβεβηκότες εἰσὶ
+                        τρόποι τρεῖς, ὁ ἀπὸ τοῦ κρίνοντος, ὁ ἀπὸ τοῦ κρινομένου, ὁ ἐξ ἀμφοῖν· τῷ μὲν
+                        γὰρ ἀπὸ τοῦ κρίνοντος ὑποτάσσονται οἱ πρῶτοι τέσσαρες (τὸ γὰρ κρῖνον ἢ ζῷόν
+                        ἐστιν ἢ ἄνθρωπος ἢ αἴσθησις ἢ ἔν τινι περιστάσει), εἰς δὲ τὸν ἀπὸ τοῦ
+                        κρινομένου [ἀνάγονται] ὁ ἕβδομος καὶ ὁ δέκατος, εἰς δὲ τὸν ἐξ ἀμφοῖν
+                        σύνθετον ὁ πέμπτος καὶ ὁ ἕκτος καὶ ὁ ὄγδοος καὶ ὁ <milestone unit="paragraph" n="39"/>ἔννατος. πάλιν δὲ οἱ τρεῖς οὗτοι ἀνάγονται εἰς
+                        τὸν πρός τι, ὡς εἶναι γενικώτατον μὲν τὸν πρός τι, εἰδικοὺς δὲ τοὺς τρεῖς,
+                        ὑποβεβηκότας δὲ τοὺς δέκα. ταῦτα μὲν περὶ τῆς ποσότητος αὐτῶν κατὰ τὸ
+                        πιθανὸν λέγομεν· περὶ δὲ τῆς δυνάμεως τάδε.</ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#PH_I_36-39">
+            <milestone unit="paragraph" n="36"/>Les anciens
+                        sceptiques, donc, transmettent des modes, au nombre de dix, par lesquels,
+                        semble-t-il, on est conduit à la suspension de l’assentiment, qu’ils
+                        appellent aussi par les termes synonymes d’ « arguments » et de « types ».
+                        Les voici : le premier se fait d’après la variété des animaux, le deuxième
+                        d’après la différence entre les humains, le troisième d’après les
+                        différentes constitutions des organes des sens, le quatrième d’après les
+                        circonstances extérieures, le cinquième d’après les positions, les distances
+                        et les lieux, le sixième d’après <milestone unit="paragraph" n="37"/>les mélanges, le septième d’après la
+                        quantité et la constitution des objets, le huitième d’après le relatif, le
+                        neuvième d’après le caractère continu ou rare des rencontres, le dixième
+                        d’après les modes de vie, les coutumes, les lois, les croyances aux mythes<milestone unit="paragraph" n="38"/>
+                        et les suppositions dogmatiques. Nous n’avons recours à cet ordre que
+                        conventionnellement. Au-dessus de ceux-ci il y a trois modes : celui d’après
+                        ce qui juge, celui d’après ce qui est jugé, celui qui vient des deux. Sous
+                        celui d’après ce qui juge tombent les quatre premiers – car ce qui juge est
+                        soit un animal, soit un humain, soit un sens et ils existent dans des
+                        circonstances déterminées-, à celui selon ce qui est jugé se ramènent le
+                        septième et le dixième, à celui qui est composé des deux se ramènent le
+                        cinquième, le sixième, <milestone unit="paragraph" n="39"/>le huitième et le neuvième. Ces trois modes à leur
+                        tour se ramènent à celui du relatif, de sorte que le relatif est le genre le
+                        plus haut, dont les trois nommés sont des espèces, auxquelles sont
+                        subordonnés les dix. Voilà ce que nous avons à dire sur leur quantité en
+                        restant dans le domaine du plausible. Voilà ce qu’il en est de leur
+                        force</ab>
+                </div>
+            </div>
+            <div type="livre" n="3">
+                <div type="chapitre" n="23">
+                    <head xml:lang="grc"> εἰ ἔστι τι φύσει ἀγαθὸν καὶ ἀδιάφορον. </head>
+                    <head xml:lang="fr">S'il existe par nature quelque chose de bon ou
+                        d'indifférent</head>
+                    <ab type="excerptum" ana="#Pyrrhonisme #φαινόμενον" xml:lang="grc" xml:id="PH_III_179">
+                        <milestone unit="paragraph" n="179"/>Τὸ πῦρ φύσει ἀλεαῖνον πᾶσι φαίνεται
+                        ἀλεαντικόν, καὶ ἡ χιὼν φύσει ψύχουσα πᾶσι φαίνεται ψυκτική, καὶ πάντα τὰ
+                        φύσει κινοῦντα ὁμοίως πάντας κινεῖ τοὺς κατὰ φύσιν, ὡς φασίν, ἔχοντας. οὐδὲν
+                        δὲ τῶν λεγομένων ἀγαθῶν πάντας κινεῖ ὡς ἀγαθόν, ὡς ὑπομνήσομεν· οὐκ ἄρα ἔστι
+                        φύσει ἀγαθόν. </ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#PH_III_179">
+                        <milestone unit="paragraph" n="179"/> Le feu, qui chauffe par nature, à tous
+                        apparaît réchauffant , et la neige qui refroidit par nature apparaît
+                        refroidissante à tous, et tout ce qui agit par nature agit de la même
+                        manière sur tous ceux qui sont, comme ils disent, dans un état naturel. Mais
+                        rien dans ce qu'ils appellent les biens n’agit sur tout le monde en tant que
+                        bien, comme nous allons le rappeler. Il n’y a donc pas de bien par
+                        nature.</ab>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
