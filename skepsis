@@ -84,7 +84,7 @@
                <div>
                   <head>Caveat</head>
                   <p>La base Σκέψις a ouvert le 08/10/2014 et est en cours de développement. L'état
-                     dans laquelle vous la trouvez est donc provisoire</p>
+                     dans lequel vous la trouvez est donc provisoire</p>
                </div>
                <div>
                   <head>Description du projet scientifique</head>
@@ -95,19 +95,19 @@
                      ouvertes par l'encodage XML/TEI pour rassembler et donner à lire l'ensemble des
                      textes sur le phénomène sceptique dans l'Antiquité.</p>
                   <p>Trois entrées possibles dans les textes sont aménagées :<list>
-                     <item>une entrée par collection de livres (dite VOLUMEN) où le lecteur dispose
+                     <item>une entrée par collection de livres (dite VOLUMINA) où le lecteur dispose
                         des textes en langue originale et sa traduction (inédite) à partir de la
                         structure éditoriale des textes tels qu'ils sont édités sur papier. On
                         pourra ainsi lire les <title>Esquisses Pyrrhoniennes</title>de Sextus
                         Empiricus, les <title>Académiques</title>de Cicéron, etc...</item>
-                     <item>une entrée par philosophes des traditions sceptiques (dite PHILOSOPHUS)
+                     <item>une entrée par philosophe des traditions sceptiques (dite PHILOSOPHI)
                         où le lecteur pourra disposer des textes (œuvres complètes, fragments et
                         témoignages) attribués au philosophe en question. Le lecteur pourra ainsi
                         accéder à la totalité des témoignages sur Pyrrhon, aux fragments
                         d'Enésidème, de Carnéade, etc...</item>
-                     <item>une entrée par mots-clefs liés au scepticisme (dite NOTIO) : le lecteur
+                     <item>une entrée par mots-clefs liés au scepticisme (dite NOTIONES : le lecteur
                         pourra ainsi disposer d'un ensemble de textes liés aux problématiques
-                        sceptiques comme l'épochè, l'isosthénie, etc...</item>
+                        sceptiques comme l'épochè, l'isosthénie, etc.</item>
                   </list>
                   </p>
                   <p>Parallèlement à ces entrées, une base bibliographique sera proposée sur chaque
@@ -124,7 +124,7 @@
                         Services</ref>.
                      L'exploitation et la diffusion du corpus s'appuieront sur une base de données
                      XML native (BaseX) et bénéficieront de l'expertise développée par <ref target="http://ahn.ens-lyon.fr">l'Atelier des
-                        Humanités Numériques de l'ENS de Lyon</ref>à travers
+                        Humanités Numériques de l'ENS de Lyon</ref> à travers
                      l'application SynopsX. </p>
                </div>
             </div>
