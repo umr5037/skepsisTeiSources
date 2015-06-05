@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Σκέψις</title>
+            <title>Σκέψις</title>
             <respStmt>
                <resp>Responsable du site</resp>
                <name>
@@ -26,8 +26,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>
-               <ref target="http://www.ens-lyon.eu/">Ecole Normale Supérieure de
-                  Lyon</ref>
+               <ref target="http://www.ens-lyon.eu/">Ecole Normale Supérieure de Lyon</ref>
             </publisher>
             <authority>Jean-François Pinton</authority>
             <pubPlace>Lyon</pubPlace>
@@ -43,6 +42,17 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term xml:id="Scepticisme_Académicien">Scepticisme Académicien</term>
+               <term xml:id="Pyrrhonisme">Pyrrhonisme</term>                
+               <term xml:id="quatrième_trope">4ème trope</term>
+               <term xml:id="dix_tropes">10 tropes d'Aenesidemus</term>
+               <term xml:id="φαινόμενον">φαινόμενον</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <encodingDesc>
          <projectDesc>
             <p/>
@@ -55,7 +65,7 @@
             <head>À propos</head>
             <div>
                <head>Caveat</head>
-               <p>La base Σκέψις a ouvert le 08/10/2014 et est en cours de développement. L'état
+               <p>La base Σκέψις a ouvert le 08/10/2014 et est en cours de développement. L'état
                   dans laquelle vous la trouvez est donc provisoire</p>
             </div>
             <div n="credits">
@@ -80,10 +90,10 @@
       <body>
          <div>
             <div n="home">
-               <head>Σκέψις : Base de textes électroniques sur le scepticisme ancien</head>
+               <head>Σκέψις : Base de textes électroniques sur le scepticisme ancien</head>
                <div>
                   <head>Caveat</head>
-                  <p>La base Σκέψις a ouvert le 08/10/2014 et est en cours de développement. L'état
+                  <p>La base Σκέψις a ouvert le 08/10/2014 et est en cours de développement. L'état
                      dans lequel vous la trouvez est donc provisoire</p>
                </div>
                <div>
@@ -91,7 +101,7 @@
                   <p>Dans l'Antiquité, le scepticisme désigne un double phénomène : un problème
                      philosophique, le problème de la possibilité de la connaissance, mais aussi un
                      ensemble de traditions philosophiques, la tradition pyrrhonienne et la
-                     tradition académicienne. La base Σκέψις propose d'utiliser les possibilités
+                     tradition académicienne. La base Σκέψις propose d'utiliser les possibilités
                      ouvertes par l'encodage XML/TEI pour rassembler et donner à lire l'ensemble des
                      textes sur le phénomène sceptique dans l'Antiquité.</p>
                   <p>Trois entrées possibles dans les textes sont aménagées :<list>
