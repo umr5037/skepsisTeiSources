@@ -1,103 +1,96 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Academica</title>
-                <title key="urn:cts:latinLit:phi0474.phi045"/>
-                <author key=" Cicero (0106-0043 av. J.-C.)" ref="http://catalog.perseus.org/catalog/Mphi0474Cicer">Cicero</author>
-                <editor key="Marchand, Stéphane">Stéphane Marchand</editor>
-            </titleStmt>
-            <publicationStmt>
-                <publisher>Ecole Normale Supérieure de Lyon</publisher>
-                <pubPlace>adresse</pubPlace>
-                <availability>
-                    <licence target="http://http://creativecommons.org/licenses/by-sa/4.0/"/>
-                </availability>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl n="Description de la source principale">Cicero, Academicorum Reliquae cum
-                    Lucullo, O. Plasberg ed., Leipzig, Teubner, 1922</bibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term xml:id="Scepticisme_Académicien">Scepticisme Académicien</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text>
-        <body>
-
-            <div type="livre" n="1">
-                <div type="chapitre" n="12">
-                    <ab type="testimonium" xml:id="Arcesilas_F9" n="9" xml:lang="la" corresp="#Arcesilas" ana="#Scepticisme_Académicien">
-                        <bibl>F9 Mette</bibl>
-                        <seg type="excerptum" corresp="#Arcesilas" xml:id="Arcesilas_F9_partim_a" xml:lang="la">
-                            <milestone unit="paragraph" n="45"/>itaque 
-                                <persName>Arcesilas</persName> negabat esse quicquam quod sciri
-                            posset, ne illud quidem ipsum quod <persName>Socrates</persName> sibi
-                            reliquisset, ut nihil scire se sciret; sic omnia latere censebat in
-                            occulto neque esse quicquam quod cerni aut intellegi posset; quibus de
-                            causis nihil oportere neque profiteri neque affirmare quemquam neque
-                            assensione approbare, cohibereque semper et ab omni lapsu continere
-                            temeritatem, quae tum esset insignis cum aut falsa aut incognita res
-                            approbaretur, neque hoc quicquam esse turpius quam cognitioni et
-                            perceptioni assensionem approbationemque praecurrere. </seg>
-                        <seg type="excerptum" xml:id="Arcesilas_F9_partim_b" corresp="#Arcesilas" xml:lang="la"> huic rationi quod erat consentaneum faciebat, ut contra
-                            omnium sententias disserens de sua plerosque deduceret, ut cum in eadem
-                            re paria contrariis in partibus momenta rationum invenirentur facilius
-                            ab utraque parte assensio sustineretur.</seg>
-                        <seg type="excerptum" xml:id="Arcesilas_F9_partim_c" corresp="#Arcesilas" xml:lang="la">
-                            <milestone unit="paragraph" n="46"/> Hanc Academiam novam appellant,
-                            quae mihi vetus videtur, si quidem <rs ref="#Plato">Platonem</rs> ex
-                            illa vetere numeramus, cuius in libris nihil affirmatur et in utramque
-                            partem multa disseruntur, de omnibus quaeritur nihil certi
-                            dicitur.</seg>
-                    </ab>
-                    <ab type="testimonium" xml:id="Carneades_T4b" corresp="#Carneades" xml:lang="la" ana="#Scepticisme_Académicien">
-                        <bibl>T4 Mette (partim)</bibl>
-                        <!-- revoir le découpage Mette --> —sed tamen illa quam exposuisti vetus,
-                        haec nova nominetur. quae usque ad <rs ref="#Carneades">Carneadem</rs> 
-                        perducta, qui quartus ab <rs ref="#Arcesilas">Arcesila</rs> fuit, in eadem
-                            <rs ref="#Arcesilas">Arcesilae</rs> ratione permansit.</ab>
-                        <ab type="translatio" xml:lang="fr" corresp="#Arcesilas_F9">
-                        <seg type="excerptum" corresp="#Arcesilas_F9_partim_a" xml:lang="fr">
-                          
-                            <milestone unit="paragraph" n="45"/>Pour cette raison 
-                                <persName>Arcésilas</persName> refusait que quoi que ce soit puisse
-                            être connu, pas même ce que <persName>Socrate</persName> s'était concédé
-                            à lui-même : savoir qu'il ne savait rien. Il pensait donc que tout se
-                            cache dans l'obscurité et que rien ne peut être perçu ou compris. Pour
-                            ces raisons, il ne faut rien avancer, rien affirmer, ne rien approuver
-                            par son assentiment. Il faut toujours contenir sa témérité et la
-                            protéger de toute précipitation, alors qu'elle se fait remarquer lorsque
-                            nous approuvons des choses fausses ou inconnues. Pourtant, rien n'est
-                            plus honteux qu'un assentiment et un accord donné en devançant la
-                            connaissance et la perception. </seg>
-                        <seg type="translatio" corresp="#Arcesilas_F9_partim_b" xml:lang="fr"> Il agissait conformément à ce raisonnement au point de
-                            faire changer d'avis nombreux de ses auditeurs en argumentant contre les
-                            positions de tout le monde, puisque lorsqu'on découvrait qu'il y avait
-                            sur le même sujet des arguments d'égale importance en faveur de
-                            positions contraires, il était plus facile de suspendre son assentiment
-                            sur chacune des positions.</seg>
-                        <seg type="translatio" corresp="#Arcesilas_F9_partim_c" xml:lang="fr">
-                            <milestone unit="paragraph" n="46"/> On appelle cette Académie
-                            "nouvelle", bien qu'elle me semble ancienne, si cependant on compte bien
-                                <persName>Platon</persName> parmi cette ancienne Académie, lui qui
-                            n'affirme rien dans ses livres et discute de nombreuses choses dans un
-                            sens et dans un autre, lui qui à propos de tout cherche et ne dit rien
-                            de certain.</seg>
-                    </ab>
-                    <ab type="translatio" corresp="#Carneades_T4b" xml:lang="fr">Acceptons cependant d'appeler "ancienne"
-                        l'académie que tu as décrite, et "nouvelle" celle dont je vais parler. Cette
-                        dernière va jusqu'à <persName>Carnéade</persName>, qui fut le quatrième
-                        successeur d'<persName>Arcesilas</persName> et qui conserva la même méthode
-                            qu'<persName>Arcesilas</persName>. </ab>
-                </div>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Academica</title>
+            <title key="urn:cts:latinLit:phi0474.phi045"/>
+            <author key=" Cicero (0106-0043 av. J.-C.)" ref="http://catalog.perseus.org/catalog/Mphi0474Cicer">Cicero</author>
+            <editor key="Marchand, Stéphane">Stéphane Marchand</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Ecole Normale Supérieure de Lyon</publisher>
+            <pubPlace>adresse</pubPlace>
+            <availability>
+               <licence target="http://http://creativecommons.org/licenses/by-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl n="Description de la source principale">Cicero, Academicorum Reliquae cum
+               Lucullo, O. Plasberg ed., Leipzig, Teubner, 1922</bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <div type="livre" n="1">
+            <div type="chapitre" n="12">
+               <ab type="testimonium" xml:id="Arcesilas_F9" n="9" xml:lang="la" corresp="#Arcesilas" ana="#Scepticisme_Académicien">
+                  <bibl>F9 Mette</bibl>
+                  <seg type="excerptum" corresp="#Arcesilas" xml:id="Arcesilas_F9_partim_a" xml:lang="la">
+                     <milestone unit="paragraph" n="45"/>itaque 
+                     <persName>Arcesilas</persName> negabat esse quicquam quod sciri
+                     posset, ne illud quidem ipsum quod <persName>Socrates</persName> sibi
+                     reliquisset, ut nihil scire se sciret; sic omnia latere censebat in
+                     occulto neque esse quicquam quod cerni aut intellegi posset; quibus de
+                     causis nihil oportere neque profiteri neque affirmare quemquam neque
+                     assensione approbare, cohibereque semper et ab omni lapsu continere
+                     temeritatem, quae tum esset insignis cum aut falsa aut incognita res
+                     approbaretur, neque hoc quicquam esse turpius quam cognitioni et
+                     perceptioni assensionem approbationemque praecurrere. </seg>
+                  <seg type="excerptum" xml:id="Arcesilas_F9_partim_b" corresp="#Arcesilas" xml:lang="la"> huic rationi quod erat consentaneum faciebat, ut contra
+                     omnium sententias disserens de sua plerosque deduceret, ut cum in eadem
+                     re paria contrariis in partibus momenta rationum invenirentur facilius
+                     ab utraque parte assensio sustineretur.</seg>
+                  <seg type="excerptum" xml:id="Arcesilas_F9_partim_c" corresp="#Arcesilas" xml:lang="la">
+                     <milestone unit="paragraph" n="46"/> Hanc Academiam novam appellant,
+                     quae mihi vetus videtur, si quidem <rs ref="#Plato">Platonem</rs> ex
+                     illa vetere numeramus, cuius in libris nihil affirmatur et in utramque
+                     partem multa disseruntur, de omnibus quaeritur nihil certi
+                     dicitur.</seg>
+               </ab>
+               <ab type="testimonium" xml:id="Carneades_T4b" corresp="#Carneades" xml:lang="la" ana="#Scepticisme_Académicien">
+                  <bibl>T4 Mette (partim)</bibl>
+                  <!-- revoir le découpage Mette --> —sed tamen illa quam exposuisti vetus,
+                  haec nova nominetur. quae usque ad <rs ref="#Carneades">Carneadem</rs> 
+                  perducta, qui quartus ab <rs ref="#Arcesilas">Arcesila</rs> fuit, in eadem
+                  <rs ref="#Arcesilas">Arcesilae</rs> ratione permansit.</ab>
+               <ab type="translatio" xml:lang="fr" corresp="#Arcesilas_F9">
+                  <seg type="excerptum" corresp="#Arcesilas_F9_partim_a" xml:lang="fr">
+                     
+                     <milestone unit="paragraph" n="45"/>Pour cette raison 
+                     <persName>Arcésilas</persName> refusait que quoi que ce soit puisse
+                     être connu, pas même ce que <persName>Socrate</persName> s'était concédé
+                     à lui-même : savoir qu'il ne savait rien. Il pensait donc que tout se
+                     cache dans l'obscurité et que rien ne peut être perçu ou compris. Pour
+                     ces raisons, il ne faut rien avancer, rien affirmer, ne rien approuver
+                     par son assentiment. Il faut toujours contenir sa témérité et la
+                     protéger de toute précipitation, alors qu'elle se fait remarquer lorsque
+                     nous approuvons des choses fausses ou inconnues. Pourtant, rien n'est
+                     plus honteux qu'un assentiment et un accord donné en devançant la
+                     connaissance et la perception. </seg>
+                  <seg type="translatio" corresp="#Arcesilas_F9_partim_b" xml:lang="fr"> Il agissait conformément à ce raisonnement au point de
+                     faire changer d'avis nombreux de ses auditeurs en argumentant contre les
+                     positions de tout le monde, puisque lorsqu'on découvrait qu'il y avait
+                     sur le même sujet des arguments d'égale importance en faveur de
+                     positions contraires, il était plus facile de suspendre son assentiment
+                     sur chacune des positions.</seg>
+                  <seg type="translatio" corresp="#Arcesilas_F9_partim_c" xml:lang="fr">
+                     <milestone unit="paragraph" n="46"/> On appelle cette Académie
+                     "nouvelle", bien qu'elle me semble ancienne, si cependant on compte bien
+                     <persName>Platon</persName> parmi cette ancienne Académie, lui qui
+                     n'affirme rien dans ses livres et discute de nombreuses choses dans un
+                     sens et dans un autre, lui qui à propos de tout cherche et ne dit rien
+                     de certain.</seg>
+               </ab>
+               <ab type="translatio" corresp="#Carneades_T4b" xml:lang="fr">Acceptons cependant d'appeler "ancienne"
+                  l'académie que tu as décrite, et "nouvelle" celle dont je vais parler. Cette
+                  dernière va jusqu'à <persName>Carnéade</persName>, qui fut le quatrième
+                  successeur d'<persName>Arcesilas</persName> et qui conserva la même méthode
+                  qu'<persName>Arcesilas</persName>. </ab>
             </div>
-        </body>
-    </text>
+         </div>
+      </body>
+   </text>
 </TEI>
