@@ -1,13 +1,11 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Vitae philosophorum</title>
                 <title key="Vitae philosophorum" ref="urn:cts:greekLit:tlg0004.tlg001"/>
-                <author key="Diogenes Laertius"
-                    ref="http://catalog.perseus.org/catalog/Mtlg0004Dioge">Diogène Laërce</author>
+                <author key="Diogenes Laertius" ref="http://catalog.perseus.org/catalog/Mtlg0004Dioge">Diogène Laërce</author>
             </titleStmt>
             <publicationStmt>
                 <publisher>Ecole Normale Supérieure de Lyon</publisher>
@@ -16,29 +14,18 @@
                 <bibl n="Description de la source principale">Hicks, Robert Drew, W. Heinemann,
                     1925</bibl>
             </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term xml:id="Pyrrhonisme">Pyrrhonisme</term>
-                    <term xml:id="quatrième_trope">4ème trope</term>
-
-                </keywords>
-            </textClass>
-        </profileDesc>
+        </fileDesc>      
     </teiHeader>
     <text>
         <body>
             <div type="livre" n="9">
                 <div type="chapitre" n="76">
-                    <ab type="testimonium" xml:id="T_54" n="54" corresp="#Pyrrho" ana="#Pyrrhonisme"
-                        xml:lang="gr">
+                    <ab type="testimonium" xml:id="T_54" n="54" corresp="#Pyrrho" ana="#Pyrrhonisme" xml:lang="gr">
                         <bibl>T54 Decleva Caizzi</bibl>
                         <milestone unit="paragraph"/>ἀναιροῦσι δ᾽ οἱ σκεπτικοὶ καὶ αὐτὴν τὴν "Οὐδὲν
                         μᾶλλον" φωνήν: ὡς γὰρ οὐ μᾶλλόν ἐστι πρόνοια ἢ οὐκ ἔστιν, οὕτω καὶ τὸ Οὐδὲν
-                        μᾶλλον οὐ μᾶλλόν ἐστιν ἢ οὐκ ἔστι. <q type="fragmentum" source="#Timon"
-                            xml:id="Silles_1" xml:lang="gr"> σημαίνει οὖν ἡ φωνή, καθά φησι καὶ
-                                <persName>Τίμων</persName> ἐν τῷ Πύθωνι, "τὸ μηδὲν ὁρίζειν, ἀλλ᾽
+                        μᾶλλον οὐ μᾶλλόν ἐστιν ἢ οὐκ ἔστι. <q type="fragmentum" source="#Timon" xml:id="Silles_1" xml:lang="gr"> σημαίνει οὖν ἡ φωνή, καθά φησι καὶ
+                            <persName>Τίμων</persName> ἐν τῷ Πύθωνι, "τὸ μηδὲν ὁρίζειν, ἀλλ᾽
                             ἀπροσθετεῖν." </q>
                     </ab>
                     <!-- revoir les références du Python dans Di Marco -->
@@ -52,8 +39,7 @@
                     </ab>
                 </div>
                 <div type="chapitre" n="78">
-                    <ab type="testimonium" xml:lang="grc" xml:id="DL_78"
-                        ana="#dix_tropes" corresp="#Aenesidemus">
+                    <ab type="testimonium" xml:lang="grc" xml:id="DL_78" ana="#dix_tropes" corresp="#Aenesidemus">
                         <milestone unit="paragraph" n="78"/>Ἔστιν οὖν ὁ Πυρρώνειος λόγος μήνυσίς τις
                         τῶν φαινομένων ἢ τῶν ὁπωσοῦν νοουμένων, καθ᾽ ἣν πάντα πᾶσι συμβάλλεται καὶ
                         συγκρινόμενα πολλὴν ἀνωμαλίαν καὶ ταραχὴν ἔχοντα εὑρίσκεται, καθά φησιν
@@ -61,8 +47,7 @@
                         ἀντιθέσεις προαποδεικνύντες καθ᾽ οὓς τρόπους πείθει τὰ πράγματα, κατὰ τοὺς
                         αὐτοὺς ἀνῄρουν τὴν περὶ αὐτῶν πίστιν: πείθειν γὰρ τά τε κατ᾽ αἴσθησιν
                         συμφώνως ἔχοντα καὶ τὰ μηδέποτε ἢ σπανίως γοῦν μεταπίπτοντα τά τε συνήθη καὶ
-                        τὰ νόμοις διεσταλμένα καὶ τὰ τέρποντα καὶ τὰ θαυμαζόμενα. <milestone
-                            unit="paragraph" n="79"/> ἐδείκνυσαν οὖν ἀπὸ τῶν ἐναντίων τοῖς πείθουσιν
+                        τὰ νόμοις διεσταλμένα καὶ τὰ τέρποντα καὶ τὰ θαυμαζόμενα. <milestone unit="paragraph" n="79"/> ἐδείκνυσαν οὖν ἀπὸ τῶν ἐναντίων τοῖς πείθουσιν
                         ἴσας τὰς πιθανότητας. Αἱ δ᾽ ἀπορίαι κατὰ τὰς συμφωνίας τῶν φαινομένων ἢ
                         νοουμένων, ἃς ἀπεδίδοσαν, ἦσαν κατὰ δέκα τρόπους, καθ᾽ οὓς τὰ ὑποκείμενα
                         παραλλάττοντα ἐφαίνετο. τούτους δὲ τοὺς δέκα τρόπους τίθησιν.</ab>
@@ -87,15 +72,15 @@
                         les objets se manifestent avec des écarts.</ab>
                 </div>
                 <div type="chapitre" n="82">
-                    <ab type="testimonium" xml:lang="grc" xml:id="DL_82"
-                        ana="#dix_tropes #quatrième_trope" corresp="#Aenesidemus">                         <milestone unit="paragraph" n="82"/>Τέταρτος ὁ παρὰ τὰς διαθέσεις καὶ κοινῶς παραλλαγάς, οἷον ὑγίειαν, νόσον,
+                    <ab type="testimonium" xml:lang="grc" xml:id="DL_82" ana="#dix_tropes #quatrième_trope" corresp="#Aenesidemus">                         <milestone unit="paragraph" n="82"/>Τέταρτος ὁ παρὰ τὰς διαθέσεις καὶ κοινῶς παραλλαγάς, οἷον ὑγίειαν, νόσον,
                         ὕπνον, ἐγρήγορσιν, χαράν, λύπην, νεότητα, γῆρας, θάρσος, φόβον, ἔνδειαν,
                         πλήρωσιν, μῖσος, φιλίαν, θερμασίαν, ψύξιν: παρὰ τὸ πνεῖν, παρὰ τὸ πιεσθῆναι
                         τοὺς πόρους. ἀλλοῖα οὖν φαίνεται τὰ προσπίπτοντα παρὰ τὰς ποιὰς διαθέσεις.
                         οὐδὲ γὰρ οἱ μαινόμενοι παρὰ φύσιν ἔχουσι: τί γὰρ μᾶλλον ἐκεῖνοι ἢ ἡμεῖς; καὶ
                         γὰρ ἡμεῖς τὸν ἥλιον ὡς ἑστῶτα βλέπομεν. Θέων δ᾽ ὁ Τιθοραιεὺς ὁ στωικὸς
                         κοιμώμενος περιεπάτει ἐν τῷ ὕπνῳ καὶ Περικλέους δοῦλος ἐπ᾽ ἄκρου τοῦ τέγους. </ab>
-                    <ab type="translatio" xml:lang="fr" corresp="#DL_82"><milestone unit="paragraph" n="82"/>Le quatrième est celui qui
+                    <ab type="translatio" xml:lang="fr" corresp="#DL_82">
+            <milestone unit="paragraph" n="82"/>Le quatrième est celui qui
                         prend appui sur les dispositions et plus généralement sur les écarts, par
                         exemple santé et maladie, sommeil et veille, joie et peine, jeunesse et
                         vieillesse, hardiesse et crainte, manque et plénitude, haine et amour,
@@ -116,26 +101,21 @@
                         τὰ παρυφιστάμενα τοῖς φαινομένοις ἄδηλα. καὶ γὰρ ὅτε τὴν εἰκόνα ἐξοχὰς
                         λέγομεν ἔχειν, τὸ φαινόμενον διασαφοῦμεν: ὅταν δ᾽ εἴπωμεν μὴ ἔχειν αὐτὴν
                         ἐξοχάς, οὐκέτι ὃ φαίνεται, ἕτερον δὲ λέγομεν: ὅθεν καὶ ὁ Τίμων ἐν τῷ Πύθωνί
-                        φησι μὴ ἐκβεβηκέναι τὴν συνήθειαν. καὶ ἐν τοῖς Ἰνδαλμοῖς οὕτω λέγει,<q
-                            type="fragmentum" source="#Timon" xml:id="Indalmoi_1" xml:lang="grc">
-                            ἀλλὰ τὸ φαινόμενον πάντη σθένει οὗπερ ἂν ἔλθῃ.</q> καὶ <q
-                            type="fragmentum" source="#Timon" xml:id="Sur_les_sensations_1"
-                            xml:lang="grc">ἐν τοῖς Περὶ αἰσθήσεών φησι, "τὸ μέλι ὅτι ἐστὶ γλυκὺ οὐ
-                            τίθημι, τὸ δ᾽ ὅτι φαίνεται ὁμολογῶ.</q>
+                        φησι μὴ ἐκβεβηκέναι τὴν συνήθειαν. καὶ ἐν τοῖς Ἰνδαλμοῖς οὕτω λέγει,<q type="fragmentum" source="#Timon" xml:id="Indalmoi_1" xml:lang="grc">
+                            ἀλλὰ τὸ φαινόμενον πάντη σθένει οὗπερ ἂν ἔλθῃ.</q> καὶ <q type="fragmentum" source="#Timon" xml:id="Sur_les_sensations_1" xml:lang="grc">ἐν τοῖς Περὶ αἰσθήσεών φησι, "τὸ μέλι ὅτι ἐστὶ γλυκὺ οὐ
+                                τίθημι, τὸ δ᾽ ὅτι φαίνεται ὁμολογῶ.</q>
                     </ab>
                     <ab type="translatio" xml:lang="fr" corresp="#DL_105">
                         <milestone unit="paragraph" n="105"/>De fait, lorsque nous disons qu'une
                         image a du relief, nous décrivons ce qui apparaît ; mais lorsque nous disons
                         qu'elle n'a pas de relief, nous ne disons plus ce qui apparaît mais autre
                         chose. C'est pourquoi Timon dit, dans son Python, qu'il n'a pas transgressé
-                        les limites de l'usage ordinaire. Et dans ses Ιmages, il s'exprime ainsi :<q
-                            type="translatio" corresp="#Indalmoi_1">"Mais l'apparence règne partout,
-                            où qu'elle aille."</q> Et <q type="translatio"
-                            corresp="#Sur_les_sensations_1">dans son traité Sur les sensations, il
-                            dit "que le miel soit doux, je ne l'assure pas ; mais qu'il paraisse
-                            doux, je l'accorde. </q>
+                        les limites de l'usage ordinaire. Et dans ses Ιmages, il s'exprime ainsi :<q type="translatio" corresp="#Indalmoi_1">"Mais l'apparence règne partout,
+                            où qu'elle aille."</q> Et <q type="translatio" corresp="#Sur_les_sensations_1">dans son traité Sur les sensations, il
+                                dit "que le miel soit doux, je ne l'assure pas ; mais qu'il paraisse
+                                doux, je l'accorde. </q>
                     </ab>
-
+                    
                 </div>
             </div>
         </body>
