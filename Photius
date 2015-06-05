@@ -18,15 +18,7 @@
             <sourceDesc>
                 <bibl n="Description de la source principale"/>
             </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term xml:id="Scepticisme_Académicien">Scepticisme Académicien</term>
-                    <term xml:id="Pyrrhonisme">Pyrrhonisme</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
+        </fileDesc>        
     </teiHeader>
     <text>
         <body>
@@ -127,7 +119,7 @@
                         λόγων καὶ τοιαῦθ’ ἕτερα τὴν διαφορὰν τῶν Πυρρωνίων καὶ Ἀκαδημαϊκῶν
                         ὑποδεικνύς, ἀναγράφει ὁ Αἰνησίδημος ὁ ἐξ Αἰγῶν· ἐφεξῆς<milestone unit="paragraph" n="170b"/> &#xA0;δὲ κατὰ τὸν αὐτὸν λόγον πρῶτον καὶ τὴν
                         ὅλην ἀγωγὴν ὡς τύπῳ καὶ κεφαλαιωδῶς τῶν Πυρρωνίων παραδίδωσι λόγων. </ab>
-
+                    
                     <ab type="translatio" xml:lang="fr" corresp="#Photius_212_4">[170a12]&#xA0;&#xA0; En effet, le Pyrrhonien ne détermine rien de manière
                         universelle, pas même cela, de surcroît, que rien n'est déterminé ; mais,
                         disent-il, n'ayant pas moyen d'exprimer ce que nous avons conçu, c'est ainsi
@@ -234,8 +226,8 @@
                         jugement ne soit pas corrompue, ce livre n'est pas inutile. </ab>
                 </div>
             </div>
-
-
+            
+            
         </body>
     </text>
 </TEI>
