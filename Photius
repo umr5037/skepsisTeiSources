@@ -1,11 +1,13 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
     <teiHeader>
         <!-- description bibliographique complète du fichier électronique -->
         <fileDesc>
             <titleStmt>
                 <title key="urn:cts:greekLit:tlg4040.tlg001">Bibliotheca</title>
-                <author key=" Photius (?820-?891)" ref="http://catalog.perseus.org/catalog/Mtlg4040Photi">Photius</author>
+                <author key=" Photius (?820-?891)"
+                    ref="http://catalog.perseus.org/catalog/Mtlg4040Photi">Photius</author>
                 <editor key="Marchand, Stéphane">Stéphane Marchand</editor>
             </titleStmt>
             <publicationStmt>
@@ -18,7 +20,7 @@
             <sourceDesc>
                 <bibl n="Description de la source principale"/>
             </sourceDesc>
-        </fileDesc>        
+        </fileDesc>
     </teiHeader>
     <text>
         <body>
@@ -26,8 +28,9 @@
                 <head>Codex 212</head>
                 <div type="chapitre" n="1">
                     <!-->introduire la notion de section ici</!-->
-                    <ab type="testimonium" ana="#Pyrrhonisme #Scepticisme_Académicien" corresp="#Aenesidemus" xml:id="Photius_212_1">
-                        <milestone unit="paragraph" n="169b"/>Ἀνεγνώσθη Αἰνησιδήμου Πυρρωνίων λόγοι
+                    <ab type="testimonium" ana="#Pyrrhonisme #Scepticisme_Académicien"
+                        corresp="#Aenesidemus" xml:id="Photius_212_1">
+                        <milestone unit="paragraph" n="169b"/>Ἀνεγνώσθη Αἰνησιδήμου <title>Πυρρωνίων λόγοι</title>
                         ηʹ. Ἡ μὲν ὅλη πρόθεσις τοῦ βιβλίου βεβαιῶσαι ὅτι οὐδὲν βέβαιον εἰς
                         κατάληψιν, οὔτε δι’ αἰσθήσεως, ἀλλ’ οὔτε μὴν διὰ νοήσεως· διὸ οὔτε τοὺς
                         Πυρρωνίους οὔτε τοὺς ἄλλους εἰδέναι τὴν ἐν τοῖς οὖσιν ἀλήθειαν, ἀλλὰ τοὺς
@@ -37,11 +40,12 @@
                         Πύρρωνα φιλοσοφῶν τά τε ἄλλα εὐδαιμονεῖ, καὶ σοφός ἐστι τοῦ μάλιστα εἰδέναι
                         ὅτι οὐδὲν αὐτῷ βεβαίως κατείληπται· ἃ δὲ καὶ εἰδείη, οὐδὲν μᾶλλον αὐτῶν τῇ
                         καταφάσει ἢ τῇ ἀποφάσει γενναῖός ἐστι συγκατατίθεσθαι. Ἡ μὲν ὅλη τοῦ βιβλίου
-                        διάληψις ὃ βούλεται, εἴρηται. Γράφει δὲ τοὺς λόγους Αἰνησίδημος προσφωνῶν
-                        αὐτοὺς τῶν ἐξ Ἀκαδημίας τινὶ συναιρεσιώτῃ Λευκίῳ Τοβέρωνι, γένος μὲν Ῥωμαίῳ,
-                        δόξῃ δὲ λαμπρῷ ἐκ προγόνων καὶ πολιτικὰς ἀρχὰς οὐ τὰς τυχούσας μετιόντι. </ab>
+                        διάληψις ὃ βούλεται, εἴρηται. Γράφει δὲ <title>τοὺς λόγους</title>
+                        Αἰνησίδημος προσφωνῶν αὐτοὺς τῶν ἐξ Ἀκαδημίας τινὶ συναιρεσιώτῃ Λευκίῳ
+                        Τοβέρωνι, γένος μὲν Ῥωμαίῳ, δόξῃ δὲ λαμπρῷ ἐκ προγόνων καὶ πολιτικὰς ἀρχὰς
+                        οὐ τὰς τυχούσας μετιόντι. </ab>
                     <ab type="translatio" xml:lang="fr" corresp="#Photius_212_1"> [169b18] J'ai lu
-                        les huit livres des Discours des Pyrrhoniens d'Enésidème. Le projet général
+                        les huit livres des <title>Arguments des Pyrrhoniens</title> d'Enésidème. Le projet général
                         du livre est d'assurer que rien n'est sûr pour la saisie, ni par
                         l'intermédiaire de la sensation, ni même par l'intermédiaire de la
                         conception. Pour cette raison ni les Pyrrhoniens ni les autres ne
@@ -54,13 +58,14 @@
                         rien n'est saisi par lui de manière assurée ; en outre, quant aux choses
                         qu'il saurait, il est noble qu’il ne donne pas davantage son assentiment à
                         leur affirmation qu’à leur négation. [169b31]&#xA0; Ce que recherche la
-                        conception générale du livre, cela a été dit. Enésidème a écrit ces Discours
-                        en les dédiant à un de ses compagnons de l’Académie, Lucius Tubéron,
+                        conception générale du livre, cela a été dit. Enésidème a écrit ces <title>Arguments</title>
+                        en les dédiant à un membre de l’Académie, Lucius Tubéron,
                         d'origine romaine, homme brillant par la réputation de ses ancêtres et
                         aspirant à des pouvoirs politiques qui ne sont pas les moindres. </ab>
                 </div>
                 <div type="chapitre" n="2">
-                    <ab type="testimonium" ana="#Pyrrhonisme #Scepticisme_Académicien" corresp="#Aenesidemus" xml:id="Photius_212_3"> &#xA0;Ἐν μὲν οὖν τῷ πρώτῳ
+                    <ab type="testimonium" ana="#Pyrrhonisme #Scepticisme_Académicien"
+                        corresp="#Aenesidemus" xml:id="Photius_212_3"> &#xA0;Ἐν μὲν οὖν τῷ πρώτῳ
                         λόγῳ διαφορὰν τῶν τε Πυρρωνίων καὶ τῶν Ἀκαδημαϊκῶν εἰσάγων μικροῦ γλώσσῃ
                         αὐτῇ ταῦτά φησιν, ὡς οἱ μὲν ἀπὸ τῆς Ἀκαδημίας δογματικοί τέ εἰσι καὶ τὰ μὲν
                         τίθενται ἀδιστάκτως, τὰ δὲ αἴρουσιν ἀναμφιβόλως, οἱ δ’ ἀπὸ Πύρρωνος
@@ -95,12 +100,12 @@
                         ainsi, mais pour l'autre non. </ab>
                 </div>
                 <div type="chapitre" n="3">
-                    <ab type="testimonium" ana="#Pyrrhonisme #Scepticisme_Académicien" corresp="#Aenesidemus" xml:id="Photius_212_4">Καθόλου γὰρ οὐδὲν ὁ Πυρρώνιος
+                    <ab type="testimonium" ana="#Pyrrhonisme #Scepticisme_Académicien"
+                        corresp="#Aenesidemus" xml:id="Photius_212_4">Καθόλου γὰρ οὐδὲν ὁ Πυρρώνιος
                         ὁρίζει, ἀλλ’οὐδὲ αὐτὸ τοῦτο, ὅτι οὐδὲν διορίζεται· ἀλλ’ οὐκ ἔχοντες, φησίν,
                         ὅπως τὸ νοούμενον ἐκλαλήσωμεν, οὕτω φράζομεν. Οἱ δ’ ἀπὸ τῆς Ἀκαδημίας, φησί,
                         μάλιστα τῆς νῦν, καὶ στωϊκαῖς συμφέρονται ἐνίοτε δόξαις, καὶ εἰχρὴ τἀληθὲς
-                        εἰπεῖν, Στωϊκοὶ φαίνονται μαχόμενοι Στωϊκοῖς.<lb/>
-                        Δεύτερον περὶ πολλῶν
+                        εἰπεῖν, Στωϊκοὶ φαίνονται μαχόμενοι Στωϊκοῖς.<lb/> Δεύτερον περὶ πολλῶν
                         δογματίζουσιν. Ἀρετήν τε γὰρ καὶ ἀφροσύνην εἰσάγουσι, καὶ ἀγαθὸν καὶ κακὸν
                         ὑποτίθενται, καὶ ἀλήθειαν καὶ ψεῦδος, καὶ δὴ καὶ πιθανὸν καὶ ἀπίθανον καὶ ὂν
                         καὶ μὴ ὄν, ἄλλα τε πολλὰ βεβαίως ὁρίζουσι, διαμφισβητεῖν δέ φασι περὶ μόνης
@@ -109,18 +114,20 @@
                         εὐθύνας τοῖς ἄλλοις φιλοσόφοις ὑπέχουσι, τὸ δὲ μέγιστον, οἱ μὲν περὶ παντὸς
                         τοῦ προτεθέντος διαποροῦντες τό τε σύστοιχον διατηροῦσι καὶ ἑαυτοῖς οὐ
                         μάχονται, οἱ δὲ μαχόμενοι ἑαυτοῖς οὐ συνίσασι· τὸ γὰρ ἅμα τιθέναι τι καὶ
-                        αἴρειν ἀναμφιβόλως, ἅμα τε φάναι κοινῶς ὑπάρχειν καταληπτά, μάχην
-                        ὁμολογουμέ νην εἰσάγει, ἐπεὶ πῶς οἷόν τε γινώσκοντα τόδε μὲν εἶναι ἀληθὲς
-                        τόδε δὲ ψεῦδος ἔτι διαπορεῖν καὶ διστάσαι, καὶ οὐ σαφῶς τὸ μὲν ἑλέσθαι τὸ δὲ
+                        αἴρειν ἀναμφιβόλως, ἅμα τε φάναι κοινῶς ὑπάρχειν καταληπτά, μάχην ὁμολογουμέ
+                        νην εἰσάγει, ἐπεὶ πῶς οἷόν τε γινώσκοντα τόδε μὲν εἶναι ἀληθὲς τόδε δὲ
+                        ψεῦδος ἔτι διαπορεῖν καὶ διστάσαι, καὶ οὐ σαφῶς τὸ μὲν ἑλέσθαι τὸ δὲ
                         περιστῆναι; Εἰ μὲν γὰρ ἀγνοεῖται ὅτι τόδε ἐστὶν ἀγαθὸν ἢ κακόν, ἢ τόδε μὲν
                         ἀληθὲς τόδε δὲ ψεῦδος, καὶ τόδε μὲν ὂν τόδε δὲ μὴ ὄν, πάντως ὁμολογητέον
                         ἕκαστον ἀκατάληπτον εἶναι· εἰ δ’ ἐναργῶς κατ’ αἴσθησιν ἢ κατὰ νόησιν
-                        καταλαμβάνεται, καταληπτὸν ἕκαστον φατέον.&#xA0;Ταῦτα μὲν ἀρχόμενος τῶν
-                        λόγων καὶ τοιαῦθ’ ἕτερα τὴν διαφορὰν τῶν Πυρρωνίων καὶ Ἀκαδημαϊκῶν
-                        ὑποδεικνύς, ἀναγράφει ὁ Αἰνησίδημος ὁ ἐξ Αἰγῶν· ἐφεξῆς<milestone unit="paragraph" n="170b"/> &#xA0;δὲ κατὰ τὸν αὐτὸν λόγον πρῶτον καὶ τὴν
-                        ὅλην ἀγωγὴν ὡς τύπῳ καὶ κεφαλαιωδῶς τῶν Πυρρωνίων παραδίδωσι λόγων. </ab>
-                    
-                    <ab type="translatio" xml:lang="fr" corresp="#Photius_212_4">[170a12]&#xA0;&#xA0; En effet, le Pyrrhonien ne détermine rien de manière
+                        καταλαμβάνεται, καταληπτὸν ἕκαστον φατέον.&#xA0;Ταῦτα μὲν ἀρχόμενος <title>τῶν
+                        λόγων</title> καὶ τοιαῦθ’ ἕτερα τὴν διαφορὰν τῶν Πυρρωνίων καὶ Ἀκαδημαϊκῶν
+                        ὑποδεικνύς, ἀναγράφει ὁ Αἰνησίδημος ὁ ἐξ Αἰγῶν· ἐφεξῆς<milestone
+                            unit="paragraph" n="170b"/> &#xA0;δὲ κατὰ τὸν αὐτὸν λόγον πρῶτον καὶ τὴν
+                        ὅλην ἀγωγὴν ὡς τύπῳ καὶ κεφαλαιωδῶς <title>τῶν Πυρρωνίων</title> παραδίδωσι <title>λόγων</title>. </ab>
+
+                    <ab type="translatio" xml:lang="fr" corresp="#Photius_212_4"
+                        >[170a12]&#xA0;&#xA0; En effet, le Pyrrhonien ne détermine rien de manière
                         universelle, pas même cela, de surcroît, que rien n'est déterminé ; mais,
                         disent-il, n'ayant pas moyen d'exprimer ce que nous avons conçu, c'est ainsi
                         que nous parlons. Quant à ceux qui suivent l'Académie, dit-il, surtout celle
@@ -149,16 +156,17 @@
                         mais si chacune de ces choses est saisie avec évidence soit par la sensation
                         soit par la conception, il faut dire que chacune est saisissable.
                         [170a39]&#xA0;&#xA0; Tels sont les propos, avec d’autres du même genre,
-                        qu’écrit Enésidème d'Aegée au début de ses Discours lorsqu'il montre la
+                        qu’écrit Enésidème d'Aegée au début de ses <title>Discours</title>montrant la
                         différence entre les pyrrhoniens et les académiciens. Mais, à la suite de ce
                         même premier livre, il donne aussi comme en esquisse et en résumé la voie
-                        entière des Discours des Pyrrhoniens. </ab>
+                        entière des <title>Discours des Pyrrhoniens</title>. </ab>
                 </div>
                 <div type="chapitre" n="4">
-                    <ab type="testimonium" ana="#Pyrrhonisme" corresp="#Aenesidemus" xml:id="Photius_212_5"> Ἐν δὲ τῷ βʹ κατὰ μέρος ἤδη ἀρχόμενος ἐπεξιέναι τὰ ἐν
+                    <ab type="testimonium" ana="#Pyrrhonisme" corresp="#Aenesidemus"
+                        xml:id="Photius_212_5"> Ἐν δὲ τῷ βʹ κατὰ μέρος ἤδη ἀρχόμενος ἐπεξιέναι τὰ ἐν
                         κεφαλαίῳ εἰρημένα, περί τε ἀληθῶν καὶ αἰτίων διαλαμβάνει καὶ παθῶν καὶ
-                        κινήσεως, γενέσεώς τε καὶ φθορᾶς καὶ τῶν τούτοις ἐναντίων, κατὰ πάντων
-                        αὐτῶν τὸ ἄπορόν τε καὶ ἀκατάληπτον πυκνοῖς, ὡς οἴεται, ἐπιλογισμοῖς
+                        κινήσεως, γενέσεώς τε καὶ φθορᾶς καὶ τῶν τούτοις ἐναντίων, κατὰ πάντων αὐτῶν
+                        τὸ ἄπορόν τε καὶ ἀκατάληπτον πυκνοῖς, ὡς οἴεται, ἐπιλογισμοῖς
                         ὑποδεικνύς.&#xA0; <lb/>Καὶ ὁ γʹ δὲ αὐτῷ λόγος περὶ κινήσεως καὶ αἰσθήσεως
                         καὶ τῶν κατ’ αὐτὰς ἰδιωμάτων, τὰς ὁμοίας περὶ ἐργαζόμενος ἐναντιολογίας, εἰς
                         τὸ ἀνέφικτον καὶ ἀκατάληπτον ὑποφέρει καὶ αὐτά. <lb/>Ἐν δὲ τῷ δʹ σημεῖα μὲν
@@ -181,7 +189,8 @@
                         πρὸς τοιοῦτον ἀγῶνα κονίζονται· ὅτι δὲ ματαιότης αὐτῶν καὶ πολλὴ λέσχη ἡ
                         σπουδή, Πλάτωνί τε καὶ πολλοῖς ἄλλοις τῶν πρὸ ἡμῶν τὸν ἔλεγχον ἔδοσαν· καὶ
                         ὅτι μηδὲν εἰς δόγμα συντελεῖ, καὶ τοῦτο κατάδηλον, ὅπου γε καὶ τὰς ἐνούσας
-                        δογματικὰς θεωρίας ἐλαύνειν ἡμῶν τῆς διανοίας <milestone unit="paragraph" n="171a"/>&#xA0;ἐπεχείρησαν. Τοῖς μέντοι κατὰ διαλεκτικὴν μελέτην
+                        δογματικὰς θεωρίας ἐλαύνειν ἡμῶν τῆς διανοίας <milestone unit="paragraph"
+                            n="171a"/>&#xA0;ἐπεχείρησαν. Τοῖς μέντοι κατὰ διαλεκτικὴν μελέτην
                         πονουμένοις, ἂν μὴ τὸ ἀστήρικτον αὐτῶν τοῖς λογισμοῖς ἐνεδρεύῃ καὶ ἡ κρίσις
                         πρὸς ἀγχίνοιαν οὐ νενοθευμένη τὸ βιβλίον οὐκ ἄχρηστον </ab>
                     <ab type="translatio" xml:lang="fr" corresp="#Photius_212_5">
@@ -226,8 +235,8 @@
                         jugement ne soit pas corrompue, ce livre n'est pas inutile. </ab>
                 </div>
             </div>
-            
-            
+
+
         </body>
     </text>
 </TEI>
