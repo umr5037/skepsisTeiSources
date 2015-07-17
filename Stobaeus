@@ -1,0 +1,132 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+   xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xml:id="Noctes_Atticae">
+   <teiHeader>
+      <!-- description bibliographique complète du fichier électronique -->
+      <fileDesc>
+         <titleStmt>
+            <title key="Eclogarum physicarum et ethicarum" ref="urn:cts:greekLit:tlg2037.tlg001"/>
+            <author key=" Stobaeus" ref="urn:cite:perseus:author.1332">Stobaeus</author>
+
+            <editor key="Marchand, Stéphane">Stéphane Marchand</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Ecole Normale Supérieure de Lyon</publisher>
+            <pubPlace>adresse</pubPlace>
+            <availability>
+               <licence target="http://http://creativecommons.org/licenses/by-sa/4.0/"/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl n="Description de la source principale">Stobaeus, Eclogarum physicarum et
+               ethicarum, ed. Meineke, August, Lipsiae, 1860 </bibl>
+         </sourceDesc>
+      </fileDesc>
+
+   </teiHeader>
+   <text>
+      <body>
+
+         <div type="livre" n="2">
+            <div type="chapitre" n="6">
+               <ab type="testimonium" xml:id="T1_Philo_Larissaeus" n="1" xml:lang="grc"
+                  corresp="#Philo_Larissaeus" ana="#Scepticisme_Académicien #ethique #art_de_vivre">
+                  <listBibl>
+                     <bibl>F22 Brittain</bibl>
+                     <bibl>F2 Mette</bibl>
+                  </listBibl>
+                  <milestone unit="paragraph" n="2"/><milestone unit="page_Meineke" n="[p.14 M]"/>
+                  <persName>Φίλων</persName> ἐγένετο Λαρισαῖος, φιλόσοφος Ἀκαδημιακός, ἀκουστὴς
+                     <persName>Κλειτομάχου</persName>, τῶν ἱκανὴν εἰσενεγκαμένων προκοπὴν ἐν τοῖς
+                  λοιποῖς. Οὗτος ὁ <persName>Φίλων</persName> τά τε ἄλλα πεπραγμάτευται δεξιῶς καὶ
+                  διαίρεσιν τοῦ κατὰ φιλοσοφίαν λόγου, ἣν ἐγὼ προχειριοῦμαι [περὶ ἧς ὁ λόγος].<lb/>
+                  Ἐοικέναι δή φησι τὸν φιλόσοφον ἰατρῷ. Καθάπερ οὖν ἔργον ἰατροῦ πρῶτον μὲν πεῖσαι
+                  τὸν κάμνοντα παραδέξασθαι τὴν θεραπείαν, δεύτερον δὲ τοὺς τῶν ἀντισυμβουλευόντων
+                  λόγους ὑφελέσθαι, οὕτως καὶ τοῦ φιλοσόφου. Κεῖται τοίνυν ἑκάτερον τούτων ἐν τῷ
+                  προσαγορευομένῳ προτρεπτικῷ λόγῳ, ἔστι γὰρ ὁ προτρεπτικὸς ὁ παρορμῶν ἐπὶ τὴν
+                  ἀρετήν. Τούτου δ’ ὃ μὲν ἐνδείκνυται τὸ μεγαλωφελὲς αὐτῆς, ὃ δὲ τοὺς ἀνασκευάζοντας
+                  ἢ κατηγοροῦντας ἤ πως ἄλλως κακοηθιζομένους 〈εἰς〉 τὴν φιλοσοφίαν ἀπελέγχει.
+                  <lb/>Δεύτερος δὲ μετὰ τοῦτον ὁ 〈τῇ〉 πρὸς τὴν ἰατρικὴν ἀναλογίᾳ δευτέραν ἔχων τάξιν. Ὡς
+                  γὰρ ἰατροῦ μετὰ τὸ πεῖσαι παραδέξασθαι τὴν θεραπείαν τὸ προσάγειν ἐστὶ ταύτην [τοῦ
+                  μὲν θεραπευτικοῦ] τὰ μὲν ἐν τῷ προεκκομίσαι τὰ νοσοποιὰ τῶν αἰτίων, τὰ δ’ ἐν τῷ τὰ
+                  παρασκευαστικὰ τῆς ὑγιείας ἐνθεῖναι, οὕτως αὖ κἀπὶ τῆς ἐπιστήμης ἔχει· μετὰ γὰρ τὰ
+                  προτρεπτικὰ πειρᾶται τὰ θεραπευτικὰ προσάγειν, ἐφ’ ὃ καὶ τοῖς παρορμητικοῖς
+                  κέχρηται διμερῶς· τὸ μὲν γὰρ ὑπεξαιρετικὸν τῶν ψευδῶς γεγενημένων δοξῶν, δι’ ἃς τὰ
+                  κριτήρια νοσοποιεῖται τῆς ψυχῆς, προσάγει λόγον, τὸ δὲ τῶν ὑγιῶς ἐχουσῶν
+                  ἐνθετικόν. Δεύτερος οὖν ὁ περὶ ἀγαθῶν καὶ κακῶν τόπος, ἐφ’ ὃν καὶ δι’ὃν ἡ
+                  προτροπή.<lb/> Τῷ δὲ τρίτῳ πάλιν ὁ τρίτος ἀναλογήσει. Καὶ γὰρ τῇ ἰατρικῇ σπουδὴ
+                  πᾶσα περὶ τὸ τέλος, τοῦτο δ’ ἦν ὑγίεια, καὶ τῇ φιλοσοφίᾳ περὶ τὴν<milestone
+                     unit="page_Meineke" n="[p.15 M]"/> εὐδαιμονίαν. Συνάπτεται δὲ τῷ περὶ τελῶν
+                  λόγῳ λόγος 〈ὁ〉 περὶ βίων.Ἐπί τε γὰρ τῆς ἰατρικῆς οὐκ ἀρκεῖ τὴν ὑγίειαν ἐμποιῆσαι,
+                  χρεία δὲ καὶ τοῦ παρασχεῖν παραγγέλματα περὶ τῆς ὑγιείας, οἷς προσέχοντες τὸν νοῦν
+                  τὴν εὐεξίαν τοῦ σώματος διαφυλάξουσι· καὶ δὴ κἀπὶ τοῦ βίου θεωρημάτων τινῶν ἐστι
+                  χρεία, δι’ ὧν ἡ φυλακὴ γενήσεται τοῦ τέλους. Διττὸς δὲ καὶ ὁ περὶ βίων λόγος, ὃ
+                  μὲν ἴδιος, ὃ δὲ κοινός· ὧν τὸν μὲν ἴδιον ἐπισκοπεῖν δέον ἐστὶ τὰ πρὸς ἕκαστον,
+                  οἷον εἰ τῷ νοῦν ἔχοντι πολιτευτέον ἢ τοῖς ἡγεμονικοῖς συμβιωτέον, ἢ γαμητέον τῷ
+                  σοφῷ· τὸν δὲ κοινὸν 〈τὰ〉 πρὸς ἅπαντας, οἷόν ἐστι· τίς ἀρίστη πολιτεία; εἰ κοινὰς
+                  ποιητέον τὰς ἀρχὰς ἢ τιμητάς; Τοῦτον δὲ τὸν κοινὸν προσαγορευτέον μὲν πολιτικόν,
+                  τακτέον δὲ καθ’ αὑτὸν καίπερ ὄντα μέρος τοῦ περὶ βίων διά τε τὸ μέγεθος καὶ τὴν
+                  κοινότητα. Εἰ μὲν οὖν ἐνεδέχετο πάντας εἶναι σοφούς, οὐκ ἂν ἐδέησε πλειόνων ἔτι
+                  τόπων· οἱ γὰρ κατὰ λεπτὸν διαιρούμενοι παραφυάδες εἰσὶ τῶν προκειμένων. ἐπεὶ δὲ
+                  καὶ τῶν μέσως διακειμένων ἀνθρώπων πρόνοιαν ποιητέον, οὕς τινας ἐκ τῶν
+                  παραινετικῶν λόγων ὠφελεῖσθαι συμβαίνει, μὴ δυναμένους προσευκαιρεῖν τοῖς
+                  διεξοδικοῖς πλάτεσιν ἢ διὰ χρόνου στενοχωρίας ἢ διά τινας ἀναγκαίας ἀσχολίας,
+                  ἐπεισενεκτέον τὸν ὑποθετικὸν λόγον, δι’ οὗ τὰς πρὸς τὴν ἀσφάλειαν καὶ τὴν ὀρθότητα
+                  τῆς ἑκάστου χρήσεως ὑποθήκας ἐν ἐπιτομαῖς ἕξουσιν. Οὕτως μὲν οὖν ἡ Φίλωνος ἔχει
+                  διαίρεσις.</ab>
+               <ab type="translatio" corresp="#T1_Philo_Larissaeus">Philon, né à Larissa, était un
+                  philosophe académicien, disciple de <persName>Clitomaque</persName>, dont les
+                  oeuvres qui restent introduisent un progrès intéressant.
+                     <persName>Philon</persName> a aussi produit, fort à propos, une division dans
+                  le discours philosophique, que je vais examiner.<lb/> Il dit que le philosophe est
+                  semblable au médecin. En effet, de même que la tâche du médecin est d'abord de
+                  convaincre le malade d'accepter la thérapie, puis de défaire les arguments de ceux
+                  qui sont d'un avis contraire, il en est de même pour le philosophe. Chacune de ces
+                  deux tâches se trouve dans ce qu'on appelle le discours protreptique, en effet le
+                  discours protreptique est le discours qui incite à la vertu. Une partie de ce
+                  discours montre la grande utilité de la vertu, une autre partie réfute ceux qui
+                  critiquent, qui accusent ou qui, d'une façon ou d'une autre, veulent nuire à la
+                  philosophie.<lb/>
+                  Le second discours, après celui-ci, a la seconde place dans
+                  l'analogie avec la médecine. De même que la tâche du médecin, après avoir
+                  convaincu le patient d'accepter la thérapie, est d'administrer cette thérapie, ce
+                  qui consiste d'une part à détruire les causes qui produisent des maladies et
+                  d'autre part à introduire les causes qui favorisent la santé, il en de même aussi
+                  encore pour la science. En effet, après les discours protreptiques, le philosophe
+                  essaie d'introduire les discours thérapeutiques, pour cela, il utilise des
+                  stimulants de deux façons : il introduit le discours qui détruit les opinions qui
+                  sont produites faussement, par lesquelles ce qui juge dans l'âme est malade et le
+                  discours qui produit des opinons acquises sainement. Donc le deuxième objet porte
+                  sur les biens et les maux, ce à propos de quoi et pour quoi il y a
+                  exhortation.<lb/> Egalement le troisième objet correspondra à la troisième tâche
+                  du médecin. En effet, pour la médecine, tout effort est en vue d'une fin,
+                  c'est-à-dire la santé, et pour la philosophie, en vue du bonheur. Mais le discours
+                  sur les existences rejoint celui sur les fins. En effet, pour la médecine, il ne
+                  suffit pas de produire la santé, il faut aussi produire des instructions pour la
+                  santé, par lesquelles ceux qui y prêteront attention garderont la bonne
+                  constitution du corps. Donc pour l'existence aussi, il faut des théorèmes par
+                  lesquels la conservation de la fin se fera. Mais il y a aussi deux discours sur
+                  les existences : un discours particulier et un discours général. Parmi eux, il
+                  faut que le discours spécifique observe ce qui est particulier à chacun, par
+                  exemple si l'homme avisé doit faire de la politique ou vivre avec des dirigeants,
+                  ou si le sage doit se marier. Quant au discours général, il doit observer ce qui
+                  est valable pour tous, par exemple : quel est le meilleur régime politique ?
+                  Faut-il des pouvoirs partagés en commun, ou pour les privilégiés ? Ce discours
+                  général doit être appelé politique, il doit être classé à part, même s'il est une
+                  partie du discours sur les existences, à cause de son importance et de sa
+                  généralité. S'il était donné à tout le monde d'être sage, il ne serait pas
+                  nécessaire d'en dire plus sur ce sujet. En effet, les distinctions suivantes sont
+                  de simples subdvisions de ce qui a été dit auparavant. Mais il faut faire
+                  attention aussi aux hommes ordinaires, qui peuvent profiter de ce qui provient des
+                  discours plus détaillés, puisqu'ils ne peuvent pas profiter des exposés détaillés,
+                  soit par manque de temps, soit par manque du loisir nécessaire, et donc il faut
+                  introduire le discours hypothétique par lequel ils auront dans des résumés les
+                  conseils pour la sécurité et la droiture dans l'usage de chaque chose. Voilà donc
+                  ce qu'est la division de Philon.</ab>
+            </div>
+
+         </div>
+      </body>
+   </text>
+</TEI>
