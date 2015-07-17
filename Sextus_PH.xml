@@ -1,11 +1,12 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xml:id="Pyrrhoniae_hypotyposes">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Pyrrhoniae hypotyposes</title>
-                <title key="Pyrrhoniae hypotyposes" ref="urn:cts:greekLit:tlg0544.tlg001"/>
-                <author key="Sextus Empiricus(0160?-0210?)" ref="http://catalog.perseus.org/catalog/Mtlg0544Sextu">Sextus Empiricus</author>
+                <title key="Pyrrhoniae hypotyposes" ref="urn:cts:greekLit:tlg0544.tlg001">Pyrrhoniae
+                    hypotyposes</title>
+
+                <author key="Sextus Empiricus(0160?-0210?)" ref="urn:cite:perseus:author.1285">Sextus Empiricus</author>
             </titleStmt>
             <publicationStmt>
                 <publisher>Ecole Normale Supérieure de Lyon</publisher>
@@ -33,57 +34,119 @@
                         involontaire, elle ne fait pas l’objet de la recherche</ab>
                 </div>
                 <div type="chapitre" n="14">
+
                     <head xml:lang="grc">ιδʹ περὶ τῶν δέκα τρόπων</head>
                     <head xml:lang="fr">Sur les dix tropes</head>
-                    <!-- traduction à reprende + statut de ce texte : fragment, témoignage ??? -->
-                    <ab type="excerptum" ana="#Pyrrhonisme  #dix_tropes" xml:lang="grc" xml:id="PH_I_36-39">
-            <milestone unit="paragraph" n="36"/>Παραδίδονται τοίνυν
-                        συνήθως παρὰ τοῖς ἀρχαιοτέροις σκεπτικοῖς τρόποι, δι’ ὧν ἡ ἐποχὴ συνάγεσθαι
-                        δοκεῖ, δέκα τὸν ἀριθμόν, οὓς καὶ λόγους καὶ τύπους συνωνύμως καλοῦσιν. εἰσὶ
-                        δὲ οὗτοι, πρῶτος ὁ παρὰ τὴν τῶν ζῴων ἐξαλλαγήν, δεύτερος ὁ παρὰ τὴν τῶν
-                        ἀνθρώπων διαφοράν, τρίτος&#xA0;ὁ παρὰ τὰς διαφόρους τῶν αἰσθητηρίων κατασκευάς,
-                        τέταρτος ὁ παρὰ τὰς περιστάσεις, πέμπτος ὁ παρὰ τὰς θέσεις καὶ τὰ διαστήματα
-                        καὶ τοὺς τόπους, ἕκτος ὁ παρὰ τὰς <milestone unit="paragraph" n="37"/>&#xA0;ἐπιμιξίας, ἕβδομος ὁ παρὰ τὰς ποσότητας καὶ σκευασίας τῶν ὑποκειμένων,
-                        ὄγδοος ὁ ἀπὸ τοῦ πρός τι, ἔννατος ὁ παρὰ τὰς συνεχεῖς ἢ σπανίους ἐγκυρήσεις,
-                        δέκατος ὁ παρὰ τὰς ἀγωγὰς καὶ τὰ ἔθη καὶ τοὺς νόμους καὶ τὰς μυθικὰς
-                            <milestone unit="paragraph" n="38"/>πίστεις καὶ τὰς δογματικὰς
-                        ὑπολήψεις. χρώμεθα δὲ τῇ τάξει ταύτῃ θετικῶς. τούτων δὲ ἐπαναβεβηκότες εἰσὶ
-                        τρόποι τρεῖς, ὁ ἀπὸ τοῦ κρίνοντος, ὁ ἀπὸ τοῦ κρινομένου, ὁ ἐξ ἀμφοῖν· τῷ μὲν
-                        γὰρ ἀπὸ τοῦ κρίνοντος ὑποτάσσονται οἱ πρῶτοι τέσσαρες (τὸ γὰρ κρῖνον ἢ ζῷόν
-                        ἐστιν ἢ ἄνθρωπος ἢ αἴσθησις ἢ ἔν τινι περιστάσει), εἰς δὲ τὸν ἀπὸ τοῦ
-                        κρινομένου [ἀνάγονται] ὁ ἕβδομος καὶ ὁ δέκατος, εἰς δὲ τὸν ἐξ ἀμφοῖν
-                        σύνθετον ὁ πέμπτος καὶ ὁ ἕκτος καὶ ὁ ὄγδοος καὶ ὁ <milestone unit="paragraph" n="39"/>ἔννατος. πάλιν δὲ οἱ τρεῖς οὗτοι ἀνάγονται εἰς
+                    <ab type="testimonium" ana="#Pyrrhonisme  #dix_tropes" xml:lang="grc" xml:id="F9_Aenesidemus" corresp="#Aenesidemus" n="9">
+                        <milestone unit="paragraph" n="36"/>Παραδίδονται τοίνυν συνήθως παρὰ τοῖς
+                        ἀρχαιοτέροις σκεπτικοῖς τρόποι, δι’ ὧν ἡ ἐποχὴ συνάγεσθαι δοκεῖ, δέκα τὸν
+                        ἀριθμόν, οὓς καὶ λόγους καὶ τύπους συνωνύμως καλοῦσιν. εἰσὶ δὲ οὗτοι, πρῶτος
+                        ὁ παρὰ τὴν τῶν ζῴων ἐξαλλαγήν, δεύτερος ὁ παρὰ τὴν τῶν ἀνθρώπων διαφοράν,
+                        τρίτος&#xA0;ὁ παρὰ τὰς διαφόρους τῶν αἰσθητηρίων κατασκευάς, τέταρτος ὁ παρὰ
+                        τὰς περιστάσεις, πέμπτος ὁ παρὰ τὰς θέσεις καὶ τὰ διαστήματα καὶ τοὺς
+                        τόπους, ἕκτος ὁ παρὰ τὰς <milestone unit="paragraph" n="37"/>&#xA0;ἐπιμιξίας, ἕβδομος ὁ παρὰ τὰς ποσότητας καὶ σκευασίας τῶν
+                        ὑποκειμένων, ὄγδοος ὁ ἀπὸ τοῦ πρός τι, ἔννατος ὁ παρὰ τὰς συνεχεῖς ἢ
+                        σπανίους ἐγκυρήσεις, δέκατος ὁ παρὰ τὰς ἀγωγὰς καὶ τὰ ἔθη καὶ τοὺς νόμους
+                        καὶ τὰς μυθικὰς <milestone unit="paragraph" n="38"/>πίστεις καὶ τὰς
+                        δογματικὰς ὑπολήψεις. χρώμεθα δὲ τῇ τάξει ταύτῃ θετικῶς. τούτων δὲ
+                        ἐπαναβεβηκότες εἰσὶ τρόποι τρεῖς, ὁ ἀπὸ τοῦ κρίνοντος, ὁ ἀπὸ τοῦ κρινομένου,
+                        ὁ ἐξ ἀμφοῖν· τῷ μὲν γὰρ ἀπὸ τοῦ κρίνοντος ὑποτάσσονται οἱ πρῶτοι τέσσαρες
+                        (τὸ γὰρ κρῖνον ἢ ζῷόν ἐστιν ἢ ἄνθρωπος ἢ αἴσθησις ἢ ἔν τινι περιστάσει), εἰς
+                        δὲ τὸν ἀπὸ τοῦ κρινομένου [ἀνάγονται] ὁ ἕβδομος καὶ ὁ δέκατος, εἰς δὲ τὸν ἐξ
+                        ἀμφοῖν σύνθετον ὁ πέμπτος καὶ ὁ ἕκτος καὶ ὁ ὄγδοος καὶ ὁ <milestone unit="paragraph" n="39"/>ἔννατος. πάλιν δὲ οἱ τρεῖς οὗτοι ἀνάγονται εἰς
                         τὸν πρός τι, ὡς εἶναι γενικώτατον μὲν τὸν πρός τι, εἰδικοὺς δὲ τοὺς τρεῖς,
                         ὑποβεβηκότας δὲ τοὺς δέκα. ταῦτα μὲν περὶ τῆς ποσότητος αὐτῶν κατὰ τὸ
                         πιθανὸν λέγομεν· περὶ δὲ τῆς δυνάμεως τάδε.</ab>
-                    <ab type="translatio" xml:lang="fr" corresp="#PH_I_36-39">
-            <milestone unit="paragraph" n="36"/>Les anciens
-                        sceptiques, donc, transmettent des modes, au nombre de dix, par lesquels,
-                        semble-t-il, on est conduit à la suspension de l’assentiment, qu’ils
-                        appellent aussi par les termes synonymes d’ « arguments » et de « types ».
-                        Les voici : le premier se fait d’après la variété des animaux, le deuxième
-                        d’après la différence entre les humains, le troisième d’après les
-                        différentes constitutions des organes des sens, le quatrième d’après les
-                        circonstances extérieures, le cinquième d’après les positions, les distances
-                        et les lieux, le sixième d’après <milestone unit="paragraph" n="37"/>les mélanges, le septième d’après la
-                        quantité et la constitution des objets, le huitième d’après le relatif, le
-                        neuvième d’après le caractère continu ou rare des rencontres, le dixième
-                        d’après les modes de vie, les coutumes, les lois, les croyances aux mythes<milestone unit="paragraph" n="38"/>
-                        et les suppositions dogmatiques. Nous n’avons recours à cet ordre que
-                        conventionnellement. Au-dessus de ceux-ci il y a trois modes : celui d’après
-                        ce qui juge, celui d’après ce qui est jugé, celui qui vient des deux. Sous
-                        celui d’après ce qui juge tombent les quatre premiers – car ce qui juge est
-                        soit un animal, soit un humain, soit un sens et ils existent dans des
-                        circonstances déterminées-, à celui selon ce qui est jugé se ramènent le
-                        septième et le dixième, à celui qui est composé des deux se ramènent le
-                        cinquième, le sixième, <milestone unit="paragraph" n="39"/>le huitième et le neuvième. Ces trois modes à leur
-                        tour se ramènent à celui du relatif, de sorte que le relatif est le genre le
-                        plus haut, dont les trois nommés sont des espèces, auxquelles sont
-                        subordonnés les dix. Voilà ce que nous avons à dire sur leur quantité en
-                        restant dans le domaine du plausible. Voilà ce qu’il en est de leur
-                        force</ab>
+                    <ab type="translatio" xml:lang="fr" corresp="F9_Aenesidemus">
+                        <milestone unit="paragraph" n="36"/>Les anciens sceptiques, donc,
+                        transmettent des modes, au nombre de dix, par lesquels, semble-t-il, on est
+                        conduit à la suspension de l’assentiment, qu’ils appellent aussi par les
+                        termes synonymes d’ « arguments » et de « types ». Les voici : le premier se
+                        fait d’après la variété des animaux, le deuxième d’après la différence entre
+                        les humains, le troisième d’après les différentes constitutions des organes
+                        des sens, le quatrième d’après les circonstances, le cinquième d’après les
+                        positions, les distances et les lieux, le sixième d’après <milestone unit="paragraph" n="37"/>les mélanges, le septième d’après la quantité
+                        et la constitution des objets, le huitième d’après le relatif, le neuvième
+                        d’après le caractère continu ou rare des rencontres, le dixième d’après les
+                        modes de vie, les coutumes, les lois, les croyances aux mythes<milestone unit="paragraph" n="38"/> et les suppositions dogmatiques. Nous n’avons
+                        recours à cet ordre que conventionnellement. Au-dessus de ceux-ci il y a
+                        trois modes : celui d’après ce qui juge, celui d’après ce qui est jugé,
+                        celui qui vient des deux. Sous celui d’après ce qui juge tombent les quatre
+                        premiers – car ce qui juge est soit un animal, soit un humain, soit un sens
+                        et ils existent dans des circonstances déterminées-, à celui selon ce qui
+                        est jugé se ramènent le septième et le dixième, à celui qui est composé des
+                        deux se ramènent le cinquième, le sixième, <milestone unit="paragraph" n="39"/>le huitième et le neuvième. Ces trois modes à leur tour se
+                        ramènent à celui du relatif, de sorte que le relatif est le genre le plus
+                        haut, dont les trois nommés sont des espèces, auxquelles sont subordonnés
+                        les dix. Voilà ce que nous avons à dire sur leur quantité en restant dans le
+                        domaine du plausible. Voilà ce qu’il en est de leur force</ab>
+
+                    <ab>(...)</ab>
+
+                    <ab type="testimonium" ana="#Pyrrhonisme  #quatrième_trope" xml:lang="grc" xml:id="F10_Aenesidemus" corresp="#Aenesidemus" n="10">
+                        <milestone unit="paragraph" n="102"/>εἰ δέ τις λέγει ὅτι χυμῶν τινων
+                        παραπλοκὴ ἀνοικείους φαντασίας ἐκ τῶν ὑποκειμένων ποιεῖ τοῖς παρὰ φύσιν
+                        ἔχουσιν, λεκτέον ὅτι ἐπεὶ καὶ οἱ ὑγιαίνοντες χυμοὺς ἔχουσιν ἀνακεκραμένους,
+                        δύνανται οὗτοι τὰ ἐκτὸς ὑποκείμενα, τοιαῦτα ὄντα τῇ φύσει ὁποῖα φαίνεται
+                        τοῖς παρὰ φύσιν ἔχειν λεγομένοις, ἑτεροῖα φαίνεσθαι ποιεῖν τοῖς <milestone unit="paragraph" n="103"/> ὑγιαίνουσιν. τὸ γὰρ ἐκείνοις μὲν τοῖς χυμοῖς
+                        μεταβλητικὴν τῶν ὑποκειμένων διδόναι δύναμιν, τούτοις δὲ μή, πλασματικόν
+                        ἐστιν, ἐπεὶ καὶ ὥσπερ οἱ ὑγιαίνοντες κατὰ φύσιν μὲν τὴν τῶν ὑγιαινόντων
+                        ἔχουσι, παρὰ φύσιν δὲ τὴν τῶν νοσούντων, οὕτω καὶ οἱ νοσοῦντες παρὰ φύσιν
+                        μὲν ἔχουσι τὴν τῶν ὑγιαινόντων, κατὰ φύσιν δὲ τὴν τῶν νοσούντων, ὥστε
+                        κἀκείνοις πρός τι κατὰ φύσιν ἔχουσι <milestone unit="paragraph" n="104"/>πιστευτέον. </ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#F10_Aenesidemus">
+                        <milestone unit="paragraph" n="102"/>Et s’il on dit que c’est la combinaison
+                        de certaines humeurs qui produit des impressions inappropriées venant des
+                        objets réels chez ceux qui sont dans un état contraire à la nature, il faut
+                        répondre que les gens bien portant ayant eux aussi des humeurs mélangées,
+                        ces humeurs peuvent faire apparaître à ceux qu’on dit dans un état contraire
+                        à la nature les objets extérieurs tels qu’ils sont par nature, et différents
+                        à ceux qui sont<milestone unit="paragraph" n="103"/> bien portants. Car
+                        attribuer la faculté de changer les objets réels à telles humeurs et pas à
+                        telles autres est fictif, puisque aussi bien les gens bien portants sont
+                        dans la disposition naturelle des bien portants et dans la disposition
+                        contraire à la nature des malades, de même que les malades sont dans l’état
+                        contraire à la nature des bien portants et dans l’état naturel des malades,
+                        de sorte qu’eux aussi, qui sont dans un état naturel relatif, doivent
+                        emporter <milestone unit="paragraph" n="104"/>notre conviction </ab>
+
+
+                </div>
+                <div type="chapitre" n="33">
+                    <head xml:lang="grc">λγ´ τίνι διαφέρει τῆς Ἀκαδημαϊκῆς φιλοσοφίας ἡ
+                        σκέψις.</head>
+                    <head xml:lang="fr">33 Par quoi se distingue le scepticisme de la philosophie
+                        académicienne</head>
+                    <ab type="testimonium" ana="#Pyrrhonisme #scepticisme_académicien #Histoire_de_l_Academie" xml:lang="grc" xml:id="T8_Arcesilas" corresp="#Arcesilas #Clitomachus #Carneades #Philo_Larissaeus">
+                        <milestone unit="paragraph" n="220"/>Φασὶ μέντοι τινὲς ὅτι ἡ Ἀκαδημαϊκὴ
+                        φιλοσοφία ἡ αὐτή ἐστι τῇ σκέψει˙ διόπερ ἀκόλουθον ἂν εἴη καὶ περὶ τούτου
+                        διεξελθεῖν. Ἀκαδημίαι δὲ γεγόνασιν, ὡς φασὶ〈ν οἱ〉 πλείους [ἢ], τρεῖς, μία
+                        μὲν καὶ ἀρχαιοτάτη ἡ τῶν περὶ <persName>Πλάτωνα</persName>, δευτέρα δὲ καὶ
+                        μέση ἡ τῶν περὶ <persName>Ἀρκεσίλαον</persName> τὸν ἀκουστὴν
+                            <persName>Πολέμωνος</persName>, τρίτη δὲ καὶ νέα ἡ τῶν περὶ
+                            <persName>Καρνεάδην</persName> καὶ <persName>Κλειτόμαχον</persName>˙
+                        ἔνιοι δὲ καὶ τετάρτην προστιθέασι τὴν περὶ <persName>Φίλωνα </persName>καὶ
+                            <persName>Χαρμίδαν</persName>, τινὲς δὲ καὶ πέμπτην καταλέγουσι τὴν περὶ
+                        [τὸν] <persName>Ἀντίοχον</persName>.</ab>
+                    <ab type="translatio" corresp="#T8_Arcesilas">
+                        <milestone unit="paragraph" n="220"/> Mais certains affirment que la
+                        philosophie académicienne est la même chose que le scepticisme. Pour cette
+                        raison, il serait cohérent aussi d'aborder ce sujet. La plupart des gens
+                        disent qu'il y a eu trois Académies : une, la plus ancienne, est celle de
+                            <persName>Platon</persName>; la deuxième, la Moyenne Académie, celle
+                            d'<persName>Arcésilas</persName>, le disciple de
+                            <persName>Polémon</persName> ; la troisième, la Nouvelle Académie, celle
+                        de <persName>Carnéade</persName> et <persName>Clitomaque</persName>. Mais
+                        certains ajoutent aussi une quatrième Académie, celle de
+                            <persName>Philon</persName> et <persName>Charmadas</persName>, et
+                        d'autres encore une cinquième, celle d'<persName>Antiochus</persName>.</ab>
+
                 </div>
             </div>
+
+
+
+
             <div type="livre" n="3">
                 <div type="chapitre" n="23">
                     <head xml:lang="grc"> εἰ ἔστι τι φύσει ἀγαθὸν καὶ ἀδιάφορον. </head>
