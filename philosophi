@@ -6,10 +6,9 @@
         <fileDesc>
             <titleStmt>
                 <title>Philosophus</title>
-                <editor key="Marchand, Stéphane">Stéphane Marchand
-                        <forename>Stéphane</forename>
-          <surname>Marchand</surname>
-        </editor>
+                <editor key="Marchand, Stéphane">Stéphane Marchand <forename>Stéphane</forename>
+                    <surname>Marchand</surname>
+                </editor>
             </titleStmt>
             <publicationStmt>
                 <publisher>Ecole Normale Supérieure de Lyon</publisher>
@@ -32,22 +31,57 @@
                         <birth notBefore="-0365" notAfter="-0360">?365-360 a.C. </birth>
                         <death when="-0260">260 a.C. </death>
                     </person>
-                  <person xml:id="Timon">
-                      <persName xml:lang="fr">Timon de Phliunte</persName>
-                  </person>
+                    <person xml:id="Timon">
+                        <persName xml:lang="fr">Timon de Phliunte</persName>
+                        <persName xml:lang="la">Timon</persName>
+                    </person>
                     <person xml:id="Arcesilas">
                         <persName xml:lang="fr">Arcésilas</persName>
+                        <persName xml:lang="la">Arcesilas</persName>
+                        <birth when="-0315">-315 a.C. </birth>
+                        <death when="-0240">-240 a.C</death>
+                        <affiliation>Academicus</affiliation>
+                    </person>
+                    <person xml:id="Lacydes">
+                        <persName xml:lang="fr">Lacyde</persName>
+                        <persName xml:lang="la">Lacydes</persName>
+                        <death when="-0207">-207 a.C</death>
+                        <affiliation>Academicus</affiliation>
+                        <state type="scholarchus" from="-0240"/>
                     </person>
                     <person xml:id="Carneades">
                         <persName xml:lang="fr">Carnéade</persName>
+                        <persName xml:lang="la">Carneades</persName>
+                        <affiliation>Academicus</affiliation>
+                        <birth when="-0214">-219 a.C. </birth>
+                        <death when="-0129">-129 a.C</death>
+
+                        <state type="scholarchus" from="-0176"/>
                     </person>
-                                       <person xml:id="Aenesidemus">
-                         <persName xml:lang="fr">Énésidème</persName>
-                         <persName xml:lang="la">Aenesidemus</persName>
-                  </person>
+                    <person xml:id="Aenesidemus">
+                        <persName xml:lang="fr">Énésidème</persName>
+                        <persName xml:lang="la">Aenesidemus</persName>
+                        <affiliation>Pyrronius</affiliation>
+                    </person>
                     <person xml:id="Sextus">
                         <persName xml:lang="fr">Sextus Empiricus</persName>
                         <persName xml:lang="la">Sextus Empiricus</persName>
+                        <affiliation>Pyrronius</affiliation>
+                    </person>
+                    <person xml:id="Clitomachus">
+                        <persName xml:lang="fr">Clitomaque</persName>
+                        <persName xml:lang="la">Clitomachus</persName>
+                        <birth when="-0187">-187 a.C. </birth>
+                        <death when="-0110">110/109 a.C. </death>
+                        <affiliation>Academicus</affiliation>
+                        <state type="scholarchus" from="-0126"/>
+                    </person>
+                    <person xml:id="Philo_Larissaeus">
+                        <persName xml:lang="fr">Philon de Larissa</persName>
+                        <persName xml:lang="la">Philo Larissaeus</persName>
+                        <death when="-0083">83 a.C. </death>
+                        <affiliation>Academicus</affiliation>
+                        <state type="scholarchus"/>
                     </person>
                 </listPerson>
 
