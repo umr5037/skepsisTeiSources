@@ -1,12 +1,12 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xml:id="De_ebrietate">
     <teiHeader>
         <!-- description bibliographique complète du fichier électronique -->
         <fileDesc>
             <titleStmt>
-                <title>De ebrietate</title>
-                <title key="De Ebrietate"/>
-                <author key=" Philo Judaeus">Philon d'Alexandrie</author>
+
+                <title key="De Ebrietate">De ebrietate</title>
+                <author key=" Philo Judaeus">Philo Alexandrinus</author>
                 <editor key="Marchand, Stéphane">Stéphane Marchand</editor>
             </titleStmt>
             <publicationStmt>
@@ -19,13 +19,13 @@
             <sourceDesc>
                 <bibl n="Description de la source principale"/>
             </sourceDesc>
-        </fileDesc>       
+        </fileDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="livre" n="169">
-                <div type="chapitre" n="169">
-                    <ab type="excerptum" xml:id="De_ebriet._169" xml:lang="grc" ana="#dix_tropes">
+            <div type="livre" n=" ">
+                <div type="page" n="1">
+                    <ab type="testimonium" xml:id="T5_Aenesidemus" xml:lang="grc" ana="#dix_tropes" corresp="#Aenesidemus">
                         <milestone unit="paragraph" n="169"/> τὸν μέντοι σεμνυνόμενον ἢ ἐπὶ τῷ
                         βουλεύεσθαι ἢ ἐπὶ τῷ τὰ μὲν αἱρεῖσθαι τὰ δὲ φεύγειν ἱκανῶς δύνασθαι διὰ
                         τούτων ὑπομνηστέον· εἰ μὲν ἀπὸ τῶν αὐτῶν τὰς αὐτὰς ἀεὶ συνέβαινε προσπίπτειν
@@ -34,10 +34,9 @@
                         θαυμάζειν καὶ περὶ μηδενὸς ἐνδοιάζοντας ἐπέχειν, ἀλλὰ τοῖς ἅπαξ φανεῖσι
                         πιστεύοντας τὰ μὲν αἱρεῖσθαι, τὰ δὲ <milestone unit="paragraph" n="170"/>ἔμπαλιν ἀποστρέφεσθαι. ἐπειδὴ δὲ διαφόρως ἀπ’ αὐτῶν εὑρισκόμεθα
                         κινούμενοι, βέβαιον περὶ οὐδενὸς οὐδὲν ἂν ἔχοιμεν εἰπεῖν, ἅτε μὴ ἑστῶτος τοῦ
-                        φανέντος, ἀλλὰ πολυτρόποις καὶ πολυμόρφοις χρωμένου ταῖς μεταβολαῖς·
-                        ἀνάγκη γὰρ ἀνιδρύτου τῆς φαντασίας οὔσης ἀνίδρυτον <milestone unit="paragraph" n="171"/>εἶναι καὶ τὴν ἐπ’ αὐτῇ κρίσιν. αἴτια δὲ τούτου
-                        πολλά </ab>
-                    <ab type="translatio" xml:lang="fr" corresp="#De_ebriet._169">
+                        φανέντος, ἀλλὰ πολυτρόποις καὶ πολυμόρφοις χρωμένου ταῖς μεταβολαῖς· ἀνάγκη
+                        γὰρ ἀνιδρύτου τῆς φαντασίας οὔσης ἀνίδρυτον <milestone unit="paragraph" n="171"/>εἶναι καὶ τὴν ἐπ’ αὐτῇ κρίσιν. αἴτια δὲ τούτου πολλά </ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#T5_Aenesidemus">
                         <milestone unit="paragraph" n="169"/>A celui qui prétend savoir délibérer ou
                         choisir et exclure avec compétence, il faut rappeler la vérité grâce à ce
                         qui suit&#xA0;: s’il se trouvait que les mêmes impressions, sans écarts
@@ -52,20 +51,20 @@
                         différentes sortes et de différentes formes. En effet, l’impression étant
                         instable, le jugement qui porte sur elle <milestone unit="paragraph" n="171"/>aussi est instable. Plusieurs raisons à cela… </ab>
                 </div>
-                <div type="chapitre" n="178">
-                    <ab type="excerptum" xml:id="De_ebriet._178" xml:lang="grc" ana="#dix_tropes #quatrième_trope">(...)<milestone unit="paragraph" n="178"/>καίτοι τί ταῦτά φαμεν; αὐτός
-                        τις εἷς ὢν ἕκαστος ἐφ’ ἑαυτοῦ, τὸ παραδοξότατον, μυρίας μεταβολὰς καὶ τροπὰς
-                        δεχόμενος κατά τε σῶμα καὶ ψυχὴν τοτὲ μὲν αἱρεῖται, τοτὲ δ’ ἀποστρέ- φεται
-                        οὐδαμῶς μεταβάλλοντα, μένειν δ’ ἐπὶ τῆς αὐτῆς πεφυκότα κατασκευῆς <milestone unit="paragraph" n="179"/>·
-                        οὐ γὰρ τὰ αὐτὰ ὑγιαίνουσι καὶ νοσοῦσι προσπίπτειν φιλεῖ, οὐδὲ ἐγρηγορόσι καὶ
+                <div type="page" n="2">
+                    <ab type="excerptum" xml:id="T6_Aenesidemus" xml:lang="grc" ana="#dix_tropes #quatrième_trope">(...)<milestone unit="paragraph" n="178"/>καίτοι τί ταῦτά φαμεν; αὐτός τις εἷς ὢν ἕκαστος ἐφ’ ἑαυτοῦ, τὸ
+                        παραδοξότατον, μυρίας μεταβολὰς καὶ τροπὰς δεχόμενος κατά τε σῶμα καὶ ψυχὴν
+                        τοτὲ μὲν αἱρεῖται, τοτὲ δ’ ἀποστρέ- φεται οὐδαμῶς μεταβάλλοντα, μένειν δ’
+                        ἐπὶ τῆς αὐτῆς πεφυκότα κατασκευῆς <milestone unit="paragraph" n="179"/>· οὐ
+                        γὰρ τὰ αὐτὰ ὑγιαίνουσι καὶ νοσοῦσι προσπίπτειν φιλεῖ, οὐδὲ ἐγρηγορόσι καὶ
                         κοιμωμένοις, οὐδὲ ἡβῶσι καὶ γεγηρακόσι· καὶ ἑστὼς μέντοι καὶ κινούμενός τις
                         ἑτέρας ἔλαβε φαντασίας, καὶ θαρρῶν καὶ δεδιὼς ἔμπαλιν, ἔτι μέντοι λυπούμενός
-                        τε καὶ χαίρων, καὶ φιλῶν καὶ <milestone unit="paragraph" n="180"/>τοὐναντίον μισῶν. καὶ τί δεῖ
-                        μακρηγοροῦντα περὶ τούτων ἐνοχλεῖν; συνελόντι γὰρ φράσαι πᾶσα ἡ σώματος καὶ
-                        ψυχῆς κατὰ φύσιν τε αὖ καὶ παρὰ φύσιν κίνησις αἰτία τῆς περὶ τὰ φαινόμενα
-                        ἀστάτου φορᾶς <milestone unit="paragraph" n="181"/>γίνεται μαχόμενα καὶ ἀσύμφωνα προσβαλλούσης
-                        ὀνείρατα</ab>
-                    <ab type="translatio" xml:lang="fr" corresp="#De_ebriet._178">(...)<milestone unit="paragraph" n="178"/>Mais à quoi bon dire tout cela ? chaque
+                        τε καὶ χαίρων, καὶ φιλῶν καὶ <milestone unit="paragraph" n="180"/>τοὐναντίον
+                        μισῶν. καὶ τί δεῖ μακρηγοροῦντα περὶ τούτων ἐνοχλεῖν; συνελόντι γὰρ φράσαι
+                        πᾶσα ἡ σώματος καὶ ψυχῆς κατὰ φύσιν τε αὖ καὶ παρὰ φύσιν κίνησις αἰτία τῆς
+                        περὶ τὰ φαινόμενα ἀστάτου φορᾶς <milestone unit="paragraph" n="181"/>γίνεται
+                        μαχόμενα καὶ ἀσύμφωνα προσβαλλούσης ὀνείρατα</ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#T6_Aenesidemus">(...)<milestone unit="paragraph" n="178"/>Mais à quoi bon dire tout cela ? chaque
                         individu pris en particulier subit, de façon très paradoxale, dans son corps
                         et dans son âme, d'innombrables changements et variations, tantôt choisit
                         librement et tantôt rejette des choses, qui, elles ne changent pas, mais
@@ -81,7 +80,6 @@
                         contradictoires et discordants.</ab>
                 </div>
             </div>
-            
         </body>
     </text>
 </TEI>
