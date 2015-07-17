@@ -1,59 +1,60 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
-   <teiHeader>
-      
-      <!-- description bibliographique complète du fichier électronique -->
-      <fileDesc>
-         <titleStmt>
-            <!-- niveau VOLUMEN ; dans le corps du texte seront découpés des EXCERPTA (pour donner le contexte Fragmenta/testimonia), puis des FRAGMENTA ou des TESTIMONIA, puis des notiones (découpage de texte en fonction des mots clefs) -->
-            <title>De Finibus</title>
-            <title key="urn:cts:latinLit:phi0474.phi048"/>
-            <author key=" Cicero (0106-0043 av. J.-C.)" ref="http://catalog.perseus.org/catalog/urn:cts:latinLit:phi0474">Cicero</author>
-            <editor key="Marchand, Stéphane">Stéphane Marchand <forename>Stéphane</forename>
-               <surname>Marchand</surname>
-            </editor>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>Ecole Normale Supérieure de Lyon</publisher>
-            <pubPlace>adresse</pubPlace>
-            <availability>
-               <licence target="http://http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <!--  Si le document n'est pas "numérique natif", on inscrit ici la référence bibliographique du document d'origine
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xml:id="De_finibus">
+    <teiHeader>
+        
+        <!-- description bibliographique complète du fichier électronique -->
+        <fileDesc>
+            <titleStmt>
+                <!-- niveau VOLUMEN ; dans le corps du texte seront découpés des EXCERPTA (pour donner le contexte Fragmenta/testimonia), puis des FRAGMENTA ou des TESTIMONIA, puis des notiones (découpage de texte en fonction des mots clefs) -->
+
+                    <title key="De Finibus" ref="urn:cts:latinLit:phi0474.phi048">De Finibus</title>
+                <author key=" Cicero (0106-0043 av. J.-C.)" ref="urn:cite:perseus:author.364">Cicero</author>
+                <editor key="Marchand, Stéphane">Stéphane Marchand <forename>Stéphane</forename>
+                    <surname>Marchand</surname>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Ecole Normale Supérieure de Lyon</publisher>
+                <pubPlace>adresse</pubPlace>
+                <availability>
+                    <licence target="http://http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <!--  Si le document n'est pas "numérique natif", on inscrit ici la référence bibliographique du document d'origine
           <dc:source>      -->
-            <bibl n="Description de la source principale">M. Tulli Ciceronis scripta quae
-               manserunt omnia, fasc. 43. de Finibus Bonorum et Malorum. M. Tullius Cicero. Th.
-               Schiche. Leipzig. Teubner. 1915</bibl>
-         </sourceDesc>
-      </fileDesc>     
-   </teiHeader>
-   <text>
-      <body>
-         <div type="livre" n="2">
-            <div type="chapitre" n="1">
-               <q type="testimonium" ana="#Scepticisme_Académicien" corresp="#Arcesilas" xml:id="Arcesilas_F11" xml:lang="la">
-                  <!-- changer en fragmentum -->
-                  
-                  <bibl>F11 Mette</bibl>
-                  <milestone unit="paragraph" n="2"/>
-                  <rs ref="Socrates">qui </rs> mos cum a posterioribus non esset retentus,
-                  <persName>Arcesilas</persName> eum revocavit instituitque ut ii, qui se
-                  audire vellent, non de se quaererent, sed ipsi dicerent, quid sentirent;
-                  quod cum dixissent, ille contra. sed eum qui audiebant, quoad poterant,
-                  defendebant sententiam suam. </q>
-               
-               <q type="translatio" xml:lang="fr" corresp="#Arcesilas_F11">
-                  
-                  <milestone unit="paragraph" n="2"/>cette pratique [sc. de Socrate] qui n'a
-                  pas été gardée par ses successeurs, <persName>Arcésilas</persName> la reprit
-                  et décida que ceux qui voulaient l'écouter ne l'interrogeraient pas, mais
-                  diraient eux-mêmes ce qu'ils pensaient, et quoi qu'ils disent, Arcésilas
-                  parlait contre. Et ceux qui l'écoutaient défendaient leur position autant
-                  qu'ils le pouvaient.</q>
+                <bibl n="Description de la source principale">M. Tulli Ciceronis scripta quae
+                    manserunt omnia, fasc. 43. de Finibus Bonorum et Malorum. M. Tullius Cicero. Th.
+                    Schiche. Leipzig. Teubner. 1915</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+    </teiHeader>
+    <text>
+        <body>
+            <div type="livre" n="2">
+                <div type="chapitre" n="1">
+                    <q type="testimonium" ana="#Scepticisme_Académicien" corresp="#Arcesilas" xml:id="T7_Arcesilas" xml:lang="la" n="7">
+                        <!-- changer en fragmentum -->
+                        
+                        <bibl>F11 Mette</bibl>
+                        <milestone unit="paragraph" n="2"/>
+                        <rs ref="Socrates">qui </rs> mos cum a posterioribus non esset retentus,
+                        <persName>Arcesilas</persName> eum revocavit instituitque ut ii, qui se
+                        audire vellent, non de se quaererent, sed ipsi dicerent, quid sentirent;
+                        quod cum dixissent, ille contra. sed eum qui audiebant, quoad poterant,
+                        defendebant sententiam suam. </q>
+                    
+                    <q type="translatio" xml:lang="fr" corresp="#T7_Arcesilas">
+                        
+                        <milestone unit="paragraph" n="2"/>cette pratique [sc. de Socrate] qui n'a
+                        pas été gardée par ses successeurs, <persName>Arcésilas</persName> la reprit
+                        et décida que ceux qui voulaient l'écouter ne l'interrogeraient pas, mais
+                        diraient eux-mêmes ce qu'ils pensaient, et quoi qu'ils disent, Arcésilas
+                        parlait contre. Et ceux qui l'écoutaient défendaient leur position autant
+                        qu'ils le pouvaient.</q>
+                </div>
             </div>
-         </div>
-      </body>
-   </text>
+        </body>
+    </text>
 </TEI>
