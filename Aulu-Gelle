@@ -1,55 +1,55 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML">
-   <teiHeader>
-      <!-- description bibliographique complète du fichier électronique -->
-      <fileDesc>
-         <titleStmt>
-            <title>Noctes Atticae</title>
-            <author key=" Gellius, Aulus 0123?-0180?" ref="http://catalog.perseus.org/catalog/Mphi1254Gelli">Aulu Gelle</author>
-            
-            <editor key="Marchand, Stéphane">Stéphane Marchand</editor>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>Ecole Normale Supérieure de Lyon</publisher>
-            <pubPlace>adresse</pubPlace>
-            <availability>
-               <licence target="http://http://creativecommons.org/licenses/by-sa/4.0/"/>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl n="Description de la source principale">Aulus Gellius, Noctes Atticae, C.
-               Hosius ed., Stutgardt, Teubner, 1903</bibl>
-         </sourceDesc>
-      </fileDesc>
-      
-   </teiHeader>
-   <text>
-      <body>
-         <div type="livre" n="11">
-            <div type="chapitre" n="5">
-               <ab type="excerptum" ana="#Scepticisme_Académicien #Pyrrhonisme" xml:lang="la" xml:id="Gell_NA_XI_5_6">
-                  <milestone unit="paragraph" n="6"/> Vetus autem quaestio et a multis
-                  scriptoribus Graecis tractata, an quid et quantum Pyrronios et Academicos
-                  philosophos intersit. Vtrique enim σκεπτικοί, ἐφεκτικοί, ἀπορητικοί
-                  dicuntur, quoniam utrique nihil adfirmant nihil que comprehendi putant. Sed
-                  ex omnibus rebus proinde visa dicunt fieri, quas φαντασίας appellant, non ut
-                  rerum ipsarum natura est, sed ut adfectio animi corporisve est eorum, ad
-                  quos ea visa perveniunt. </ab>
-               
-               <ab type="translatio" n="5" xml:lang="fr" corresp="#Gell_NA_XI_5_6">
-                  <milestone unit="paragraph" n="6"/> C'est une vieille question, qui a été
-                  examinée par de nombreux auteurs grecs, de savoir en quoi et combien
-                  différaient les philosophes pyrrhoniens et les académiciens. Car, on dit des
-                  uns comme des autres qu'ils sont σκεπτικοί (sceptiques), ἐφεκτικοί
-                  (éphectiques) et ἀπορητικοί (aporétiques), parce qu'ils n'affirment rien et
-                  pensent que rien ne peut être compris. Mais ils disent que de toutes choses
-                  proviennent des images, qu'ils appellent des φαντασίας (impressions), et qui
-                  ne sont pas selon la nature des choses elles-mêmes, mais selon l'affection
-                  de l'esprit et du corps de ceux à qui ces images apparaissent. </ab>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xml:id="Noctes_Atticae">
+    <teiHeader>
+        <!-- description bibliographique complète du fichier électronique -->
+        <fileDesc>
+            <titleStmt>
+                <title key="Noctes Atticae" ref="urn:cts:latinLit:phi1254.phi001">Noctes Atticae</title>
+                <author key=" Gellius, Aulus 0123?-0180?" ref="urn:cite:perseus:author.659">Aulus Gellius</author>
+                
+                <editor key="Marchand, Stéphane">Stéphane Marchand</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Ecole Normale Supérieure de Lyon</publisher>
+                <pubPlace>adresse</pubPlace>
+                <availability>
+                    <licence target="http://http://creativecommons.org/licenses/by-sa/4.0/"/>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl n="Description de la source principale">Aulus Gellius, Noctes Atticae, C.
+                    Hosius ed., Stutgardt, Teubner, 1903</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+    </teiHeader>
+    <text>
+        <body>
+            <div type="livre" n="11">
+                <div type="chapitre" n="5">
+                    <ab type="excerptum" ana="#Scepticisme_Académicien #Pyrrhonisme" xml:lang="la" xml:id="Gell_NA_XI_5_6">
+                        <milestone unit="paragraph" n="6"/> Vetus autem quaestio et a multis
+                        scriptoribus Graecis tractata, an quid et quantum Pyrronios et Academicos
+                        philosophos intersit. Vtrique enim σκεπτικοί, ἐφεκτικοί, ἀπορητικοί
+                        dicuntur, quoniam utrique nihil adfirmant nihil que comprehendi putant. Sed
+                        ex omnibus rebus proinde visa dicunt fieri, quas φαντασίας appellant, non ut
+                        rerum ipsarum natura est, sed ut adfectio animi corporisve est eorum, ad
+                        quos ea visa perveniunt. </ab>
+                    
+                    <ab type="translatio" n="5" xml:lang="fr" corresp="#Gell_NA_XI_5_6">
+                        <milestone unit="paragraph" n="6"/> C'est une vieille question, qui a été
+                        examinée par de nombreux auteurs grecs, de savoir en quoi et combien
+                        différaient les philosophes pyrrhoniens et les académiciens. Car, on dit des
+                        uns comme des autres qu'ils sont σκεπτικοί (sceptiques), ἐφεκτικοί
+                        (éphectiques) et ἀπορητικοί (aporétiques), parce qu'ils n'affirment rien et
+                        pensent que rien ne peut être compris. Mais ils disent que de toutes choses
+                        proviennent des images, qu'ils appellent des φαντασίας (impressions), et qui
+                        ne sont pas selon la nature des choses elles-mêmes, mais selon l'affection
+                        de l'esprit et du corps de ceux à qui ces images apparaissent. </ab>
+                </div>
+                
             </div>
             
-         </div>
-         
-      </body>
-   </text>
+        </body>
+    </text>
 </TEI>
