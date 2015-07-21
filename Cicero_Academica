@@ -27,7 +27,7 @@
 
             <div type="livre" n="1">
                 <div type="chapitre" n="12">
-                    <ab type="testimonium" xml:id="T6_Arcesilas" xml:lang="la" corresp="#Arcesilas" ana="#Scepticisme_Académicien #ἐποχὴ" n="6">
+                    <ab type="testimonium" xml:id="T6_Arcesilas" xml:lang="la" corresp="#Arcesilas" ana="#academia_sceptica #epochè #akatalepsia" n="6">
                         <bibl>F9 Mette</bibl>
                         <milestone unit="paragraph" n="45"/>itaque <persName>Arcesilas</persName>
                         negabat esse quicquam quod sciri posset, ne illud quidem ipsum quod
@@ -67,8 +67,8 @@
                         n'affirme rien dans ses livres et discute de nombreuses choses dans un sens
                         et dans un autre, lui qui à propos de tout cherche et ne dit rien de
                         certain. </ab>
-                    <ab type="testimonium" xml:id="T4_Carneades" corresp="#Carneades" xml:lang="la" ana="#Scepticisme_Académicien #Histoire_de_l_Academie" n="4">
-                        <bibl>T4 Mette (partim)</bibl>
+                    <ab type="testimonium" xml:id="T4_Carneades" corresp="#Carneades" xml:lang="la" ana="#academia_sceptica #academiae_historia" n="4">
+                        <bibl>T4 Mette - partim</bibl>
                         <!-- revoir le découpage Mette --> —sed tamen illa quam exposuisti vetus,
                         haec nova nominetur. quae usque ad <persName ref="Carneades">Carneadem</persName> perducta, qui quartus ab <persName ref="#Arcesilas">Arcesila</persName> fuit, in eadem <persName ref="#Arcesilas">Arcesilae</persName> ratione permansit.</ab>
 
@@ -81,7 +81,7 @@
             </div>
             <div type="livre" n="2">
                 <div type="chapitre" n="24">
-                    <ab type="testimonium" xml:id="T3_Arcesilas" xml:lang="la" corresp="#Arcesilas" ana="#Scepticisme_Académicien #Critique_compréhension" n="3">
+                    <ab type="testimonium" xml:id="T3_Arcesilas" xml:lang="la" corresp="#Arcesilas" ana="#academia_sceptica #katalèpsis" n="3">
                         <bibl>F9 Mette</bibl>
                         <milestone unit="paragraph" n="77"/>Tum illum ita definisse, ex eo, quod
                         esset, sicut esset, impressum et signatum et effictum. Post requisitum
@@ -110,9 +110,12 @@
                 </div>
                 <div type="chapitre" n="32">
                     <q type="fragmentum" source="#Clitomachus" xml:id="F1_Clitomachus" n="1">
-                        <ab type="testimonium" xml:id="T3_Carneades" xml:lang="la" corresp="#Carneades" ana="#Scepticisme_Académicien #πιθανόν" n="3">
+                        <bibl>F4 Mette</bibl>
+                        <ab type="testimonium" xml:id="T3_Carneades" xml:lang="la" corresp="#Carneades" ana="#academia_sceptica #pithanon" n="3">
+                            <bibl>F5 Mette - l.126-137</bibl>
+                            
                             <listBibl>
-                                <bibl>F5 Mette (l.126-137)</bibl>
+                                <bibl>F5 Mette - l.126-137</bibl>
                                 <bibl>LS69I (partim)</bibl>
                             </listBibl>
                             <milestone unit="paragraph" n="104"/>Quae cum exposuisset, adiungit
@@ -149,7 +152,7 @@
                             donner notre assentiment. Cependant ce ne sont pas toutes les
                             impressions de ce genre qui sont approuvées, mais celles qui ne sont
                             empêchées par rien.</ab>
-          </q>
+                    </q>
 
 
                 </div>
