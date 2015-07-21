@@ -23,8 +23,8 @@
                 <div type="chapitre" n="7">
                     <q type="fragmentum" xml:lang="grc" source="#Numenius" n="26">
                         <bibl>F26 des Places</bibl>
-                        <ab type="testimonium" xml:id="T1_Lacydes" n="1" corresp="#Lacydes" ana="#Scepticisme_académicien #mémoire #ἀδοξάστως" xml:lang="grc">
-                            <bibl>T3 Mette (l. 57-61)</bibl>
+                        <ab type="testimonium" xml:id="T1_Lacydes" n="1" corresp="#Lacydes" ana="#academia_sceptica #mémoire #adoxastôs" xml:lang="grc">
+                            <bibl>T3 Mette - l. 57-61</bibl>
                             <milestone unit="paragraph" n="9"/> οἱ δ’ ὑπολαβόντες τὰς προσβολὰς
                             ἐκείνου αὐτοί γε ᾤοντο ὑπ’ αὐτοῦ παίζεσθαι, ἐπεὶ σοφῷ γε ὄντι δεδόχθαι
                             τῷ <persName>Λακύδῃ</persName> εἶναι ἀδοξάστῳ ὥστε καὶ ἀμνημονεύτῳ·
@@ -32,50 +32,59 @@
                             γοῦν τοῦ χρόνου ἔφασαν ἀκοῦσαι ταῦτα αὐτοῦ πρὸς τοὺς φίλους </ab>
                     </q>
 
-                    <ab type="translatio" corresp="#T1_Lacydes">Les esclaves répondent à ses
-                        attaques (sc. celles de Lacyde) car ils croyaient qu'il se moquait d'eux,
-                        comme s'il avait décidé, étant lui <persName>Lacyde</persName> un sage,
-                        d'être sans opinion afin d'être sans mémoire. <quote>Car le souvenir est une
-                        opinion</quote>. Du moins ils disaient qu'ils l'avaient entendu tenir ces propos à
-                        ses amis.</ab>
+                    <ab type="translatio" corresp="#T1_Lacydes">
+                        <milestone unit="paragraph" n="9"/>Les esclaves répondent à ses attaques
+                        (sc. celles de Lacyde) car ils croyaient qu'il se moquait d'eux, comme s'il
+                        avait décidé, étant lui <persName>Lacyde</persName> un sage, d'être sans
+                        opinion afin d'être sans mémoire. <quote>Car le souvenir est une
+                            opinion</quote>. Du moins ils disaient qu'ils l'avaient entendu tenir
+                        ces propos à ses amis.</ab>
 
                 </div>
 
                 <div type="chapitre" n="18">
-                    <head xml:lang="grc">ιηʹ. ΠΡΟΣ ΤΟΥΣ ΚΑΤΑ ΠΥΡΡΩΝΑ ΣΚΕΠΤΙΚΟΥΣ ΗΤΟΙ ΕΦΕΚΤΙΚΟΥΣ
-                        ΕΠΙΚΛΗΘΕΝΤΑΣ ΜΗΔΕΝ ΚΑΤΑΛΗΠΤΟΝ ΕΙΝΑΙ ΑΠΟΦΗΝΑΜΕΝΟΥΣ </head>
-                    <head xml:lang="fr">chapitre 18 : Contre les sceptiques à la manière de
-                            <persName>Pyrrhon</persName>, qu’on appelle aussi éphectiques, qui
-                        affirment que rien ne peut être saisi.</head>
+                    <head xml:lang="grc">ιηʹ. ΠΡΟΣ ΤΟΥΣ ΚΑΤΑ <persName>ΠΥΡΡΩΝΑ</persName> ΣΚΕΠΤΙΚΟΥΣ
+                        ΗΤΟΙ ΕΦΕΚΤΙΚΟΥΣ ΕΠΙΚΛΗΘΕΝΤΑΣ ΜΗΔΕΝ ΚΑΤΑΛΗΠΤΟΝ ΕΙΝΑΙ ΑΠΟΦΗΝΑΜΕΝΟΥΣ </head>
+                    <head type="translatio" xml:lang="fr">chapitre 18 : Contre les sceptiques à la
+                        manière de <persName>Pyrrhon</persName>, qu’on appelle aussi éphectiques,
+                        qui affirment que rien ne peut être saisi.</head>
+                    <lb/>
                     <!-- <note>ce n'est peut-être pas le
                                 titre d'Eusèbe, si l'on en croit le texte qui précède ; Chiesara
                                 attribue cependant le titre et les index à Eusèbe</note> -->
                     <q type="fragmentum" xml:lang="grc" source="#Aristocles" n="4">
                         <bibl>F4 Chiesara</bibl>
-                        <ab type="testimonium" xml:id="T4_Pyrrho" n="4" corresp="#Pyrrho" ana="#Pyrrhonisme #ἀδοξάστως #οὐ_μᾶλλον" xml:lang="grc">
+                        <ab type="testimonium" xml:id="T4_Pyrrho" n="4" corresp="#Pyrrho" ana="#philosophia_pyrrhonia #adoxastôs #ou_mallon" xml:lang="grc">
                             <bibl>T53 Decleva Caizzi</bibl>
+                          
                             <milestone unit="paragraph" n="1"/> Ἀναγκαίως δ’ ἔχει πρὸ παντὸς
                             διασκέψασθαι περὶ τῆς ἡμῶν αὐτῶν γνώσεως· εἰ γὰρ αὐτοὶ μηδὲν πεφύκαμεν
                             γνωρίζειν, οὐδὲν ἔτι δεῖ περὶ τῶν ἄλλων σκοπεῖν. Ἐγένοντο μὲν οὖν καὶ
                             τῶν πάλαι τινὲς οἱ ἀφέντες τήνδε τὴν φωνήν, οἷς ἀντείρηκεν
-                                <persName>Ἀριστοτέλης</persName>. <milestone unit="paragraph" n="2"/> Ἴσχυσε μέντοι τοιαῦτα λέγων καὶ <persName>Πύρρων</persName> ὁ Ἠλεῖος.
-                            Ἀλλ’ αὐτὸς μὲν οὐδὲν ἐν γραφῇ καταλέλοιπεν.<q type="fragmentum" source="#Timon" xml:id="F1_Timon" n="1">Ὁ δέ γε μαθητὴς αὐτοῦ
-                                    <persName>Τίμων</persName> φησὶ δεῖν τὸν μέλλοντα εὐδαιμονήσειν
-                                εἰς τρία ταῦτα βλέπειν· πρῶτον μὲν ὁποῖα πέφυκε τὰ πράγματα,
-                                δεύτερον δὲ τίνα χρὴ τρόπον ἡμᾶς πρὸς αὐτὰ διακεῖσθαι, τελευταῖον δὲ
-                                τί &#xA0; περιέσται τοῖς οὕτως ἔχουσι. <milestone unit="paragraph" n="3"/> Τὰ μὲν οὖν πράγματά φησιν αὐτὸν ἀποφαίνειν <quote source="#Pyrrhon" type="citation"> ἐπ’ ἴσης ἀδιάφορα καὶ
-                                    ἀστάθμητα καὶ ἀνεπίκριτα· διὰ τοῦτο μήτε τὰς αἰσθήσεις ἡμῶν μήτε
-                                    τὰς δόξας ἀληθεύειν ἢ ψεύδεσθαι.</quote>
+                                <persName>Ἀριστοτέλης</persName>.<q type="fragmentum" source="#Timon" xml:id="F1_Timon" n="1">
+                                <bibl>T53 Decleva Caizzi - partim</bibl>
+                <milestone unit="paragraph" n="2"/> Ἴσχυσε μέντοι τοιαῦτα λέγων καὶ
+                                    <persName>Πύρρων</persName> ὁ Ἠλεῖος. Ἀλλ’ αὐτὸς μὲν οὐδὲν ἐν
+                                γραφῇ καταλέλοιπεν.Ὁ δέ γε μαθητὴς αὐτοῦ <persName>Τίμων</persName>
+                                φησὶ <quote>δεῖν τὸν μέλλοντα εὐδαιμονήσειν εἰς τρία ταῦτα βλέπειν· πρῶτον
+                                μὲν ὁποῖα πέφυκε τὰ πράγματα, δεύτερον δὲ τίνα χρὴ τρόπον ἡμᾶς πρὸς
+                                αὐτὰ διακεῖσθαι, τελευταῖον δὲ τί &#xA0; περιέσται τοῖς οὕτως
+                                ἔχουσι.<milestone unit="paragraph" n="3"/> Τὰ μὲν οὖν πράγματά
+                                φησιν αὐτὸν ἀποφαίνειν <q source="#Pyrrhon"> ἐπ’
+                                    ἴσης ἀδιάφορα καὶ ἀστάθμητα καὶ ἀνεπίκριτα· διὰ τοῦτο μήτε τὰς
+                                    αἰσθήσεις ἡμῶν μήτε τὰς δόξας ἀληθεύειν ἢ ψεύδεσθαι.</q>
                                 <milestone unit="paragraph" n="4"/> Διὰ τοῦτο οὖν μηδὲ πιστεύειν
                                 αὐταῖς δεῖν, ἀλλ’ ἀδοξάστους καὶ ἀκλινεῖς καὶ ἀκραδάντους εἶναι,
                                 περὶ ἑνὸς ἑκάστου λέγοντας, ὅτι οὐ μᾶλλον ἔστιν ἢ οὐκ ἔστιν, ἢ καὶ
                                 ἔστι καὶ οὐκ ἔστιν, ἢ οὔτε ἔστιν, οὔτ’ οὐκ ἔστιν. <milestone unit="paragraph" n="5"/> Τοῖς μέντοι γε διακειμένοις οὕτω
                                 περιέσεσθαι <persName>Τίμων</persName> φησὶ πρῶτον μὲν ἀφασίαν,
-                                ἔπειτα δ’ ἀταραξίαν</q>, <q source="#Aenesidemus" type="fragmentum" xml:id="F4_Aenesidemus" n="3">
+                                    ἔπειτα δ’ ἀταραξίαν</quote>
+              </q>, <q source="#Aenesidemus" type="fragmentum" xml:id="F3_Aenesidemus" n="3">
                                 <persName>Αἰνησίδημος</persName> δὲ ἡδονήν.</q>
                         </ab>
                         <p>(...)</p>
-                        <ab type="testimonium" xml:lang="grc" xml:id="T2_Aenesidemus" n="2" ana="#dix_tropes" corresp="#Aenesidemus">
+                        <ab type="testimonium" xml:lang="grc" xml:id="T10_Aenesidemus" n="10" ana="#modi_decem" corresp="#Aenesidemus">
+                            <bibl>B18 Polito</bibl>
                             <milestone unit="paragraph" n="11"/>ὁπόταν γε μὴν
                                 <persName>Αἰνησίδημος</persName> ἐν τῇ <title>Ὑποτυπώσει</title>
                             τοὺς ἐννέα διεξίῃ τρόπους (κατὰ τοσούτους γὰρ ἀποφαίνειν ἄδηλα τὰ
@@ -101,7 +110,7 @@
                     </q>
                     <p>(...)</p>
                     <ab type="testimonium" xml:lang="grc" xml:id="T6_Pyrrho" n="6" corresp="#Pyrrho">
-                        <bibl>T. 58 DC</bibl>
+                        <bibl>T. 58 Decleva Caizzi</bibl>
                         <milestone unit="paragraph" n="18"/>(....)ἐνθυμεῖσθαι μέντοι χρὴ καὶ ταῦτα
                         γὰρ ἂν γένοιτο πολίτης ἢ δικαστὴς ἢ σύμβουλος ἢ φίλος ἢ ἁπλῶς εἰπεῖν
                         ἄνθρωπος ὅ γε τοιοῦτος; ἢ τί τῶν κακῶν οὐ τολμήσειεν ἂν ὁ μηδὲν ὡς ἀληθῶς
@@ -117,10 +126,10 @@
                             d’examiner attentivement notre propre connaissance, car si au contraire
                             par nature nous ne connaissons rien, alors il ne sert à rien de faire
                             des recherches sur les autres choses. <milestone unit="paragraph" n="2"/>Or, effectivement chez les Anciens aussi certains l’ont affirmé,
-                            contre lesquels <persName>Aristote</persName> a produit une réfutation.
+                            contre lesquels <persName>Aristote</persName> a produit une réfutation.<q source="#Timon" corresp="#F1_Timon" n="1">
                                 <persName>Pyrrhon</persName> d’Élis a lui aussi tenu avec force de
-                            tels propos&#xA0;: <q source="#Timon" type="citation" corresp="#F1_Timon" n="1">quant à lui, il n’a laissé aucun écrit, en
-                                revanche son disciple <persName>Timon</persName> dit que celui qui
+                            tels propos&#xA0;: quant à lui, il n’a laissé aucun écrit, en
+                                revanche son disciple <persName>Timon</persName> dit que <quote>celui qui
                                 veut être heureux doit avoir en vue les trois choses
                                 suivantes&#xA0;: premièrement, quelle est la nature des choses,
                                 deuxièmement, quelle doit être notre disposition vis-à-vis d’elles,
@@ -138,12 +147,14 @@
                                 ou «&#xA0;elle n'est pas et elle n’est pas n’est
                                     pas&#xA0;».<milestone unit="paragraph" n="5"/>Pour ceux qui se
                                 sont disposés de cette façon, <persName>Timon</persName> dit qu’il
-                                en résultera d’abord l’aphasie, ensuite l’ataraxie</q>
-                            <q corresp="#F4_Aenesidemus"> et pour <persName>Énésidème</persName> le
+                                    en résultera d’abord l’aphasie, ensuite l’ataraxie</quote>
+              </q>
+                            
+                            <q corresp="#F3_Aenesidemus"> et pour <persName>Énésidème</persName> le
                                 plaisir. </q>
                         </ab>
                         <p>(...)</p>
-                        <ab type="translatio" xml:lang="fr" corresp="#T2_Aenesidemus">
+                        <ab type="translatio" xml:lang="fr" corresp="#T10_Aenesidemus">
                             <milestone unit="paragraph" n="11"/>Maintenant, quand
                                 <persName>Enésidème</persName>, dans son <title>Esquisse</title>,
                             expose les neuf tropes – il lui en faut ce nombre pour essayer de
