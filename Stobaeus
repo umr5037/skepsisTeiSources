@@ -1,12 +1,10 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-   xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
-   xml:id="Noctes_Atticae">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xml:id="Stobaeus">
    <teiHeader>
       <!-- description bibliographique complète du fichier électronique -->
       <fileDesc>
          <titleStmt>
-            <title key="Eclogarum physicarum et ethicarum" ref="urn:cts:greekLit:tlg2037.tlg001"/>
+            <title key="Eclogarum physicarum et ethicarum" ref="urn:cts:greekLit:tlg2037.tlg001">Eclogarum</title>
             <author key=" Stobaeus" ref="urn:cite:perseus:author.1332">Stobaeus</author>
 
             <editor key="Marchand, Stéphane">Stéphane Marchand</editor>
@@ -30,13 +28,13 @@
 
          <div type="livre" n="2">
             <div type="chapitre" n="6">
-               <ab type="testimonium" xml:id="T1_Philo_Larissaeus" n="1" xml:lang="grc"
-                  corresp="#Philo_Larissaeus" ana="#Scepticisme_Académicien #ethique #art_de_vivre">
-                  <listBibl>
+               <ab type="testimonium" xml:id="T1_Philo_Larissaeus" n="1" xml:lang="grc" corresp="#Philo_Larissaeus" ana="#academia_sceptica #ethica #ars_vitae">
+                  <bibl>F2 Mette</bibl>  <listBibl>
                      <bibl>F22 Brittain</bibl>
                      <bibl>F2 Mette</bibl>
                   </listBibl>
-                  <milestone unit="paragraph" n="2"/><milestone unit="page_Meineke" n="[p.14 M]"/>
+                  <milestone unit="paragraph" n="2"/>
+                  <milestone unit="page_Meineke" n="[p.14 M]"/>
                   <persName>Φίλων</persName> ἐγένετο Λαρισαῖος, φιλόσοφος Ἀκαδημιακός, ἀκουστὴς
                      <persName>Κλειτομάχου</persName>, τῶν ἱκανὴν εἰσενεγκαμένων προκοπὴν ἐν τοῖς
                   λοιποῖς. Οὗτος ὁ <persName>Φίλων</persName> τά τε ἄλλα πεπραγμάτευται δεξιῶς καὶ
@@ -47,17 +45,16 @@
                   προσαγορευομένῳ προτρεπτικῷ λόγῳ, ἔστι γὰρ ὁ προτρεπτικὸς ὁ παρορμῶν ἐπὶ τὴν
                   ἀρετήν. Τούτου δ’ ὃ μὲν ἐνδείκνυται τὸ μεγαλωφελὲς αὐτῆς, ὃ δὲ τοὺς ἀνασκευάζοντας
                   ἢ κατηγοροῦντας ἤ πως ἄλλως κακοηθιζομένους 〈εἰς〉 τὴν φιλοσοφίαν ἀπελέγχει.
-                  <lb/>Δεύτερος δὲ μετὰ τοῦτον ὁ 〈τῇ〉 πρὸς τὴν ἰατρικὴν ἀναλογίᾳ δευτέραν ἔχων τάξιν. Ὡς
-                  γὰρ ἰατροῦ μετὰ τὸ πεῖσαι παραδέξασθαι τὴν θεραπείαν τὸ προσάγειν ἐστὶ ταύτην [τοῦ
-                  μὲν θεραπευτικοῦ] τὰ μὲν ἐν τῷ προεκκομίσαι τὰ νοσοποιὰ τῶν αἰτίων, τὰ δ’ ἐν τῷ τὰ
-                  παρασκευαστικὰ τῆς ὑγιείας ἐνθεῖναι, οὕτως αὖ κἀπὶ τῆς ἐπιστήμης ἔχει· μετὰ γὰρ τὰ
-                  προτρεπτικὰ πειρᾶται τὰ θεραπευτικὰ προσάγειν, ἐφ’ ὃ καὶ τοῖς παρορμητικοῖς
-                  κέχρηται διμερῶς· τὸ μὲν γὰρ ὑπεξαιρετικὸν τῶν ψευδῶς γεγενημένων δοξῶν, δι’ ἃς τὰ
-                  κριτήρια νοσοποιεῖται τῆς ψυχῆς, προσάγει λόγον, τὸ δὲ τῶν ὑγιῶς ἐχουσῶν
-                  ἐνθετικόν. Δεύτερος οὖν ὁ περὶ ἀγαθῶν καὶ κακῶν τόπος, ἐφ’ ὃν καὶ δι’ὃν ἡ
+                  <lb/>Δεύτερος δὲ μετὰ τοῦτον ὁ 〈τῇ〉 πρὸς τὴν ἰατρικὴν ἀναλογίᾳ δευτέραν ἔχων
+                  τάξιν. Ὡς γὰρ ἰατροῦ μετὰ τὸ πεῖσαι παραδέξασθαι τὴν θεραπείαν τὸ προσάγειν ἐστὶ
+                  ταύτην [τοῦ μὲν θεραπευτικοῦ] τὰ μὲν ἐν τῷ προεκκομίσαι τὰ νοσοποιὰ τῶν αἰτίων, τὰ
+                  δ’ ἐν τῷ τὰ παρασκευαστικὰ τῆς ὑγιείας ἐνθεῖναι, οὕτως αὖ κἀπὶ τῆς ἐπιστήμης ἔχει·
+                  μετὰ γὰρ τὰ προτρεπτικὰ πειρᾶται τὰ θεραπευτικὰ προσάγειν, ἐφ’ ὃ καὶ τοῖς
+                  παρορμητικοῖς κέχρηται διμερῶς· τὸ μὲν γὰρ ὑπεξαιρετικὸν τῶν ψευδῶς γεγενημένων
+                  δοξῶν, δι’ ἃς τὰ κριτήρια νοσοποιεῖται τῆς ψυχῆς, προσάγει λόγον, τὸ δὲ τῶν ὑγιῶς
+                  ἐχουσῶν ἐνθετικόν. Δεύτερος οὖν ὁ περὶ ἀγαθῶν καὶ κακῶν τόπος, ἐφ’ ὃν καὶ δι’ὃν ἡ
                   προτροπή.<lb/> Τῷ δὲ τρίτῳ πάλιν ὁ τρίτος ἀναλογήσει. Καὶ γὰρ τῇ ἰατρικῇ σπουδὴ
-                  πᾶσα περὶ τὸ τέλος, τοῦτο δ’ ἦν ὑγίεια, καὶ τῇ φιλοσοφίᾳ περὶ τὴν<milestone
-                     unit="page_Meineke" n="[p.15 M]"/> εὐδαιμονίαν. Συνάπτεται δὲ τῷ περὶ τελῶν
+                  πᾶσα περὶ τὸ τέλος, τοῦτο δ’ ἦν ὑγίεια, καὶ τῇ φιλοσοφίᾳ περὶ τὴν<milestone unit="page_Meineke" n="[p.15 M]"/> εὐδαιμονίαν. Συνάπτεται δὲ τῷ περὶ τελῶν
                   λόγῳ λόγος 〈ὁ〉 περὶ βίων.Ἐπί τε γὰρ τῆς ἰατρικῆς οὐκ ἀρκεῖ τὴν ὑγίειαν ἐμποιῆσαι,
                   χρεία δὲ καὶ τοῦ παρασχεῖν παραγγέλματα περὶ τῆς ὑγιείας, οἷς προσέχοντες τὸν νοῦν
                   τὴν εὐεξίαν τοῦ σώματος διαφυλάξουσι· καὶ δὴ κἀπὶ τοῦ βίου θεωρημάτων τινῶν ἐστι
@@ -87,8 +84,7 @@
                   discours protreptique est le discours qui incite à la vertu. Une partie de ce
                   discours montre la grande utilité de la vertu, une autre partie réfute ceux qui
                   critiquent, qui accusent ou qui, d'une façon ou d'une autre, veulent nuire à la
-                  philosophie.<lb/>
-                  Le second discours, après celui-ci, a la seconde place dans
+                  philosophie.<lb/> Le second discours, après celui-ci, a la seconde place dans
                   l'analogie avec la médecine. De même que la tâche du médecin, après avoir
                   convaincu le patient d'accepter la thérapie, est d'administrer cette thérapie, ce
                   qui consiste d'une part à détruire les causes qui produisent des maladies et
