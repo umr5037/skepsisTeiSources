@@ -25,7 +25,7 @@
         <body>
             <div type="livre" n=" ">
                 <div type="page" n="1">
-                    <ab type="testimonium" xml:id="T5_Aenesidemus" xml:lang="grc" ana="#dix_tropes" corresp="#Aenesidemus">
+                    <ab type="testimonium" xml:id="T8_Aenesidemus" xml:lang="grc" ana="#modi_decem" corresp="#Aenesidemus" n="8">
                         <milestone unit="paragraph" n="169"/> τὸν μέντοι σεμνυνόμενον ἢ ἐπὶ τῷ
                         βουλεύεσθαι ἢ ἐπὶ τῷ τὰ μὲν αἱρεῖσθαι τὰ δὲ φεύγειν ἱκανῶς δύνασθαι διὰ
                         τούτων ὑπομνηστέον· εἰ μὲν ἀπὸ τῶν αὐτῶν τὰς αὐτὰς ἀεὶ συνέβαινε προσπίπτειν
@@ -36,7 +36,7 @@
                         κινούμενοι, βέβαιον περὶ οὐδενὸς οὐδὲν ἂν ἔχοιμεν εἰπεῖν, ἅτε μὴ ἑστῶτος τοῦ
                         φανέντος, ἀλλὰ πολυτρόποις καὶ πολυμόρφοις χρωμένου ταῖς μεταβολαῖς· ἀνάγκη
                         γὰρ ἀνιδρύτου τῆς φαντασίας οὔσης ἀνίδρυτον <milestone unit="paragraph" n="171"/>εἶναι καὶ τὴν ἐπ’ αὐτῇ κρίσιν. αἴτια δὲ τούτου πολλά </ab>
-                    <ab type="translatio" xml:lang="fr" corresp="#T5_Aenesidemus">
+                    <ab type="translatio" xml:lang="fr" corresp="#T8_Aenesidemus">
                         <milestone unit="paragraph" n="169"/>A celui qui prétend savoir délibérer ou
                         choisir et exclure avec compétence, il faut rappeler la vérité grâce à ce
                         qui suit&#xA0;: s’il se trouvait que les mêmes impressions, sans écarts
@@ -52,7 +52,7 @@
                         instable, le jugement qui porte sur elle <milestone unit="paragraph" n="171"/>aussi est instable. Plusieurs raisons à cela… </ab>
                 </div>
                 <div type="page" n="2">
-                    <ab type="excerptum" xml:id="T6_Aenesidemus" xml:lang="grc" ana="#dix_tropes #quatrième_trope">(...)<milestone unit="paragraph" n="178"/>καίτοι τί ταῦτά φαμεν; αὐτός τις εἷς ὢν ἕκαστος ἐφ’ ἑαυτοῦ, τὸ
+                    <ab type="excerptum" xml:id="T6_Aenesidemus" xml:lang="grc" ana="#modi_decem #quartus_modus">(...)<milestone unit="paragraph" n="178"/>καίτοι τί ταῦτά φαμεν; αὐτός τις εἷς ὢν ἕκαστος ἐφ’ ἑαυτοῦ, τὸ
                         παραδοξότατον, μυρίας μεταβολὰς καὶ τροπὰς δεχόμενος κατά τε σῶμα καὶ ψυχὴν
                         τοτὲ μὲν αἱρεῖται, τοτὲ δ’ ἀποστρέ- φεται οὐδαμῶς μεταβάλλοντα, μένειν δ’
                         ἐπὶ τῆς αὐτῆς πεφυκότα κατασκευῆς <milestone unit="paragraph" n="179"/>· οὐ
