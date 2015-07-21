@@ -23,9 +23,9 @@
     <text>
         <body>
             <div type="livre" n="212">
-                <head>Codex 212</head>
+                <head xml:lang="grc">Codex 212</head>
                 <div type="page" n="1">
-                    <ab type="testimonium" ana="#Pyrrhonisme #Scepticisme_Académicien" corresp="#Aenesidemus" xml:id="F5_Aenesidemus" n="5">
+                    <ab type="testimonium" ana="#philosophia_pyrrhonia #academia_sceptica" corresp="#Aenesidemus" xml:id="T1_Aenesidemus" n="1">
                         <bibl>B1 Polito</bibl>
                         <milestone unit="paragraph" n="169b18"/>Ἀνεγνώσθη
                             <persName>Αἰνησιδήμου</persName>
@@ -43,7 +43,7 @@
                         <persName>Αἰνησίδημος</persName> προσφωνῶν αὐτοὺς τῶν ἐξ Ἀκαδημίας τινὶ
                         συναιρεσιώτῃ <persName>Λευκίῳ Τοβέρωνι</persName>, γένος μὲν Ῥωμαίῳ, δόξῃ δὲ
                         λαμπρῷ ἐκ προγόνων καὶ πολιτικὰς ἀρχὰς οὐ τὰς τυχούσας μετιόντι. </ab>
-                    <ab type="translatio" xml:lang="fr" corresp="#F5_Aenesidemus"> <milestone unit="paragraph" n="169b18"/>J'ai lu
+                    <ab type="translatio" xml:lang="fr" corresp="#T1_Aenesidemus"> <milestone unit="paragraph" n="169b18"/>J'ai lu
                         les huit livres des <title>Arguments des Pyrrhoniens</title>
                             d'<persName>Enésidème</persName>. Le projet général du livre est
                         d'assurer que rien n'est sûr pour la saisie, ni par l'intermédiaire de la
@@ -64,7 +64,7 @@
                         aspirant à des pouvoirs politiques qui ne sont pas les moindres. </ab>
                 </div>
                 <div type="page" n="2">
-                    <ab type="testimonium" ana="#Pyrrhonisme #Scepticisme_Académicien" corresp="#Aenesidemus" xml:id="F6_Aenesidemus" n="6">
+                    <ab type="testimonium" ana="#philosophia_pyrrhonia #academia_sceptica" corresp="#Aenesidemus" xml:id="T2_Aenesidemus" n="2">
                         <bibl>B2 Polito</bibl> <milestone unit="paragraph" n="169b36"/>&#xA0;Ἐν μὲν οὖν τῷ πρώτῳ λόγῳ διαφορὰν τῶν τε
                         Πυρρωνίων καὶ τῶν Ἀκαδημαϊκῶν εἰσάγων μικροῦ γλώσσῃ αὐτῇ ταῦτά φησιν, ὡς οἱ
                         μὲν ἀπὸ τῆς Ἀκαδημίας δογματικοί τέ εἰσι καὶ τὰ μὲν τίθενται ἀδιστάκτως, τὰ
@@ -83,7 +83,7 @@
                         οὕτω φράζομεν. Οἱ δ’ ἀπὸ τῆς Ἀκαδημίας, φησί, μάλιστα τῆς νῦν, καὶ στωϊκαῖς
                         συμφέρονται ἐνίοτε δόξαις, καὶ εἰχρὴ τἀληθὲς εἰπεῖν, Στωϊκοὶ φαίνονται
                         μαχόμενοι Στωϊκοῖς.</ab>
-                    <ab type="translatio" xml:lang="fr" corresp="#Photius_212_3">
+                    <ab type="translatio" xml:lang="fr" corresp="#T2_Aenesidemus">
             <milestone unit="paragraph" n="169b36"/>&#xA0;
                         Donc, dans le premier livre, introduisant une différence entre les
                         Pyrrhoniens et les Académiciens il dit à peu près en ces termes ceci : ceux
@@ -112,7 +112,7 @@
                         des stoïciens. </ab>
                 </div>
                 <div type="chapitre" n="3">
-                    <ab type="testimonium" ana="#Pyrrhonisme #Scepticisme_Académicien" corresp="#Aenesidemus" xml:id="F7_Aenesidemus">
+                    <ab type="testimonium" ana="#philosophia_pyrrhonia #academia_sceptica" corresp="#Aenesidemus" xml:id="T3_Aenesidemus" n="3">
                         <bibl>B3 Polito</bibl>
             <milestone unit="paragraph" n="170a18"/>Δεύτερον περὶ πολλῶν δογματίζουσιν. Ἀρετήν τε γὰρ καὶ
                         ἀφροσύνην εἰσάγουσι, καὶ ἀγαθὸν καὶ κακὸν ὑποτίθενται, καὶ ἀλήθειαν καὶ
@@ -136,7 +136,7 @@
                         λόγον πρῶτον καὶ τὴν ὅλην ἀγωγὴν ὡς τύπῳ καὶ κεφαλαιωδῶς  τῶν
                             Πυρρωνίων παραδίδωσι λόγων. </ab>
 
-                    <ab type="translatio" xml:lang="fr" corresp="#F7_Aenesidemus">
+                    <ab type="translatio" xml:lang="fr" corresp="#T3_Aenesidemus">
             <milestone unit="paragraph" n="170a18"/>&#xA0;&#xA0; En second lieu, ils dogmatisent sur de nombreuses
                         choses. En effet, ils introduisent la vertu et la folie, ils admettent le
                         bien et le mal, la vérité et l'erreur, en particulier le probable et
@@ -165,7 +165,8 @@
                         ce même premier livre, il donne aussi comme en esquisse et en résumé le système entier des arguments pyrrhoniens. </ab>
                 </div>
                 <div type="chapitre" n="4">
-                    <ab type="testimonium" ana="#Pyrrhonisme" corresp="#Aenesidemus" xml:id="F8_Aenesidemus">
+                    <ab type="testimonium" ana="#philosophia_pyrrhonia" corresp="#Aenesidemus" xml:id="T4_Aenesidemus" n="4">
+                        <bibl>B8 Polito</bibl>
             <milestone unit="paragraph" n="170b4"/> Ἐν δὲ τῷ βʹ κατὰ μέρος ἤδη ἀρχόμενος ἐπεξιέναι τὰ ἐν
                         κεφαλαίῳ εἰρημένα, περί τε ἀληθῶν καὶ αἰτίων διαλαμβάνει καὶ παθῶν καὶ
                         κινήσεως, γενέσεώς τε καὶ φθορᾶς καὶ τῶν τούτοις ἐναντίων, κατὰ πάντων αὐτῶν
@@ -201,7 +202,7 @@
                         δογματικὰς θεωρίας ἐλαύνειν ἡμῶν τῆς διανοίας <milestone unit="paragraph" n="171a"/>&#xA0;ἐπεχείρησαν. Τοῖς μέντοι κατὰ διαλεκτικὴν μελέτην
                         πονουμένοις, ἂν μὴ τὸ ἀστήρικτον αὐτῶν τοῖς λογισμοῖς ἐνεδρεύῃ καὶ ἡ κρίσις
                         πρὸς ἀγχίνοιαν οὐ νενοθευμένη τὸ βιβλίον οὐκ ἄχρηστον </ab>
-                    <ab type="translatio" xml:lang="fr" corresp="#F8_Aenesidemus">
+                    <ab type="translatio" xml:lang="fr" corresp="#T4_Aenesidemus">
                         <milestone unit="paragraph" n="170b4"/>&#xA0;&#xA0;&#xA0; Dans le second livre, il commence donc à examiner
                         en détail ce qui a été dit dans le résumé ; il traite des choses vraies, des
                         causes, des affects, du mouvement, de la génération, de la corruption et de
