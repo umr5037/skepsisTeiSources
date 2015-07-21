@@ -34,7 +34,7 @@
         <body>
             <div type="livre" n="2">
                 <div type="chapitre" n="1">
-                    <q type="testimonium" ana="#Scepticisme_Académicien" corresp="#Arcesilas" xml:id="T7_Arcesilas" xml:lang="la" n="7">
+                    <q type="testimonium" ana="#academia_sceptica" corresp="#Arcesilas" xml:id="T7_Arcesilas" xml:lang="la" n="7">
                         <!-- changer en fragmentum -->
                         
                         <bibl>F11 Mette</bibl>
