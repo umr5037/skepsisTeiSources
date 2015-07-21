@@ -15,8 +15,7 @@
             <respStmt>
                <resp>Hébergeur du site</resp>
                <name>
-                  <ref target="http://www.ens-lyon.eu/">Ecole Normale Supérieure de
-                     Lyon</ref>
+                  <ref target="http://www.ens-lyon.eu/">Ecole Normale Supérieure de Lyon</ref>
                </name>
             </respStmt>
             <respStmt>
@@ -45,11 +44,24 @@
       <profileDesc>
          <textClass>
             <keywords>
-               <term xml:id="Scepticisme_Académicien">Scepticisme Académicien</term>
-               <term xml:id="Pyrrhonisme">Pyrrhonisme</term>                
-               <term xml:id="quatrième_trope">4ème trope</term>
-               <term xml:id="dix_tropes">10 tropes d'Aenesidemus</term>
-               <term xml:id="φαινόμενον">φαινόμενον</term>
+               <term xml:id="academia_sceptica">academia sceptica</term>
+               <term xml:id="philosophia_pyrrhonia">philosophia pyrrhonia</term>
+               <term xml:id="quartus_modus">quartus modus</term>
+               <term xml:id="modi_decem">modi decem</term>
+               <term xml:id="phainomenon">phainomenon</term>
+               <term xml:id="ou_mallon">ou mallon</term>
+               <term xml:id="epochè">epochè</term>
+               <term xml:id="akatalepsia">akatalepsia</term>
+               <term xml:id="katalèpsis">katalèpsis</term>
+               <term xml:id="apraxia">apraxia</term>
+               <term xml:id="eulogon">eulogon</term>
+               <term xml:id="adoxastôs">adoxastôs</term>
+               <term xml:id="pithanon">pithanon</term>
+               <term xml:id="sorites ">sorites </term>
+               <term xml:id="dei">dei</term>
+               <term xml:id="academiae_historia">academiae historia</term>
+               <term xml:id="ethica">ethica</term>
+               <term xml:id="ars_vitae">ars vitae</term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -61,14 +73,8 @@
    </teiHeader>
    <text>
       <front>
-         <div>
-            <head>À propos</head>
-            <div>
-               <head>Caveat</head>
-               <p>La base Σκέψις a ouvert le 08/10/2014 et est en cours de développement. L'état
-                  dans laquelle vous la trouvez est donc provisoire</p>
-            </div>
-            <div n="credits">
+         <div xml:id="credits">
+            <div xml:lang="fr">
                <div>
                   <head>Responsable scientifique, édition, traduction des textes</head>
                   <p>Stéphane Marchand, ENS de Lyon (CID/IHPC, UMR 5037)</p>
@@ -79,17 +85,52 @@
                   <p>
                      <list>
                         <item>Valérie Beaugiraud, CNRS/IHPC</item>
-                        <item>Maud Ingarao, ENS de Lyon/IHPC, Atelier des Humanités numériques (AHN)</item>
-                        <item>Jean-Philippe Magué, ENS de Lyon/ICAR, Atelier des Humanités numériques  (AHN)</item>
+                        <item>Maud Ingarao, ENS de Lyon/IHPC, Atelier des Humanités numériques
+                           (AHN)</item>
+                        <item>Jean-Philippe Magué, ENS de Lyon/ICAR, Atelier des Humanités
+                           numériques (AHN)</item>
                      </list>
                   </p>
                </div>
             </div>
+            <div xml:lang="en">
+               <head>Scientific director, editor, translation of texts</head>
+               <p>Stéphane Marchand, ENS de Lyon (CID/IHPC, UMR 5037)</p>
+            </div>
          </div>
+
+         <div xml:id="mentions-legales">
+            <div xml:lang="fr">
+               <p>Directeur de la publication : Jean-François Pinton</p>
+               <p>
+                  <ref target="http://www.ens-lyon.eu/">Ecole Normale Supérieure de Lyon</ref>
+               </p>
+               <p>15 Parvis René Descartes</p>
+               <p>69342 Lyon cedex 07</p>
+
+               <p> Licence : <ref target="http://creativecommons.org/licenses/by-sa/3.0/fr/"
+                     >CC-BY-SA</ref>
+               </p>
+            </div>
+            <div xml:lang="en">
+               <p>Director of publication : Jean-François Pinton</p>
+               <p>
+                  <ref target="http://www.ens-lyon.eu/">Ecole Normale Supérieure de Lyon</ref>
+               </p>
+               <p>15 Parvis René Descartes</p>
+               <p>69342 Lyon cedex 07</p>
+
+               <p> License : <ref target="http://creativecommons.org/licenses/by-sa/3.0/fr/"
+                     >CC-BY-SA</ref>
+               </p>
+            </div>
+         </div>
+
+
       </front>
       <body>
-         <div>
-            <div n="home">
+         <div xml:id="home">
+            <div xml:lang="fr">
                <head>Σκέψις : Base de textes électroniques sur le scepticisme ancien</head>
                <div>
                   <head>Caveat</head>
@@ -105,20 +146,20 @@
                      ouvertes par l'encodage XML/TEI pour rassembler et donner à lire l'ensemble des
                      textes sur le phénomène sceptique dans l'Antiquité.</p>
                   <p>Trois entrées possibles dans les textes sont aménagées :<list>
-                     <item>une entrée par collection de livres (dite VOLUMINA) où le lecteur dispose
-                        des textes en langue originale et sa traduction (inédite) à partir de la
-                        structure éditoriale des textes tels qu'ils sont édités sur papier. On
-                        pourra ainsi lire les <title>Esquisses Pyrrhoniennes</title>de Sextus
-                        Empiricus, les <title>Académiques</title>de Cicéron, etc...</item>
-                     <item>une entrée par philosophe des traditions sceptiques (dite PHILOSOPHI)
-                        où le lecteur pourra disposer des textes (œuvres complètes, fragments et
-                        témoignages) attribués au philosophe en question. Le lecteur pourra ainsi
-                        accéder à la totalité des témoignages sur Pyrrhon, aux fragments
-                        d'Enésidème, de Carnéade, etc...</item>
-                     <item>une entrée par mots-clefs liés au scepticisme (dite NOTIONES : le lecteur
-                        pourra ainsi disposer d'un ensemble de textes liés aux problématiques
-                        sceptiques comme l'épochè, l'isosthénie, etc.</item>
-                  </list>
+                        <item>une entrée par collection de livres (dite VOLUMINA) où le lecteur
+                           dispose des textes en langue originale et sa traduction (inédite) à
+                           partir de la structure éditoriale des textes tels qu'ils sont édités sur
+                           papier. On pourra ainsi lire les <title>Esquisses Pyrrhoniennes</title> de
+                           Sextus Empiricus, les <title>Académiques</title> de Cicéron, etc...</item>
+                        <item>une entrée par philosophe des traditions sceptiques (dite PHILOSOPHI)
+                           où le lecteur pourra disposer des textes (œuvres complètes, fragments et
+                           témoignages) attribués au philosophe en question. Le lecteur pourra ainsi
+                           accéder à la totalité des témoignages sur Pyrrhon, aux fragments
+                           d'Enésidème, de Carnéade, etc...</item>
+                        <item>une entrée par mots-clefs liés au scepticisme (dite NOTIONES : le
+                           lecteur pourra ainsi disposer d'un ensemble de textes liés aux
+                           problématiques sceptiques comme l'épochè, l'isosthénie, etc.</item>
+                     </list>
                   </p>
                   <p>Parallèlement à ces entrées, une base bibliographique sera proposée sur chaque
                      philosophe, accompagnée d'une biographie.</p>
@@ -126,17 +167,70 @@
                <div>
                   <head>Description du projet technique</head>
                   <p>L'encodage des textes sera fait en suivant les normes de la TEI, et plus
-                     spécifiquement celles d'<ref target="http://www.stoa.org/epidoc/gl/latest/">EPIDOC</ref>. En
-                     conformité avec les principes de la philologie numérique, les textes – souvent
-                     fragmentaires et établis à partir de citations – seront édités de manière à
-                     exprimer correctement les différentes niveaux de citations, en suivant les
-                     préconisations de <ref target="http://www.homermultitext.org/hmt-doc/cite/index.html">CITE ARCHITECTURE</ref>, et <ref target="http://www.homermultitext.org/hmt-doc/cite/texts/cts.html">Canonical Text
-                        Services</ref>.
-                     L'exploitation et la diffusion du corpus s'appuieront sur une base de données
-                     XML native (BaseX) et bénéficieront de l'expertise développée par <ref target="http://ahn.ens-lyon.fr">l'Atelier des
-                        Humanités Numériques de l'ENS de Lyon</ref> à travers
-                     l'application SynopsX. </p>
+                     spécifiquement celles d'<ref target="http://www.stoa.org/epidoc/gl/latest/"
+                        >EPIDOC</ref>. En conformité avec les principes de la philologie numérique,
+                     les textes – souvent fragmentaires et établis à partir de citations – seront
+                     édités de manière à exprimer correctement les différentes niveaux de citations,
+                     en suivant les préconisations de <ref
+                        target="http://www.homermultitext.org/hmt-doc/cite/index.html">CITE
+                        ARCHITECTURE</ref>, et <ref
+                        target="http://www.homermultitext.org/hmt-doc/cite/texts/cts.html">Canonical
+                        Text Services</ref>. L'exploitation et la diffusion du corpus s'appuieront
+                     sur une base de données XML native (BaseX) et bénéficieront de l'expertise
+                     développée par <ref target="http://ahn.ens-lyon.fr">l'Atelier des Humanités
+                        Numériques de l'ENS de Lyon</ref> à travers l'application SynopsX. </p>
                </div>
+            </div>
+            <div xml:lang="en">
+               <head>Σκέψις: A database of electronic texts on ancient scepticism</head>
+               <div>
+                  <head>Caveat</head>
+                  <p> The Σκέψις database was launched on the 8th October, 2014, and is currently
+                     under development. The current layout is therefore temporary.</p>
+               </div>
+               <div>
+                  <head>Description of the scientific project</head>
+                  <p>In regard to ancient times, scepticism presents a double phenomenon: a
+                     philosophical problem, the problem of the possibility of knowledge, but also a
+                     collection of philosophical traditions, the Pyrrhonic tradition and the
+                     academic tradition. The Σκέψις database employs XML/TEI encoding that brings
+                     together a range of texts on the sceptical phenomenon in ancient times and
+                     allows users the opportunity to access and study them.</p>
+                  <p>There are three possible ways to access the texts:<list>
+                        <item>by book collection (called VOLUMINA), where the reader can access
+                           texts in their original language and their (unpublished) translation in
+                           the editorial structure of the reference editions. This will allow users
+                           access to, for example, Sextus Empiricus’ <title>Pyrrhonic
+                              Sketches</title>, Cicero’s <title>Academica</title>, etc.</item>
+                        <item>by ancient sceptic philosopher (called SCEPTICI), where the reader can
+                           access texts (full works, fragments and eyewitness accounts) attributed
+                           to the philosopher in question. The reader will thus be able to access,
+                           for example, the ensemble of eyewitness accounts on Pyrrho, Aenesidemus’
+                           and Carneades’ fragments, etc.</item>
+                        <item>by keywords relating to scepticism (called NOTIONES). The reader will
+                           thus be able to access a range of texts relating to sceptic problematics
+                           such as epoché, isosthenia, etc.</item>
+                     </list>
+                  </p>
+                  <p>Parallel to these ways of accessing the texts, a bibliographic database will be
+                     offered, with entries for each philosopher accompanied by a biography.</p>
+               </div>
+               <div>
+                  <head>Description of the technical project</head>
+                  <p>Encoding of texts will follow the TEI guidelines, and more specifically those
+                     of <ref target="http://www.stoa.org/epidoc/gl/latest/">EPIDOC</ref>. Conforming
+                     to the principles of digital philology, the texts – often fragmentary and
+                     constructed from citations – will be edited in a way to correctly cite
+                     resources by following the recommendations of <ref
+                        target="http://www.homermultitext.org/hmt-doc/cite/index.html">CITE
+                        Architecture</ref>, and <ref
+                        target="http://www.homermultitext.org/hmt-doc/cite/texts/cts.html">Canonical
+                        Text Services</ref>. The operation and dissemination of the corpus will be
+                     based on an XML native (BaseX) database and will benefit from the expertise of
+                     the <ref target="http://ahn.ens-lyon.fr">Atelier des Humanités Numériques of
+                        the ENS de Lyon</ref>, using the application SynopsX.</p>
+               </div>
+
             </div>
          </div>
       </body>
