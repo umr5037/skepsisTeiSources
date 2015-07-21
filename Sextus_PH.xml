@@ -23,7 +23,7 @@
         <body>
             <div type="livre" n="1">
                 <div type="chapitre" n="11">
-                    <ab type="excerptum" ana="#Pyrrhonisme #φαινόμενον" xml:lang="grc" xml:id="PH_I_22">
+                    <ab type="excerptum" ana="#philosophia_pyrrhonia #phainomenon" xml:lang="grc" xml:id="PH_I_22">
                         <milestone unit="paragraph" n="22"/>κριτήριον τοίνυν φαμὲν εἶναι τῆς
                         σκεπτικῆς ἀγωγῆς τὸ φαινόμενον, δυνάμει τὴν φαντασίαν οὕτω καλοῦντες· ἐν
                         πείσει γὰρ καὶ ἀβουλήτῳ πάθει κειμένη ἀζήτητός ἐστιν. </ab>
@@ -36,8 +36,8 @@
                 <div type="chapitre" n="14">
 
                     <head xml:lang="grc">ιδʹ περὶ τῶν δέκα τρόπων</head>
-                    <head xml:lang="fr">Sur les dix tropes</head>
-                    <ab type="testimonium" ana="#Pyrrhonisme  #dix_tropes" xml:lang="grc" xml:id="F9_Aenesidemus" corresp="#Aenesidemus" n="9">
+                    <head type="translatio" xml:lang="fr">Sur les dix tropes</head>
+                    <ab type="testimonium" ana="#philosophia_pyrrhonia  #modi_decem" xml:lang="grc" xml:id="T6_Aenesidemus" corresp="#Aenesidemus" n="6">
                         <milestone unit="paragraph" n="36"/>Παραδίδονται τοίνυν συνήθως παρὰ τοῖς
                         ἀρχαιοτέροις σκεπτικοῖς τρόποι, δι’ ὧν ἡ ἐποχὴ συνάγεσθαι δοκεῖ, δέκα τὸν
                         ἀριθμόν, οὓς καὶ λόγους καὶ τύπους συνωνύμως καλοῦσιν. εἰσὶ δὲ οὗτοι, πρῶτος
@@ -57,7 +57,7 @@
                         τὸν πρός τι, ὡς εἶναι γενικώτατον μὲν τὸν πρός τι, εἰδικοὺς δὲ τοὺς τρεῖς,
                         ὑποβεβηκότας δὲ τοὺς δέκα. ταῦτα μὲν περὶ τῆς ποσότητος αὐτῶν κατὰ τὸ
                         πιθανὸν λέγομεν· περὶ δὲ τῆς δυνάμεως τάδε.</ab>
-                    <ab type="translatio" xml:lang="fr" corresp="F9_Aenesidemus">
+                    <ab type="translatio" xml:lang="fr" corresp="#T6_Aenesidemus">
                         <milestone unit="paragraph" n="36"/>Les anciens sceptiques, donc,
                         transmettent des modes, au nombre de dix, par lesquels, semble-t-il, on est
                         conduit à la suspension de l’assentiment, qu’ils appellent aussi par les
@@ -83,7 +83,7 @@
 
                     <ab>(...)</ab>
 
-                    <ab type="testimonium" ana="#Pyrrhonisme  #quatrième_trope" xml:lang="grc" xml:id="F10_Aenesidemus" corresp="#Aenesidemus" n="10">
+                    <ab type="testimonium" ana="#philosophia_pyrrhonia  #quartus_modus" xml:lang="grc" xml:id="T7_Aenesidemus" corresp="#Aenesidemus" n="7">
                         <milestone unit="paragraph" n="102"/>εἰ δέ τις λέγει ὅτι χυμῶν τινων
                         παραπλοκὴ ἀνοικείους φαντασίας ἐκ τῶν ὑποκειμένων ποιεῖ τοῖς παρὰ φύσιν
                         ἔχουσιν, λεκτέον ὅτι ἐπεὶ καὶ οἱ ὑγιαίνοντες χυμοὺς ἔχουσιν ἀνακεκραμένους,
@@ -94,7 +94,7 @@
                         ἔχουσι, παρὰ φύσιν δὲ τὴν τῶν νοσούντων, οὕτω καὶ οἱ νοσοῦντες παρὰ φύσιν
                         μὲν ἔχουσι τὴν τῶν ὑγιαινόντων, κατὰ φύσιν δὲ τὴν τῶν νοσούντων, ὥστε
                         κἀκείνοις πρός τι κατὰ φύσιν ἔχουσι <milestone unit="paragraph" n="104"/>πιστευτέον. </ab>
-                    <ab type="translatio" xml:lang="fr" corresp="#F10_Aenesidemus">
+                    <ab type="translatio" xml:lang="fr" corresp="#T7_Aenesidemus">
                         <milestone unit="paragraph" n="102"/>Et s’il on dit que c’est la combinaison
                         de certaines humeurs qui produit des impressions inappropriées venant des
                         objets réels chez ceux qui sont dans un état contraire à la nature, il faut
@@ -115,10 +115,12 @@
                 <div type="chapitre" n="33">
                     <head xml:lang="grc">λγ´ τίνι διαφέρει τῆς Ἀκαδημαϊκῆς φιλοσοφίας ἡ
                         σκέψις.</head>
-                    <head xml:lang="fr">33 Par quoi se distingue le scepticisme de la philosophie
+                    <head type="translatio" xml:lang="fr">Chapitre 33 : Par quoi se distingue le scepticisme de la philosophie
                         académicienne</head>
-                    <ab type="testimonium" ana="#Pyrrhonisme #scepticisme_académicien #Histoire_de_l_Academie" xml:lang="grc" xml:id="T8_Arcesilas" corresp="#Arcesilas #Clitomachus #Carneades #Philo_Larissaeus">
-                        <milestone unit="paragraph" n="220"/>Φασὶ μέντοι τινὲς ὅτι ἡ Ἀκαδημαϊκὴ
+                    <ab type="testimonium" ana="#philosophia_pyrrhonia #academia_sceptica #academiae_historia" xml:lang="grc" xml:id="T8_Arcesilas" corresp="#Arcesilas #Clitomachus #Carneades #Philo_Larissaeus" n="8">
+                        <milestone unit="paragraph" n="220"/>
+                        <bibl>F1 Mette - l.1-6</bibl>
+                        Φασὶ μέντοι τινὲς ὅτι ἡ Ἀκαδημαϊκὴ
                         φιλοσοφία ἡ αὐτή ἐστι τῇ σκέψει˙ διόπερ ἀκόλουθον ἂν εἴη καὶ περὶ τούτου
                         διεξελθεῖν. Ἀκαδημίαι δὲ γεγόνασιν, ὡς φασὶ〈ν οἱ〉 πλείους [ἢ], τρεῖς, μία
                         μὲν καὶ ἀρχαιοτάτη ἡ τῶν περὶ <persName>Πλάτωνα</persName>, δευτέρα δὲ καὶ
@@ -149,10 +151,10 @@
 
             <div type="livre" n="3">
                 <div type="chapitre" n="23">
-                    <head xml:lang="grc"> εἰ ἔστι τι φύσει ἀγαθὸν καὶ ἀδιάφορον. </head>
-                    <head xml:lang="fr">S'il existe par nature quelque chose de bon ou
+                    <head xml:lang="grc">κγʹ εἰ ἔστι τι φύσει ἀγαθὸν καὶ ἀδιάφορον. </head>
+                    <head type="translatio" xml:lang="fr">Chapitre 23 : S'il existe par nature quelque chose de bon ou
                         d'indifférent</head>
-                    <ab type="excerptum" ana="#Pyrrhonisme #φαινόμενον" xml:lang="grc" xml:id="PH_III_179">
+                    <ab type="excerptum" ana="#philosophia_pyrrhonia #phainomenon" xml:lang="grc" xml:id="PH_III_179">
                         <milestone unit="paragraph" n="179"/>Τὸ πῦρ φύσει ἀλεαῖνον πᾶσι φαίνεται
                         ἀλεαντικόν, καὶ ἡ χιὼν φύσει ψύχουσα πᾶσι φαίνεται ψυκτική, καὶ πάντα τὰ
                         φύσει κινοῦντα ὁμοίως πάντας κινεῖ τοὺς κατὰ φύσιν, ὡς φασίν, ἔχοντας. οὐδὲν
