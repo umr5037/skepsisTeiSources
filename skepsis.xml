@@ -57,7 +57,7 @@
                <term xml:id="eulogon">eulogon</term>
                <term xml:id="adoxastôs">adoxastôs</term>
                <term xml:id="pithanon">pithanon</term>
-               <term xml:id="sorites ">sorites </term>
+               <term xml:id="sorites">sorites </term>
                <term xml:id="dei">dei</term>
                <term xml:id="academiae_historia">academiae historia</term>
                <term xml:id="ethica">ethica</term>
@@ -108,8 +108,7 @@
                <p>15 Parvis René Descartes</p>
                <p>69342 Lyon cedex 07</p>
 
-               <p> Licence : <ref target="http://creativecommons.org/licenses/by-sa/3.0/fr/"
-                     >CC-BY-SA</ref>
+               <p> Licence : <ref target="http://creativecommons.org/licenses/by-sa/3.0/fr/">CC-BY-SA</ref>
                </p>
             </div>
             <div xml:lang="en">
@@ -120,8 +119,7 @@
                <p>15 Parvis René Descartes</p>
                <p>69342 Lyon cedex 07</p>
 
-               <p> License : <ref target="http://creativecommons.org/licenses/by-sa/3.0/fr/"
-                     >CC-BY-SA</ref>
+               <p> License : <ref target="http://creativecommons.org/licenses/by-sa/3.0/fr/">CC-BY-SA</ref>
                </p>
             </div>
          </div>
@@ -167,14 +165,11 @@
                <div>
                   <head>Description du projet technique</head>
                   <p>L'encodage des textes sera fait en suivant les normes de la TEI, et plus
-                     spécifiquement celles d'<ref target="http://www.stoa.org/epidoc/gl/latest/"
-                        >EPIDOC</ref>. En conformité avec les principes de la philologie numérique,
+                     spécifiquement celles d'<ref target="http://www.stoa.org/epidoc/gl/latest/">EPIDOC</ref>. En conformité avec les principes de la philologie numérique,
                      les textes – souvent fragmentaires et établis à partir de citations – seront
                      édités de manière à exprimer correctement les différentes niveaux de citations,
-                     en suivant les préconisations de <ref
-                        target="http://www.homermultitext.org/hmt-doc/cite/index.html">CITE
-                        ARCHITECTURE</ref>, et <ref
-                        target="http://www.homermultitext.org/hmt-doc/cite/texts/cts.html">Canonical
+                     en suivant les préconisations de <ref target="http://www.homermultitext.org/hmt-doc/cite/index.html">CITE
+                        ARCHITECTURE</ref>, et <ref target="http://www.homermultitext.org/hmt-doc/cite/texts/cts.html">Canonical
                         Text Services</ref>. L'exploitation et la diffusion du corpus s'appuieront
                      sur une base de données XML native (BaseX) et bénéficieront de l'expertise
                      développée par <ref target="http://ahn.ens-lyon.fr">l'Atelier des Humanités
@@ -221,10 +216,8 @@
                      of <ref target="http://www.stoa.org/epidoc/gl/latest/">EPIDOC</ref>. Conforming
                      to the principles of digital philology, the texts – often fragmentary and
                      constructed from citations – will be edited in a way to correctly cite
-                     resources by following the recommendations of <ref
-                        target="http://www.homermultitext.org/hmt-doc/cite/index.html">CITE
-                        Architecture</ref>, and <ref
-                        target="http://www.homermultitext.org/hmt-doc/cite/texts/cts.html">Canonical
+                     resources by following the recommendations of <ref target="http://www.homermultitext.org/hmt-doc/cite/index.html">CITE
+                        Architecture</ref>, and <ref target="http://www.homermultitext.org/hmt-doc/cite/texts/cts.html">Canonical
                         Text Services</ref>. The operation and dissemination of the corpus will be
                      based on an XML native (BaseX) database and will benefit from the expertise of
                      the <ref target="http://ahn.ens-lyon.fr">Atelier des Humanités Numériques of
