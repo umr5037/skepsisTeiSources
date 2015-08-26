@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-
+                
                 <title key="Academica" ref="urn:cts:latinLit:phi0474.phi045">Academica</title>
                 <author key=" Cicero (0106-0043 av. J.-C.)" ref="urn:cite:perseus:author.364">Cicero</author>
                 <editor key="Marchand, Stéphane">Stéphane Marchand</editor>
@@ -20,18 +20,18 @@
                     Lucullo, O. Plasberg ed., Leipzig, Teubner, 1922</bibl>
             </sourceDesc>
         </fileDesc>
-
+        
     </teiHeader>
     <text>
         <body>
-
+            
             <div type="livre" n="1">
                 <div type="chapitre" n="12">
                     <ab type="testimonium" xml:id="T6_Arcesilas" xml:lang="la" corresp="#Arcesilas" ana="#academia_sceptica #epochè #akatalepsia" n="6">
                         <bibl>F9 Mette</bibl>
                         <milestone unit="paragraph" n="45"/>itaque <persName>Arcesilas</persName>
                         negabat esse quicquam quod sciri posset, ne illud quidem ipsum quod
-                            <persName>Socrates</persName> sibi reliquisset, ut nihil scire se
+                        <persName>Socrates</persName> sibi reliquisset, ut nihil scire se
                         sciret; sic omnia latere censebat in occulto neque esse quicquam quod cerni
                         aut intellegi posset; quibus de causis nihil oportere neque profiteri neque
                         affirmare quemquam neque assensione approbare, cohibereque semper et ab omni
@@ -41,13 +41,13 @@
                         erat consentaneum faciebat, ut contra omnium sententias disserens de sua
                         plerosque deduceret, ut cum in eadem re paria contrariis in partibus momenta
                         rationum invenirentur facilius ab utraque parte assensio sustineretur.
-                            <milestone unit="paragraph" n="46"/> Hanc Academiam novam appellant,
+                        <milestone unit="paragraph" n="46"/> Hanc Academiam novam appellant,
                         quae mihi vetus videtur, si quidem <persName ref="Plato">Platonem</persName>
                         ex illa vetere numeramus, cuius in libris nihil affirmatur et in utramque
                         partem multa disseruntur, de omnibus quaeritur nihil certi dicitur. </ab>
                     <ab type="translatio" xml:lang="fr" corresp="#T6_Arcesilas">
                         <milestone unit="paragraph" n="45"/>Pour cette raison
-                            <persName>Arcésilas</persName> refusait que quoi que ce soit puisse être
+                        <persName>Arcésilas</persName> refusait que quoi que ce soit puisse être
                         connu, pas même ce que <persName>Socrate</persName> s'était concédé à
                         lui-même : savoir qu'il ne savait rien. Il pensait donc que tout se cache
                         dans l'obscurité et que rien ne peut être perçu ou compris. Pour ces
@@ -61,9 +61,9 @@
                         de tout le monde, puisque lorsqu'on découvrait qu'il y avait sur le même
                         sujet des arguments d'égale importance en faveur de positions contraires, il
                         était plus facile de suspendre son assentiment sur chacune des positions.
-                            <milestone unit="paragraph" n="46"/> On appelle cette Académie
+                        <milestone unit="paragraph" n="46"/> On appelle cette Académie
                         "nouvelle", bien qu'elle me semble ancienne, si cependant on compte bien
-                            <persName>Platon</persName> parmi cette ancienne Académie, lui qui
+                        <persName>Platon</persName> parmi cette ancienne Académie, lui qui
                         n'affirme rien dans ses livres et discute de nombreuses choses dans un sens
                         et dans un autre, lui qui à propos de tout cherche et ne dit rien de
                         certain. </ab>
@@ -71,7 +71,7 @@
                         <bibl>T4 Mette - partim</bibl>
                         <!-- revoir le découpage Mette --> —sed tamen illa quam exposuisti vetus,
                         haec nova nominetur. quae usque ad <persName ref="Carneades">Carneadem</persName> perducta, qui quartus ab <persName ref="#Arcesilas">Arcesila</persName> fuit, in eadem <persName ref="#Arcesilas">Arcesilae</persName> ratione permansit.</ab>
-
+                    
                     <ab type="translatio" corresp="#T4_Carneades" xml:lang="fr">Acceptons cependant
                         d'appeler "ancienne" l'académie que tu as décrite, et "nouvelle" celle dont
                         je vais parler. Cette dernière va jusqu'à <persName>Carnéade</persName>, qui
@@ -86,7 +86,7 @@
                         <milestone unit="paragraph" n="77"/>Tum illum ita definisse, ex eo, quod
                         esset, sicut esset, impressum et signatum et effictum. Post requisitum
                         etiamne, si eiusdem modi esset uisum uerum, quale uel falsum. Hic
-                            <persName>Zenonem</persName> uidisse acute nullum esse uisum quod
+                        <persName>Zenonem</persName> uidisse acute nullum esse uisum quod
                         percipi posset, si id tale esset ab eo, quod est, ut eiusdem modi ab eo,
                         quod non est, posset esse. Recte consensit <persName>Arcesilas</persName> ad
                         definitionem additum: neque enim falsum percipi posse neque uerum, si esset
@@ -102,7 +102,7 @@
                         fausse. Ici <persName>Zénon </persName>aurait subtilement perçu que, si une
                         représentation de ce qui est pouvait se confondre avec une représentation de
                         ce qui n’est pas, il n’y aurait aucune de saisissable. À juste titre,
-                            <persName>Arcésilas</persName> admit un ajout à la définition, concédant
+                        <persName>Arcésilas</persName> admit un ajout à la définition, concédant
                         que ni le vrai ni le faux ne seraient saisissables, si le vrai était tel que
                         le faux. Il s’étendit cependant sur les discussions destinées à prouver
                         qu’aucune représentation du vrai n’était telle qu’une représentation de même
@@ -135,7 +135,7 @@
                     <q type="translatio" corresp="#F1_Clitomachus" xml:lang="fr">
                         <ab type="translatio" xml:lang="fr" corresp="#T3_Carneades">
                             <milestone unit="paragraph" n="104"/>Après avoir exposé cela,
-                                <persName>Clitomaque</persName> ajoute qu'on peut dire en deux sens
+                            <persName>Clitomaque</persName> ajoute qu'on peut dire en deux sens
                             que « le sage suspend son assentiment ». Selon le premier sens il faut
                             comprendre que le sage ne donne son assentiment absolument à rien. Selon
                             le second sens, il s'abstient de donner une réponse qui fasse qu'il
@@ -153,8 +153,8 @@
                             impressions de ce genre qui sont approuvées, mais celles qui ne sont
                             empêchées par rien.</ab>
                     </q>
-
-
+                    
+                    
                 </div>
             </div>
         </body>
