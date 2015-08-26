@@ -1,10 +1,9 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xml:id="De_ebrietate">
     <teiHeader>
-        <!-- description bibliographique complète du fichier électronique -->
         <fileDesc>
             <titleStmt>
-
+                
                 <title key="De Ebrietate">De ebrietate</title>
                 <author key=" Philo Judaeus">Philo Alexandrinus</author>
                 <editor key="Marchand, Stéphane">Stéphane Marchand</editor>
@@ -52,7 +51,7 @@
                         instable, le jugement qui porte sur elle <milestone unit="paragraph" n="171"/>aussi est instable. Plusieurs raisons à cela… </ab>
                 </div>
                 <div type="page" n="2">
-                    <ab type="excerptum" xml:id="T6_Aenesidemus" xml:lang="grc" ana="#modi_decem #quartus_modus">(...)<milestone unit="paragraph" n="178"/>καίτοι τί ταῦτά φαμεν; αὐτός τις εἷς ὢν ἕκαστος ἐφ’ ἑαυτοῦ, τὸ
+                    <ab type="testimonium" xml:id="T6_Aenesidemus" xml:lang="grc" ana="#modi_decem #quartus_modus">(...)<milestone unit="paragraph" n="178"/>καίτοι τί ταῦτά φαμεν; αὐτός τις εἷς ὢν ἕκαστος ἐφ’ ἑαυτοῦ, τὸ
                         παραδοξότατον, μυρίας μεταβολὰς καὶ τροπὰς δεχόμενος κατά τε σῶμα καὶ ψυχὴν
                         τοτὲ μὲν αἱρεῖται, τοτὲ δ’ ἀποστρέ- φεται οὐδαμῶς μεταβάλλοντα, μένειν δ’
                         ἐπὶ τῆς αὐτῆς πεφυκότα κατασκευῆς <milestone unit="paragraph" n="179"/>· οὐ
