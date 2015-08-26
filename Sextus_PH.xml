@@ -5,19 +5,18 @@
             <titleStmt>
                 <title key="Pyrrhoniae hypotyposes" ref="urn:cts:greekLit:tlg0544.tlg001">Pyrrhoniae
                     hypotyposes</title>
-
+                
                 <author key="Sextus Empiricus(0160?-0210?)" ref="urn:cite:perseus:author.1285">Sextus Empiricus</author>
             </titleStmt>
             <publicationStmt>
                 <publisher>Ecole Normale Supérieure de Lyon</publisher>
             </publicationStmt>
             <sourceDesc>
-
+                
                 <bibl n="Description de la source principale">Pyrrhoniae hypotyposes, Sexti Empirici
                     Opera, Vol I, Mutschmann, Hermann edidit in aedibus B. G. Teubneri , 1912</bibl>
             </sourceDesc>
         </fileDesc>
-
     </teiHeader>
     <text>
         <body>
@@ -34,7 +33,7 @@
                         involontaire, elle ne fait pas l’objet de la recherche</ab>
                 </div>
                 <div type="chapitre" n="14">
-
+                    
                     <head xml:lang="grc">ιδʹ περὶ τῶν δέκα τρόπων</head>
                     <head type="translatio" xml:lang="fr">Sur les dix tropes</head>
                     <ab type="testimonium" ana="#philosophia_pyrrhonia  #modi_decem" xml:lang="grc" xml:id="T6_Aenesidemus" corresp="#Aenesidemus" n="6">
@@ -51,38 +50,39 @@
                         δογματικὰς ὑπολήψεις. χρώμεθα δὲ τῇ τάξει ταύτῃ θετικῶς. τούτων δὲ
                         ἐπαναβεβηκότες εἰσὶ τρόποι τρεῖς, ὁ ἀπὸ τοῦ κρίνοντος, ὁ ἀπὸ τοῦ κρινομένου,
                         ὁ ἐξ ἀμφοῖν· τῷ μὲν γὰρ ἀπὸ τοῦ κρίνοντος ὑποτάσσονται οἱ πρῶτοι τέσσαρες
-                        (τὸ γὰρ κρῖνον ἢ ζῷόν ἐστιν ἢ ἄνθρωπος ἢ αἴσθησις ἢ ἔν τινι περιστάσει), εἰς
-                        δὲ τὸν ἀπὸ τοῦ κρινομένου [ἀνάγονται] ὁ ἕβδομος καὶ ὁ δέκατος, εἰς δὲ τὸν ἐξ
-                        ἀμφοῖν σύνθετον ὁ πέμπτος καὶ ὁ ἕκτος καὶ ὁ ὄγδοος καὶ ὁ <milestone unit="paragraph" n="39"/>ἔννατος. πάλιν δὲ οἱ τρεῖς οὗτοι ἀνάγονται εἰς
-                        τὸν πρός τι, ὡς εἶναι γενικώτατον μὲν τὸν πρός τι, εἰδικοὺς δὲ τοὺς τρεῖς,
-                        ὑποβεβηκότας δὲ τοὺς δέκα. ταῦτα μὲν περὶ τῆς ποσότητος αὐτῶν κατὰ τὸ
-                        πιθανὸν λέγομεν· περὶ δὲ τῆς δυνάμεως τάδε.</ab>
+                        (τὸ γὰρ κρῖνον ἢ ζῷόν ἐστιν ἢ ἄνθρωπος ἢ αἴσθησις καὶ <note>ἢ MM
+                            corr.</note> ἔν τινι περιστάσει), εἰς δὲ τὸν ἀπὸ τοῦ κρινομένου
+                        [ἀνάγονται] ὁ ἕβδομος καὶ ὁ δέκατος, εἰς δὲ τὸν ἐξ ἀμφοῖν σύνθετον ὁ πέμπτος
+                        καὶ ὁ ἕκτος καὶ ὁ ὄγδοος καὶ ὁ <milestone unit="paragraph" n="39"/>ἔννατος.
+                        πάλιν δὲ οἱ τρεῖς οὗτοι ἀνάγονται εἰς τὸν πρός τι, ὡς εἶναι γενικώτατον μὲν
+                        τὸν πρός τι, εἰδικοὺς δὲ τοὺς τρεῖς, ὑποβεβηκότας δὲ τοὺς δέκα. ταῦτα μὲν
+                        περὶ τῆς ποσότητος αὐτῶν κατὰ τὸ πιθανὸν λέγομεν· περὶ δὲ τῆς δυνάμεως
+                        τάδε.</ab>
                     <ab type="translatio" xml:lang="fr" corresp="#T6_Aenesidemus">
-                        <milestone unit="paragraph" n="36"/>Les anciens sceptiques, donc,
-                        transmettent des modes, au nombre de dix, par lesquels, semble-t-il, on est
-                        conduit à la suspension de l’assentiment, qu’ils appellent aussi par les
-                        termes synonymes d’ « arguments » et de « types ». Les voici : le premier se
-                        fait d’après la variété des animaux, le deuxième d’après la différence entre
-                        les humains, le troisième d’après les différentes constitutions des organes
-                        des sens, le quatrième d’après les circonstances, le cinquième d’après les
-                        positions, les distances et les lieux, le sixième d’après <milestone unit="paragraph" n="37"/>les mélanges, le septième d’après la quantité
-                        et la constitution des objets, le huitième d’après le relatif, le neuvième
-                        d’après le caractère continu ou rare des rencontres, le dixième d’après les
-                        modes de vie, les coutumes, les lois, les croyances aux mythes<milestone unit="paragraph" n="38"/> et les suppositions dogmatiques. Nous n’avons
-                        recours à cet ordre que conventionnellement. Au-dessus de ceux-ci il y a
-                        trois modes : celui d’après ce qui juge, celui d’après ce qui est jugé,
-                        celui qui vient des deux. Sous celui d’après ce qui juge tombent les quatre
-                        premiers – car ce qui juge est soit un animal, soit un humain, soit un sens
-                        et ils existent dans des circonstances déterminées-, à celui selon ce qui
-                        est jugé se ramènent le septième et le dixième, à celui qui est composé des
-                        deux se ramènent le cinquième, le sixième, <milestone unit="paragraph" n="39"/>le huitième et le neuvième. Ces trois modes à leur tour se
-                        ramènent à celui du relatif, de sorte que le relatif est le genre le plus
-                        haut, dont les trois nommés sont des espèces, auxquelles sont subordonnés
-                        les dix. Voilà ce que nous avons à dire sur leur quantité en restant dans le
-                        domaine du plausible. Voilà ce qu’il en est de leur force</ab>
-
+                        <milestone unit="paragraph" n="36"/>Donc, les anciens sceptiques
+                        transmettent habituellement des modes par lesquels il semble qu'on soit
+                        conduit à la suspension ; il y en a dix, qu’ils appellent aussi de manière
+                        synonyme « arguments » et « types ». Ce sont : le premier, le mode suivant
+                        la différence entre les animaux ; le deuxième suivant la différence entre les hommes
+                        ; le troisième suivant les différentes constitutions des organes des sens ;
+                        le quatrième suivant les circonstances ; le cinquième suivant les positions,
+                        les distances et les lieux ; le sixième suivant <milestone unit="paragraph" n="37"/>les mélanges ; le septième suivant la quantité et la
+                        constitution des objets ; le huitième suivant le relatif ; le neuvième
+                        suivant le caractère continu ou rare des rencontres, le dixième suivant les
+                        choix de vie, les coutumes, les lois, les croyances aux mythes<milestone unit="paragraph" n="38"/> et les suppositions dogmatiques. Nous
+                        n’utilisons cet ordre que de manière conventionnelle. Trois modes se placent
+                        au dessus d'eux : le mode d’après le sujet qui juge, celui d’après l'objet
+                        jugé, et celui qui vient des deux. Les quatre premiers modes dépendent du
+                        mode d’après le sujet qui juge – car le sujet qui juge est soit un animal,
+                        soit un humain, soit un sens et est dans une certaine circonstance -, de ce
+                        qui est jugé relèvent le septième et le dixième, de ce qui est composé des
+                        deux relèvent le cinquième, le sixième, <milestone unit="paragraph" n="39"/>le huitième et le neuvième. A leur tour, ces trois modes se ramènent à
+                        celui du relatif, de telle sorte que le trope du relatif est le genre le
+                        plus haut, dont les trois sont des espèces, dont les dix dépendent. Voilà pour ce que nous avons à dire sur leur quantité en suivant ce qui est 
+                        plausible. Passons à ce qu'il en est de leur force</ab>
+                    
                     <ab>(...)</ab>
-
+                    
                     <ab type="testimonium" ana="#philosophia_pyrrhonia  #quartus_modus" xml:lang="grc" xml:id="T7_Aenesidemus" corresp="#Aenesidemus" n="7">
                         <milestone unit="paragraph" n="102"/>εἰ δέ τις λέγει ὅτι χυμῶν τινων
                         παραπλοκὴ ἀνοικείους φαντασίας ἐκ τῶν ὑποκειμένων ποιεῖ τοῖς παρὰ φύσιν
@@ -109,51 +109,115 @@
                         contraire à la nature des bien portants et dans l’état naturel des malades,
                         de sorte qu’eux aussi, qui sont dans un état naturel relatif, doivent
                         emporter <milestone unit="paragraph" n="104"/>notre conviction </ab>
-
-
+                    
+                    
+                </div>
+                <div type="chapitre" n="17">
+                    <head xml:lang="grc">ιζ' τίνες τρόποι τῆς τῶν αἰτιολογικῶν ἀνατροπῆς.</head>
+                    <head type="translatio" xml:lang="fr">Chapitre 37 : quels sont modes de
+                        réfutation de ceux qui expliquent par les causes</head>
+                    <ab type="fragmentum" ana="#philosophia_pyrrhonia  #causa #phainomenon #modi_octo #aporia" xml:lang="grc" xml:id="F9_Aenesidemus" corresp="#Aenesidemus" n="9">
+                        <milestone unit="paragraph" n="180"/>Ὥσπερ δὲ τοὺς τρόπους 〈τῆς〉 ἐποχῆς
+                        παραδίδομεν, οὕτω καὶ τρόπους ἐκτίθενταί τινες, καθ' οὓς ἐν ταῖς κατὰ μέρος
+                        αἰτιολογίαις διαποροῦντες ἐφιστῶμεν τοὺς δογματικοὺς διὰ τὸ μάλιστα ἐπὶ
+                        ταύταις αὐτοὺς μέγα φρονεῖν. καὶ δὴ <persName>Αἰνησίδημος</persName> ὀκτὼ
+                        τρόπους παραδίδωσι καθ' οὓς οἴεται πᾶσαν δογματικὴν αἰτιολογίαν ὡς μοχθηρὰν
+                        ἐλέγχων ἀποφήνασθαι,<milestone unit="paragraph" n="181"/>
+            <lb/> ὧν πρῶτον μὲν
+                        εἶναί φησι καθ' ὃν [τρόπον] τὸ τῆς αἰτιολογίας γένος ἐν ἀφανέσιν
+                        ἀναστρεφόμενον οὐχ ὁμολογουμένην ἔχει τὴν ἐκ τῶν φαινομένων ἐπιμαρτύρησιν˙
+                        δεύτερον δὲ καθ' ὃν πολλάκις εὐεπιφορίας οὔσης δαψιλοῦς ὥστε πολυτρόπως
+                        αἰτιολογῆσαι τὸ ζητούμενον, καθ' ἕνα μόνον <milestone unit="paragraph" n="182"/> τρόπον τοῦτό τινες αἰτιολογοῦσιν˙ <lb/> τρίτον καθ' ὃν τῶν
+                        τεταγμένως γινομένων αἰτίας ἀποδιδόασιν οὐδεμίαν τάξιν ἐπιφαινούσας˙<lb/>
+                        τέταρτον καθ' ὃν τὰ φαινόμενα λαβόντες ὡς γίνεται, καὶ τὰ μὴ φαινόμενα
+                        νομίζουσιν ὡς γίνεται κατειληφέναι, τάχα μὲν ὁμοίως τοῖς φαινομένοις τῶν
+                        ἀφανῶν ἐπιτελουμένων, τάχα δ' οὐχ ὁμοίως ἀλλ' ἰδιαζόντως˙<lb/>
+                        <milestone unit="paragraph" n="183"/> πέμπτον καθ' ὃν πάντες ὡς ἔπος εἰπεῖν
+                        κατὰ τὰς ἰδίας τῶν στοιχείων ὑποθέσεις ἀλλ' οὐ κατά τινας κοινὰς καὶ
+                        ὁμολογουμένας ἐφόδους αἰτιολογοῦσιν˙<lb/> ἕκτον καθ' ὃν πολλάκις τὰ μὲν
+                        φωρατὰ ταῖς ἰδίαις ὑποθέσεσι παραλαμβάνουσιν, τὰ δὲ ἀντιπίπτοντα καὶ τὴν
+                        ἴσην ἔχοντα πιθανότητα <milestone unit="paragraph" n="184"/>
+                        παραπέμπουσιν˙<lb/> ἕβδομον καθ' ὃν πολλάκις ἀποδιδόασιν αἰτίας οὐ μόνον
+                        τοῖς φαινομένοις ἀλλὰ καὶ ταῖς ἰδίαις ὑποθέσεσι μαχομένας˙<lb/> ὄγδοον καθ'
+                        ὃν πολλάκις ὄντων ἀπόρων ὁμοίως τῶν τε φαίνεσθαι δοκούντων καὶ τῶν
+                        ἐπιζητουμένων, ἐκ τῶν ὁμοίως ἀπόρων περὶ τῶν ὁμοίως ἀπόρων <milestone unit="paragraph" n="185"/> ποιοῦνται τὰς διδασκαλίας.<lb/> οὐκ ἀδύνατον
+                        δέ φησι καὶ κατά τινας ἐπιμίκτους τρόπους, ἠρτημένους ἐκ τῶν προειρημένων,
+                        διαπίπτειν ἐνίους ἐν ταῖς αἰτιολογίαις.</ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#F9_Aenesidemus">
+                        <milestone unit="paragraph" n="180"/>De même que nous transmettons les
+                        tropes de la suspension du jugement, de même, en montrant les apories des
+                        explications causales particulières, certains exposent les tropes suivant
+                        lesquels nous arrêtons les dogmatiques parce qu'ils sont particulièrement
+                        fiers de ces explications. De fait, <persName>Enésidème</persName> transmet
+                        huit tropes suivant lesquels il pense montrer, en réfutant, que toute
+                        explication causale dogmatique est erronée.<lb/>
+                        <milestone unit="paragraph" n="181"/> Le premier est celui suivant lequel le
+                        genre de l'explication causale, en tant qu'il renvoie aux choses obscures,
+                        ne reçoit des phénomènes aucune confirmation sur laquelle il y ait un
+                        accord.<lb/> Le deuxième est celui suivant lequel alors que souvent il y a
+                        abondance de moyens pour expliquer de manière causale de plusieurs façons ce
+                        que l'on cherche, certains dogmatiques <milestone unit="paragraph" n="182"/>
+                        donnent une explication causale d'une seule façon.<lb/> Le troisième est
+                        celui suivant lequel ils donnent aux choses qui sont ordonnées des causes
+                        qui ne manifestent aucun ordre.<lb/> Le quatrième est celui suivant lequel,
+                        quand ils saisissent comment les phénomènes arrivent, ils pensent qu'ils ont
+                        aussi compris comment arrivent les choses non apparentes, alors que
+                        peut-être que les choses obscures s'accomplissent de la même façon que les
+                        phénomènes, mais peut être qu'elles ne le font pas de la même façon, mais
+                        d'une façon particulière.<lb/>
+                        <milestone unit="paragraph" n="183"/> Le cinquième est celui suivant lequel
+                        tous, pour ainsi dire, donnent des explications selon leurs propres
+                        hypothèses sur les éléments, mais pas selon les approches communes et
+                        reconnues de tous.<lb/> Le sixième est celui suivant lequel souvent ils
+                        acceptent les découvertes faites selon leurs propres hypothèses mais
+                        refusent celles qui leur sont contraires <milestone unit="paragraph" n="184"/> bien qu'elles soient tout aussi plausibles.<lb/> Le septième, celui
+                        suivant lequel souvent ils produisent des causes qui sont non seulement en
+                        conflit avec les phénomènes, mais aussi avec leurs propres hypothèses.
+                        <lb/>Le huitième, celui suivant lequel souvent les choses qu'ils pensent
+                        être apparentes et celles sur lesquelles ils font leur recherche étant
+                        également aporétiques, ils expliquent les choses qui font également l'objet
+                        d'une aporie par des choses qui font également l'objet d'une aporie.<lb/>
+                        <milestone unit="paragraph" n="185"/>Il dit aussi qu'il n'est pas impossible
+                        que certains se trompent dans leurs explications causales selon des tropes
+                        mélangés, en lien avec ceux que nous avons décrit. </ab>
                 </div>
                 <div type="chapitre" n="33">
                     <head xml:lang="grc">λγ´ τίνι διαφέρει τῆς Ἀκαδημαϊκῆς φιλοσοφίας ἡ
                         σκέψις.</head>
-                    <head type="translatio" xml:lang="fr">Chapitre 33 : Par quoi se distingue le scepticisme de la philosophie
-                        académicienne</head>
+                    <head type="translatio" xml:lang="fr">Chapitre 33 : Par quoi se distingue le
+                        scepticisme de la philosophie académicienne</head>
                     <ab type="testimonium" ana="#philosophia_pyrrhonia #academia_sceptica #academiae_historia" xml:lang="grc" xml:id="T8_Arcesilas" corresp="#Arcesilas #Clitomachus #Carneades #Philo_Larissaeus" n="8">
                         <milestone unit="paragraph" n="220"/>
-                        <bibl>F1 Mette - l.1-6</bibl>
-                        Φασὶ μέντοι τινὲς ὅτι ἡ Ἀκαδημαϊκὴ
-                        φιλοσοφία ἡ αὐτή ἐστι τῇ σκέψει˙ διόπερ ἀκόλουθον ἂν εἴη καὶ περὶ τούτου
-                        διεξελθεῖν. Ἀκαδημίαι δὲ γεγόνασιν, ὡς φασὶ〈ν οἱ〉 πλείους [ἢ], τρεῖς, μία
-                        μὲν καὶ ἀρχαιοτάτη ἡ τῶν περὶ <persName>Πλάτωνα</persName>, δευτέρα δὲ καὶ
-                        μέση ἡ τῶν περὶ <persName>Ἀρκεσίλαον</persName> τὸν ἀκουστὴν
-                            <persName>Πολέμωνος</persName>, τρίτη δὲ καὶ νέα ἡ τῶν περὶ
-                            <persName>Καρνεάδην</persName> καὶ <persName>Κλειτόμαχον</persName>˙
+                        <bibl>F1 Mette - l.1-6</bibl> Φασὶ μέντοι τινὲς ὅτι ἡ Ἀκαδημαϊκὴ φιλοσοφία ἡ
+                        αὐτή ἐστι τῇ σκέψει˙ διόπερ ἀκόλουθον ἂν εἴη καὶ περὶ τούτου διεξελθεῖν.
+                        Ἀκαδημίαι δὲ γεγόνασιν, ὡς φασὶ〈ν οἱ〉 πλείους [ἢ], τρεῖς, μία μὲν καὶ
+                        ἀρχαιοτάτη ἡ τῶν περὶ <persName>Πλάτωνα</persName>, δευτέρα δὲ καὶ μέση ἡ
+                        τῶν περὶ <persName>Ἀρκεσίλαον</persName> τὸν ἀκουστὴν
+                        <persName>Πολέμωνος</persName>, τρίτη δὲ καὶ νέα ἡ τῶν περὶ
+                        <persName>Καρνεάδην</persName> καὶ <persName>Κλειτόμαχον</persName>˙
                         ἔνιοι δὲ καὶ τετάρτην προστιθέασι τὴν περὶ <persName>Φίλωνα </persName>καὶ
-                            <persName>Χαρμίδαν</persName>, τινὲς δὲ καὶ πέμπτην καταλέγουσι τὴν περὶ
+                        <persName>Χαρμίδαν</persName>, τινὲς δὲ καὶ πέμπτην καταλέγουσι τὴν περὶ
                         [τὸν] <persName>Ἀντίοχον</persName>.</ab>
                     <ab type="translatio" corresp="#T8_Arcesilas">
                         <milestone unit="paragraph" n="220"/> Mais certains affirment que la
                         philosophie académicienne est la même chose que le scepticisme. Pour cette
                         raison, il serait cohérent aussi d'aborder ce sujet. La plupart des gens
                         disent qu'il y a eu trois Académies : une, la plus ancienne, est celle de
-                            <persName>Platon</persName>; la deuxième, la Moyenne Académie, celle
-                            d'<persName>Arcésilas</persName>, le disciple de
-                            <persName>Polémon</persName> ; la troisième, la Nouvelle Académie, celle
+                        <persName>Platon</persName>; la deuxième, la Moyenne Académie, celle
+                        d'<persName>Arcésilas</persName>, le disciple de
+                        <persName>Polémon</persName> ; la troisième, la Nouvelle Académie, celle
                         de <persName>Carnéade</persName> et <persName>Clitomaque</persName>. Mais
                         certains ajoutent aussi une quatrième Académie, celle de
-                            <persName>Philon</persName> et <persName>Charmadas</persName>, et
+                        <persName>Philon</persName> et <persName>Charmadas</persName>, et
                         d'autres encore une cinquième, celle d'<persName>Antiochus</persName>.</ab>
-
+                    
                 </div>
             </div>
-
-
-
-
             <div type="livre" n="3">
                 <div type="chapitre" n="23">
                     <head xml:lang="grc">κγʹ εἰ ἔστι τι φύσει ἀγαθὸν καὶ ἀδιάφορον. </head>
-                    <head type="translatio" xml:lang="fr">Chapitre 23 : S'il existe par nature quelque chose de bon ou
-                        d'indifférent</head>
+                    <head type="translatio" xml:lang="fr">Chapitre 23 : S'il existe par nature
+                        quelque chose de bon ou d'indifférent</head>
                     <ab type="excerptum" ana="#philosophia_pyrrhonia #phainomenon" xml:lang="grc" xml:id="PH_III_179">
                         <milestone unit="paragraph" n="179"/>Τὸ πῦρ φύσει ἀλεαῖνον πᾶσι φαίνεται
                         ἀλεαντικόν, καὶ ἡ χιὼν φύσει ψύχουσα πᾶσι φαίνεται ψυκτική, καὶ πάντα τὰ
