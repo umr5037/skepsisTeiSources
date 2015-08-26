@@ -20,7 +20,7 @@
             <sourceDesc>
                 <p>Information about the source</p>
             </sourceDesc>
-
+            
         </fileDesc>
         <profileDesc>
             <particDesc>
@@ -55,7 +55,7 @@
                         <affiliation>Academicus</affiliation>
                         <birth when="-0214">-219 a.C. </birth>
                         <death when="-0129">-129 a.C</death>
-
+                        
                         <state type="scholarchus" from="-0176"/>
                     </person>
                     <person xml:id="Aenesidemus">
@@ -85,10 +85,10 @@
                         <state type="scholarchus"/>
                     </person>
                 </listPerson>
-
+                
             </particDesc>
         </profileDesc>
-
+        
     </teiHeader>
     <TEI xml:id="Pyrrho_bio">
         <teiHeader>
@@ -136,5 +136,5 @@
             </body>
         </text>
     </TEI>
-
+    
 </teiCorpus>
