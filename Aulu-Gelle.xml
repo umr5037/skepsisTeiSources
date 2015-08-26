@@ -1,7 +1,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xml:id="Noctes_Atticae">
     <teiHeader>
-        <!-- description bibliographique complète du fichier électronique -->
         <fileDesc>
             <titleStmt>
                 <title key="Noctes Atticae" ref="urn:cts:latinLit:phi1254.phi001">Noctes
