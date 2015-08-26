@@ -1,11 +1,13 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xml:id="Vitae_philosophorum">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xml:id="Vitae_philosophorum">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                
+
                 <title key="Vitae philosophorum" ref="urn:cts:greekLit:tlg0004.tlg001">Vitae
-                    philosophorum</title>
+                    Philosophorum</title>
                 <author key="Diogenes Laertius" ref="urn:cite:perseus:author.494">Diogenius
                     Laertius</author>
             </titleStmt>
@@ -22,15 +24,16 @@
         <body>
             <div type="livre" n="4">
                 <div type="page" n="1">
-                    <ab type="testimonium" xml:id="T1_Arcesilas" corresp="#Arcesilas" n="1" ana="#epochè #academia_sceptica" xml:lang="gr">
+                    <ab type="testimonium" xml:id="T1_Arcesilas" corresp="#Arcesilas" n="1"
+                        ana="#epochè #academia_sceptica" xml:lang="gr">
                         <bibl>T1A Mette - l.24-29</bibl>
                         <milestone unit="paragraph" n="28"/>
                         <persName>Ἀρκεσίλαος</persName> Σεύθου (ἢ <persName>Σκύθου</persName>, ὡς
-                        <persName>Ἀπολλόδωρος</persName> ἐν τῷ τρίτῳ <title>Χρονικῶν</title>),
+                            <persName>Ἀπολλόδωρος</persName> ἐν τῷ τρίτῳ <title>Χρονικῶν</title>),
                         Πιταναῖος τῆς Αἰολίδος. οὗτός ἐστιν ὁ τῆς μέσης Ἀκαδημείας κατάρξας, πρῶτος
                         ἐπισχὼν τὰς ἀποφάσεις διὰ τὰς ἐναντιότητας τῶν λόγων. πρῶτος δὲ καὶ εἰς
                         ἑκάτερον ἐπεχείρησε, καὶ πρῶτος τὸν λόγον ἐκίνησε τὸν ὑπὸ
-                        <persName>Πλάτωνος</persName> παραδεδομένον καὶ ἐποίησε δι' ἐρωτήσεως
+                            <persName>Πλάτωνος</persName> παραδεδομένον καὶ ἐποίησε δι' ἐρωτήσεως
                         καὶ ἀποκρίσεως ἐριστικώτερον. </ab>
                     <ab type="translatio" corresp="#T1_Arcesilas" xml:lang="fr">
                         <milestone unit="paragraph" n="28"/>
@@ -46,18 +49,19 @@
             </div>
             <div type="livre" n="9">
                 <div type="page" n="2">
-                    <ab type="testimonium" xml:id="T1_Pyrrho" n="1" corresp="#Pyrrho" ana="#philosophia_pyrrhonia #ou_mallon #epochè #akatalepsia" xml:lang="gr">
+                    <ab type="testimonium" xml:id="T1_Pyrrho" n="1" corresp="#Pyrrho"
+                        ana="#philosophia_pyrrhonia #ou_mallon #epochè #akatalepsia" xml:lang="gr">
                         <bibl>1A Decleva Caizzi</bibl>
                         <milestone unit="paragraph" n="61"/>
                         <persName>Πύρρων</persName> Ἠλεῖος <persName>Πλειστάρχου</persName> μὲν ἦν
                         υἱός, καθὰ καὶ Διοκλῆς ἱστορεῖ˙ ὥς φησι δ'
                         <persName>Ἀπολλόδωρος</persName>ἐν <title>Χρονικοῖς</title>, πρότερον ἦν
                         ζωγράφος, καὶ ἤκουσε <persName>Βρύσωνος </persName>τοῦ
-                        <persName>Στίλπωνος</persName>, ὡς <persName>Ἀλέξανδρος</persName> ἐν
-                        <title>Διαδοχαῖς</title>, εἶτ' Ἀναξάρχου, ξυνακολουθῶν πανταχοῦ, ὡς καὶ
+                            <persName>Στίλπωνος</persName>, ὡς <persName>Ἀλέξανδρος</persName> ἐν
+                            <title>Διαδοχαῖς</title>, εἶτ' Ἀναξάρχου, ξυνακολουθῶν πανταχοῦ, ὡς καὶ
                         τοῖς γυμνοσοφισταῖς ἐν Ἰνδίᾳ συμμῖξαι καὶ τοῖς Μάγοις. ὅθεν γενναιότατα
                         δοκεῖ φιλοσοφῆσαι, τὸ τῆς ἀκαταληψίας καὶ ἐποχῆς εἶδος εἰσαγαγών, ὡς
-                        <persName>Ἀσκάνιος</persName> ὁ Ἀβδηρίτης φησίν. <quote>οὐδὲν γὰρ
+                            <persName>Ἀσκάνιος</persName> ὁ Ἀβδηρίτης φησίν. <quote>οὐδὲν γὰρ
                             ἔφασκεν οὔτε καλὸν οὔτ' αἰσχρὸν οὔτε δίκαιον οὔτ' ἄδικον˙ καὶ ὁμοίως ἐπὶ
                             πάντων μηδὲν εἶναι τῇ ἀληθείᾳ, νόμῳ δὲ καὶ ἔθει πάντα τοὺς ἀνθρώπους
                             πράττειν˙ οὐ γὰρ μᾶλλον τόδε ἢ τόδε εἶναι ἕκαστον</quote>. </ab>
@@ -65,11 +69,11 @@
                         <milestone unit="paragraph" n="61"/>
                         <persName>Pyrrhon</persName> d'Elis était le fils de Pleistarque, d'après le
                         récit de <persName>Dioclès</persName>. Comme le dit
-                        <persName>Apollodore</persName> dans ses <title>Chroniques</title>, il a
+                            <persName>Apollodore</persName> dans ses <title>Chroniques</title>, il a
                         d'abord été peintre, puis il a été l'auditeur de
                         <persName>Bryson</persName>, le fils de <persName>Stilpon</persName>, comme
                         le dit Alexandre dans les <title>Diadochies</title>, et ensuite
-                        d'<persName>Anaxarque</persName>, qu'il suivait partout, jusque chez les
+                            d'<persName>Anaxarque</persName>, qu'il suivait partout, jusque chez les
                         gymnosophistes en Inde et chez les Mages. De là, semble-t-il, vient sa très
                         noble manière de philosopher, qui introduit la forme de l'insaisissabilité
                         et de la suspension du jugement, comme le dit <persName>Ascanios</persName>
@@ -77,23 +81,25 @@
                             ni injuste, et que de la même façon pour toutes choses aucune n'existe
                             en vérité , mais que les hommes agissent selon la loi et la coutume ;
                             car chaque chose n'est pas davantage ceci que cela</quote>.</ab>
-                    
+
                 </div>
                 <div type="page" n="3">
-                    <ab type="testimonium" xml:id="T2_Pyrrho" n="2" corresp="#Pyrrho" ana="#philosophia_pyrrhonia #epochè" xml:lang="gr">
+                    <ab type="testimonium" xml:id="T2_Pyrrho" n="2" corresp="#Pyrrho"
+                        ana="#philosophia_pyrrhonia #epochè" xml:lang="gr">
                         <bibl>T7 Decleva Caizzi</bibl>
                         <milestone unit="paragraph" n="62"/>Ἀκόλουθος δ' ἦν καὶ τῷ βίῳ, μηδὲν
                         ἐκτρεπόμενος μηδὲ φυλαττόμενος, ἅπαντα ὑφιστάμενος, ἀμάξας, εἰ τύχοι, καὶ
                         κρημνοὺς καὶ κύνας καὶ ὅσα 〈τοιαῦτα〉 μηδὲν ταῖς αἰσθήσεσιν ἐπιτρέπων.
                         σώζεσθαι μέντοι, καθά φασιν οἱ περὶ τὸν Καρύστιον
-                        <persName>Ἀντίγονον</persName>, ὑπὸ τῶν γνωρίμων παρακολουθούντων. <q type="fragmentum" source="#Aenesidemus" xml:id="F2_Aenesidemus" n="2">
+                            <persName>Ἀντίγονον</persName>, ὑπὸ τῶν γνωρίμων παρακολουθούντων. <q
+                            type="fragmentum" source="#Aenesidemus" xml:id="F2_Aenesidemus" n="2">
                             <bibl>B6 Polito (partim)</bibl>
                             <milestone unit="paragraph" n="(62)"/>
                             <persName ref="Aenesidemus">Αἰνεσίδημος</persName> δέ φησι φιλοσοφεῖν
                             μὲν αὐτὸν κατὰ τὸν τῆς ἐποχῆς λόγον, μὴ μέντοι γ' ἀπροοράτως ἕκαστα
                             πράττειν. </q>
                     </ab>
-                    
+
                     <ab type="translatio" corresp="#T2_Pyrrho" xml:lang="fr">
                         <milestone unit="paragraph" n="62"/> Il était conséquent jusque dans sa vie,
                         ne se détournant de rien, ne prenant garde à rien, affrontant toute chose,
@@ -101,26 +107,44 @@
                         rien à ses sensations pour toutes ces choses. Il n'était sauvé, cependant,
                         comme le dit <persName>Antigone</persName> de Caryste, que par ses disciples
                         qui l'accompagnaient.<q corresp="#F2_Aenesidemus">
-                            <milestone unit="paragraph" n="(62)"/>Mais <persName ref="Aenesidemus">Enésidème</persName> dit qu'il (sc. Pyrrhon) philosophait selon la
+                            <milestone unit="paragraph" n="(62)"/>Mais <persName ref="Aenesidemus"
+                                >Enésidème</persName> dit qu'il (sc. Pyrrhon) philosophait selon la
                             théorie de la suspension du jugement, mais que pour chaque chose, il
                             n'agissait pas sans précaution.</q>
                     </ab>
-                    
                 </div>
                 <div type="page" n="4">
-                    <ab type="testimonium" xml:id="T5_Pyrrho" n="5" corresp="#Pyrrho" ana="#philosophia_pyrrhonia" xml:lang="gr">
+                    <ab type="testimonium" xml:id="T7_Pyrrho" n="7" corresp="#Pyrrho"
+                        ana="#philosophia_pyrrhonia #ataraxia" xml:lang="gr">
+                        <bibl>T17A Decleva Caizzi</bibl>
+                        <milestone unit="paragraph" n="68"/><persName>Ποσειδώνιος </persName>δὲ καὶ
+                        τοιοῦτόν τι διέξεισι περὶ αὐτοῦ. τῶν γὰρ συμπλεόντων ἐσκυθρωπακότων ὑπὸ
+                        χειμῶνος, αὐτὸς γαληνὸς ὢν ἀνέρρωσε τὴν ψυχήν, δείξας ἐν τῷ πλοίῳ χοιρίδιον
+                        ἐσθίον καὶ εἰπὼν ὡς χρὴ τὸν σοφὸν ἐν τοιαύτῃ καθεστάναι ἀταραξίᾳ.</ab>
+                    <ab type="translatio" corresp="#T7_Pyrrho" xml:lang="fr"><milestone
+                            unit="paragraph" n="68"/><persName>Posidonius</persName> raconte aussi
+                        ceci à son propos : alors que ses compagnons de traversée pâlissaient à
+                        cause d'une tempête, lui restait calme et réconfortait son âme en montrant
+                        sur le navire un petit cochon qui mangeait et en disant que le sage devait
+                        se maintenir dans le même état d'ataraxie.</ab>
+                </div>
+
+                <div type="page" n="5">
+                    <ab type="testimonium" xml:id="T5_Pyrrho" n="5" corresp="#Pyrrho"
+                        ana="#philosophia_pyrrhonia" xml:lang="gr">
                         <bibl>T54 Decleva Caizzi</bibl>
                         <milestone unit="paragraph" n="76"/>
-                        <q type="fragmentum" source="#Timon" xml:id="F3_Timon_Python" xml:lang="gr" n="3">
+                        <q type="fragmentum" source="#Timon" xml:id="F3_Timon_Python" xml:lang="gr"
+                            n="3">
                             <milestone unit="paragraph" n="76"/>ἀναιροῦσι δ᾽ οἱ σκεπτικοὶ καὶ αὐτὴν
                             τὴν "Οὐδὲν μᾶλλον" φωνήν: ὡς γὰρ οὐ μᾶλλόν ἐστι πρόνοια ἢ οὐκ ἔστιν,
                             οὕτω καὶ τὸ Οὐδὲν μᾶλλον οὐ μᾶλλόν ἐστιν ἢ οὐκ ἔστι. σημαίνει οὖν ἡ
                             φωνή, καθά φησι καὶ <persName>Τίμων</persName> ἐν τῷ
-                            <title>Πύθωνι</title>, <quote>"τὸ μηδὲν ὁρίζειν, ἀλλ᾽
+                                <title>Πύθωνι</title>, <quote>"τὸ μηδὲν ὁρίζειν, ἀλλ᾽
                                 ἀπροσθετεῖν."</quote>
                         </q>
                     </ab>
-                    
+
                     <ab type="translatio" n="54" corresp="#T5_Pyrrho" xml:lang="fr">
                         <milestone unit="paragraph" n="76"/>
                         <q type="translatio" corresp="#F3_Timon_Python" xml:lang="fr">
@@ -128,24 +152,26 @@
                             l'expression "pas davantage" : de même que pas davantage la providence
                             est qu'elle n'est pas, de même pas davantage le "pas davantage" est
                             qu'il n'est pas. Cette formule signifie donc, comme le dit
-                            <persName>Timon </persName> dans le <title>Python</title>,<quote>"ne
+                                <persName>Timon </persName> dans le <title>Python</title>,<quote>"ne
                                 rien déterminer, mais s’abstenir de toute position
                                 additionnelle"</quote>
                         </q>
                     </ab>
                 </div>
-                <div type="page" n="5">
-                    <ab type="testimonium" xml:lang="grc" xml:id="T5_Aenesidemus" ana="#modi_decem #mémoire" corresp="#Aenesidemus" n="5">
+                <div type="page" n="6">
+                    <ab type="testimonium" xml:lang="grc" xml:id="T5_Aenesidemus"
+                        ana="#modi_decem #mémoire" corresp="#Aenesidemus" n="5">
                         <bibl>B16 Polito</bibl>
                         <milestone unit="paragraph" n="78"/>Ἔστιν οὖν ὁ Πυρρώνειος λόγος μνήμη τις
                         τῶν φαινομένων ἢ τῶν ὁπωσοῦν νοουμένων, καθ᾽ ἣν πάντα πᾶσι συμβάλλεται καὶ
                         συγκρινόμενα πολλὴν ἀνωμαλίαν καὶ ταραχὴν ἔχοντα εὑρίσκεται, καθά φησιν
-                        <persName ref="Aenesidemus">Αἰνεσίδημος</persName> ἐν <title>τῇ εἰς τὰ
+                            <persName ref="Aenesidemus">Αἰνεσίδημος</persName> ἐν <title>τῇ εἰς τὰ
                             Πυρρώνεια ὑποτυπώσει</title>. πρὸς δὲ τὰς ἐν ταῖς σκέψεσιν ἀντιθέσεις
                         προαποδεικνύντες καθ᾽ οὓς τρόπους πείθει τὰ πράγματα, κατὰ τοὺς αὐτοὺς
                         ἀνῄρουν τὴν περὶ αὐτῶν πίστιν: πείθειν γὰρ τά τε κατ᾽ αἴσθησιν συμφώνως
                         ἔχοντα καὶ τὰ μηδέποτε ἢ σπανίως γοῦν μεταπίπτοντα τά τε συνήθη καὶ τὰ
-                        νόμοις διεσταλμένα καὶ τὰ τέρποντα καὶ τὰ θαυμαζόμενα. <milestone unit="paragraph" n="79"/> ἐδείκνυσαν οὖν ἀπὸ τῶν ἐναντίων τοῖς πείθουσιν
+                        νόμοις διεσταλμένα καὶ τὰ τέρποντα καὶ τὰ θαυμαζόμενα. <milestone
+                            unit="paragraph" n="79"/> ἐδείκνυσαν οὖν ἀπὸ τῶν ἐναντίων τοῖς πείθουσιν
                         ἴσας τὰς πιθανότητας. Αἱ δ᾽ ἀπορίαι κατὰ τὰς συμφωνίας τῶν φαινομένων ἢ
                         νοουμένων, ἃς ἀπεδίδοσαν, ἦσαν κατὰ δέκα τρόπους, καθ᾽ οὓς τὰ ὑποκείμενα
                         παραλλάττοντα ἐφαίνετο.</ab>
@@ -155,7 +181,7 @@
                         d’une autre, mention dans laquelle tout est confronté à tout, et se révèle
                         par cette comparaison comme rempli d’irrégularité et d’embrouillamini, comme
                         le dit <persName ref="Aenesidemus">Enésidème</persName> dans son
-                        <title>Esquisse introductive au pyrrhonisme</title>. Pour élaborer les
+                            <title>Esquisse introductive au pyrrhonisme</title>. Pour élaborer les
                         oppositions qui se révèlent dans les recherches, ils commençaient par
                         exposer les modes selon lesquels les choses nous paraissent plausibles,
                         puis, selon les mêmes modes, ils abolissaient notre persuasion à leur
@@ -163,15 +189,16 @@
                         de la sensation quand elles sont en concordance, les choses qui ne changent
                         jamais, ou du moins rarement, les choses familières, les choses instituées
                         par les lois et les coutumes, [celles qui] plaisent, celles qui nous
-                        étonnent.<milestone unit="paragraph" n="79"/> Ils montraient donc, en
+                            étonnent.<milestone unit="paragraph" n="79"/> Ils montraient donc, en
                         prenant appui sur ce qui s’oppose à ce qui nous persuade, que les
                         plausibilités sont égales de part et d’autre. Les apories qu’ils ont
                         exposées, et qui affectent les concordances dans ce qui apparaît ou dans ce
                         qui est pensé, se répartissaient en dix tropes, selon lesquels les objets se
                         manifestent avec des écarts.</ab>
                 </div>
-                <div type="page" n="6">
-                    <ab type="testimonium" xml:lang="grc" xml:id="T9_Aenesidemus" ana="#modi_decem #quartus_modus" corresp="#Aenesidemus" n="9">
+                <div type="page" n="7">
+                    <ab type="testimonium" xml:lang="grc" xml:id="T9_Aenesidemus"
+                        ana="#modi_decem #quartus_modus" corresp="#Aenesidemus" n="9">
                         <milestone unit="paragraph" n="82"/>Τέταρτος ὁ παρὰ τὰς διαθέσεις καὶ κοινῶς
                         παραλλαγάς, οἷον ὑγίειαν, νόσον, ὕπνον, ἐγρήγορσιν, χαράν, λύπην, νεότητα,
                         γῆρας, θάρσος, φόβον, ἔνδειαν, πλήρωσιν, μῖσος, φιλίαν, θερμασίαν, ψύξιν:
@@ -193,11 +220,12 @@
                         : car pourquoi davantage eux que nous ? Nous-mêmes, en effet, nous voyons le
                         soleil comme immobile. Le Stoïcien <persName>Théon</persName>de Tithoréa se
                         promenait endormi, pendant son sommeil, et l'esclave de
-                        <persName>Périclès</persName> marchait sur le bord du toit. </ab>
+                            <persName>Périclès</persName> marchait sur le bord du toit. </ab>
                     <!-- revoir trad et texte grec -->
                 </div>
-                <div type="page" n="7">
-                    <ab type="excerptum" xml:lang="grc" xml:id="DL_104" ana="#phainomenon #apraxia #epochè">
+                <div type="page" n="8">
+                    <ab type="excerptum" xml:lang="grc" xml:id="DL_104"
+                        ana="#phainomenon #apraxia #epochè">
                         <milestone unit="paragraph" n="104"/>Πάλιν οἱ δογματικοί φασιν καὶ τὸν βίον
                         αὐτοὺς ἀναιρεῖν, ἐν ᾧ πάντ' ἐκβάλλουσιν ἐξ ὧν ὁ βίος συνέστηκεν. οἱ δὲ
                         ψεύδεσθαί φασιν αὐτούς˙ οὐ γὰρ τὸ ὁρᾶν ἀναιρεῖν, ἀλλὰ τὸ πῶς ὁρᾶν ἀγνοεῖν.
@@ -214,24 +242,29 @@
                             nature brûlante.</q>
                     </ab>
                 </div>
-                <div type="page" n="8">
-                    
+                <div type="page" n="9">
+
                     <ab type="excerptum" xml:lang="grc" xml:id="DL_9_105" ana="#phainomenon" n="1">
                         <milestone unit="paragraph" n="105"/>καὶ ὅτι κινεῖταί τις βλέπομεν, καὶ ὅτι
                         φθείρεται πῶς δὲ ταῦτα γίνεται οὐκ ἴσμεν. μόνον οὖν, φασίν, ἀνθιστάμεθα πρὸς
                         τὰ παρυφιστάμενα τοῖς φαινομένοις ἄδηλα. καὶ γὰρ ὅτε τὴν εἰκόνα ἐξοχὰς
                         λέγομεν ἔχειν, τὸ φαινόμενον διασαφοῦμεν: ὅταν δ᾽ εἴπωμεν μὴ ἔχειν αὐτὴν
-                        ἐξοχάς, οὐκέτι ὃ φαίνεται, ἕτερον δὲ λέγομεν:<q type="fragmentum" source="#Timon" xml:id="F6_Timon_Python" n="6" xml:lang="grc">
-                            <milestone unit="paragraph" n="(105)"/> ὅθεν καὶ ὁ <persName ref="Timon">Τίμων </persName>ἐν τῷ <title>Πύθωνί</title>
+                        ἐξοχάς, οὐκέτι ὃ φαίνεται, ἕτερον δὲ λέγομεν:<q type="fragmentum"
+                            source="#Timon" xml:id="F6_Timon_Python" n="6" xml:lang="grc">
+                            <milestone unit="paragraph" n="(105)"/> ὅθεν καὶ ὁ <persName ref="Timon"
+                                >Τίμων </persName>ἐν τῷ <title>Πύθωνί</title>
                             <quote>φησι μὴ ἐκβεβηκέναι τὴν συνήθειαν</quote>
-                        </q>. καὶ ἐν τοῖς <title>Ἰνδαλμοῖς</title> οὕτω λέγει,<q type="fragmentum" source="#Timon" xml:id="F5_Timon_Indalmoi" n="5" xml:lang="grc">
+                        </q>. καὶ ἐν τοῖς <title>Ἰνδαλμοῖς</title> οὕτω λέγει,<q type="fragmentum"
+                            source="#Timon" xml:id="F5_Timon_Indalmoi" n="5" xml:lang="grc">
                             <milestone unit="paragraph" n="(105)"/> ἀ<quote>λλὰ τὸ φαινόμενον πάντη
-                                σθένει οὗπερ ἂν ἔλθῃ</quote>.</q> καὶ <q type="fragmentum" source="#Timon" xml:id="F4_Timon_Sur_les_Sensations" n="4" xml:lang="grc">
-                                    <milestone unit="paragraph" n="(105)"/>ἐν τοῖς <title>Περὶ
-                                        αἰσθήσεών</title> φησι, <quote>τὸ μέλι ὅτι ἐστὶ γλυκὺ οὐ τίθημι, τὸ
-                                            δ᾽ ὅτι φαίνεται ὁμολογῶ</quote>.</q>
+                                σθένει οὗπερ ἂν ἔλθῃ</quote>.</q> καὶ <q type="fragmentum"
+                            source="#Timon" xml:id="F4_Timon_Sur_les_Sensations" n="4"
+                            xml:lang="grc">
+                            <milestone unit="paragraph" n="(105)"/>ἐν τοῖς <title>Περὶ
+                                αἰσθήσεών</title> φησι, <quote>τὸ μέλι ὅτι ἐστὶ γλυκὺ οὐ τίθημι, τὸ
+                                δ᾽ ὅτι φαίνεται ὁμολογῶ</quote>.</q>
                     </ab>
-                    
+
                     <ab type="translatio" xml:lang="fr" corresp="#DL_9_105">
                         <milestone unit="paragraph" n="105"/> Nous voyons bien que quelqu'un se
                         déplace, et aussi qu'il meurt, mais nous ne savons pas comment cela advient.
@@ -239,9 +272,9 @@
                         qui existent à côté des phénomènes. De fait, lorsque nous disons qu'une
                         image a du relief, nous décrivons ce qui apparaît ; mais lorsque nous disons
                         qu'elle n'a pas de relief, nous ne disons plus ce qui apparaît mais autre
-                        chose.<q type="translatio" corresp="#F6_Timon_Python"> C'est pourquoi
-                            <persName>Timon</persName> dit, dans son <title>Python</title>,
-                            <quote>qu'il n'a pas transgressé les limites de l'usage
+                            chose.<q type="translatio" corresp="#F6_Timon_Python"> C'est pourquoi
+                                <persName>Timon</persName> dit, dans son <title>Python</title>,
+                                <quote>qu'il n'a pas transgressé les limites de l'usage
                                 ordinaire</quote>.</q> Et dans ses <title>Ιmages</title>, il
                         s'exprime ainsi :<q type="translatio" corresp="#F5_Timon_Indalmoi">
                             <milestone unit="paragraph" n="(105)"/>
@@ -249,49 +282,50 @@
                         </q> Et <q type="translatio" corresp="#F4_Timon_Sur_les_Sensations">
                             <milestone unit="paragraph" n="(105)"/>dans son traité <title>Sur les
                                 sensations</title>, il dit <quote>"que le miel soit doux, je ne
-                                    l'assure pas ; mais qu'il paraisse doux, je l'accorde"</quote>. </q>
+                                l'assure pas ; mais qu'il paraisse doux, je l'accorde"</quote>. </q>
                     </ab>
-                    
+
                 </div>
-                <div type="page" n="9">
-                    <q type="fragmentum" xml:lang="grc" xml:id="F1_Aenesidemus" n="1" source="#Aenesidemus" ana="#phainomenon">
+                <div type="page" n="10">
+                    <q type="fragmentum" xml:lang="grc" xml:id="F1_Aenesidemus" n="1"
+                        source="#Aenesidemus" ana="#phainomenon">
                         <bibl>B5 Polito</bibl>
                         <milestone unit="paragraph" n="106"/>
                         <ab type="testimonium" corresp="#Pyrrho" xml:id="T3_Pyrrho" n="3">
                             <bibl>T8 Decleva Caizzi</bibl>
-                            <milestone unit="paragraph" n="(106)"/> Καὶ <persName ref="Aenesidemus">Αἰνεσίδημος</persName> ἐν τῷ πρώτῳ <title>Πυρρωνείων λόγων</title>
+                            <milestone unit="paragraph" n="(106)"/> Καὶ <persName ref="Aenesidemus"
+                                >Αἰνεσίδημος</persName> ἐν τῷ πρώτῳ <title>Πυρρωνείων λόγων</title>
                             οὐδέν φησιν ὁρίζειν τὸν <persName ref="Pyrrho">Πύρρωνα</persName>
                             δογματικῶς διὰ τὴν ἀντιλογίαν, τοῖς δὲ φαινομένοις ἀκολουθεῖν.
                         </ab>ταὐτὰ δὲ λέγει κἀν τῷ <title>Κατὰ σοφίας</title> κἀν τῷ <title>Περὶ
                             ζητήσεως</title>. ἀλλὰ καὶ <persName>Ζεῦξις</persName> ὁ
-                        <persName>Αἰνεσιδήμου</persName> γνώριμος ἐν τῷ <title>Περὶ διττῶν
+                            <persName>Αἰνεσιδήμου</persName> γνώριμος ἐν τῷ <title>Περὶ διττῶν
                             λόγων</title> καὶ <persName>Ἀντίοχος ὁ Λαοδικεὺς</persName> καὶ
-                        <persName>Ἀπελλᾶς</persName> ἐν τῷ <title> Ἀγρίππᾳ </title>τιθέασι τὰ
+                            <persName>Ἀπελλᾶς</persName> ἐν τῷ <title> Ἀγρίππᾳ </title>τιθέασι τὰ
                         φαινόμενα μόνα. ἔστιν οὖν κριτήριον κατὰ τοὺς σκεπτικοὺς τὸ φαινόμενον, ὡς
                         καὶ <persName ref="Aenesidemus">Αἰνεσίδημός</persName> φησιν˙ οὕτω δὲ καὶ
-                        <persName>Ἐπίκουρος</persName>. <persName>Δημόκριτος</persName> δὲ μηδὲν
+                            <persName>Ἐπίκουρος</persName>. <persName>Δημόκριτος</persName> δὲ μηδὲν
                         εἶναι τῶν φαινομένων, τὰ δὲ μὴ εἶναι. </q>
                     <q type="translatio" xml:lang="fr" corresp="#F1_Aenesidemus">
                         <milestone unit="paragraph" n="106"/>
                         <ab type="translatio" xml:lang="fr" corresp="#T3_Pyrrho">
                             <milestone unit="paragraph" n="(106)"/>
                             <persName>Enésidème</persName> dans son premier livre des
-                            <title>Arguments des Pyrrhoniens</title> dit aussi que
-                            <persName>Pyrrhon</persName> ne définit rien dogmatiquement par le
+                                <title>Arguments des Pyrrhoniens</title> dit aussi que
+                                <persName>Pyrrhon</persName> ne définit rien dogmatiquement par le
                             biais de l'opposition des arguments, mais qu'il suit les phénomènes.
-                        </ab> Il dit cela aussi dans son <title>Contre la Sagesse</title> et dans son
-                        <title>sur la Recherche</title>. Ainsi que <persName>Zeuxis</persName>,
+                        </ab> Il dit cela aussi dans son <title>Contre la Sagesse</title> et dans
+                        son <title>sur la Recherche</title>. Ainsi que <persName>Zeuxis</persName>,
                         le disciple d'<persName>Enésidème</persName> dans son <title>Sur les
                             discours doubles</title> et <persName>Antiochus de Laodicée</persName>,
-                        <persName>Apelle</persName> dans son <title>Agrippa</title> pose les
+                            <persName>Apelle</persName> dans son <title>Agrippa</title> pose les
                         seuls phénomènes. Le phénomène est donc le critère selon les sceptiques,
                         comme le dit aussi <persName>Enésidème</persName>. De même
-                        qu'<persName>Epicure</persName>. Mais pour
-                        <persName>Démocrite</persName>, aucun des phénomènes n'est critère, car
+                            qu'<persName>Epicure</persName>. Mais pour
+                            <persName>Démocrite</persName>, aucun des phénomènes n'est critère, car
                         ils ne sont rien.</q>
                 </div>
-            </div>                
-            
+            </div>
         </body>
     </text>
 </TEI>
