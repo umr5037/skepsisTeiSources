@@ -1,7 +1,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xml:id="Stobaeus">
    <teiHeader>
-      <!-- description bibliographique complète du fichier électronique -->
       <fileDesc>
          <titleStmt>
             <title key="Eclogarum physicarum et ethicarum" ref="urn:cts:greekLit:tlg2037.tlg001">Eclogarum</title>
@@ -29,7 +28,8 @@
          <div type="livre" n="2">
             <div type="chapitre" n="6">
                <ab type="testimonium" xml:id="T1_Philo_Larissaeus" n="1" xml:lang="grc" corresp="#Philo_Larissaeus" ana="#academia_sceptica #ethica #ars_vitae">
-                  <bibl>F2 Mette</bibl>  <listBibl>
+                  <bibl>F2 Mette</bibl>
+                  <listBibl>
                      <bibl>F22 Brittain</bibl>
                      <bibl>F2 Mette</bibl>
                   </listBibl>
