@@ -67,8 +67,8 @@
                <term xml:id="causa">causa</term>
                <term xml:id="modi_octo">modi octo</term>
                <term xml:id="aporia">aporia</term>
-               
-               
+
+
             </keywords>
          </textClass>
       </profileDesc>
@@ -84,11 +84,12 @@
             <div xml:lang="fr" n="Crédits">
                <div>
                   <head>Responsable scientifique, édition, traduction des textes</head>
-                  <p>Stéphane Marchand, ENS de Lyon (CID/IHPC, UMR 5037)</p>
+                  <p><ref target="http://perso.ens-lyon.fr/stephane.marchand/"
+                     >Stéphane Marchand</ref>, ENS de Lyon (CID/IHPC, UMR 5037)</p>
                </div>
                <div>
                   <head>Gestion et outillage des données numériques, développements informatiques,
-                     diffusion :</head>
+                     diffusion</head>
                   <p>
                      <list>
                         <item>Valérie Beaugiraud, CNRS/IHPC</item>
@@ -102,14 +103,17 @@
                <div>
                   <head>Iconographie</head>
                   <p> Petrarca-Meister, <title>Der Philosoph Pyrrhon in stürmischer See</title>,
-                     XVIe sc., München, Alte Pinakothek, <ref target="https://commons.wikimedia.org/wiki/File%3APetrarca-Meister_001.jpg">commons.wikimedia.org</ref>
+                     XVIe sc., München, Alte Pinakothek, <ref
+                        target="https://commons.wikimedia.org/wiki/File%3APetrarca-Meister_001.jpg"
+                        >commons.wikimedia.org</ref>
                   </p>
                </div>
             </div>
             <div xml:lang="en" n="Credits">
                <div>
                   <head>Scientific director, editor, translation of texts</head>
-                  <p>Stéphane Marchand, ENS de Lyon (CID/IHPC, UMR 5037)</p>
+                  <p> <ref target="http://perso.ens-lyon.fr/stephane.marchand/"
+                     >Stéphane Marchand</ref>, ENS de Lyon (CID/IHPC, UMR 5037)</p>
                </div>
                <div>
                   <head>Management and IT development</head>
@@ -126,7 +130,9 @@
                <div>
                   <head>Image</head>
                   <p> Petrarca-Meister, <title>Der Philosoph Pyrrhon in stürmischer See</title>,
-                     XVIe sc., München, Alte Pinakothek, <ref target="https://commons.wikimedia.org/wiki/File%3APetrarca-Meister_001.jpg">commons.wikimedia.org</ref>
+                     XVIe sc., München, Alte Pinakothek, <ref
+                        target="https://commons.wikimedia.org/wiki/File%3APetrarca-Meister_001.jpg"
+                        >commons.wikimedia.org</ref>
                   </p>
                </div>
             </div>
@@ -135,11 +141,12 @@
             <div xml:lang="fr" n="Mentions Légales">
                <p>Directeur de la publication : Jean-François Pinton</p>
                <p>
-            <ref target="http://www.ens-lyon.eu/">Ecole Normale Supérieure de Lyon</ref>
-          </p>
+                  <ref target="http://www.ens-lyon.eu/">Ecole Normale Supérieure de Lyon</ref>
+               </p>
                <p>15 Parvis René Descartes</p>
                <p>69342 Lyon cedex 07</p>
-               <p> Licence : <ref target="http://creativecommons.org/licenses/by-sa/3.0/fr/">CC-BY-SA</ref>
+               <p> Licence : <ref target="http://creativecommons.org/licenses/by-sa/3.0/fr/"
+                     >CC-BY-SA</ref>
                </p>
             </div>
             <div xml:lang="en" n="Rights">
@@ -149,8 +156,9 @@
                </p>
                <p>15 Parvis René Descartes</p>
                <p>69342 Lyon cedex 07</p>
-               
-               <p> License : <ref target="http://creativecommons.org/licenses/by-sa/3.0/fr/">CC-BY-SA</ref>
+
+               <p> License : <ref target="http://creativecommons.org/licenses/by-sa/3.0/fr/"
+                     >CC-BY-SA</ref>
                </p>
             </div>
          </div>
@@ -172,21 +180,21 @@
                      ouvertes par l'encodage XML/TEI pour rassembler et donner à lire l'ensemble des
                      textes sur le phénomène sceptique dans l'Antiquité.</p>
                   <p>Trois entrées possibles dans les textes sont aménagées :<list>
-                     <item>une entrée par collection de livres (dite VOLUMINA) où le lecteur
-                        dispose des textes en langue originale et sa traduction (inédite) à
-                        partir de la structure éditoriale des textes tels qu'ils sont édités sur
-                        papier. On pourra ainsi lire les <title>Esquisses Pyrrhoniennes</title>
-                        de Sextus Empiricus, les <title>Académiques</title> de Cicéron,
-                        etc...</item>
-                     <item>une entrée par philosophe des traditions sceptiques (dite SCEPTICI) où
-                        le lecteur pourra disposer des textes (œuvres, fragments et témoignages)
-                        attribués au philosophe en question. Le lecteur pourra ainsi accéder à la
-                        totalité des témoignages sur Pyrrhon, aux fragments d'Enésidème, de
-                        Carnéade, etc...</item>
-                     <item>une entrée par mots-clefs liés au scepticisme (dite NOTIONES) : le
-                        lecteur pourra ainsi disposer d'un ensemble de textes liés aux
-                        problématiques sceptiques comme l'épochè, l'isosthénie, etc.</item>
-                  </list>
+                        <item>une entrée par collection de livres (dite VOLUMINA) où le lecteur
+                           dispose des textes en langue originale et sa traduction (inédite) à
+                           partir de la structure éditoriale des textes tels qu'ils sont édités sur
+                           papier. On pourra ainsi lire les <title>Esquisses Pyrrhoniennes</title>
+                           de Sextus Empiricus, les <title>Académiques</title> de Cicéron,
+                           etc...</item>
+                        <item>une entrée par philosophe des traditions sceptiques (dite SCEPTICI) où
+                           le lecteur pourra disposer des textes (œuvres, fragments et témoignages)
+                           attribués au philosophe en question. Le lecteur pourra ainsi accéder à la
+                           totalité des témoignages sur Pyrrhon, aux fragments d'Enésidème, de
+                           Carnéade, etc...</item>
+                        <item>une entrée par mots-clefs liés au scepticisme (dite NOTIONES) : le
+                           lecteur pourra ainsi disposer d'un ensemble de textes liés aux
+                           problématiques sceptiques comme l'épochè, l'isosthénie, etc.</item>
+                     </list>
                   </p>
                   <p>Parallèlement à ces entrées, une base bibliographique sera proposée sur chaque
                      philosophe, accompagnée d'une biographie.</p>
@@ -194,12 +202,15 @@
                <div>
                   <head>Description du projet technique</head>
                   <p>L'encodage des textes sera fait en suivant les normes de la TEI, et plus
-                     spécifiquement celles d'<ref target="http://www.stoa.org/epidoc/gl/latest/">EPIDOC</ref>. En conformité avec les principes de la philologie numérique,
+                     spécifiquement celles d'<ref target="http://www.stoa.org/epidoc/gl/latest/"
+                        >EPIDOC</ref>. En conformité avec les principes de la philologie numérique,
                      les textes – souvent fragmentaires et établis à partir de citations – seront
                      édités de manière à exprimer correctement les différentes niveaux de citations,
-                     en suivant les préconisations de <ref target="http://www.homermultitext.org/hmt-doc/cite/index.html">CITE
-                        ARCHITECTURE</ref>, et <ref target="http://www.homermultitext.org/hmt-doc/cite/texts/cts.html">Canonical
-                           Text Services</ref>. L'exploitation et la diffusion du corpus s'appuieront
+                     en suivant les préconisations de <ref
+                        target="http://www.homermultitext.org/hmt-doc/cite/index.html">CITE
+                        ARCHITECTURE</ref>, et <ref
+                        target="http://www.homermultitext.org/hmt-doc/cite/texts/cts.html">Canonical
+                        Text Services</ref>. L'exploitation et la diffusion du corpus s'appuieront
                      sur une base de données XML native (BaseX) et bénéficieront de l'expertise
                      développée par <ref target="http://ahn.ens-lyon.fr">l'Atelier des Humanités
                         Numériques de l'ENS de Lyon</ref> à travers l'application SynopsX. </p>
@@ -220,20 +231,20 @@
                      together a range of texts on the sceptical phenomenon in ancient times and
                      allows users the opportunity to access and study them.</p>
                   <p>There are three possible ways to access the texts:<list>
-                     <item>by book collection (called VOLUMINA), where the reader can access
-                        texts in their original language and their (unpublished) translation in
-                        the editorial structure of the reference editions. This will allow users
-                        access to, for example, Sextus Empiricus’ <title>Outlines of
-                           Pyrrhonism</title>, Cicero’s <title>Academica</title>, etc.</item>
-                     <item>by ancient sceptic philosopher (called SCEPTICI), where the reader can
-                        access texts (works, fragments and testimonies) attributed to the
-                        philosopher in question. The reader will thus be able to access, for
-                        example, the ensemble of eyewitness accounts on Pyrrho, Aenesidemus’ and
-                        Carneades’ fragments, etc.</item>
-                     <item>by keywords relating to scepticism (called NOTIONES). The reader will
-                        thus be able to access a range of texts relating to sceptic problematics
-                        such as epoché, isosthenia, etc.</item>
-                  </list>
+                        <item>by book collection (called VOLUMINA), where the reader can access
+                           texts in their original language and their (unpublished) translation in
+                           the editorial structure of the reference editions. This will allow users
+                           access to, for example, Sextus Empiricus’ <title>Outlines of
+                              Pyrrhonism</title>, Cicero’s <title>Academica</title>, etc.</item>
+                        <item>by ancient sceptic philosopher (called SCEPTICI), where the reader can
+                           access texts (works, fragments and testimonies) attributed to the
+                           philosopher in question. The reader will thus be able to access, for
+                           example, the ensemble of eyewitness accounts on Pyrrho, Aenesidemus’ and
+                           Carneades’ fragments, etc.</item>
+                        <item>by keywords relating to scepticism (called NOTIONES). The reader will
+                           thus be able to access a range of texts relating to sceptic problematics
+                           such as epoché, isosthenia, etc.</item>
+                     </list>
                   </p>
                   <p>Parallel to these ways of accessing the texts, a bibliographic database will be
                      offered, with entries for each philosopher accompanied by a biography.</p>
@@ -244,14 +255,16 @@
                      of <ref target="http://www.stoa.org/epidoc/gl/latest/">EPIDOC</ref>. Conforming
                      to the principles of digital philology, the texts – often fragmentary and
                      constructed from citations – will be edited in a way to correctly cite
-                     resources by following the recommendations of <ref target="http://www.homermultitext.org/hmt-doc/cite/index.html">CITE
-                        Architecture</ref>, and <ref target="http://www.homermultitext.org/hmt-doc/cite/texts/cts.html">Canonical
-                           Text Services</ref>. The operation and dissemination of the corpus will be
+                     resources by following the recommendations of <ref
+                        target="http://www.homermultitext.org/hmt-doc/cite/index.html">CITE
+                        Architecture</ref>, and <ref
+                        target="http://www.homermultitext.org/hmt-doc/cite/texts/cts.html">Canonical
+                        Text Services</ref>. The operation and dissemination of the corpus will be
                      based on an XML native (BaseX) database and will benefit from the expertise of
                      the <ref target="http://ahn.ens-lyon.fr">Atelier des Humanités Numériques of
                         the ENS de Lyon</ref>, using the application SynopsX.</p>
                </div>
-               
+
             </div>
          </div>
       </body>
