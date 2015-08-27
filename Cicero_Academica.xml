@@ -60,14 +60,14 @@
                         toute précipitation alors qu'elle se fait remarquer lorsque nous approuvons
                         des choses fausses ou inconnues, et enfin que rien n'est plus honteux qu'un
                         assentiment et un accord donné en devançant la connaissance et la
-                        perception. Il agissait conformément à ce raisonnement au
-                        point de faire changer d'avis nombreux de ses auditeurs en argumentant
-                        contre les positions de tout le monde, puisque lorsqu'on découvrait qu'il y
-                        avait sur le même sujet des arguments d'égale importance en faveur de
-                        positions contraires, il était plus facile de suspendre son assentiment sur
-                        chacune des positions. <milestone unit="paragraph" n="46"/> On appelle cette
-                        Académie "nouvelle", bien qu'elle me semble ancienne, si cependant on compte
-                        bien <persName>Platon</persName> parmi cette ancienne Académie, lui qui
+                        perception. Il agissait conformément à ce raisonnement au point de faire
+                        changer d'avis nombreux de ses auditeurs en argumentant contre les positions
+                        de tout le monde, puisque lorsqu'on découvrait qu'il y avait sur le même
+                        sujet des arguments d'égale importance en faveur de positions contraires, il
+                        était plus facile de suspendre son assentiment sur chacune des positions.
+                            <milestone unit="paragraph" n="46"/> On appelle cette Académie
+                        "nouvelle", bien qu'elle me semble ancienne, si cependant on compte bien
+                            <persName>Platon</persName> parmi cette ancienne Académie, lui qui
                         n'affirme rien dans ses livres et discute de nombreuses choses dans un sens
                         et dans un autre, lui qui à propos de tout cherche et ne dit rien de
                         certain. </ab>
@@ -92,31 +92,28 @@
                     <ab type="testimonium" xml:id="T3_Arcesilas" xml:lang="la" corresp="#Arcesilas"
                         ana="#academia_sceptica #katalèpsis" n="3">
                         <bibl>F9 Mette</bibl>
-                        <milestone unit="paragraph" n="77"/>Tum illum ita definisse, ex eo, quod
-                        esset, sicut esset, impressum et signatum et effictum. Post requisitum
-                        etiamne, si eiusdem modi esset uisum uerum, quale uel falsum. Hic
+                        <milestone unit="paragraph" n="77"/>Tum illum ita definisse,<quote> ex eo
+                            quod esset sicut esset, impressum et signatum et effictum</quote>. Post
+                        requisitum etiamne si eiusdem modi esset uisum uerum quale uel falsum. Hic
                             <persName>Zenonem</persName> uidisse acute nullum esse uisum quod
-                        percipi posset, si id tale esset ab eo, quod est, ut eiusdem modi ab eo,
-                        quod non est, posset esse. Recte consensit <persName>Arcesilas</persName> ad
-                        definitionem additum: neque enim falsum percipi posse neque uerum, si esset
-                        tale, quale uel falsum. Incubuit autem in eas disputationes, ut doceret
-                        nullum tale esse uisum a uero, ut non eiusdem modi etiam a falso possit
-                        esse. </ab>
+                        percipi posset, si id tale esset ab eo quod est cuius modi ab eo quod non
+                        est posset esse. Recte consensit <persName>Arcesilas</persName> ad
+                        definitionem additum, neque enim falsum percipi posse neque uerum si esset
+                        tale quale uel falsum ; incubuit autem in eas disputationes, ut doceret
+                        nullum tale esse uisum a uero ut non eiusdem modi etiam a falso possit esse. </ab>
                     <ab type="translatio" xml:lang="fr" corresp="#T3_Arcesilas">
                         <milestone unit="paragraph" n="77"/>
-                        <persName>Zénon</persName> l’a [sc. l’impression compréhensive] sans doute
-                        définie comme celle qui est « imprimée, marquée, figurée à partir d’un objet
-                        réel, exactement tel qu’il est ». Puis Arcésilas aurait encore demandé si
-                        rien ne changerait au cas où une représentation vraie serait identique à une
-                        fausse. Ici <persName>Zénon </persName>aurait subtilement perçu que, si une
-                        représentation de ce qui est pouvait se confondre avec une représentation de
-                        ce qui n’est pas, il n’y aurait aucune de saisissable. À juste titre,
-                            <persName>Arcésilas</persName> admit un ajout à la définition, concédant
-                        que ni le vrai ni le faux ne seraient saisissables, si le vrai était tel que
-                        le faux. Il s’étendit cependant sur les discussions destinées à prouver
-                        qu’aucune représentation du vrai n’était telle qu’une représentation de même
-                        sorte ne pût aussi venir du faux </ab>
-                </div>
+                        Alors <persName>Zénon</persName> l’a [sc. l’impression compréhensive] définie ainsi : celle qui
+                        est « imprimée, marquée, modelée à partir d’un objet réel, exactement tel qu’il
+                        est ». Ensuite <persName>Arcésilas</persName> demanda si cela serait encore le cas si une impression
+                        vraie était identique à une impression fausse. Ici <persName>Zénon</persName> vit subtilement
+                        qu’aucune impression ne serait compréhensible si une impression qui vient d’un
+                        objet réel pouvait être identique à celle qui vient d’un autre objet. A raison
+                        <persName>Arcésilas</persName> était d’accord qu’il fallait un ajout à la définition car ni le faux
+                        ni le faux ne peuvent être saisis si le vrai est identique au faux. Mais il pris
+                        soin dans ces discussions à montrer qu’il n’y avait aucune impression provenant
+                        du vrai qui ne puisse être identique à une impression qui proviendrait du faux 
+                    </ab></div>
                 <div type="chapitre" n="32">
                     <q type="fragmentum" source="#Clitomachus" xml:id="F1_Clitomachus" n="1">
                         <bibl>F4 Mette</bibl>
