@@ -1,12 +1,15 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xml:id="Adversus_Mathematicos_VII-XI">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xml:id="Adversus_Mathematicos_VII-XI">
 
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title key="adversus Mathematicos" ref="urn:cts:greekLit:tlg0544.tlg002">Adversus
                     Mathematicos</title>
-                <author key="Sextus Empiricus(0160?-0210?)" ref="urn:cite:perseus:author.1285">Sextus Empiricus</author>
+                <author key="Sextus Empiricus(0160?-0210?)" ref="urn:cite:perseus:author.1285"
+                    >Sextus Empiricus</author>
             </titleStmt>
 
             <publicationStmt>
@@ -26,7 +29,8 @@
             <div type="livre" n="7">
 
                 <div type="page" n="1">
-                    <ab type="testimonium" corresp="#Arcesilas" ana="#academia_sceptica #katalèpsis" xml:id="T2_Arcesilas" n="2" xml:lang="gr">
+                    <ab type="testimonium" corresp="#Arcesilas" ana="#academia_sceptica #katalèpsis"
+                        xml:id="T2_Arcesilas" n="2" xml:lang="gr">
                         <bibl>F1 Mette - l.13-17</bibl>
                         <listBibl>
                             <bibl>F1 Mette - l.13-17</bibl>
@@ -65,7 +69,9 @@
                         et variés</ab>
                 </div>
                 <div type="page" n="2">
-                    <ab type="testimonium" corresp="#Arcesilas" ana="#academia_sceptica #eulogon #apraxia" xml:id="T5_Arcesilas" n="5" xml:lang="gr">
+                    <ab type="testimonium" corresp="#Arcesilas"
+                        ana="#academia_sceptica #eulogon #apraxia" xml:id="T5_Arcesilas" n="5"
+                        xml:lang="gr">
                         <bibl>F1 Mette - l.36-44</bibl>
                         <listBibl>
                             <bibl>F1 Mette - l.36-44</bibl>
@@ -95,7 +101,8 @@
                         est raisonnable agira droitement et sera heureux </ab>
                 </div>
                 <div type="page" n="3">
-                    <ab type="testimonium" corresp="#Carneades" ana="#academia_sceptica #pithanon" xml:id="T1_Carneades" xml:lang="gr" n="1">
+                    <ab type="testimonium" corresp="#Carneades" ana="#academia_sceptica #pithanon"
+                        xml:id="T1_Carneades" xml:lang="gr" n="1">
                         <bibl>F2 Mette (l.105-112)</bibl>
                         <listBibl>
                             <bibl>F2 Mette (l.105-112)</bibl>
@@ -120,7 +127,8 @@
                         vrai.</ab>
                 </div>
                 <div type="page" n="4">
-                    <ab type="testimonium" corresp="#Carneades" ana="#academia_sceptica #pithanon" xml:id="T2_Carneades" xml:lang="gr" n="2">
+                    <ab type="testimonium" corresp="#Carneades" ana="#academia_sceptica #pithanon"
+                        xml:id="T2_Carneades" xml:lang="gr" n="2">
                         <bibl>F2 Mette - l.130-139</bibl>
                         <listBibl>
                             <bibl>F2 Mette - l.130-139</bibl>
@@ -158,7 +166,8 @@
 
                 </div>
                 <div type="page" n="5">
-                    <ab type="testimonium" corresp="#Arcesilas" ana="#academia_sceptica #katalèpsis" xml:id="T4_Arcesilas" n="4" xml:lang="gr">
+                    <ab type="testimonium" corresp="#Arcesilas" ana="#academia_sceptica #katalèpsis"
+                        xml:id="T4_Arcesilas" n="4" xml:lang="gr">
                         <bibl>40H LS - partim</bibl>
                         <milestone unit="paragraph" n="409"/>ἐπὶ γὰρ τῶν ὁμοίων μὲν κατὰ μορφήν,
                         διαφερόντων δὲ κατὰ τὸ ὑποκείμενον, ἀμήχανόν ἐστι διορίζειν τὴν καταληπτικὴν
@@ -176,7 +185,8 @@
                         compréhensive : par exemple, si je donne à un Stoïcien pour qu'il les
                         distingue, successivement deux œufs parfaitement semblables entre eux, le
                         sage pourra-t-il infailliblement, en fixant toute son attention, si l’œuf
-                        qu'on lui montre est le même, ou à chaque fois un autre ?<milestone unit="paragraph" n="410"/>Le même argument vaut pour les jumeaux, car
+                        qu'on lui montre est le même, ou à chaque fois un autre ?<milestone
+                            unit="paragraph" n="410"/>Le même argument vaut pour les jumeaux, car
                         l'homme vertueux recevra une impression fausse, bien qu'ayant une impression
                         imprimée et scellée à partir d’un objet réel exactement tel qu’il est, s'il
                         reçoit l'impression de Castor comme si elle provenait de Pollux.</ab>
@@ -186,33 +196,37 @@
             </div>
 
             <div type="livre" n="8">
-                <div type="page" n="6">
-
-                    <ab type="fragmentum" corresp="#Aenesidemus" ana="#philosophia_pyrrhonia #phainomenon" xml:id="F4_Aenesidemus" xml:lang="gr" n="4">
+                <div type="page" n="1">
+                    
+                    <ab type="fragmentum" corresp="#Aenesidemus"
+                        ana="#philosophia_pyrrhonia #phainomenon" xml:id="F4_Aenesidemus"
+                        xml:lang="gr" n="4">
                         <bibl>B23 Polito</bibl>
                         <milestone unit="paragraph" n="8"/> οἱ δὲ περὶ τὸν
-                            <persName>Αἰνησίδημον</persName> καθ’ <persName>Ἡράκλειτον</persName>
+                        <persName>Αἰνησίδημον</persName> καθ’ <persName>Ἡράκλειτον</persName>
                         καὶ τὸν <persName>Ἐπίκουρον</persName> ἐπὶ τὰ αἰσθητὰ κοινῶς κατενεχθέντες
                         ἐν εἴδει διέστησαν. <quote>οἱ μὲν γὰρ περὶ τὸν <persName>Αἰνησίδημον
-                            </persName>λέγουσί τινα τῶν φαινομένων διαφοράν, καὶ φασὶ τούτων τὰ μὲν
+                        </persName>λέγουσί τινα τῶν φαινομένων διαφοράν, καὶ φασὶ τούτων τὰ μὲν
                             κοινῶς <note>[πᾶσι] add. Bekker</note>φαίνεσθαι τὰ δὲ ἰδίως τινί, ὧν
                             ἀληθῆ μὲν εἶναι τὰ κοινῶς πᾶσι φαινόμενα, ψευδῆ δὲ τὰ μὴ τοιαῦτα· ὅθεν
-                            καὶ ἀληθὲς φερωνύμως εἰρῆσθαι τὸ μὴ λῆθον τὴν <milestone unit="paragraph" n="9"/> κοινὴν γνώμην.</quote>
-          </ab>
-                    <p> ὁ δὲ <persName>Ἐπίκουρος</persName> τὰ μὲν αἰσθητὰ πάντα ἔλεγεν ἀληθῆ καὶ
+                            καὶ ἀληθὲς φερωνύμως εἰρῆσθαι τὸ μὴ λῆθον τὴν <milestone
+                                unit="paragraph" n="9"/> κοινὴν γνώμην.</quote>
+                    </ab>
+                    <ab> ὁ δὲ <persName>Ἐπίκουρος</persName> τὰ μὲν αἰσθητὰ πάντα ἔλεγεν ἀληθῆ καὶ
                         ὄντα. οὐ διήνεγκε γὰρ ἀληθὲς εἶναί τι λέγειν ἢ ὑπάρχον· ἔνθεν καὶ ὑπογράφων
                         τἀληθὲς καὶ ψεῦδος <quote>“ἔστι” φησὶν “ἀληθὲς τὸ οὕτως ἔχον ὡς λέγεται
                             ἔχειν”</quote>, καὶ <quote>“ψεῦδός ἐστι” φησὶ “τὸ οὐχ οὕτως ἔχον ὡς
-                            λέγεται ἔχειν”</quote>. τήν τε αἴσθησιν ἀντιληπτικὴν οὖσαν τῶν
+                                λέγεται ἔχειν”</quote>. τήν τε αἴσθησιν ἀντιληπτικὴν οὖσαν τῶν
                         ὑποπιπτόντων αὐτῇ, καὶ μήτε ἀφαιροῦσάν τι μήτε προστιθεῖσαν μήτε
                         μετατιθεῖσαν τῷ ἄλογον εἶναι, διὰ παντός τε ἀληθεύειν καὶ οὕτω τὸ ὂν
                         λαμβάνειν ὡς εἶχε φύσεως αὐτὸ ἐκεῖνο. πάντων δὲ τῶν αἰσθητῶν ἀληθῶν ὄντων,
-                        τὰ δοξαστὰ διαφέρειν, καὶ τὰ μὲν αὐτῶν εἶναι ἀληθῆ τὰ δὲ<milestone unit="paragraph" n="10"/> ψευδῆ, καθὼς πρότερον ἐδείξαμεν.</p>
-
+                        τὰ δοξαστὰ διαφέρειν, καὶ τὰ μὲν αὐτῶν εἶναι ἀληθῆ τὰ δὲ<milestone
+                            unit="paragraph" n="10"/> ψευδῆ, καθὼς πρότερον ἐδείξαμεν.</ab>
+                    
                     <ab type="translatio" corresp="#F4_Aenesidemus" xml:lang="fr">
                         <milestone unit="paragraph" n="8"/>
                         <persName>Énésidème</persName> suivant <persName>Héraclite</persName> et
-                            <persName>Épicure</persName>, même s’ils arrivent à des conclusions
+                        <persName>Épicure</persName>, même s’ils arrivent à des conclusions
                         communes à propos des sensibles, diffèrent sur des points spécifiques. En
                         effet, <persName>Énésidème</persName> affirme qu'il y a une différence entre
                         les phénomènes, et dit que parmi les phénomènes, certains apparaissent de
@@ -226,29 +240,34 @@
                         est vraie ou qu'elle est existante : c'est pourquoi aussi lorsqu'il décrit
                         le vrai et le faux il dit : <quote>« est vrai ce qui est tel qu'il est dit
                             être »</quote> et <quote>« est faux ce qui n'est pas tel qu'il est dit
-                            être »</quote>. En outre, [il dit que] comme la sensation est propre à
+                                être »</quote>. En outre, [il dit que] comme la sensation est propre à
                         recevoir ce qui vient à sa rencontre et n'enlève ni n'ajoute ni ne change
                         quoique ce soit du fait qu'elle est sans raison, elle dit toujours vrai et
                         saisit ce qui est tel qu'il est lui-même par nature. En revanche, les objets
                         d'opinions diffèrent des sensibles qui sont toujours vrais, et parmi eux
-                        certains sont vrais, d'autres faux, comme nous l'avons montré au début.</ab>
+                        certains sont vrais, d'autres faux,<milestone
+                            unit="paragraph" n="10"/>  comme nous l'avons montré au début.</ab>
                 </div>
-                <div type="page" n="7">
-                    <ab type="fragmentum" corresp="#Aenesidemus" ana="#philosophia_pyrrhonia #pithanon" xml:id="F7_Aenesidemus" xml:lang="gr" n="7">
+                <div type="page" n="2">
+                    <ab type="fragmentum" corresp="#Aenesidemus"
+                        ana="#philosophia_pyrrhonia #pithanon" xml:id="F7_Aenesidemus" xml:lang="gr"
+                        n="7">
                         <bibl>B12 Polito (partim)</bibl>
                         <milestone unit="paragraph" n="51"/>Τί οὖν; τὸ πεῖθον ἡμᾶς, τὸ πιθανὸν
                         ῥητέον ἀληθές, ὁποίαν ποτὲ ἂν ἔχῃ οὐσίαν, εἴτε αἰσθητὴν εἴτε νοητὴν εἴτε τὸ
-                        συναμφότερον, αἰσθητὴν ἅμα καὶ νοητήν;<milestone unit="paragraph" n="52"/>ἀλλὰ καὶ τοῦτο τῶν ἀπόρων. εἰ γὰρ τὸ πιθανὸν ἀληθές ἐστιν, ἐπεὶ οὐ τὸ αὐτὸ
+                        συναμφότερον, αἰσθητὴν ἅμα καὶ νοητήν;<milestone unit="paragraph" n="52"
+                        />ἀλλὰ καὶ τοῦτο τῶν ἀπόρων. εἰ γὰρ τὸ πιθανὸν ἀληθές ἐστιν, ἐπεὶ οὐ τὸ αὐτὸ
                         πάντας πείθει οὐδὲ διὰ παντὸς τοὺς αὐτούς, δώσομεν τὸ αὐτὸ καὶ ὑπάρχειν καὶ
                         μὴ ὑπάρχειν καὶ τὸ αὐτὸ ἀληθὲς ἅμα εἶναι καὶ ψεῦδος˙ ᾗ μὲν γὰρ πείθει τινάς,
                         ἀληθὲς ἔσται καὶ ὑπάρχον, ᾗ δὲ ἑτέρους οὐ πείθει, ψεῦδος καὶ ἀνύπαρκτον.
                         ἀδύνατον δέ γε τὸ αὐτὸ καὶ εἶναι καὶ μὴ εἶναι, ἀληθές τε ὑπάρχειν καὶ
-                            ψεῦδος˙<milestone unit="paragraph" n="53"/> τοίνυν οὐδὲ τὸ πιθανόν ἐστιν
+                        ψεῦδος˙<milestone unit="paragraph" n="53"/> τοίνυν οὐδὲ τὸ πιθανόν ἐστιν
                         ἀληθές. ἐκτὸς εἰ μή τι τὸ πολλοὺς πεῖθον, τοῦτ' ἐροῦμεν ἀληθές˙ τὸ γοῦν μέλι
                         πολλοὺς μὲν πεῖθον ὑγιαίνοντας ὡς γλυκύ, καὶ ἕνα μὴ πεῖθον ἰκτερικόν, ἀληθῶς
                         λέγομεν γλυκύ. ὅπερ ἦν ληρῶδες. ὅταν γὰρ περὶ ἀληθείας σκεπτώμεθα, τότε οὐκ
                         εἰς τὸ πλῆθος τῶν συμφωνούντων δεῖ ἀποβλέπειν ἀλλ' εἰς τὰς διαθέσεις. μιᾷ δὲ
-                        διαθέσει κέχρηται ὁ νοσῶν καὶ μιᾷ κατασκευῇ πάντες οἱ ὑγιαίνοντες.<milestone unit="paragraph" n="54"/> οὐ μᾶλλον οὖν τῇδε τῇ διαθέσει ἢ τῇδε
+                        διαθέσει κέχρηται ὁ νοσῶν καὶ μιᾷ κατασκευῇ πάντες οἱ ὑγιαίνοντες.<milestone
+                            unit="paragraph" n="54"/> οὐ μᾶλλον οὖν τῇδε τῇ διαθέσει ἢ τῇδε
                         πιστευτέον ἐστίν, ἐπεὶ ἀναστρόφως ὑποτεθέντος τοῦ πολλοὺς πικράζεσθαι ὑπὸ
                         τοῦ μέλιτος οἷον πυρέσσοντας, ἕνα δὲ γλυκάζεσθαι τὸν ὑγιαίνοντα, πάντως
                         ἀκολουθήσει πικρὸν λέγειν τὸ μέλι˙ ὅπερ ἄτοπον. τοίνυν ὡς ἐνθάδε παρέντες
@@ -259,14 +278,15 @@
                         <milestone unit="paragraph" n="51"/>Qu'est-ce à dire ? Ce qui nous persuade,
                         le plausible doit-il être dit vrai, quelle que soit sa nature, qu'il soit
                         sensible, intelligible ou les deux à la fois, sensible et intelligible
-                            ?<milestone unit="paragraph" n="52"/>Mais chacune de ces options est une
+                        ?<milestone unit="paragraph" n="52"/>Mais chacune de ces options est une
                         aporie. En effet, si le plausible est vrai, puisque ce n'est pas la même
                         chose qui persuade tout le monde, ni toujours les mêmes personnes, nous
                         devrions dire que la même chose existe et n'existe pas, et que la même chose
                         à la fois est vraie et fausse ; car en tant qu'elle en persuade certains,
                         elle est vraie et elle existe, et en tant qu'elle n'en persuade pas
                         d'autres, elle est fausse et inexistante. Mais il est impossible que la même
-                        chose soit et ne soit pas, qu'elle soit vraie et fausse.<milestone unit="paragraph" n="53"/> Donc le plausible n'est pas vrai. A moins que
+                        chose soit et ne soit pas, qu'elle soit vraie et fausse.<milestone
+                            unit="paragraph" n="53"/> Donc le plausible n'est pas vrai. A moins que
                         ce qui persuade le grand nombre, c'est cela que nous appelons le vrai.
                         Certes, du miel, qui persuade un grand nombre de gens en bonne santé qu'il
                         est sucré et qui n'en persuade pas la personne qui souffre d'un ictère, nous
@@ -274,7 +294,7 @@
                         recherche porte sur la vérité, alors il ne faut pas prendre en considération
                         le nombre de ceux qui tombent d'accord, mais les dispositions. Le malade est
                         dans une seule disposition et tous ceux qui sont en bonne santé dans un seul
-                        état. Or, telle disposition n'est pas davantage fiable que telle autre ;
+                        état.   <milestone unit="paragraph" n="54"/> Or, telle disposition n'est pas davantage fiable que telle autre ;
                         puisque si nous faisons l'hypothèse contraire, que le miel soit amer pour de
                         nombreuses personnes, par exemple parce qu'elles sont fiévreuses, mais que
                         pour une seule personne, en bonne santé, il soit sucré, il s'ensuivrait
@@ -284,11 +304,12 @@
                         pour un grand nombre il est sucré, mais pour une personne amer, nous
                         renonçons de dire qu'il est sucré pour la raison du nombre de personne qui
                         le ressentent comme sucré, et examinons la vérité d'une autre manière.
-                            <milestone unit="paragraph" n="54"/>
-          </ab>
+                     
+                    </ab>
                 </div>
-                <div type="page" n="8">
-                    <q type="fragmentum" source="#Aenesidemus" xml:lang="grc" ana="#philosophia_pyrrhonia #phainomenon" xml:id="F5_Aenesidemus" n="5">
+                <div type="page" n="3">
+                    <q type="fragmentum" source="#Aenesidemus" xml:lang="grc"
+                        ana="#philosophia_pyrrhonia #phainomenon" xml:id="F5_Aenesidemus" n="5">
                         <bibl>B13A Polito</bibl>
                         <milestone unit="paragraph" n="215"/> Ὁ δὲ <persName>Αἰνησίδημος</persName>
                         ἐν τῷ τετάρτῳ <title>τῶν Πυρρωνείων λόγων</title> εἰς τὴν αὐτὴν ὑπόθεσιν καὶ
@@ -297,15 +318,15 @@
                             φαινόμενα, τὰ σημεῖα πᾶσι τοῖς ὁμοίως διακειμένοις παραπλησίως φαίνεται.
                             οὐχὶ δέ γε τὰ σημεῖα πᾶσι τοῖς ὁμοίως διακειμένοις παραπλησίως φαίνεται·
                             τὰ δὲ φαινόμενα πᾶσι τοῖς ὁμοίως διακειμένοις παραπλησίως φαίνεται· οὐκ
-                                <milestone unit="paragraph" n="216"/>&#xA0;ἄρα φαινόμενά ἐστι τὰ
+                            <milestone unit="paragraph" n="216"/>&#xA0;ἄρα φαινόμενά ἐστι τὰ
                             σημεῖα.”</quote> καὶ δὴ τοίνυν φαινόμενα μὲν ἔοικε καλεῖν ὁ Αἰνησίδημος
                         τὰ αἰσθητά, λόγον δὲ ἐρωτᾷ καθ’ ὃν δεύτερος ἀναπόδεικτος ἐπιβάλλει τρίτῳ, οὗ
                         τὸ σχῆμά ἐστι τοιοῦτο “εἰ τὸ πρῶτον καὶ τὸ δεύτερον, τὸ τρίτον· οὐχὶ δὲ τὸ
                         τρίτον, ἀλλὰ καὶ τὸ πρῶτον· οὐκ ἄρα τὸ δεύτερον.”</q>
-                    <p>
-            <milestone unit="paragraph" n="217"/> καὶ ὅτι τῷ ὄντι οὕτως ἔχει, μικρὸν
+                    <ab type="excerptum">
+                        <milestone unit="paragraph" n="217"/> καὶ ὅτι τῷ ὄντι οὕτως ἔχει, μικρὸν
                         ὕστερον διδάξομεν· νῦν δ’ ὡς ὑγιῆ ἐστιν αὐτοῦ τὰ λήμματα καὶ ἕπεται τούτοις
-                        ἡ ἐπιφορά, ἁπλούστερον ἀποδείξομεν. </p>
+                        ἡ ἐπιφορά, ἁπλούστερον ἀποδείξομεν. </ab>
                     <q type="translatio" xml:lang="fr" corresp="#F5_Aenesidemus">
                         <milestone unit="paragraph" n="215"/>
                         <persName>Énésidème </persName>dans le quatrième livre des <title>Arguments
@@ -323,14 +344,17 @@
                         un second indémontrable s'ajoute à un troisième, dont la forme est la
                         suivante&#xA0;: «&#xA0;si le premier et le deuxième [sont vrais], alors le
                         troisième [est vrai]; or le troisième n'est pas [vrai], mais le premier
-                        [l’]est; donc le deuxième n'est pas [vrai] ».<milestone unit="paragraph" n="217"/>
-          </q>
-                    <p>Qu'il en est ainsi en réalité, nous le montrerons un peu plus tard. Pour
+                        [l’]est; donc le deuxième n'est pas [vrai] ».
+                    </q>
+                    <ab type="translatio"><milestone unit="paragraph"
+                        n="217"/>Qu'il en est ainsi en réalité, nous le montrerons un peu plus tard. Pour
                         l'instant nous allons montrer de manière plus simple que les prémisses de ce
-                        raisonnement sont valides et que la conclusion s'enchaîne bien à elles.</p>
+                        raisonnement sont valides et que la conclusion s'enchaîne bien à elles.</ab>
                 </div>
-                <div type="page" n="9">
-                    <q type="fragmentum" xml:lang="grc" ana="#philosophia_pyrrhonia #phainomenon" xml:id="F6_Aenesidemus" source="#Aenesidemus" n="6">
+                
+                <div type="page" n="4">
+                    <q type="fragmentum" xml:lang="grc" ana="#philosophia_pyrrhonia #phainomenon"
+                        xml:id="F6_Aenesidemus" source="#Aenesidemus" n="6">
                         <bibl>B13b Polito</bibl>
                         <milestone unit="paragraph" n="234"/>ἐξ ἀνομογενῶν δὲ λοιπόν ἐστι καθάπερ ὁ
                         παρὰ τῷ <persName>Αἰνησιδήμῳ</persName> περὶ σημείου ἐρωτηθείς, ἔχων δὲ
@@ -341,10 +365,10 @@
                             διακειμένοις παραπλησίως φαίνεται· οὐκ ἄρα φαινόμενά ἐστι τὰ
                             σημεῖα.”</quote>
                     </q>
-                    <ab type="translatio" xml:lang="fr" corresp="#AM_XI_234">Mais il reste
+                    <ab type="translatio" xml:lang="fr" corresp="#F6_Aenesidemus"> <milestone unit="paragraph" n="234"/>Mais il reste
                         l'argument à partir des parties non homogènes comme celui donné
-                            <persName>Enésidème</persName> sur le signe qui fonctionne ainsi :
-                            <quote>“ si les phénomènes apparaissent de façon semblable à ceux qui
+                        <persName>Enésidème</persName> sur le signe qui fonctionne ainsi :
+                        <quote>“ si les phénomènes apparaissent de façon semblable à ceux qui
                             sont disposés de la même façon et que les signes sont des phénomènes,
                             alors les signent apparaissent de la meme façon à ceux qui sont disposés
                             de manière semblable. Mais les signes n'apparaissent pas de le même
@@ -354,62 +378,65 @@
                     </ab>
                 </div>
             </div>
-            <div type="livre" n="9">
-                <div type="page" n="10">
-                    <q type="fragmentum" source="#Clitomachus" xml:id="F2_Clitomachus" n="2">
-                        <bibl>F3 Mette</bibl>
-                        <milestone unit="paragraph" n="182"/>
-                        <ab type="testimonium" xml:lang="grc" xml:id="T5_Carneades" ana="#academia_sceptica #sorites #dei" corresp="#Carneades" n="5">
-                            <bibl>F3 Mette - l.42-55</bibl>
-                            <listBibl>
+                <div type="livre" n="9">
+                    <div type="page" n="1">
+                        <q type="fragmentum" source="#Clitomachus" xml:id="F2_Clitomachus" n="2">
+                            <bibl>F3 Mette</bibl>
+                            <milestone unit="paragraph" n="182"/>
+                            <ab type="testimonium" xml:lang="grc" xml:id="T5_Carneades"
+                                ana="#academia_sceptica #sorites #dei" corresp="#Carneades" n="5">
                                 <bibl>F3 Mette - l.42-55</bibl>
-                                <bibl>LS 70E - partim</bibl>
-                            </listBibl>
-                            <milestone unit="paragraph" n="(182)"/> ἠρώτηνται δὲ ὑπὸ τοῦ
+                                <listBibl>
+                                    <bibl>F3 Mette - l.42-55</bibl>
+                                    <bibl>LS 70E - partim</bibl>
+                                </listBibl>
+                                <milestone unit="paragraph" n="(182)"/> ἠρώτηνται δὲ ὑπὸ τοῦ
                                 <persName>Καρνεάδου</persName> καὶ σωριτικῶς τινες, οὓς ὁ γνώριμος
-                            αὐτοῦ <persName>Κλειτόμαχος</persName> ὡς σπουδαιοτάτους καὶ
-                            ἀνυτικωτάτους ἀνέγραψεν, ἔχοντας τὸν τρόπον τοῦτον. εἰ Ζεὺς θεός ἐστι,
-                            καὶ ὁ Ποσειδῶν θεός ἐστιν <quote>( Hom. Il. XV 187-189 )˙ ‘τρεῖς γάρ τ'
-                                ἐκ Κρόνου ἦμεν ἀδελφεοί, οὓς τέκετο Ῥέα, Ζεὺς καὶ ἐγώ, τρίτατος δ'
-                                Ἀίδης ἐνέροισιν ἀνάσσων. τριχθὰ δὲ πάντα δέδασται, ἕκαστος δ' ἔμμορε
-                                τιμῆς.’</quote> ὥστε εἰ ὁ Ζεὺς θεός ἐστι, καὶ ὁ Ποσειδῶν ἀδελφὸς ὢν
-                            τούτου θεὸς γενήσεται. <milestone unit="chapitre" n="183"/> εἰ δὲ ὁ
-                            Ποσειδῶν θεός ἐστι, καὶ ὁ Ἀχελῷος ἔσται θεός˙ εἰ δὲ ὁ Ἀχελῷος, καὶ ὁ
-                            Νεῖλος˙ εἰ ὁ Νεῖλος, καὶ πᾶς ποταμός˙ εἰ πᾶς ποταμός, καὶ οἱ ῥύακες ἂν
-                            εἶεν θεοί˙ εἰ οἱ ῥύακες, καὶ αἱ χαράδραι. οὐχὶ δὲ οἱ ῥύακες˙ οὐδὲ ὁ Ζεὺς
-                            ἄρα θεός ἐστιν. εἰ δέ γε ἦσαν θεοί, καὶ ὁ Ζεὺς ἦν ἂν θεός. οὐκ ἄρα θεοὶ
-                            εἰσίν. </ab>
-                    </q>
-                    <q type="translatio" corresp="#F2_Clitomachus" xml:lang="fr">
-                        <ab type="translatio" xml:lang="fr" corresp="#T5_Carneades">Certains sorites
-                            ont été produits par <persName>Carnéde</persName>, que
+                                αὐτοῦ <persName>Κλειτόμαχος</persName> ὡς σπουδαιοτάτους καὶ
+                                ἀνυτικωτάτους ἀνέγραψεν, ἔχοντας τὸν τρόπον τοῦτον. εἰ Ζεὺς θεός ἐστι,
+                                καὶ ὁ Ποσειδῶν θεός ἐστιν <quote>( Hom. Il. XV 187-189 )˙ ‘τρεῖς γάρ τ'
+                                    ἐκ Κρόνου ἦμεν ἀδελφεοί, οὓς τέκετο Ῥέα, Ζεὺς καὶ ἐγώ, τρίτατος δ'
+                                    Ἀίδης ἐνέροισιν ἀνάσσων. τριχθὰ δὲ πάντα δέδασται, ἕκαστος δ' ἔμμορε
+                                    τιμῆς.’</quote> ὥστε εἰ ὁ Ζεὺς θεός ἐστι, καὶ ὁ Ποσειδῶν ἀδελφὸς ὢν
+                                τούτου θεὸς γενήσεται. <milestone unit="chapitre" n="183"/> εἰ δὲ ὁ
+                                Ποσειδῶν θεός ἐστι, καὶ ὁ Ἀχελῷος ἔσται θεός˙ εἰ δὲ ὁ Ἀχελῷος, καὶ ὁ
+                                Νεῖλος˙ εἰ ὁ Νεῖλος, καὶ πᾶς ποταμός˙ εἰ πᾶς ποταμός, καὶ οἱ ῥύακες ἂν
+                                εἶεν θεοί˙ εἰ οἱ ῥύακες, καὶ αἱ χαράδραι. οὐχὶ δὲ οἱ ῥύακες˙ οὐδὲ ὁ Ζεὺς
+                                ἄρα θεός ἐστιν. εἰ δέ γε ἦσαν θεοί, καὶ ὁ Ζεὺς ἦν ἂν θεός. οὐκ ἄρα θεοὶ
+                                εἰσίν. </ab>
+                        </q>
+                        <q type="translatio" corresp="#F2_Clitomachus" xml:lang="fr">
+                            <ab type="translatio" xml:lang="fr" corresp="#T5_Carneades">Certains sorites
+                                ont été produits par <persName>Carnéade</persName>, que
                                 <persName>Clitomaque</persName>, son disciple, a transmis par écrit
-                            comme étant les plus sérieux et les plus efficaces. Ils se présentent
-                            ainsi : si Zeus est un dieu, alors Poséidon aussi est un dieu
+                                comme étant les plus sérieux et les plus efficaces. Ils se présentent
+                                ainsi : si Zeus est un dieu, alors Poséidon aussi est un dieu
                                 <quote>"Nous sommes trois frères nés de Kronos, et qu'enfanta Rhéiè
-                                : Zeus, moi et Hadès qui commande aux Ombres. On fit trois parts du
-                                monde, et chacun de nous reçut la sienne"(HOM Iliade XV,
-                                187-189)</quote>, de sorte que si Zeus est un dieu, alors Poséidon
-                            qui est son frère sera un dieu, mais si Poséidon est un dieu, alors
-                            l'Achéloüs aussi sera un dieu. Mais si l'Achéloüs l’est, alors le Nil
-                            aussi. Mais si le Nil l’est, alors tout fleuve l’est. Et si tout fleuve
-                            l’est, alors tous les ruisseaux le seraient. Et si les fleuves le sont,
-                            alors les torrents aussi. Mais ce n’est pas le cas pour les fleuves,
-                            donc Zeus n’est pas un dieu. Or s’il y avait des dieux, Zeus aussi
-                            serait un dieu. Donc il n’y a pas de dieux.</ab>
-                    </q>
+                                    : Zeus, moi et Hadès qui commande aux Ombres. On fit trois parts du
+                                    monde, et chacun de nous reçut la sienne"(HOM Iliade XV,
+                                    187-189)</quote>, de sorte que si Zeus est un dieu, alors Poséidon
+                                qui est son frère sera un dieu, mais si Poséidon est un dieu, alors
+                                l'Achéloüs aussi sera un dieu. Mais si l'Achéloüs l’est, alors le Nil
+                                aussi. Mais si le Nil l’est, alors tout fleuve l’est. Et si tout fleuve
+                                l’est, alors tous les ruisseaux le seraient. Et si les fleuves le sont,
+                                alors les torrents aussi. Mais ce n’est pas le cas pour les fleuves,
+                                donc Zeus n’est pas un dieu. Or s’il y avait des dieux, Zeus aussi
+                                serait un dieu. Donc il n’y a pas de dieux.</ab>
+                        </q>
+                    </div>
                 </div>
-            </div>
             <div type="livre" n="11">
-                <div type="page" n="10">
-                    <ab type="fragmentum" corresp="#Aenesidemus" ana="#philosophia_pyrrhonia #ethica" xml:id="F8_Aenesidemus" xml:lang="gr" n="8">
+                <div type="page" n="1">
+                    <ab type="fragmentum" corresp="#Aenesidemus"
+                        ana="#philosophia_pyrrhonia #ethica" xml:id="F8_Aenesidemus" xml:lang="gr"
+                        n="8">
                         <listBibl>
                             <bibl>B15 Polito</bibl>
                         </listBibl>
                         <milestone unit="chapitre" n="42"/> πρὸς δὲ τὸ εὐχερέστερον συμπεριφέρεσθαι
                         τοῖς περὶ τῆς ὑπάρξεως αὐτοῦ λόγοις αὔταρκές ἐστιν εἰπεῖν͵ ὡς ἄρα πάντες
                         ἄνθρωποι͵ καθάπερ ἔλεγε καὶ ὁ <persName>Αἰνησίδημος</persName>͵
-                            <quote>ἀγαθὸν ἡγούμενοι τὸ αἱροῦν αὐτούς͵ ὁποῖον ἄν ποτ΄ ᾖ͵ μαχομένας
+                        <quote>ἀγαθὸν ἡγούμενοι τὸ αἱροῦν αὐτούς͵ ὁποῖον ἄν ποτ΄ ᾖ͵ μαχομένας
                             ἔχουσι τὰς ἐν εἴδει περὶ αὐτοῦ κρίσεις.</quote>
                     </ab>
                     <p>καὶ ὃν τρόπον συμφωνοῦντες͵ εἰ τύχοι͵ περὶ τοῦ εἶναί τινα σωματικὴν εὐμορφίαν
@@ -423,16 +450,18 @@
                             les hommes considèrent comme bon ce qui les attire, quel que soit cet
                             objet, ils ont des jugements particuliers qui s'opposent sur cet objet.
                         </quote>
-          </ab>
+                    </ab>
                 </div>
-                <div type="page" n="11">
-                    <ab type="excerptum" xml:lang="grc" xml:id="AM_XI_69" ana="#philosophia_pyrrhonia #phainomenon">
+                <div type="page" n="2">
+                    <ab type="excerptum" xml:lang="grc" xml:id="AM_XI_69"
+                        ana="#philosophia_pyrrhonia #phainomenon">
                         <milestone unit="chapitre" n="69"/> εἰ τοίνυν ἔστι τι φύσει ἀγαθὸν καὶ ἔστι
                         τι φύσει κακόν, τοῦτο ὀφείλει κοινὸν εἶναι πάντων καὶ πᾶσιν ὑπάρχειν ἀγαθὸν
                         ἢ κακόν. ὥσπερ γὰρ τὸ πῦρ φύσει ἀλεαντικὸν καθεστὼς πάντας ἀλεαίνει καὶ οὐχ
                         οὓς μὲν ἀλεαίνει, οὓς δὲ ψύχει, καὶ ὃν τρόπον ἡ χιὼν ψύχουσα οὐχὶ τοὺς μὲν
                         ψύχει, τοὺς δὲ ἀλεαίνει, πάντας δ’ ὁμοίως ψύχει, οὕτω τὸ φύσει ἀγαθὸν πᾶσιν
-                        ὀφείλει τυγχάνειν ἀγαθὸν καὶ οὐχὶ <milestone unit="chapitre" n="70"/>&#xA0;τοῖς μὲν ἀγαθόν, τοῖς δ’ οὐκ ἀγαθόν. </ab>
+                        ὀφείλει τυγχάνειν ἀγαθὸν καὶ οὐχὶ <milestone unit="chapitre" n="70"
+                        />&#xA0;τοῖς μὲν ἀγαθόν, τοῖς δ’ οὐκ ἀγαθόν. </ab>
                     <ab type="translatio" xml:lang="fr" corresp="#AM_XI_69">Ainsi, s'il existe par
                         nature quelque chose de bon ou quelque chose de mal, cette chose doit être
                         commune à tous et être bonne ou mauvaise pour tous. En effet, de même que le
@@ -440,39 +469,49 @@
                         et n'en réchauffe pas certains en même temps qu'elle en réchauffe d'autres,
                         et de la même manière, la neige, qui refroidit, n'en refroidit pas certains
                         tandis qu'elle en réchauffe d'autres, de la même manière ce qui est ce qui
-                        est bon par nature doit être bon pour tous et <milestone unit="chapitre" n="70"/> non bon pour certains et mauvais pour d'autres.</ab>
+                        est bon par nature doit être bon pour tous et <milestone unit="chapitre"
+                            n="70"/> non bon pour certains et mauvais pour d'autres.</ab>
                 </div>
-                <div type="page" n="12">
-                    <ab type="excerptum" ana="#philosophia_pyrrhonia" xml:lang="grc" xml:id="AM_XI_160">
+                <div type="page" n="3">
+                    <ab type="excerptum" ana="#philosophia_pyrrhonia" xml:lang="grc"
+                        xml:id="AM_XI_160">
                         <milestone unit="paragraph" n="160"/> οὐκοῦν ὁ περὶ πάντων ἐπέχων τῶν κατὰ
-                        δόξαν τελειοτάτην καρποῦται τὴν εὐδαιμονίαν,<milestone unit="paragraph" n="161"/> ἐν δὲ τοῖς ἀκουσίοις καὶ ἀλόγοις κινήμασι ταράττεται μέν
-                            (<quote source="Homerus">οὐ γὰρ ἀπὸ δρυός ἐστι παλαιφάτου, οὐδ’ ἀπὸ
-                            πέτρης, ἀλλ’ ἀνδρῶν γένος ἦεν</quote>), <milestone unit="paragraph" n="162"/> μετριοπαθῶς δὲ διατίθεται. ὅθεν καὶ καταφρονεῖν ἀναγκαῖον τῶν
+                        δόξαν τελειοτάτην καρποῦται τὴν εὐδαιμονίαν,<milestone unit="paragraph"
+                            n="161"/> ἐν δὲ τοῖς ἀκουσίοις καὶ ἀλόγοις κινήμασι ταράττεται μέν
+                        (<quote source="Homerus">οὐ γὰρ ἀπὸ δρυός ἐστι παλαιφάτου, οὐδ’ ἀπὸ
+                            πέτρης, ἀλλ’ ἀνδρῶν γένος ἦεν</quote>), <milestone unit="paragraph"
+                                n="162"/> μετριοπαθῶς δὲ διατίθεται. ὅθεν καὶ καταφρονεῖν ἀναγκαῖον τῶν
                         εἰς ἀνενεργησίαν αὐτὸν περικλείεσθαι νομιζόντων ἢ εἰς ἀπέμφασιν, καὶ εἰς
                         ἀνενεργησίαν μέν,. <milestone unit="paragraph" n="163"/> ὅτι τοῦ βίου παντὸς
                         ἐν αἱρέσεσι καὶ φυγαῖς ὄντος ὁ μήτε αἱρούμενός τι μήτε φύγων δυνάμει τὸν
                         βίον ἀρνεῖται καί τινος<milestone unit="paragraph" n="164"/> φυτοῦ τρόπον
                         ἐπεῖχεν, εἰς ἀπέμφασιν δέ, ὅτι ὑπὸ τυράννω ποτὲ γενόμενος καὶ τῶν ἀρρήτων τι
                         ποιεῖν ἀναγκαζόμενος ἢ οὐχ ὑπομενεῖ τὸ προσταττόμενον, ἀλλ’ ἑκούσιον ἑλεῖται
-                        θάνατον, ἢ φεύγων τὰς βασάνους ποιήσει τὸ κελευόμενον, οὕτω τε οὐκέτι <q type="fragmentum" source="#Timon" xml:id="F2_Timon" n="2" xml:lang="grc">
-                            <quote>“ἀφυγὴς καὶ ἀναίρετος ἔσται”</quote>
+                        θάνατον, ἢ φεύγων τὰς βασάνους ποιήσει τὸ κελευόμενον, οὕτω τε οὐκέτι <q
+                            type="fragmentum" source="#Timon" xml:id="F2_Timon" n="2" xml:lang="grc">
+                            <quote>ἀφυγὴς καὶ ἀναίρετος ἔσται</quote>
                         </q>κατὰ τὸν <persName>Τίμωνα</persName>, ἀλλὰ τὸ μὲν ἑλεῖται, τοῦ δ’
-                        ἀποστήσεται, ὅπερ ἦν τῶν μετὰ πείσματος κατειληφότων τὸ φευκτόν<milestone unit="paragraph" n="165"/> τι εἶναι καὶ αἱρετόν. ταῦτα δὴ λέγοντες οὐ
+                        ἀποστήσεται, ὅπερ ἦν τῶν μετὰ πείσματος κατειληφότων τὸ φευκτόν<milestone
+                            unit="paragraph" n="165"/> τι εἶναι καὶ αἱρετόν. ταῦτα δὴ λέγοντες οὐ
                         συνιᾶσιν, ὅτι κατὰ μὲν τὸν φιλόσοφον λόγον οὐ βιοῖ ὁ σκεπτικός (ἀνενέργητος
                         γάρ ἐστιν ὅσον ἐπὶ τούτῳ), κατὰ δὲ τὴν ἀφιλόσοφον τήρησιν δύναται τὰ μὲν
                         αἱρεῖσθαι, τὰ δὲ φεύγειν.<milestone unit="paragraph" n="166"/> ἀναγκαζόμενός
                         τε ὑπὸ τυράννου τι τῶν ἀπηγορευμένων πράττειν, τῇ κατὰ τοὺς πατρίους νόμους
                         καὶ τὰ ἔθη προλήψει τυχὸν τὸ μὲν ἑλεῖται, τὸ δὲ φεύξεται· καὶ ῥᾷόν γε οἴσει
-                        τὸ σκληρὸν παρὰ τὸν ἀπὸ τῶν δογμάτων, ὅτι οὐδὲν<milestone unit="paragraph" n="167"/> ἔξωθεν τούτων προσδοξάζει καθάπερ ἐκεῖνος. </ab>
+                        τὸ σκληρὸν παρὰ τὸν ἀπὸ τῶν δογμάτων, ὅτι οὐδὲν<milestone unit="paragraph"
+                            n="167"/> ἔξωθεν τούτων προσδοξάζει καθάπερ ἐκεῖνος. </ab>
                     <ab type="translatio" xml:lang="fr" corresp="#AM_XI_160">
                         <milestone unit="paragraph" n="160"/> Donc celui qui suspend [son jugement]
-                        sur tout ce qui dépend de l’opinion jouit d’un bonheur parfait,<milestone unit="paragraph" n="161"/> et même s’il est troublé dans ses sentiments
+                        sur tout ce qui dépend de l’opinion jouit d’un bonheur parfait,<milestone
+                            unit="paragraph" n="161"/> et même s’il est troublé dans ses sentiments
                         involontaires et irrationnels car <quote>« il n’est pas fils d’un chêne ou
-                            d’une pierre, mais il était du genre humain »</quote> ,<milestone unit="paragraph" n="163"/> il est affecté avec modération. Pour cette
+                            d’une pierre, mais il était du genre humain »</quote> ,<milestone
+                                unit="paragraph" n="163"/> il est affecté avec modération. Pour cette
                         raison il faut aussi mépriser ceux qui pensent que le sceptique est réduit à
                         l’inaction ou à la contradiction. À l’inaction, au prétexte que, la vie tout
                         entière consistant dans des choix et des refus, celui qui ne choisit ni ne
-                        fuit rien refuse en puissance la vie et gît là comme<milestone unit="paragraph" n="164"/> une plante. À la contradiction, parce que,
+                        fuit rien refuse en puissance la vie et gît là comme<milestone
+                            unit="paragraph" n="164"/> une plante. À la contradiction, parce que,
                         une fois sous le pouvoir d’un tyran et contraint de faire quelque chose
                         d’indicible, soit il n’accepte pas l’ordre et choisit volontairement la
                         mort, soit fuyant les souffrances, il fera ce qu’on lui ordonne et ainsi ne
@@ -480,21 +519,22 @@
                             <quote>« privé de choix et de refus »</quote> comme le dit Timon</q>,
                         mais choisira une chose et s’éloignera de l’autre, ce qui serait du ressort
                         de ceux qui saisissent avec confiance qu’il y a quelque chose à
-                            fuir<milestone unit="paragraph" n="165"/> et quelque chose à choisir.
+                        fuir<milestone unit="paragraph" n="165"/> et quelque chose à choisir.
                         Mais lorsqu’ils disent cela, ils ne comprennent pas que le sceptique ne vit
                         pas suivant un raisonnement philosophique (le sceptique est inactif, en
                         effet, en ce qui concerne ce dernier), mais suivant l’observation non
                         philosophique, il peut choisir certaines choses et en fuir
-                            d’autres.<milestone unit="paragraph" n="166"/> Donc s’il est contraint
+                        d’autres.<milestone unit="paragraph" n="166"/> Donc s’il est contraint
                         par un tyran à faire quelque chose de défendu, il choisira au cas par cas
                         une chose et en fuira une autre selon la préconception des lois nationales
                         et des coutumes. Et il supportera plus facilement la dureté que les autres
-                        dogmatiques parce que, par rapport aux dogmatiques, il n’ajoute rien
+                        dogmatiques parce que, par rapport aux dogmatiques, <milestone unit="paragraph" n="167"/>il n’ajoute rien
                         d’extérieur à ces questions. </ab>
                 </div>
-
+                
             </div>
-
+            
+        
         </body>
     </text>
 </TEI>
