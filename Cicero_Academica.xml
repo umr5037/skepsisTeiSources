@@ -32,7 +32,7 @@
                 <div type="chapitre" n="12">
                     <ab type="testimonium" xml:id="T6_Arcesilas" xml:lang="la" corresp="#Arcesilas"
                         ana="#academia_sceptica #epochè #akatalepsia" n="6">
-                        <bibl>F9 Mette</bibl>
+                        <bibl>F9 Mette (partim)</bibl>
                         <milestone unit="paragraph" n="45"/>itaque <persName>Arcesilas</persName>
                         negabat esse quicquam quod sciri posset, ne illud quidem ipsum quod
                             <persName>Socrates</persName> sibi reliquisset, ut nihil scire se
@@ -45,10 +45,25 @@
                         erat consentaneum faciebat, ut contra omnium sententias disserens de sua
                         plerosque deduceret, ut cum in eadem re paria contrariis in partibus momenta
                         rationum invenirentur facilius ab utraque parte assensio sustineretur.
-                            <milestone unit="paragraph" n="46"/> Hanc Academiam novam appellant,
-                        quae mihi vetus videtur, si quidem <persName ref="Plato">Platonem</persName>
-                        ex illa vetere numeramus, cuius in libris nihil affirmatur et in utramque
-                        partem multa disseruntur, de omnibus quaeritur nihil certi dicitur. </ab>
+                    </ab>
+                    <ab type="testimonium" xml:id="T9_Arcesilas" xml:lang="la" corresp="#Arcesilas"
+                        ana="#academia_sceptica #historia_academiae" n="9">
+                        <bibl>F9 Mette (partim)</bibl>
+                        <milestone unit="paragraph" n="46"/> Hanc Academiam novam appellant, quae mihi vetus videtur, si
+                            quidem <persName ref="Plato">Platonem</persName> ex illa vetere
+                            numeramus, cuius in libris nihil affirmatur et in utramque partem multa
+                            disseruntur, de omnibus quaeritur nihil certi dicitur. 
+                        <q type="testimonium" xml:id="T4_Carneades" corresp="#Carneades" xml:lang="la"
+                            ana="#academia_sceptica #academiae_historia" n="4">
+                            <!-- changer en seg selon le développement !-->       
+                            <bibl>T4 Mette (partim)</bibl>
+                            <milestone unit="paragraph" n="(46)"/> —sed tamen illa quam exposuisti vetus,
+                            haec nova nominetur. quae usque ad <persName ref="Carneades"
+                                >Carneadem</persName> perducta, qui quartus ab <persName
+                                    ref="#Arcesilas">Arcesila</persName> fuit, in eadem <persName
+                                        ref="#Arcesilas">Arcesilae</persName> ratione permansit.</q>
+                        
+                    </ab>
                     <ab type="translatio" xml:lang="fr" corresp="#T6_Arcesilas">
                         <milestone unit="paragraph" n="45"/>Pour cette raison
                             <persName>Arcésilas</persName> refusait que quoi que ce soit puisse être
@@ -64,27 +79,20 @@
                         changer d'avis nombreux de ses auditeurs en argumentant contre les positions
                         de tout le monde, puisque lorsqu'on découvrait qu'il y avait sur le même
                         sujet des arguments d'égale importance en faveur de positions contraires, il
-                        était plus facile de suspendre son assentiment sur chacune des positions.
+                        était plus facile de suspendre son assentiment sur chacune des positions.</ab>
+                    <ab type="translatio" corresp="#T9_Arcesilas" xml:lang="fr">
                             <milestone unit="paragraph" n="46"/> On appelle cette Académie
                         "nouvelle", bien qu'elle me semble ancienne, si cependant on compte bien
                             <persName>Platon</persName> parmi cette ancienne Académie, lui qui
                         n'affirme rien dans ses livres et discute de nombreuses choses dans un sens
                         et dans un autre, lui qui à propos de tout cherche et ne dit rien de
-                        certain. </ab>
-                    <ab type="testimonium" xml:id="T4_Carneades" corresp="#Carneades" xml:lang="la"
-                        ana="#academia_sceptica #academiae_historia" n="4">
-                        <bibl>T4 Mette - partim</bibl>
-                        <!-- revoir le découpage Mette --> —sed tamen illa quam exposuisti vetus,
-                        haec nova nominetur. quae usque ad <persName ref="Carneades"
-                            >Carneadem</persName> perducta, qui quartus ab <persName
-                            ref="#Arcesilas">Arcesila</persName> fuit, in eadem <persName
-                            ref="#Arcesilas">Arcesilae</persName> ratione permansit.</ab>
-
-                    <ab type="translatio" corresp="#T4_Carneades" xml:lang="fr">Acceptons cependant
+                        certain. 
+                    
+                        <seg type="translatio" corresp="#T4_Carneades" xml:lang="fr">   <milestone unit="paragraph" n="(46)"/> Acceptons cependant
                         d'appeler "ancienne" l'académie que tu as décrite, et "nouvelle" celle dont
                         je vais parler. Cette dernière va jusqu'à <persName>Carnéade</persName>, qui
                         fut le quatrième successeur d'<persName>Arcesilas</persName> et qui conserva
-                        la même méthode qu'<persName>Arcesilas</persName>. </ab>
+                        la même méthode qu'<persName>Arcesilas</persName>.</seg> </ab>
                 </div>
             </div>
             <div type="livre" n="2">
@@ -102,18 +110,20 @@
                         tale quale uel falsum ; incubuit autem in eas disputationes, ut doceret
                         nullum tale esse uisum a uero ut non eiusdem modi etiam a falso possit esse. </ab>
                     <ab type="translatio" xml:lang="fr" corresp="#T3_Arcesilas">
-                        <milestone unit="paragraph" n="77"/>
-                        Alors <persName>Zénon</persName> l’a [sc. l’impression compréhensive] définie ainsi : celle qui
-                        est « imprimée, marquée, modelée à partir d’un objet réel, exactement tel qu’il
-                        est ». Ensuite <persName>Arcésilas</persName> demanda si cela serait encore le cas si une impression
-                        vraie était identique à une impression fausse. Ici <persName>Zénon</persName> vit subtilement
-                        qu’aucune impression ne serait compréhensible si une impression qui vient d’un
-                        objet réel pouvait être identique à celle qui vient d’un autre objet. A raison
-                        <persName>Arcésilas</persName> était d’accord qu’il fallait un ajout à la définition car ni le faux
-                        ni le faux ne peuvent être saisis si le vrai est identique au faux. Mais il pris
-                        soin dans ces discussions à montrer qu’il n’y avait aucune impression provenant
-                        du vrai qui ne puisse être identique à une impression qui proviendrait du faux 
-                    </ab></div>
+                        <milestone unit="paragraph" n="77"/> Alors <persName>Zénon</persName> l’a
+                        [sc. l’impression compréhensive] définie ainsi : celle qui est « imprimée,
+                        marquée, modelée à partir d’un objet réel, exactement tel qu’il est ».
+                        Ensuite <persName>Arcésilas</persName> demanda si cela serait encore le cas
+                        si une impression vraie était identique à une impression fausse. Ici
+                            <persName>Zénon</persName> vit subtilement qu’aucune impression ne
+                        serait compréhensible si une impression qui vient d’un objet réel pouvait
+                        être identique à celle qui vient d’un autre objet. A raison
+                            <persName>Arcésilas</persName> était d’accord qu’il fallait un ajout à
+                        la définition car ni le faux ni le faux ne peuvent être saisis si le vrai
+                        est identique au faux. Mais il pris soin dans ces discussions à montrer
+                        qu’il n’y avait aucune impression provenant du vrai qui ne puisse être
+                        identique à une impression qui proviendrait du faux </ab>
+                </div>
                 <div type="chapitre" n="32">
                     <q type="fragmentum" source="#Clitomachus" xml:id="F1_Clitomachus" n="1">
                         <bibl>F4 Mette</bibl>
