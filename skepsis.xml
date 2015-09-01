@@ -44,11 +44,11 @@
       <profileDesc>
          <textClass>
             <keywords>
-               <term xml:id="academia_sceptica">academia sceptica</term>
+
                <term xml:id="ataraxia">ataraxia</term>
                <term xml:id="apatheia">apatheia</term>
-               
-               <term xml:id="philosophia_pyrrhonia">philosophia pyrrhonia</term>
+
+
                <term xml:id="quartus_modus">quartus modus</term>
                <term xml:id="modi_decem">modi decem</term>
                <term xml:id="phainomenon">phainomenon</term>
@@ -70,6 +70,11 @@
                <term xml:id="causa">causa</term>
                <term xml:id="modi_octo">modi octo</term>
                <term xml:id="aporia">aporia</term>
+               <term xml:id="differentia_inter_academicos_et_pyrrhonios">differentia inter
+                  academicos et pyrrhonios</term>
+               <term xml:id="methodus">methodus</term>
+               <term xml:id="memoria">memoria</term>
+               <term xml:id="signum">signum</term>
 
 
             </keywords>
@@ -87,8 +92,9 @@
             <div xml:lang="fr" n="Crédits">
                <div>
                   <head>Responsable scientifique, édition, traduction des textes</head>
-                  <p><ref target="http://perso.ens-lyon.fr/stephane.marchand/"
-                     >Stéphane Marchand</ref>, ENS de Lyon (CID/IHPC, UMR 5037)</p>
+                  <p>
+                     <ref target="http://perso.ens-lyon.fr/stephane.marchand/">Stéphane
+                        Marchand</ref>, ENS de Lyon (CID/IHPC, UMR 5037)</p>
                </div>
                <div>
                   <head>Gestion et outillage des données numériques, développements informatiques,
@@ -106,17 +112,16 @@
                <div>
                   <head>Iconographie</head>
                   <p> Petrarca-Meister, <title>Der Philosoph Pyrrhon in stürmischer See</title>,
-                     XVIe sc., München, Alte Pinakothek, <ref
-                        target="https://commons.wikimedia.org/wiki/File%3APetrarca-Meister_001.jpg"
-                        >commons.wikimedia.org</ref>
+                     XVIe sc., München, Alte Pinakothek, <ref target="https://commons.wikimedia.org/wiki/File%3APetrarca-Meister_001.jpg">commons.wikimedia.org</ref>
                   </p>
                </div>
             </div>
             <div xml:lang="en" n="Credits">
                <div>
                   <head>Scientific director, editor, translation of texts</head>
-                  <p> <ref target="http://perso.ens-lyon.fr/stephane.marchand/"
-                     >Stéphane Marchand</ref>, ENS de Lyon (CID/IHPC, UMR 5037)</p>
+                  <p>
+                     <ref target="http://perso.ens-lyon.fr/stephane.marchand/">Stéphane
+                        Marchand</ref>, ENS de Lyon (CID/IHPC, UMR 5037)</p>
                </div>
                <div>
                   <head>Management and IT development</head>
@@ -133,9 +138,7 @@
                <div>
                   <head>Image</head>
                   <p> Petrarca-Meister, <title>Der Philosoph Pyrrhon in stürmischer See</title>,
-                     XVIe sc., München, Alte Pinakothek, <ref
-                        target="https://commons.wikimedia.org/wiki/File%3APetrarca-Meister_001.jpg"
-                        >commons.wikimedia.org</ref>
+                     XVIe sc., München, Alte Pinakothek, <ref target="https://commons.wikimedia.org/wiki/File%3APetrarca-Meister_001.jpg">commons.wikimedia.org</ref>
                   </p>
                </div>
             </div>
@@ -148,8 +151,7 @@
                </p>
                <p>15 Parvis René Descartes</p>
                <p>69342 Lyon cedex 07</p>
-               <p> Licence : <ref target="http://creativecommons.org/licenses/by-sa/3.0/fr/"
-                     >CC-BY-SA</ref>
+               <p> Licence : <ref target="http://creativecommons.org/licenses/by-sa/3.0/fr/">CC-BY-SA</ref>
                </p>
             </div>
             <div xml:lang="en" n="Rights">
@@ -160,8 +162,7 @@
                <p>15 Parvis René Descartes</p>
                <p>69342 Lyon cedex 07</p>
 
-               <p> License : <ref target="http://creativecommons.org/licenses/by-sa/3.0/fr/"
-                     >CC-BY-SA</ref>
+               <p> License : <ref target="http://creativecommons.org/licenses/by-sa/3.0/fr/">CC-BY-SA</ref>
                </p>
             </div>
          </div>
@@ -175,7 +176,7 @@
                      dans lequel vous la trouvez est donc provisoire</p>
                </div>
                <div>
-                  <head>Description du projet scientifique</head>
+                  <head>Description du projet éditorial</head>
                   <p>Dans l'Antiquité, le scepticisme désigne un double phénomène : un problème
                      philosophique, celui de la possibilité de la connaissance, mais aussi un
                      ensemble de traditions philosophiques, la tradition pyrrhonienne et la
@@ -205,14 +206,11 @@
                <div>
                   <head>Description du projet technique</head>
                   <p>L'encodage des textes sera fait en suivant les normes de la TEI, et plus
-                     spécifiquement celles d'<ref target="http://www.stoa.org/epidoc/gl/latest/"
-                        >EPIDOC</ref>. En conformité avec les principes de la philologie numérique,
+                     spécifiquement celles d'<ref target="http://www.stoa.org/epidoc/gl/latest/">EPIDOC</ref>. En conformité avec les principes de la philologie numérique,
                      les textes – souvent fragmentaires et établis à partir de citations – seront
                      édités de manière à exprimer correctement les différentes niveaux de citations,
-                     en suivant les préconisations de <ref
-                        target="http://www.homermultitext.org/hmt-doc/cite/index.html">CITE
-                        ARCHITECTURE</ref>, et <ref
-                        target="http://www.homermultitext.org/hmt-doc/cite/texts/cts.html">Canonical
+                     en suivant les préconisations de <ref target="http://www.homermultitext.org/hmt-doc/cite/index.html">CITE
+                        ARCHITECTURE</ref>, et <ref target="http://www.homermultitext.org/hmt-doc/cite/texts/cts.html">Canonical
                         Text Services</ref>. L'exploitation et la diffusion du corpus s'appuieront
                      sur une base de données XML native (BaseX) et bénéficieront de l'expertise
                      développée par <ref target="http://ahn.ens-lyon.fr">l'Atelier des Humanités
@@ -226,7 +224,7 @@
                      under development. The current layout is therefore temporary.</p>
                </div>
                <div>
-                  <head>Description of the scientific project</head>
+                  <head>Description of the editorial project</head>
                   <p>In regard to ancient times, scepticism presents a double phenomenon: a
                      philosophical problem, the problem of the possibility of knowledge, but also a
                      collection of philosophical traditions, the Pyrrhonian tradition and the
@@ -258,10 +256,8 @@
                      of <ref target="http://www.stoa.org/epidoc/gl/latest/">EPIDOC</ref>. Conforming
                      to the principles of digital philology, the texts – often fragmentary and
                      constructed from citations – will be edited in a way to correctly cite
-                     resources by following the recommendations of <ref
-                        target="http://www.homermultitext.org/hmt-doc/cite/index.html">CITE
-                        Architecture</ref>, and <ref
-                        target="http://www.homermultitext.org/hmt-doc/cite/texts/cts.html">Canonical
+                     resources by following the recommendations of <ref target="http://www.homermultitext.org/hmt-doc/cite/index.html">CITE
+                        Architecture</ref>, and <ref target="http://www.homermultitext.org/hmt-doc/cite/texts/cts.html">Canonical
                         Text Services</ref>. The operation and dissemination of the corpus will be
                      based on an XML native (BaseX) database and will benefit from the expertise of
                      the <ref target="http://ahn.ens-lyon.fr">Atelier des Humanités Numériques of
