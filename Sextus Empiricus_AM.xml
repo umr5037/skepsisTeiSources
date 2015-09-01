@@ -26,7 +26,7 @@
             <div type="livre" n="7">
 
                 <div type="page" n="1">
-                    <ab type="testimonium" corresp="#Arcesilas" ana="#academia_sceptica #katalèpsis" xml:id="T2_Arcesilas" n="2" xml:lang="gr">
+                    <ab type="testimonium" corresp="#Arcesilas" ana="#katalèpsis" xml:id="T2_Arcesilas" n="2" xml:lang="gr">
                         <bibl>F1 Mette - l.13-17</bibl>
                         <listBibl>
                             <bibl>F1 Mette - l.13-17</bibl>
@@ -65,7 +65,7 @@
                         et variés</ab>
                 </div>
                 <div type="page" n="2">
-                    <ab type="testimonium" corresp="#Arcesilas" ana="#academia_sceptica #eulogon #apraxia" xml:id="T5_Arcesilas" n="5" xml:lang="gr">
+                    <ab type="testimonium" corresp="#Arcesilas" ana="#eulogon #apraxia" xml:id="T5_Arcesilas" n="5" xml:lang="gr">
                         <bibl>F1 Mette - l.36-44</bibl>
                         <listBibl>
                             <bibl>F1 Mette - l.36-44</bibl>
@@ -95,7 +95,7 @@
                         est raisonnable agira droitement et sera heureux </ab>
                 </div>
                 <div type="page" n="3">
-                    <ab type="testimonium" corresp="#Carneades" ana="#academia_sceptica #pithanon" xml:id="T1_Carneades" xml:lang="gr" n="1">
+                    <ab type="testimonium" corresp="#Carneades" ana="#pithanon" xml:id="T1_Carneades" xml:lang="gr" n="1">
                         <bibl>F2 Mette (l.105-112)</bibl>
                         <listBibl>
                             <bibl>F2 Mette (l.105-112)</bibl>
@@ -120,7 +120,7 @@
                         vrai.</ab>
                 </div>
                 <div type="page" n="4">
-                    <ab type="testimonium" corresp="#Carneades" ana="#academia_sceptica #pithanon" xml:id="T2_Carneades" xml:lang="gr" n="2">
+                    <ab type="testimonium" corresp="#Carneades" ana="#pithanon" xml:id="T2_Carneades" xml:lang="gr" n="2">
                         <bibl>F2 Mette - l.130-139</bibl>
                         <listBibl>
                             <bibl>F2 Mette - l.130-139</bibl>
@@ -158,7 +158,7 @@
 
                 </div>
                 <div type="page" n="5">
-                    <ab type="testimonium" corresp="#Arcesilas" ana="#academia_sceptica #katalèpsis" xml:id="T4_Arcesilas" n="4" xml:lang="gr">
+                    <ab type="testimonium" corresp="#Arcesilas" ana="#katalèpsis" xml:id="T4_Arcesilas" n="4" xml:lang="gr">
                         <bibl>40H LS - partim</bibl>
                         <milestone unit="paragraph" n="409"/>ἐπὶ γὰρ τῶν ὁμοίων μὲν κατὰ μορφήν,
                         διαφερόντων δὲ κατὰ τὸ ὑποκείμενον, ἀμήχανόν ἐστι διορίζειν τὴν καταληπτικὴν
@@ -188,7 +188,7 @@
             <div type="livre" n="8">
                 <div type="page" n="1">
                     
-                    <ab type="fragmentum" corresp="#Aenesidemus" ana="#philosophia_pyrrhonia #phainomenon" xml:id="F4_Aenesidemus" xml:lang="gr" n="4">
+                    <ab type="fragmentum" corresp="#Aenesidemus" ana="#phainomenon" xml:id="F4_Aenesidemus" xml:lang="gr" n="4">
                         <bibl>B23 Polito</bibl>
                         <milestone unit="paragraph" n="8"/> οἱ δὲ περὶ τὸν
                         <persName>Αἰνησίδημον</persName> καθ’ <persName>Ἡράκλειτον</persName>
@@ -234,7 +234,7 @@
                         certains sont vrais, d'autres faux,<milestone unit="paragraph" n="10"/>  comme nous l'avons montré au début.</ab>
                 </div>
                 <div type="page" n="2">
-                    <ab type="fragmentum" corresp="#Aenesidemus" ana="#philosophia_pyrrhonia #pithanon" xml:id="F7_Aenesidemus" xml:lang="gr" n="7">
+                    <ab type="fragmentum" corresp="#Aenesidemus" ana="#pithanon" xml:id="F7_Aenesidemus" xml:lang="gr" n="7">
                         <bibl>B12 Polito (partim)</bibl>
                         <milestone unit="paragraph" n="51"/>Τί οὖν; τὸ πεῖθον ἡμᾶς, τὸ πιθανὸν
                         ῥητέον ἀληθές, ὁποίαν ποτὲ ἂν ἔχῃ οὐσίαν, εἴτε αἰσθητὴν εἴτε νοητὴν εἴτε τὸ
@@ -288,7 +288,7 @@
                     </ab>
                 </div>
                 <div type="page" n="3">
-                    <q type="fragmentum" source="#Aenesidemus" xml:lang="grc" ana="#philosophia_pyrrhonia #phainomenon" xml:id="F5_Aenesidemus" n="5">
+                    <q type="fragmentum" source="#Aenesidemus" xml:lang="grc" ana="#signum #phainomenon" xml:id="F5_Aenesidemus" n="5">
                         <bibl>B13A Polito</bibl>
                         <milestone unit="paragraph" n="215"/> Ὁ δὲ <persName>Αἰνησίδημος</persName>
                         ἐν τῷ τετάρτῳ <title>τῶν Πυρρωνείων λόγων</title> εἰς τὴν αὐτὴν ὑπόθεσιν καὶ
@@ -332,16 +332,16 @@
                 </div>
                 
                 <div type="page" n="4">
-                    <q type="fragmentum" xml:lang="grc" ana="#philosophia_pyrrhonia #phainomenon" xml:id="F6_Aenesidemus" source="#Aenesidemus" n="6">
+                    <q type="fragmentum" xml:lang="grc" ana="#phainomenon #signum" xml:id="F6_Aenesidemus" source="#Aenesidemus" n="6">
                         <bibl>B13b Polito</bibl>
                         <milestone unit="paragraph" n="234"/>ἐξ ἀνομογενῶν δὲ λοιπόν ἐστι καθάπερ ὁ
                         παρὰ τῷ <persName>Αἰνησιδήμῳ</persName> περὶ σημείου ἐρωτηθείς, ἔχων δὲ
-                        οὕτως· <quote>“εἰ τὰ φαινόμενα πᾶσι τοῖς ὁμοίως διακειμένοις παραπλησίως
+                        οὕτως· <quote>εἰ τὰ φαινόμενα πᾶσι τοῖς ὁμοίως διακειμένοις παραπλησίως
                             φαίνεται καὶ τὰ σημεῖά ἐστι φαινόμενα, τὰ σημεῖα πᾶσι τοῖς ὁμοίως
                             διακειμένοις παραπλησίως φαίνεται· τὰ δέ γε σημεῖα οὐ πᾶσι τοῖς ὁμοίως
                             διακειμένοις παραπλησίως φαίνεται· τὰ δὲ φαινόμενα πᾶσι τοῖς ὁμοίως
                             διακειμένοις παραπλησίως φαίνεται· οὐκ ἄρα φαινόμενά ἐστι τὰ
-                            σημεῖα.”</quote>
+                            σημεῖα.</quote>
                     </q>
                     <ab type="translatio" xml:lang="fr" corresp="#F6_Aenesidemus"> <milestone unit="paragraph" n="234"/>Mais il reste
                         l'argument à partir des parties non homogènes comme celui donné
@@ -361,7 +361,7 @@
                         <q type="fragmentum" source="#Clitomachus" xml:id="F2_Clitomachus" n="2">
                             <bibl>F3 Mette</bibl>
                             <milestone unit="paragraph" n="182"/>
-                            <ab type="testimonium" xml:lang="grc" xml:id="T5_Carneades" ana="#academia_sceptica #sorites #dei" corresp="#Carneades" n="5">
+                            <ab type="testimonium" xml:lang="grc" xml:id="T5_Carneades" ana="#sorites #dei" corresp="#Carneades" n="5">
                                 <bibl>F3 Mette - l.42-55</bibl>
                                 <listBibl>
                                     <bibl>F3 Mette - l.42-55</bibl>
@@ -404,7 +404,7 @@
                 </div>
             <div type="livre" n="11">
                 <div type="page" n="1">
-                    <ab type="fragmentum" corresp="#Aenesidemus" ana="#philosophia_pyrrhonia #ethica" xml:id="F8_Aenesidemus" xml:lang="gr" n="8">
+                    <ab type="fragmentum" corresp="#Aenesidemus" ana="#ethica" xml:id="F8_Aenesidemus" xml:lang="gr" n="8">
                         <listBibl>
                             <bibl>B15 Polito</bibl>
                         </listBibl>
@@ -428,7 +428,7 @@
                     </ab>
                 </div>
                 <div type="page" n="2">
-                    <ab type="excerptum" xml:lang="grc" xml:id="AM_XI_69" ana="#philosophia_pyrrhonia #phainomenon">
+                    <ab type="excerptum" xml:lang="grc" xml:id="AM_XI_69" ana="#ethica #phainomenon">
                         <milestone unit="chapitre" n="69"/> εἰ τοίνυν ἔστι τι φύσει ἀγαθὸν καὶ ἔστι
                         τι φύσει κακόν, τοῦτο ὀφείλει κοινὸν εἶναι πάντων καὶ πᾶσιν ὑπάρχειν ἀγαθὸν
                         ἢ κακόν. ὥσπερ γὰρ τὸ πῦρ φύσει ἀλεαντικὸν καθεστὼς πάντας ἀλεαίνει καὶ οὐχ
@@ -441,11 +441,11 @@
                         feu, qui est par nature susceptible de réchauffer, réchauffe tout le monde
                         et n'en réchauffe pas certains en même temps qu'elle en réchauffe d'autres,
                         et de la même manière, la neige, qui refroidit, n'en refroidit pas certains
-                        tandis qu'elle en réchauffe d'autres, de la même manière ce qui est ce qui
+                        tandis qu'elle en réchauffe d'autres, de la même manière ce qui
                         est bon par nature doit être bon pour tous et <milestone unit="chapitre" n="70"/> non bon pour certains et mauvais pour d'autres.</ab>
                 </div>
                 <div type="page" n="3">
-                    <ab type="excerptum" ana="#philosophia_pyrrhonia" xml:lang="grc" xml:id="AM_XI_160">
+                    <ab type="excerptum" ana="epochè #apraxia" xml:lang="grc" xml:id="AM_XI_160">
                         <milestone unit="paragraph" n="160"/> οὐκοῦν ὁ περὶ πάντων ἐπέχων τῶν κατὰ
                         δόξαν τελειοτάτην καρποῦται τὴν εὐδαιμονίαν,<milestone unit="paragraph" n="161"/> ἐν δὲ τοῖς ἀκουσίοις καὶ ἀλόγοις κινήμασι ταράττεται μέν
                         (<quote source="Homerus">οὐ γὰρ ἀπὸ δρυός ἐστι παλαιφάτου, οὐδ’ ἀπὸ
