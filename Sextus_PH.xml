@@ -22,7 +22,7 @@
         <body>
             <div type="livre" n="1">
                 <div type="chapitre" n="11">
-                    <ab type="excerptum" ana="#philosophia_pyrrhonia #phainomenon" xml:lang="grc" xml:id="PH_I_22">
+                    <ab type="excerptum" ana="#methodus #phainomenon" xml:lang="grc" xml:id="PH_I_22">
                         <milestone unit="paragraph" n="22"/>κριτήριον τοίνυν φαμὲν εἶναι τῆς
                         σκεπτικῆς ἀγωγῆς τὸ φαινόμενον, δυνάμει τὴν φαντασίαν οὕτω καλοῦντες· ἐν
                         πείσει γὰρ καὶ ἀβουλήτῳ πάθει κειμένη ἀζήτητός ἐστιν. </ab>
@@ -36,7 +36,7 @@
                     
                     <head xml:lang="grc">ιδʹ περὶ τῶν δέκα τρόπων</head>
                     <head type="translatio" xml:lang="fr">Sur les dix tropes</head>
-                    <ab type="testimonium" ana="#philosophia_pyrrhonia  #modi_decem" xml:lang="grc" xml:id="T6_Aenesidemus" corresp="#Aenesidemus" n="6">
+                    <ab type="testimonium" ana="#methodus #modi_decem" xml:lang="grc" xml:id="T6_Aenesidemus" corresp="#Aenesidemus" n="6">
                         <milestone unit="paragraph" n="36"/>Παραδίδονται τοίνυν συνήθως παρὰ τοῖς
                         ἀρχαιοτέροις σκεπτικοῖς τρόποι, δι’ ὧν ἡ ἐποχὴ συνάγεσθαι δοκεῖ, δέκα τὸν
                         ἀριθμόν, οὓς καὶ λόγους καὶ τύπους συνωνύμως καλοῦσιν. εἰσὶ δὲ οὗτοι, πρῶτος
@@ -83,7 +83,7 @@
                     
                     <ab>(...)</ab>
                     
-                    <ab type="testimonium" ana="#philosophia_pyrrhonia  #quartus_modus" xml:lang="grc" xml:id="T7_Aenesidemus" corresp="#Aenesidemus" n="7">
+                    <ab type="testimonium" ana="#quartus_modus" xml:lang="grc" xml:id="T7_Aenesidemus" corresp="#Aenesidemus" n="7">
                         <milestone unit="paragraph" n="102"/>εἰ δέ τις λέγει ὅτι χυμῶν τινων
                         παραπλοκὴ ἀνοικείους φαντασίας ἐκ τῶν ὑποκειμένων ποιεῖ τοῖς παρὰ φύσιν
                         ἔχουσιν, λεκτέον ὅτι ἐπεὶ καὶ οἱ ὑγιαίνοντες χυμοὺς ἔχουσιν ἀνακεκραμένους,
@@ -116,14 +116,14 @@
                     <head xml:lang="grc">ιζ' τίνες τρόποι τῆς τῶν αἰτιολογικῶν ἀνατροπῆς.</head>
                     <head type="translatio" xml:lang="fr">Chapitre 37 : quels sont modes de
                         réfutation de ceux qui expliquent par les causes</head>
-                    <ab type="fragmentum" ana="#philosophia_pyrrhonia  #causa #phainomenon #modi_octo #aporia" xml:lang="grc" xml:id="F9_Aenesidemus" corresp="#Aenesidemus" n="9">
+                    <ab type="fragmentum" ana="#causa #phainomenon #modi_octo #aporia" xml:lang="grc" xml:id="F9_Aenesidemus" corresp="#Aenesidemus" n="9">
                         <milestone unit="paragraph" n="180"/>Ὥσπερ δὲ τοὺς τρόπους 〈τῆς〉 ἐποχῆς
                         παραδίδομεν, οὕτω καὶ τρόπους ἐκτίθενταί τινες, καθ' οὓς ἐν ταῖς κατὰ μέρος
                         αἰτιολογίαις διαποροῦντες ἐφιστῶμεν τοὺς δογματικοὺς διὰ τὸ μάλιστα ἐπὶ
                         ταύταις αὐτοὺς μέγα φρονεῖν. καὶ δὴ <persName>Αἰνησίδημος</persName> ὀκτὼ
                         τρόπους παραδίδωσι καθ' οὓς οἴεται πᾶσαν δογματικὴν αἰτιολογίαν ὡς μοχθηρὰν
                         ἐλέγχων ἀποφήνασθαι,<milestone unit="paragraph" n="181"/>
-            <lb/> ὧν πρῶτον μὲν
+                        <lb/> ὧν πρῶτον μὲν
                         εἶναί φησι καθ' ὃν [τρόπον] τὸ τῆς αἰτιολογίας γένος ἐν ἀφανέσιν
                         ἀναστρεφόμενον οὐχ ὁμολογουμένην ἔχει τὴν ἐκ τῶν φαινομένων ἐπιμαρτύρησιν˙
                         δεύτερον δὲ καθ' ὃν πολλάκις εὐεπιφορίας οὔσης δαψιλοῦς ὥστε πολυτρόπως
@@ -186,7 +186,7 @@
                         σκέψις.</head>
                     <head type="translatio" xml:lang="fr">Chapitre 33 : Par quoi se distingue le
                         scepticisme de la philosophie académicienne</head>
-                    <ab type="testimonium" ana="#philosophia_pyrrhonia #academia_sceptica #academiae_historia" xml:lang="grc" xml:id="T8_Arcesilas" corresp="#Arcesilas #Clitomachus #Carneades #Philo_Larissaeus" n="8">
+                    <ab type="testimonium" ana="#differentia_inter_academicos_et_pyrrhonios #academiae_historia" xml:lang="grc" xml:id="T8_Arcesilas" corresp="#Arcesilas #Clitomachus #Carneades #Philo_Larissaeus" n="8">
                         <milestone unit="paragraph" n="220"/>
                         <bibl>F1 Mette - l.1-6</bibl> Φασὶ μέντοι τινὲς ὅτι ἡ Ἀκαδημαϊκὴ φιλοσοφία ἡ
                         αὐτή ἐστι τῇ σκέψει˙ διόπερ ἀκόλουθον ἂν εἴη καὶ περὶ τούτου διεξελθεῖν.
@@ -218,7 +218,7 @@
                     <head xml:lang="grc">κγʹ εἰ ἔστι τι φύσει ἀγαθὸν καὶ ἀδιάφορον. </head>
                     <head type="translatio" xml:lang="fr">Chapitre 23 : S'il existe par nature
                         quelque chose de bon ou d'indifférent</head>
-                    <ab type="excerptum" ana="#philosophia_pyrrhonia #phainomenon" xml:lang="grc" xml:id="PH_III_179">
+                    <ab type="excerptum" ana="#phainomenon" xml:lang="grc" xml:id="PH_III_179">
                         <milestone unit="paragraph" n="179"/>Τὸ πῦρ φύσει ἀλεαῖνον πᾶσι φαίνεται
                         ἀλεαντικόν, καὶ ἡ χιὼν φύσει ψύχουσα πᾶσι φαίνεται ψυκτική, καὶ πάντα τὰ
                         φύσει κινοῦντα ὁμοίως πάντας κινεῖ τοὺς κατὰ φύσιν, ὡς φασίν, ἔχοντας. οὐδὲν
