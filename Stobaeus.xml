@@ -5,7 +5,7 @@
          <titleStmt>
             <title key="Eclogarum physicarum et ethicarum" ref="urn:cts:greekLit:tlg2037.tlg001">Eclogarum</title>
             <author key=" Stobaeus" ref="urn:cite:perseus:author.1332">Stobaeus</author>
-
+            
             <editor key="Marchand, Stéphane">Stéphane Marchand</editor>
          </titleStmt>
          <publicationStmt>
@@ -20,14 +20,14 @@
                ethicarum, ed. Meineke, August, Lipsiae, 1860 </bibl>
          </sourceDesc>
       </fileDesc>
-
+      
    </teiHeader>
    <text>
       <body>
-
+         
          <div type="livre" n="2">
             <div type="chapitre" n="6">
-               <ab type="testimonium" xml:id="T1_Philo_Larissaeus" n="1" xml:lang="grc" corresp="#Philo_Larissaeus" ana="#academia_sceptica #ethica #ars_vitae">
+               <ab type="testimonium" xml:id="T1_Philo_Larissaeus" n="1" xml:lang="grc" corresp="#Philo_Larissaeus" ana="#ethica #ars_vitae">
                   <bibl>F2 Mette</bibl>
                   <listBibl>
                      <bibl>F22 Brittain</bibl>
@@ -36,7 +36,7 @@
                   <milestone unit="paragraph" n="2"/>
                   <milestone unit="page_Meineke" n="[p.14 M]"/>
                   <persName>Φίλων</persName> ἐγένετο Λαρισαῖος, φιλόσοφος Ἀκαδημιακός, ἀκουστὴς
-                     <persName>Κλειτομάχου</persName>, τῶν ἱκανὴν εἰσενεγκαμένων προκοπὴν ἐν τοῖς
+                  <persName>Κλειτομάχου</persName>, τῶν ἱκανὴν εἰσενεγκαμένων προκοπὴν ἐν τοῖς
                   λοιποῖς. Οὗτος ὁ <persName>Φίλων</persName> τά τε ἄλλα πεπραγμάτευται δεξιῶς καὶ
                   διαίρεσιν τοῦ κατὰ φιλοσοφίαν λόγου, ἣν ἐγὼ προχειριοῦμαι [περὶ ἧς ὁ λόγος].<lb/>
                   Ἐοικέναι δή φησι τὸν φιλόσοφον ἰατρῷ. Καθάπερ οὖν ἔργον ἰατροῦ πρῶτον μὲν πεῖσαι
@@ -72,10 +72,11 @@
                   ἐπεισενεκτέον τὸν ὑποθετικὸν λόγον, δι’ οὗ τὰς πρὸς τὴν ἀσφάλειαν καὶ τὴν ὀρθότητα
                   τῆς ἑκάστου χρήσεως ὑποθήκας ἐν ἐπιτομαῖς ἕξουσιν. Οὕτως μὲν οὖν ἡ Φίλωνος ἔχει
                   διαίρεσις.</ab>
-               <ab type="translatio" corresp="#T1_Philo_Larissaeus">Philon, né à Larissa, était un
+               <ab type="translatio" corresp="#T1_Philo_Larissaeus">
+            <persName>Philon</persName>, né à Larissa, était un
                   philosophe académicien, disciple de <persName>Clitomaque</persName>, dont les
                   oeuvres qui restent introduisent un progrès intéressant.
-                     <persName>Philon</persName> a aussi produit, fort à propos, une division dans
+                  <persName>Philon</persName> a aussi produit, fort à propos, une division dans
                   le discours philosophique, que je vais examiner.<lb/> Il dit que le philosophe est
                   semblable au médecin. En effet, de même que la tâche du médecin est d'abord de
                   convaincre le malade d'accepter la thérapie, puis de défaire les arguments de ceux
@@ -119,9 +120,9 @@
                   soit par manque de temps, soit par manque du loisir nécessaire, et donc il faut
                   introduire le discours hypothétique par lequel ils auront dans des résumés les
                   conseils pour la sécurité et la droiture dans l'usage de chaque chose. Voilà donc
-                  ce qu'est la division de Philon.</ab>
+                  ce qu'est la division de <persName>Philon</persName>.</ab>
             </div>
-
+            
          </div>
       </body>
    </text>
