@@ -24,7 +24,7 @@
         <body>
             <div type="livre" n=" ">
                 <div type="page" n="1">
-                    <ab type="testimonium" xml:id="T8_Aenesidemus" xml:lang="grc" ana="#modi_decem" corresp="#Aenesidemus" n="8">
+                    <ab type="testimonium" xml:id="T8_Aenesidemus" xml:lang="grc" ana="#modi_decem #methodus" corresp="#Aenesidemus" n="8">
                         <milestone unit="paragraph" n="169"/> τὸν μέντοι σεμνυνόμενον ἢ ἐπὶ τῷ
                         βουλεύεσθαι ἢ ἐπὶ τῷ τὰ μὲν αἱρεῖσθαι τὰ δὲ φεύγειν ἱκανῶς δύνασθαι διὰ
                         τούτων ὑπομνηστέον· εἰ μὲν ἀπὸ τῶν αὐτῶν τὰς αὐτὰς ἀεὶ συνέβαινε προσπίπτειν
@@ -51,7 +51,7 @@
                         instable, le jugement qui porte sur elle <milestone unit="paragraph" n="171"/>aussi est instable. Plusieurs raisons à cela… </ab>
                 </div>
                 <div type="page" n="2">
-                    <ab type="testimonium" xml:id="T6_Aenesidemus" xml:lang="grc" ana="#modi_decem #quartus_modus">(...)<milestone unit="paragraph" n="178"/>καίτοι τί ταῦτά φαμεν; αὐτός τις εἷς ὢν ἕκαστος ἐφ’ ἑαυτοῦ, τὸ
+                    <ab type="testimonium" xml:id="T6_Aenesidemus" xml:lang="grc" ana="#modi_decem #quartus_modus #methodus">(...)<milestone unit="paragraph" n="178"/>καίτοι τί ταῦτά φαμεν; αὐτός τις εἷς ὢν ἕκαστος ἐφ’ ἑαυτοῦ, τὸ
                         παραδοξότατον, μυρίας μεταβολὰς καὶ τροπὰς δεχόμενος κατά τε σῶμα καὶ ψυχὴν
                         τοτὲ μὲν αἱρεῖται, τοτὲ δ’ ἀποστρέ- φεται οὐδαμῶς μεταβάλλοντα, μένειν δ’
                         ἐπὶ τῆς αὐτῆς πεφυκότα κατασκευῆς <milestone unit="paragraph" n="179"/>· οὐ
