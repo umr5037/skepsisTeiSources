@@ -27,7 +27,7 @@
         <body>
             <div type="livre" n="2">
                 <div type="chapitre" n="1">
-                    <q type="testimonium" ana="#academia_sceptica" corresp="#Arcesilas" xml:id="T7_Arcesilas" xml:lang="la" n="7">
+                    <q type="testimonium" ana="#methodus" corresp="#Arcesilas" xml:id="T7_Arcesilas" xml:lang="la" n="7">
                         <bibl>F11 Mette</bibl>
                         <milestone unit="paragraph" n="2"/>
                         <rs ref="Socrates">qui </rs> mos cum a posterioribus non esset retentus,
