@@ -79,7 +79,6 @@
                     <person xml:id="Philo_Larissaeus">
                         <persName xml:lang="fr">Philon de Larissa</persName>
                         <persName xml:lang="la">Philo Larissaeus</persName>
-                        <birth when="-0140">-140 a.C. </birth>
                         <death when="-0083">83 a.C. </death>
                         <affiliation>Academicus</affiliation>
                         <state type="scholarchus"/>
