@@ -208,7 +208,7 @@
                   <p>L'encodage des textes sera fait en suivant les normes de la TEI, et plus
                      spécifiquement celles d'<ref target="http://www.stoa.org/epidoc/gl/latest/">EPIDOC</ref>. En conformité avec les principes de la philologie numérique,
                      les textes – souvent fragmentaires et établis à partir de citations – seront
-                     édités de manière à exprimer correctement les différentes niveaux de citations,
+                     édités de manière à exprimer correctement les différents niveaux de citations,
                      en suivant les préconisations de <ref target="http://www.homermultitext.org/hmt-doc/cite/index.html">CITE
                         ARCHITECTURE</ref>, et <ref target="http://www.homermultitext.org/hmt-doc/cite/texts/cts.html">Canonical
                         Text Services</ref>. L'exploitation et la diffusion du corpus s'appuieront
