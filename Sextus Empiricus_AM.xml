@@ -5,7 +5,7 @@
         <fileDesc>
             <titleStmt>
                 <title key="adversus Mathematicos" ref="urn:cts:greekLit:tlg0544.tlg002">Adversus
-                    Mathematicos</title>
+                    Mathematicos_VII_XI</title>
                 <author key="Sextus Empiricus(0160?-0210?)" ref="urn:cite:perseus:author.1285">Sextus Empiricus</author>
             </titleStmt>
 
@@ -23,6 +23,7 @@
     </teiHeader>
     <text>
         <body>
+
             <div type="livre" n="7">
 
                 <div type="page" n="1">
@@ -83,16 +84,16 @@
                     <ab type="translatio" corresp="#T5_Arcesilas" xml:lang="fr">
                         <milestone unit="paragraph" n="158"/>Donc le sage suspendra son assentiment
                         sur toutes choses. Mais, puisqu’ensuite il était nécessaire aussi d’enquêter
-                        sur la façon de mener sa vie, ce dont on ne naturellement pas rendre compte
-                        sans un critère, et que le bonheur – qui est la fin de la vie – dépend lui
-                        aussi de ce critère en ce qui concerne la confiance qu’on lui porte,
-                        Arcésilas affirme que celui qui suspend son assentiment sur toutes choses
-                        règle ses choix, ses refus et ses actions en général sur ce qui est
-                        raisonnable, et qu’en suivant ce critère, il agit droitement. Car le bonheur
-                        s’atteint grâce à la prudence, la prudence se trouve dans les actions
-                        droites, et l’action droite est l’action qui, lorsqu’elle est réalisée,
-                        possède une justification raisonnable. Par conséquent, celui qui suit ce qui
-                        est raisonnable agira droitement et sera heureux </ab>
+                        sur la façon de mener sa vie, ce dont on ne peut naturellement pas rendre
+                        compte sans un critère, et que le bonheur – qui est la fin de la vie –
+                        dépend lui aussi de ce critère pour la confiance qu’on lui porte, Arcésilas
+                        affirme que celui qui suspend son assentiment sur toutes choses règle ses
+                        choix, ses refus et ses actions en général sur ce qui est raisonnable, et
+                        qu’en suivant ce critère, il agit droitement. Car le bonheur s’atteint grâce
+                        à la prudence, la prudence se trouve dans les actions droites, et l’action
+                        droite est l’action qui, lorsqu’elle est réalisée, possède une justification
+                        raisonnable. Par conséquent, celui qui suit ce qui est raisonnable agira
+                        droitement et sera heureux </ab>
                 </div>
                 <div type="page" n="3">
                     <ab type="testimonium" corresp="#Carneades" ana="#pithanon" xml:id="T1_Carneades" xml:lang="gr" n="1">
@@ -126,35 +127,42 @@
                             <bibl>F2 Mette - l.130-139</bibl>
                             <bibl>LS69E - partim</bibl>
                         </listBibl>
-                        <milestone unit="paragraph" n="183"/> οἷον ὄντων κατὰ τὸν τῆς κρίσεως τόπον
-                        τοῦ τε κρίνοντος καὶ τοῦ κρινομένου καὶ τοῦ δι’ οὗ ἡ κρίσις, ἀποστήματός τε
-                        καὶ διαστήματος, τόπου χρόνου τρόπου διαθέσεως ἐνεργείας, ἕκαστον τῶν
-                        τοιούτων ὁποῖόν ἐστι φυλοκρινοῦμεν, τὸ μὲν κρῖνον, μὴ ἡ ὄψις ἤμβλυται (τοι
-                        αύτη γὰρ οὖσα ἄθετός ἐστι πρὸς τὴν κρίσιν), τὸ δὲ κρινόμενον, μὴ μικρὸν ἄγαν
-                        καθέστηκε, τὸ δὲ δι’ οὗ ἡ κρί- σις, μὴ ὁ ἀὴρ ζοφερὸς ὑπάρχει, τὸ δὲ
-                        ἀπόστημα, μὴ μέγα λίαν ὑπόκειται, τὸ δὲ διάστημα, μὴ συγκέχυται, τὸν δὲ
-                        τόπον, μὴ ἀχανής ἐστι, τὸν δὲ χρόνον, μὴ ταχύς ἐστι, τὴν δὲ διάθεσιν, μὴ
+                        <milestone unit="paragraph" n="182"/>ἐπὶ δὲ τῆς κατὰ τὴν περιωδευμένην
+                        συνδρομῆς ἑκάστην τῶν ἐν τῇ συνδρομῇ ἐπιστατικῶς δοκιμάζομεν, ὁποῖόν τι
+                        γίνεται καὶ ἐν ταῖς ἐκκλησίαις, ὅταν ὁ δῆμος ἕκαστον τῶν μελλόντων ἄρχειν ἢ
+                        δικάζειν ἐξετάζῃ εἰ ἄξιός ἐστι τοῦ πιστευθῆναι τὴν ἀρχὴν 〈ἢ〉 τὴν κρίσιν.
+                            <milestone unit="paragraph" n="183"/> οἷον ὄντων κατὰ τὸν τῆς κρίσεως
+                        τόπον τοῦ τε κρίνοντος καὶ τοῦ κρινομένου καὶ τοῦ δι’ οὗ ἡ κρίσις,
+                        ἀποστήματός τε καὶ διαστήματος, τόπου χρόνου τρόπου διαθέσεως ἐνεργείας,
+                        ἕκαστον τῶν τοιούτων ὁποῖόν ἐστι φυλοκρινοῦμεν, τὸ μὲν κρῖνον, μὴ ἡ ὄψις
+                        ἤμβλυται (τοιαύτη γὰρ οὖσα ἄθετός ἐστι πρὸς τὴν κρίσιν), τὸ δὲ κρινόμενον,
+                        μὴ μικρὸν ἄγαν καθέστηκε, τὸ δὲ δι’ οὗ ἡ κρίσις, μὴ ὁ ἀὴρ ζοφερὸς ὑπάρχει,
+                        τὸ δὲ ἀπόστημα, μὴ μέγα λίαν ὑπόκειται, τὸ δὲ διάστημα, μὴ συγκέχυται, τὸν
+                        δὲ τόπον, μὴ ἀχανής ἐστι, τὸν δὲ χρόνον, μὴ ταχύς ἐστι, τὴν δὲ διάθεσιν, μὴ
                         μανιώδης θεωρεῖται, τὴν δὲ ἐνέργειαν,<milestone unit="paragraph" n="184"/>
                         μὴ ἀπρόσδεκτός ἐστιν. </ab>
                     <ab type="translatio" corresp="#T2_Carneades" xml:lang="fr">
-                        <milestone unit="paragraph" n="183"/>En ce qui concerne le concours
+                        <milestone unit="paragraph" n="182"/>En ce qui concerne le concours
                         d’impressions pour celle qui est examinée en détail, nous examinons
                         soigneusement chacune d’elles dans ce concours d’impressions, comme ce qui
                         se fait pour les assemblées, lorsque le peuple examine si chacun des
                         prétendants pour commander ou juger mérite qu’on lui fasse confiance pour
-                        exercer la charge exécutive ou judiciaire. Ainsi par exemple, puisque le
-                        sujet et l’objet du jugement, le milieu par l’intermédiaire duquel le
-                        jugement se fait, la distance et l’intervalle, le lieu, le temps, la
-                        manière, la disposition, la puissance, chacun de ces aspects du jugement,
-                        nous examinons précisément leur caractéristiques : le sujet du jugement pour
-                        savoir si sa vue n’est pas diminuée, (car si c’était le cas, elle serait
-                        inappropriée pour le jugement), l’objet jugé pour savoir s’il n’est pas trop
-                        petit, le milieu dans lequel le jugement se fait pour savoir si l’air n’y
-                        est pas trop sombre, la distance si elle n’est pas trop grande, l’intervalle
-                        s’il n’est pas raccourci, le lieu s’il n’est pas trop vaste ; le temps, s’il
-                        n’est pas trop court, la disposition si elle n’apparaissait pas celle d’un
-                        fou, l’activité, <milestone unit="paragraph" n="184"/>si elle n’est pas
-                        inadmissible. </ab>
+                        exercer la charge exécutive ou judiciaire.<milestone unit="paragraph" n="183"/>En ce qui concerne le concours d’impressions pour celle qui est
+                        examinée en détail, nous examinons soigneusement chacune d’elles dans ce
+                        concours, comme ce qui se fait pour les assemblées, lorsque le peuple
+                        examine si chacun des prétendants pour commander ou juger mérite qu’on lui
+                        fasse confiance pour exercer la charge exécutive ou judiciaire. Par exemple,
+                        comme il y a le sujet et l’objet du jugement, le milieu par l’intermédiaire
+                        duquel le jugement se fait, la distance et l’intervalle, le lieu, le temps,
+                        la manière, la disposition, la puissance, nous examinons précisément leurs
+                        caractéristiques : le sujet du jugement, pour savoir si sa vue n’est pas
+                        diminuée (car si c’était le cas, elle serait inappropriée pour le jugement),
+                        l’objet jugé, pour savoir s’il n’est pas trop petit, le milieu dans lequel le
+                        jugement se fait, pour savoir si l’air n’y est pas trop sombre, la distance,
+                        si elle n’est pas trop grande, l’intervalle, s’il n’est pas raccourci, le
+                        lieu, s’il n’est pas trop vaste ; le temps, s’il n’est pas trop court, la
+                        disposition, si elle n’apparaissait pas être celle d’un fou, l’activité,
+                            <milestone unit="paragraph" n="184"/>si elle n’est pas inadmissible. </ab>
 
                 </div>
                 <div type="page" n="5">
@@ -175,26 +183,24 @@
                         distinguer l'impression compréhensive de l'impression fausse et non
                         compréhensive : par exemple, si je donne à un Stoïcien pour qu'il les
                         distingue, successivement deux œufs parfaitement semblables entre eux, le
-                        sage pourra-t-il infailliblement, en fixant toute son attention, si l’œuf
-                        qu'on lui montre est le même, ou à chaque fois un autre ?<milestone unit="paragraph" n="410"/>Le même argument vaut pour les jumeaux, car
+                        sage pourra-t-il dire infailliblement, en fixant toute son attention, si
+                        l’œuf qu'on lui montre est le même, ou à chaque fois un autre ?<milestone unit="paragraph" n="410"/>Le même argument vaut pour les jumeaux, car
                         l'homme vertueux recevra une impression fausse, bien qu'ayant une impression
                         imprimée et scellée à partir d’un objet réel exactement tel qu’il est, s'il
                         reçoit l'impression de Castor comme si elle provenait de Pollux.</ab>
 
                 </div>
-
             </div>
 
             <div type="livre" n="8">
                 <div type="page" n="1">
-                    
-                    <ab type="fragmentum" corresp="#Aenesidemus" ana="#phainomenon" xml:id="F4_Aenesidemus" xml:lang="gr" n="4">
+                    <ab type="fragmentum" corresp="#Aenesidemus" ana="#phainomenon #interpretatio_heracliti" xml:id="F4_Aenesidemus" xml:lang="gr" n="4">
                         <bibl>B23 Polito</bibl>
                         <milestone unit="paragraph" n="8"/> οἱ δὲ περὶ τὸν
-                        <persName>Αἰνησίδημον</persName> καθ’ <persName>Ἡράκλειτον</persName>
+                            <persName>Αἰνησίδημον</persName> καθ’ <persName>Ἡράκλειτον</persName>
                         καὶ τὸν <persName>Ἐπίκουρον</persName> ἐπὶ τὰ αἰσθητὰ κοινῶς κατενεχθέντες
                         ἐν εἴδει διέστησαν. <quote>οἱ μὲν γὰρ περὶ τὸν <persName>Αἰνησίδημον
-                        </persName>λέγουσί τινα τῶν φαινομένων διαφοράν, καὶ φασὶ τούτων τὰ μὲν
+                            </persName>λέγουσί τινα τῶν φαινομένων διαφοράν, καὶ φασὶ τούτων τὰ μὲν
                             κοινῶς <note>[πᾶσι] add. Bekker</note>φαίνεσθαι τὰ δὲ ἰδίως τινί, ὧν
                             ἀληθῆ μὲν εἶναι τὰ κοινῶς πᾶσι φαινόμενα, ψευδῆ δὲ τὰ μὴ τοιαῦτα· ὅθεν
                             καὶ ἀληθὲς φερωνύμως εἰρῆσθαι τὸ μὴ λῆθον τὴν <milestone unit="paragraph" n="9"/> κοινὴν γνώμην.</quote>
@@ -203,16 +209,15 @@
                         ὄντα. οὐ διήνεγκε γὰρ ἀληθὲς εἶναί τι λέγειν ἢ ὑπάρχον· ἔνθεν καὶ ὑπογράφων
                         τἀληθὲς καὶ ψεῦδος <quote>“ἔστι” φησὶν “ἀληθὲς τὸ οὕτως ἔχον ὡς λέγεται
                             ἔχειν”</quote>, καὶ <quote>“ψεῦδός ἐστι” φησὶ “τὸ οὐχ οὕτως ἔχον ὡς
-                                λέγεται ἔχειν”</quote>. τήν τε αἴσθησιν ἀντιληπτικὴν οὖσαν τῶν
+                            λέγεται ἔχειν”</quote>. τήν τε αἴσθησιν ἀντιληπτικὴν οὖσαν τῶν
                         ὑποπιπτόντων αὐτῇ, καὶ μήτε ἀφαιροῦσάν τι μήτε προστιθεῖσαν μήτε
                         μετατιθεῖσαν τῷ ἄλογον εἶναι, διὰ παντός τε ἀληθεύειν καὶ οὕτω τὸ ὂν
                         λαμβάνειν ὡς εἶχε φύσεως αὐτὸ ἐκεῖνο. πάντων δὲ τῶν αἰσθητῶν ἀληθῶν ὄντων,
                         τὰ δοξαστὰ διαφέρειν, καὶ τὰ μὲν αὐτῶν εἶναι ἀληθῆ τὰ δὲ<milestone unit="paragraph" n="10"/> ψευδῆ, καθὼς πρότερον ἐδείξαμεν.</ab>
-                    
                     <ab type="translatio" corresp="#F4_Aenesidemus" xml:lang="fr">
                         <milestone unit="paragraph" n="8"/>
                         <persName>Énésidème</persName> suivant <persName>Héraclite</persName> et
-                        <persName>Épicure</persName>, même s’ils arrivent à des conclusions
+                            <persName>Épicure</persName>, même s’ils arrivent à des conclusions
                         communes à propos des sensibles, diffèrent sur des points spécifiques. En
                         effet, <persName>Énésidème</persName> affirme qu'il y a une différence entre
                         les phénomènes, et dit que parmi les phénomènes, certains apparaissent de
@@ -226,12 +231,13 @@
                         est vraie ou qu'elle est existante : c'est pourquoi aussi lorsqu'il décrit
                         le vrai et le faux il dit : <quote>« est vrai ce qui est tel qu'il est dit
                             être »</quote> et <quote>« est faux ce qui n'est pas tel qu'il est dit
-                                être »</quote>. En outre, [il dit que] comme la sensation est propre à
+                            être »</quote>. En outre, [il dit que] comme la sensation est propre à
                         recevoir ce qui vient à sa rencontre et n'enlève ni n'ajoute ni ne change
                         quoique ce soit du fait qu'elle est sans raison, elle dit toujours vrai et
                         saisit ce qui est tel qu'il est lui-même par nature. En revanche, les objets
                         d'opinions diffèrent des sensibles qui sont toujours vrais, et parmi eux
-                        certains sont vrais, d'autres faux,<milestone unit="paragraph" n="10"/>  comme nous l'avons montré au début.</ab>
+                        certains sont vrais, d'autres faux,<milestone unit="paragraph" n="10"/>
+                        comme nous l'avons montré au début.</ab>
                 </div>
                 <div type="page" n="2">
                     <ab type="fragmentum" corresp="#Aenesidemus" ana="#pithanon" xml:id="F7_Aenesidemus" xml:lang="gr" n="7">
@@ -243,7 +249,7 @@
                         μὴ ὑπάρχειν καὶ τὸ αὐτὸ ἀληθὲς ἅμα εἶναι καὶ ψεῦδος˙ ᾗ μὲν γὰρ πείθει τινάς,
                         ἀληθὲς ἔσται καὶ ὑπάρχον, ᾗ δὲ ἑτέρους οὐ πείθει, ψεῦδος καὶ ἀνύπαρκτον.
                         ἀδύνατον δέ γε τὸ αὐτὸ καὶ εἶναι καὶ μὴ εἶναι, ἀληθές τε ὑπάρχειν καὶ
-                        ψεῦδος˙<milestone unit="paragraph" n="53"/> τοίνυν οὐδὲ τὸ πιθανόν ἐστιν
+                            ψεῦδος˙<milestone unit="paragraph" n="53"/> τοίνυν οὐδὲ τὸ πιθανόν ἐστιν
                         ἀληθές. ἐκτὸς εἰ μή τι τὸ πολλοὺς πεῖθον, τοῦτ' ἐροῦμεν ἀληθές˙ τὸ γοῦν μέλι
                         πολλοὺς μὲν πεῖθον ὑγιαίνοντας ὡς γλυκύ, καὶ ἕνα μὴ πεῖθον ἰκτερικόν, ἀληθῶς
                         λέγομεν γλυκύ. ὅπερ ἦν ληρῶδες. ὅταν γὰρ περὶ ἀληθείας σκεπτώμεθα, τότε οὐκ
@@ -259,7 +265,7 @@
                         <milestone unit="paragraph" n="51"/>Qu'est-ce à dire ? Ce qui nous persuade,
                         le plausible doit-il être dit vrai, quelle que soit sa nature, qu'il soit
                         sensible, intelligible ou les deux à la fois, sensible et intelligible
-                        ?<milestone unit="paragraph" n="52"/>Mais chacune de ces options est une
+                            ?<milestone unit="paragraph" n="52"/>Mais chacune de ces options est une
                         aporie. En effet, si le plausible est vrai, puisque ce n'est pas la même
                         chose qui persuade tout le monde, ni toujours les mêmes personnes, nous
                         devrions dire que la même chose existe et n'existe pas, et que la même chose
@@ -274,18 +280,17 @@
                         recherche porte sur la vérité, alors il ne faut pas prendre en considération
                         le nombre de ceux qui tombent d'accord, mais les dispositions. Le malade est
                         dans une seule disposition et tous ceux qui sont en bonne santé dans un seul
-                        état.   <milestone unit="paragraph" n="54"/> Or, telle disposition n'est pas davantage fiable que telle autre ;
-                        puisque si nous faisons l'hypothèse contraire, que le miel soit amer pour de
-                        nombreuses personnes, par exemple parce qu'elles sont fiévreuses, mais que
-                        pour une seule personne, en bonne santé, il soit sucré, il s'ensuivrait
-                        assurément que nous disions que le miel est amer, ce qui précisément est
-                        absurde. Donc de même que, comme tout à l'heure, outrepassant le témoignage
-                        du nombre, nous ne disions pas moins que le miel est sucré, de même lorsque
-                        pour un grand nombre il est sucré, mais pour une personne amer, nous
-                        renonçons de dire qu'il est sucré pour la raison du nombre de personne qui
-                        le ressentent comme sucré, et examinons la vérité d'une autre manière.
-                     
-                    </ab>
+                        état. <milestone unit="paragraph" n="54"/> Or, telle disposition n'est pas
+                        davantage fiable que telle autre ; puisque si nous faisons l'hypothèse
+                        contraire, que le miel soit amer pour de nombreuses personnes, par exemple
+                        parce qu'elles sont fiévreuses, mais que pour une seule personne, en bonne
+                        santé, il soit sucré, il s'ensuivrait assurément que nous disions que le
+                        miel est amer, ce qui précisément est absurde. Donc de même que, comme tout
+                        à l'heure, outrepassant le témoignage du nombre, nous ne disions pas moins
+                        que le miel est sucré, de même lorsque pour un grand nombre il est sucré,
+                        mais pour une personne amer, nous renonçons de dire qu'il est sucré pour la
+                        raison du nombre de personne qui le ressentent comme sucré, et examinons la
+                        vérité d'une autre manière. </ab>
                 </div>
                 <div type="page" n="3">
                     <q type="fragmentum" source="#Aenesidemus" xml:lang="grc" ana="#signum #phainomenon" xml:id="F5_Aenesidemus" n="5">
@@ -297,7 +302,7 @@
                             φαινόμενα, τὰ σημεῖα πᾶσι τοῖς ὁμοίως διακειμένοις παραπλησίως φαίνεται.
                             οὐχὶ δέ γε τὰ σημεῖα πᾶσι τοῖς ὁμοίως διακειμένοις παραπλησίως φαίνεται·
                             τὰ δὲ φαινόμενα πᾶσι τοῖς ὁμοίως διακειμένοις παραπλησίως φαίνεται· οὐκ
-                            <milestone unit="paragraph" n="216"/>&#xA0;ἄρα φαινόμενά ἐστι τὰ
+                                <milestone unit="paragraph" n="216"/>&#xA0;ἄρα φαινόμενά ἐστι τὰ
                             σημεῖα.”</quote> καὶ δὴ τοίνυν φαινόμενα μὲν ἔοικε καλεῖν ὁ Αἰνησίδημος
                         τὰ αἰσθητά, λόγον δὲ ἐρωτᾷ καθ’ ὃν δεύτερος ἀναπόδεικτος ἐπιβάλλει τρίτῳ, οὗ
                         τὸ σχῆμά ἐστι τοιοῦτο “εἰ τὸ πρῶτον καὶ τὸ δεύτερον, τὸ τρίτον· οὐχὶ δὲ τὸ
@@ -323,14 +328,14 @@
                         un second indémontrable s'ajoute à un troisième, dont la forme est la
                         suivante&#xA0;: «&#xA0;si le premier et le deuxième [sont vrais], alors le
                         troisième [est vrai]; or le troisième n'est pas [vrai], mais le premier
-                        [l’]est; donc le deuxième n'est pas [vrai] ».
-                    </q>
+                        [l’]est; donc le deuxième n'est pas [vrai] ». </q>
                     <ab type="translatio">
-            <milestone unit="paragraph" n="217"/>Qu'il en est ainsi en réalité, nous le montrerons un peu plus tard. Pour
-                        l'instant nous allons montrer de manière plus simple que les prémisses de ce
-                        raisonnement sont valides et que la conclusion s'enchaîne bien à elles.</ab>
+                        <milestone unit="paragraph" n="217"/>Qu'il en est ainsi en réalité, nous le
+                        montrerons un peu plus tard. Pour l'instant nous allons montrer de manière
+                        plus simple que les prémisses de ce raisonnement sont valides et que la
+                        conclusion s'enchaîne bien à elles.</ab>
                 </div>
-                
+
                 <div type="page" n="4">
                     <q type="fragmentum" xml:lang="grc" ana="#phainomenon #signum" xml:id="F6_Aenesidemus" source="#Aenesidemus" n="6">
                         <bibl>B13b Polito</bibl>
@@ -343,65 +348,66 @@
                             διακειμένοις παραπλησίως φαίνεται· οὐκ ἄρα φαινόμενά ἐστι τὰ
                             σημεῖα.</quote>
                     </q>
-                    <ab type="translatio" xml:lang="fr" corresp="#F6_Aenesidemus"> <milestone unit="paragraph" n="234"/>Mais il reste
-                        l'argument à partir des parties non homogènes comme celui donné
-                        <persName>Enésidème</persName> sur le signe qui fonctionne ainsi :
-                        <quote>“ si les phénomènes apparaissent de façon semblable à ceux qui
-                            sont disposés de la même façon et que les signes sont des phénomènes,
-                            alors les signent apparaissent de la meme façon à ceux qui sont disposés
-                            de manière semblable. Mais les signes n'apparaissent pas de le même
-                            façon à ceux qui sont disposés de manière semblable, tandis que les
-                            phénomènes apparaissent de la même façon à ceux qui sont disposés de
-                            manière semblable. Donc les signes ne sont pas des phénomènes.</quote>
+                    <ab type="translatio" xml:lang="fr" corresp="#F6_Aenesidemus">
+                        <milestone unit="paragraph" n="234"/>Mais il reste l'argument à partir des
+                        parties non homogènes comme celui donné <persName>Enésidème</persName> sur
+                        le signe qui fonctionne ainsi : <quote>“ si les phénomènes apparaissent de
+                            façon semblable à ceux qui sont disposés de la même façon et que les
+                            signes sont des phénomènes, alors les signent apparaissent de la meme
+                            façon à ceux qui sont disposés de manière semblable. Mais les signes
+                            n'apparaissent pas de le même façon à ceux qui sont disposés de manière
+                            semblable, tandis que les phénomènes apparaissent de la même façon à
+                            ceux qui sont disposés de manière semblable. Donc les signes ne sont pas
+                            des phénomènes.</quote>
                     </ab>
                 </div>
             </div>
-                <div type="livre" n="9">
-                    <div type="page" n="1">
-                        <q type="fragmentum" source="#Clitomachus" xml:id="F2_Clitomachus" n="2">
-                            <bibl>F3 Mette</bibl>
-                            <milestone unit="paragraph" n="182"/>
-                            <ab type="testimonium" xml:lang="grc" xml:id="T5_Carneades" ana="#sorites #dei" corresp="#Carneades" n="5">
+            <div type="livre" n="9">
+                <div type="page" n="1">
+                    <q type="fragmentum" source="#Clitomachus" xml:id="F2_Clitomachus" n="2">
+                        <bibl>F3 Mette</bibl>
+                        <milestone unit="paragraph" n="182"/>
+                        <ab type="testimonium" xml:lang="grc" xml:id="T5_Carneades" ana="#sorites #dei" corresp="#Carneades" n="5">
+                            <bibl>F3 Mette - l.42-55</bibl>
+                            <listBibl>
                                 <bibl>F3 Mette - l.42-55</bibl>
-                                <listBibl>
-                                    <bibl>F3 Mette - l.42-55</bibl>
-                                    <bibl>LS 70E - partim</bibl>
-                                </listBibl>
-                                <milestone unit="paragraph" n="(182)"/> ἠρώτηνται δὲ ὑπὸ τοῦ
+                                <bibl>LS 70E - partim</bibl>
+                            </listBibl>
+                            <milestone unit="paragraph" n="(182)"/> ἠρώτηνται δὲ ὑπὸ τοῦ
                                 <persName>Καρνεάδου</persName> καὶ σωριτικῶς τινες, οὓς ὁ γνώριμος
-                                αὐτοῦ <persName>Κλειτόμαχος</persName> ὡς σπουδαιοτάτους καὶ
-                                ἀνυτικωτάτους ἀνέγραψεν, ἔχοντας τὸν τρόπον τοῦτον. εἰ Ζεὺς θεός ἐστι,
-                                καὶ ὁ Ποσειδῶν θεός ἐστιν <quote>( Hom. Il. XV 187-189 )˙ ‘τρεῖς γάρ τ'
-                                    ἐκ Κρόνου ἦμεν ἀδελφεοί, οὓς τέκετο Ῥέα, Ζεὺς καὶ ἐγώ, τρίτατος δ'
-                                    Ἀίδης ἐνέροισιν ἀνάσσων. τριχθὰ δὲ πάντα δέδασται, ἕκαστος δ' ἔμμορε
-                                    τιμῆς.’</quote> ὥστε εἰ ὁ Ζεὺς θεός ἐστι, καὶ ὁ Ποσειδῶν ἀδελφὸς ὢν
-                                τούτου θεὸς γενήσεται. <milestone unit="chapitre" n="183"/> εἰ δὲ ὁ
-                                Ποσειδῶν θεός ἐστι, καὶ ὁ Ἀχελῷος ἔσται θεός˙ εἰ δὲ ὁ Ἀχελῷος, καὶ ὁ
-                                Νεῖλος˙ εἰ ὁ Νεῖλος, καὶ πᾶς ποταμός˙ εἰ πᾶς ποταμός, καὶ οἱ ῥύακες ἂν
-                                εἶεν θεοί˙ εἰ οἱ ῥύακες, καὶ αἱ χαράδραι. οὐχὶ δὲ οἱ ῥύακες˙ οὐδὲ ὁ Ζεὺς
-                                ἄρα θεός ἐστιν. εἰ δέ γε ἦσαν θεοί, καὶ ὁ Ζεὺς ἦν ἂν θεός. οὐκ ἄρα θεοὶ
-                                εἰσίν. </ab>
-                        </q>
-                        <q type="translatio" corresp="#F2_Clitomachus" xml:lang="fr">
-                            <ab type="translatio" xml:lang="fr" corresp="#T5_Carneades">Certains sorites
-                                ont été produits par <persName>Carnéade</persName>, que
+                            αὐτοῦ <persName>Κλειτόμαχος</persName> ὡς σπουδαιοτάτους καὶ
+                            ἀνυτικωτάτους ἀνέγραψεν, ἔχοντας τὸν τρόπον τοῦτον. εἰ Ζεὺς θεός ἐστι,
+                            καὶ ὁ Ποσειδῶν θεός ἐστιν <quote>( Hom. Il. XV 187-189 )˙ ‘τρεῖς γάρ τ'
+                                ἐκ Κρόνου ἦμεν ἀδελφεοί, οὓς τέκετο Ῥέα, Ζεὺς καὶ ἐγώ, τρίτατος δ'
+                                Ἀίδης ἐνέροισιν ἀνάσσων. τριχθὰ δὲ πάντα δέδασται, ἕκαστος δ' ἔμμορε
+                                τιμῆς.’</quote> ὥστε εἰ ὁ Ζεὺς θεός ἐστι, καὶ ὁ Ποσειδῶν ἀδελφὸς ὢν
+                            τούτου θεὸς γενήσεται. <milestone unit="chapitre" n="183"/> εἰ δὲ ὁ
+                            Ποσειδῶν θεός ἐστι, καὶ ὁ Ἀχελῷος ἔσται θεός˙ εἰ δὲ ὁ Ἀχελῷος, καὶ ὁ
+                            Νεῖλος˙ εἰ ὁ Νεῖλος, καὶ πᾶς ποταμός˙ εἰ πᾶς ποταμός, καὶ οἱ ῥύακες ἂν
+                            εἶεν θεοί˙ εἰ οἱ ῥύακες, καὶ αἱ χαράδραι. οὐχὶ δὲ οἱ ῥύακες˙ οὐδὲ ὁ Ζεὺς
+                            ἄρα θεός ἐστιν. εἰ δέ γε ἦσαν θεοί, καὶ ὁ Ζεὺς ἦν ἂν θεός. οὐκ ἄρα θεοὶ
+                            εἰσίν. </ab>
+                    </q>
+                    <q type="translatio" corresp="#F2_Clitomachus" xml:lang="fr">
+                        <ab type="translatio" xml:lang="fr" corresp="#T5_Carneades">Certains sorites
+                            ont été produits par <persName>Carnéade</persName>, que
                                 <persName>Clitomaque</persName>, son disciple, a transmis par écrit
-                                comme étant les plus sérieux et les plus efficaces. Ils se présentent
-                                ainsi : si Zeus est un dieu, alors Poséidon aussi est un dieu
+                            comme étant les plus sérieux et les plus efficaces. Ils se présentent
+                            ainsi : si Zeus est un dieu, alors Poséidon aussi est un dieu
                                 <quote>"Nous sommes trois frères nés de Kronos, et qu'enfanta Rhéiè
-                                    : Zeus, moi et Hadès qui commande aux Ombres. On fit trois parts du
-                                    monde, et chacun de nous reçut la sienne"(HOM Iliade XV,
-                                    187-189)</quote>, de sorte que si Zeus est un dieu, alors Poséidon
-                                qui est son frère sera un dieu, mais si Poséidon est un dieu, alors
-                                l'Achéloüs aussi sera un dieu. Mais si l'Achéloüs l’est, alors le Nil
-                                aussi. Mais si le Nil l’est, alors tout fleuve l’est. Et si tout fleuve
-                                l’est, alors tous les ruisseaux le seraient. Et si les fleuves le sont,
-                                alors les torrents aussi. Mais ce n’est pas le cas pour les fleuves,
-                                donc Zeus n’est pas un dieu. Or s’il y avait des dieux, Zeus aussi
-                                serait un dieu. Donc il n’y a pas de dieux.</ab>
-                        </q>
-                    </div>
+                                : Zeus, moi et Hadès qui commande aux Ombres. On fit trois parts du
+                                monde, et chacun de nous reçut la sienne"(HOM Iliade XV,
+                                187-189)</quote>, de sorte que si Zeus est un dieu, alors Poséidon
+                            qui est son frère sera un dieu, mais si Poséidon est un dieu, alors
+                            l'Achéloüs aussi sera un dieu. Mais si l'Achéloüs l’est, alors le Nil
+                            aussi. Mais si le Nil l’est, alors tout fleuve l’est. Et si tout fleuve
+                            l’est, alors tous les ruisseaux le seraient. Et si les fleuves le sont,
+                            alors les torrents aussi. Mais ce n’est pas le cas pour les fleuves,
+                            donc Zeus n’est pas un dieu. Or s’il y avait des dieux, Zeus aussi
+                            serait un dieu. Donc il n’y a pas de dieux.</ab>
+                    </q>
                 </div>
+            </div>
             <div type="livre" n="11">
                 <div type="page" n="1">
                     <ab type="fragmentum" corresp="#Aenesidemus" ana="#ethica" xml:id="F8_Aenesidemus" xml:lang="gr" n="8">
@@ -411,7 +417,7 @@
                         <milestone unit="chapitre" n="42"/> πρὸς δὲ τὸ εὐχερέστερον συμπεριφέρεσθαι
                         τοῖς περὶ τῆς ὑπάρξεως αὐτοῦ λόγοις αὔταρκές ἐστιν εἰπεῖν͵ ὡς ἄρα πάντες
                         ἄνθρωποι͵ καθάπερ ἔλεγε καὶ ὁ <persName>Αἰνησίδημος</persName>͵
-                        <quote>ἀγαθὸν ἡγούμενοι τὸ αἱροῦν αὐτούς͵ ὁποῖον ἄν ποτ΄ ᾖ͵ μαχομένας
+                            <quote>ἀγαθὸν ἡγούμενοι τὸ αἱροῦν αὐτούς͵ ὁποῖον ἄν ποτ΄ ᾖ͵ μαχομένας
                             ἔχουσι τὰς ἐν εἴδει περὶ αὐτοῦ κρίσεις.</quote>
                     </ab>
                     <p>καὶ ὃν τρόπον συμφωνοῦντες͵ εἰ τύχοι͵ περὶ τοῦ εἶναί τινα σωματικὴν εὐμορφίαν
@@ -441,17 +447,18 @@
                         feu, qui est par nature susceptible de réchauffer, réchauffe tout le monde
                         et n'en réchauffe pas certains en même temps qu'elle en réchauffe d'autres,
                         et de la même manière, la neige, qui refroidit, n'en refroidit pas certains
-                        tandis qu'elle en réchauffe d'autres, de la même manière ce qui
-                        est bon par nature doit être bon pour tous et <milestone unit="chapitre" n="70"/> non bon pour certains et mauvais pour d'autres.</ab>
+                        tandis qu'elle en réchauffe d'autres, de la même manière ce qui est bon par
+                        nature doit être bon pour tous et <milestone unit="chapitre" n="70"/> non
+                        bon pour certains et mauvais pour d'autres.</ab>
                 </div>
                 <div type="page" n="3">
                     <ab type="excerptum" ana="epochè #apraxia" xml:lang="grc" xml:id="AM_XI_160">
                         <milestone unit="paragraph" n="160"/> οὐκοῦν ὁ περὶ πάντων ἐπέχων τῶν κατὰ
                         δόξαν τελειοτάτην καρποῦται τὴν εὐδαιμονίαν,<milestone unit="paragraph" n="161"/> ἐν δὲ τοῖς ἀκουσίοις καὶ ἀλόγοις κινήμασι ταράττεται μέν
-                        (<quote source="Homerus">οὐ γὰρ ἀπὸ δρυός ἐστι παλαιφάτου, οὐδ’ ἀπὸ
+                            (<quote source="Homerus">οὐ γὰρ ἀπὸ δρυός ἐστι παλαιφάτου, οὐδ’ ἀπὸ
                             πέτρης, ἀλλ’ ἀνδρῶν γένος ἦεν</quote>), <milestone unit="paragraph" n="162"/> μετριοπαθῶς δὲ διατίθεται. ὅθεν καὶ καταφρονεῖν ἀναγκαῖον τῶν
                         εἰς ἀνενεργησίαν αὐτὸν περικλείεσθαι νομιζόντων ἢ εἰς ἀπέμφασιν, καὶ εἰς
-                        ἀνενεργησίαν μέν,. <milestone unit="paragraph" n="163"/> ὅτι τοῦ βίου παντὸς
+                        ἀνενεργησίαν μέν,<milestone unit="paragraph" n="163"/> ὅτι τοῦ βίου παντὸς
                         ἐν αἱρέσεσι καὶ φυγαῖς ὄντος ὁ μήτε αἱρούμενός τι μήτε φύγων δυνάμει τὸν
                         βίον ἀρνεῖται καί τινος<milestone unit="paragraph" n="164"/> φυτοῦ τρόπον
                         ἐπεῖχεν, εἰς ἀπέμφασιν δέ, ὅτι ὑπὸ τυράννω ποτὲ γενόμενος καὶ τῶν ἀρρήτων τι
@@ -482,22 +489,22 @@
                             <quote>« privé de choix et de refus »</quote> comme le dit Timon</q>,
                         mais choisira une chose et s’éloignera de l’autre, ce qui serait du ressort
                         de ceux qui saisissent avec confiance qu’il y a quelque chose à
-                        fuir<milestone unit="paragraph" n="165"/> et quelque chose à choisir.
+                            fuir<milestone unit="paragraph" n="165"/> et quelque chose à choisir.
                         Mais lorsqu’ils disent cela, ils ne comprennent pas que le sceptique ne vit
                         pas suivant un raisonnement philosophique (le sceptique est inactif, en
                         effet, en ce qui concerne ce dernier), mais suivant l’observation non
                         philosophique, il peut choisir certaines choses et en fuir
-                        d’autres.<milestone unit="paragraph" n="166"/> Donc s’il est contraint
+                            d’autres.<milestone unit="paragraph" n="166"/> Donc s’il est contraint
                         par un tyran à faire quelque chose de défendu, il choisira au cas par cas
                         une chose et en fuira une autre selon la préconception des lois nationales
                         et des coutumes. Et il supportera plus facilement la dureté que les autres
-                        dogmatiques parce que, par rapport aux dogmatiques, <milestone unit="paragraph" n="167"/>il n’ajoute rien
-                        d’extérieur à ces questions. </ab>
+                        dogmatiques parce que, par rapport aux dogmatiques, <milestone unit="paragraph" n="167"/>il n’ajoute rien d’extérieur à ces questions.
+                    </ab>
                 </div>
-                
+
             </div>
-            
-        
+
+
         </body>
     </text>
 </TEI>
