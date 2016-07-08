@@ -5,14 +5,14 @@
             <titleStmt>
                 <title key="Pyrrhoniae hypotyposes" ref="urn:cts:greekLit:tlg0544.tlg001">Pyrrhoniae
                     hypotyposes</title>
-                
+
                 <author key="Sextus Empiricus(0160?-0210?)" ref="urn:cite:perseus:author.1285">Sextus Empiricus</author>
             </titleStmt>
             <publicationStmt>
                 <publisher>Ecole Normale Supérieure de Lyon</publisher>
             </publicationStmt>
             <sourceDesc>
-                
+
                 <bibl n="Description de la source principale">Pyrrhoniae hypotyposes, Sexti Empirici
                     Opera, Vol I, Mutschmann, Hermann edidit in aedibus B. G. Teubneri , 1912</bibl>
             </sourceDesc>
@@ -21,19 +21,158 @@
     <text>
         <body>
             <div type="livre" n="1">
+                <div type="chapitre" n="2">
+                    <ab type="excerptum" ana="#methodus" xml:lang="grc" xml:id="PH_I_5">
+                        <milestone unit="paragraph" n="5"/> Τῆς σκεπτικῆς οὖν φιλοσοφίας ὁ μὲν
+                        λέγεται καθόλου λόγος ὁ δὲ εἰδικός, καὶ καθόλου μὲν ἐν ᾧ τὸν χαρακτῆρα τῆς
+                        σκέψεως ἐκτιθέμεθα, λέγοντες τίς ἔννοια αὐτῆς καὶ τίνες ἀρχαὶ καὶ τίνες
+                        λόγοι, τί τε κριτήριον καὶ τί τέλος, καὶ τίνες οἱ τρόποι τῆς ἐποχῆς, καὶ πῶς
+                        παραλαμβάνομεν τὰς σκεπτικὰς ἀποφάσεις, καὶ τὴν διάκρισιν τῆς σκέψεως ἀπὸ
+                        τῶν παρακειμένων αὐτῇ φιλοσοφιῶν· <milestone unit="paragraph" n="6"/>
+                        εἰδικὸς δὲ ἐν ᾧ πρὸς ἕκαστον μέρος τῆς καλουμένης φιλοσοφίας ἀντιλέγομεν. </ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#PH_I_5">
+                        <milestone unit="paragraph" n="5"/>Il y a donc un exposé de la philosophie
+                        sceptique qui est dit général et un autre spécifique. L’exposé général est
+                        celui dans lequel nous expliquons le caractère spécifique du scepticisme, en
+                        disant quelle est sa notion, quels sont ses principes, ses arguments, son
+                        critère, son but, quels sont les tropes de la suspension du jugement,
+                        comment nous comprenons les affirmations sceptiques, et quelle est la
+                        différence du scepticisme avec les philosophies qui lui sont voisines.
+                            <milestone unit="paragraph" n="6"/> L’exposé spécifique est celui dans
+                        lequel nous portons la contradiction contre chaque partie de ce qu’on
+                        appelle la philosophie.</ab>
+                </div>
+                <div type="chapitre" n="4">
+                    <ab type="excerptum" ana="#methodus #phainomenon" xml:lang="grc" xml:id="PH_I_8">
+                        <milestone unit="paragraph" n="8"/> Ἔστι δὲ ἡ σκεπτικὴ δύναμις ἀντιθετικὴ
+                        φαινομένων τε καὶ νοουμένων καθ’ οἱονδήποτε τρόπον, ἀφ’ ἧς ἐρχόμεθα διὰ τὴν
+                        ἐν τοῖς ἀντικειμένοις πράγμασι καὶ λόγοις ἰσοσθένειαν τὸ μὲν πρῶτον εἰς
+                        ἐποχήν, τὸ δὲ μετὰ τοῦτο εἰς ἀταραξίαν </ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#PH_I_8">
+                        <milestone unit="paragraph" n="8"/>Le scepticisme est une faculté d’opposer
+                        les phénomènes et les choses pensées, par quelque manière que ce soit. Par
+                        cette faculté, grâce à la force égale des choses et des arguments opposés,
+                        nous arrivons d’abord à la suspension du jugement, puis après elle à
+                        l’ataraxie</ab>
+                </div>
+                <div type="chapitre" n="6">
+                    <ab type="excerptum" ana="#methodus #phainomenon" xml:lang="grc" xml:id="PH_I_12">
+                        <milestone unit="paragraph" n="12"/> Ἀρχὴν δὲ τῆς σκεπτικῆς αἰτιώδη μέν
+                        φαμεν εἶναι τὴν ἐλπίδα τοῦ ἀταρακτήσειν˙ οἱ γὰρ μεγαλοφυεῖς τῶν ἀνθρώπων
+                        ταρασσόμενοι διὰ τὴν ἐν τοῖς πράγμασιν ἀνωμαλίαν, καὶ ἀποροῦντες τίσιν αὐτῶν
+                        χρὴ μᾶλλον συγκατατίθεσθαι, ἦλθον ἐπὶ τὸ ζητεῖν, τί τε ἀληθές ἐστιν ἐν τοῖς
+                        πράγμασι καὶ τί ψεῦδος, ὡς ἐκ τῆς ἐπικρίσεως τούτων ἀταρακτήσοντες.
+                        συστάσεως δὲ τῆς σκεπτικῆς ἐστιν ἀρχὴ μάλιστα τὸ παντὶ λόγῳ λόγον ἴσον
+                        ἀντικεῖσθαι· ἀπὸ γὰρ τούτου καταλήγειν δοκοῦμεν εἰς τὸ μὴ δογματίζειν </ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#PH_I_12">
+                        <milestone unit="paragraph" n="12"/> (...) mais le principe constitutif du
+                        scepticisme est surtout le fait qu’à tout argument s’oppose un argument égal
+                        ; car c’est à partir de cela, nous semble-t-il, que nous arrivons à ne pas
+                        dogmatiser</ab>
+                </div>
+                <div type="chapitre" n="10">
+                    <ab type="excerptum" ana="#phainomenon" xml:lang="grc" xml:id="PH_I_19">
+                        <milestone unit="paragraph" n="19"/> Οἱ δὲ λέγοντες ὅτι ἀναιροῦσι τὰ
+                        φαινόμενα οἱ σκεπτικοὶ ἀνήκοοί μοι δοκοῦσιν εἶναι τῶν παρ’ ἡμῖν λεγομένων·
+                        τὰ γὰρ κατὰ φαντασίαν παθητικὴν ἀβουλήτως ἡμᾶς ἄγοντα εἰς συγκατάθεσιν οὐκ
+                        ἀνατρέπομεν, ὡς καὶ ἔμπροσθεν ἐλέγομεν· ταῦτα δέ ἐστι τὰ φαινόμενα. ὅταν δὲ
+                        ζητῶμεν, εἰ τοιοῦτον ἔστι τὸ ὑποκείμενον ὁποῖον φαίνεται, τὸ μὲν ὅτι
+                        φαίνεται δίδομεν, ζητοῦμεν δ’ οὐ περὶ τοῦ φαινομένου ἀλλὰ περὶ ἐκείνου ὃ
+                        λέγεται περὶ τοῦ φαινομένου· τοῦτο δὲ διαφέρει τοῦ ζητεῖν περὶ αὐτοῦ τοῦ
+                        φαινομένου.</ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#PH_I_19">
+                        <milestone unit="paragraph" n="19"/>Ceux qui disent que les sceptiques
+                        rejettent les phénomènes me semblent ne pas entendre ce que nous disons. Car
+                        nous ne refusons pas ce qui nous conduit involontairement à l’assentiment
+                        suivant une impression passive, comme nous l’avons déjà dit auparavant. Car
+                        il s’agit là précisément des phénomènes. Lorsque nous cherchons si la
+                        réalité est telle qu’elle apparaît, nous accordons bien que quelque chose
+                        apparaît, et notre recherche ne porte sur le phénomène mais sur ce que nous
+                        disons du phénomène ; et cela n’est pas la même chose que d’effectuer une
+                        recherche sur le phénomène en lui-même. </ab>
+                </div>
+
                 <div type="chapitre" n="11">
                     <ab type="excerptum" ana="#methodus #phainomenon" xml:lang="grc" xml:id="PH_I_22">
                         <milestone unit="paragraph" n="22"/>κριτήριον τοίνυν φαμὲν εἶναι τῆς
                         σκεπτικῆς ἀγωγῆς τὸ φαινόμενον, δυνάμει τὴν φαντασίαν οὕτω καλοῦντες· ἐν
-                        πείσει γὰρ καὶ ἀβουλήτῳ πάθει κειμένη ἀζήτητός ἐστιν. </ab>
+                        πείσει γὰρ καὶ ἀβουλήτῳ πάθει κειμένη ἀζήτητός ἐστιν. διὸ περὶ μὲν τοῦ
+                        φαίνεσθαι τοῖον ἢ τοῖον τὸ ὑποκεί- μενον οὐδεὶς ἴσως ἀμφισβητήσει, περὶ δὲ
+                        τοῦ εἰ <milestone unit="paragraph" n="23"/>τοιοῦτον ἔστιν ὁποῖον φαίνεται
+                        ζητεῖται. </ab>
                     <ab type="translatio" xml:lang="fr" corresp="#PH_I_22">
                         <milestone unit="paragraph" n="22"/>Donc nous disons que le phénomène est
                         critère de la voie sceptique, en appelant ainsi ce qui est en puissance
                         l’impression ; en effet, puisque elle réside dans une affection et un affect
-                        involontaire, elle ne fait pas l’objet de la recherche</ab>
+                        involontaire, elle ne fait pas l’objet de la recherche. Pour cette raison à
+                        coup sûr personne ne se dispute sur le fait que la réalité apparaisse ainsi
+                        ou autrement, mais on cherche plutôt si elle est telle qu'elle
+                            apparaît<milestone unit="paragraph" n="23"/> elle est telle qu'e</ab>
+                    <ab type="excerptum" ana="#observatio_vitae #phainomenon" xml:lang="grc" xml:id="PH_I_23"> τοῖς φαινομένοις οὖν προσέχοντες κατὰ τὴν βιωτικὴν τήρησιν
+                        ἀδοξάστως βιοῦμεν, ἐπεὶ μὴ δυνάμεθα ἀνενέργητοι παντάπασιν εἶναι. ἔοικε δὲ
+                        αὕτη ἡ βιωτικὴ τήρησις τετραμερὴς εἶναι καὶ τὸ μέν τι ἔχειν ἐν ὑφηγήσει
+                        φύσεως, τὸ δὲ ἐν ἀνάγκῃ παθῶν, τὸ δὲ ἐν παραδόσει νόμων τε καὶ ἐθῶν, τὸ δὲ
+                            <milestone unit="paragraph" n="24"/>ἐν διδασκαλίᾳ τεχνῶν, ὑφηγήσει μὲν
+                        φυσικῇ καθ’ ἣν φυσικῶς αἰσθητικοὶ καὶ νοητικοί ἐσμεν, παθῶν δὲ ἀνάγκῃ καθ’
+                        ἣν λιμὸς μὲν ἐπὶ τροφὴν ἡμᾶς ὁδηγεῖ, δίψος δ’ ἐπὶ πόμα, ἐθῶν δὲ καὶ νόμων
+                        παραδόσει καθ’ ἣν τὸ μὲν εὐσεβεῖν παραλαμβάνομεν βιωτικῶς ὡς ἀγαθὸν τὸ δὲ
+                        ἀσεβεῖν ὡς φαῦλον, λαμβάνομεν βιωτικῶς ὡς ἀγαθὸν τὸ δὲ ἀσεβεῖν ὡς φαῦλον,
+                        τεχνῶν δὲ διδασκαλίᾳ καθ’ ἣν οὐκ ἀνενέργητοί ἐσμεν ἐν αἷς παραλαμβάνομεν
+                        τέχναις. ταῦτα δὲ πάντα φαμὲν ἀδοξάστως.</ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#PH_I_23"> Donc, en nous attachant
+                        aux phénomènes nous vivons sans opinions selon l’observation de la vie
+                        quotidienne puisque nous ne pouvons pas être complètement inactifs. Il
+                        semble que cette observation de la vie quotidienne se compose de quatre
+                        aspects : la conduite de la nature, la nécessité des affects, la tradition
+                        des lois et des coutumes, et enfin <milestone unit="paragraph" n="24"/>
+                        l’apprentissage des arts; par la conduite de la nature nous sommes
+                        naturellement doués de sensation et de pensée; par la nécessité des affects,
+                        la faim nous mène à de la nourriture et la soif à de la boisson; par la
+                        tradition des lois et des coutumes nous considérons la piété, dans la vie
+                        quotidienne, comme bonne et l’impiété comme mauvaise; par l’apprentissage
+                        des arts nous ne sommes pas complètement inactifs dans les arts que nous
+                        apprenons. Mais nous disons cela sans soutenir d’opinions.</ab>
                 </div>
+                <div type="chapitre" n="12">
+                    <ab type="excerptum" ana="#ataraxia #epochè" xml:lang="grc" xml:id="PH_I_28">
+                        <milestone unit="paragraph" n="28"/>ὅπερ οὖν περὶ Ἀπελλοῦ τοῦ ζωγράφου
+                        λέγεται, τοῦτο ὑπῆρξε τῷ σκεπτικῷ. φασὶ γὰρ ὅτι ἐκεῖνος ἵππον γράφων καὶ τὸν
+                        ἀφρὸν τοῦ ἵππου μιμήσασθαι τῇ γραφῇ βουληθεὶς οὕτως ἀπετύγχανεν ὡς ἀπειπεῖν
+                        καὶ τὴν σπογγιὰν εἰς ἣν ἀπέμασσε τὰ ἀπὸ τοῦ γραφείου χρώματα προσρῖψαι τῇ
+                        εἰκόνι˙ τὴν δὲ προσαψαμένην ἵππου ἀφροῦ ποιῆσαι μίμημα.<milestone unit="paragraph" n="29"/>καὶ οἱ σκεπτικοὶ οὖν ἤλπιζον μὲν τὴν ἀταραξίαν
+                        ἀναλήψεσθαι διὰ τοῦ τὴν ἀνωμαλίαν τῶν φαινομένων τε καὶ νοουμένων ἐπικρῖναι,
+                        μὴ δυνηθέντες δὲ ποιῆσαι τοῦτο ἐπέσχον˙ ἐπισχοῦσι δὲ αὐτοῖς οἷον τυχικῶς ἡ
+                        ἀταραξία παρηκολούθησεν ὡς σκιὰ σώματι.</ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#PH_I_28">
+                        <milestone unit="paragraph" n="28"/>En fait, il est arrivé au sceptique
+                        précisément ce qu'on dit du peintre Apelle. On raconte qu’alors qu’il
+                        peignait un cheval et qu’il essayait d’imiter l’écume du cheval dans son
+                        tableau, son échec fut tel qu’il renonça et jeta sur le tableau l’éponge sur
+                        laquelle il essuyait les couleurs de son pinceau ; au contact du tableau
+                        l’éponge produisit une imitation de l’écume du cheval. <milestone unit="paragraph" n="29"/> Donc les sceptiques aussi espéraient obtenir
+                        l’ataraxie en prenant des décisions face à l’irrégularité des phénomènes et
+                        des choses pensées, et comme ils ne pouvaient prendre de décision, ils
+                        suspendirent leur jugement. Mais, une fois suspendu leur jugement l’ataraxie
+                        s’ensuivit comme par hasard, de même qu’une ombre suit un corps </ab>
+
+                </div>
+                <div type="chapitre" n="13">
+                    <ab type="excerptum" ana="#methodus #modi_decem" xml:lang="grc" xml:id="PH_I_35">
+                        <milestone unit="paragraph" n="35"/>ὑπὲρ δὲ τοῦ τὰς ἀντιθέσεις ταύτας
+                        ἀκριβέστερον ἡμῖν ὑποπεσεῖν, καὶ τοὺς τρόπους ὑποθήσομαι δι' ὧν ἡ ἐποχὴ
+                        συνάγεται, οὔτε περὶ τοῦ πλήθους οὔτε περὶ τῆς δυνάμεως αὐτῶν
+                        διαβεβαιούμενος· ἐνδέχεται γὰρ αὐτοὺς καὶ σαθροὺς εἶναι καὶ πλείους τῶν
+                        λεχθησομένων. </ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#PH_I_35">
+                        <milestone unit="paragraph" n="35"/>Pour que nous puissions voir plus
+                        précisément ces oppositions, je vais aussi exposer les tropes grâce auxquels
+                        la suspension arrive, en n’étant certain ni de leur nombre ni de leur force,
+                        car il est possible que ceux-ci soient mauvais ou plus nombreux que ceux
+                        dont nous allons parler. </ab>
+                </div>
+
                 <div type="chapitre" n="14">
-                    
+
                     <head xml:lang="grc">ιδʹ περὶ τῶν δέκα τρόπων</head>
                     <head type="translatio" xml:lang="fr">Sur les dix tropes</head>
                     <ab type="testimonium" ana="#methodus #modi_decem" xml:lang="grc" xml:id="T6_Aenesidemus" corresp="#Aenesidemus" n="6">
@@ -63,11 +202,11 @@
                         transmettent habituellement des modes par lesquels il semble qu'on soit
                         conduit à la suspension ; il y en a dix, qu’ils appellent aussi de manière
                         synonyme « arguments » et « types ». Ce sont : le premier, le mode suivant
-                        la différence entre les animaux ; le deuxième suivant la différence entre les hommes
-                        ; le troisième suivant les différentes constitutions des organes des sens ;
-                        le quatrième suivant les circonstances ; le cinquième suivant les positions,
-                        les distances et les lieux ; le sixième suivant <milestone unit="paragraph" n="37"/>les mélanges ; le septième suivant la quantité et la
-                        constitution des objets ; le huitième suivant le relatif ; le neuvième
+                        la différence entre les animaux ; le deuxième suivant la différence entre
+                        les hommes ; le troisième suivant les différentes constitutions des organes
+                        des sens ; le quatrième suivant les circonstances ; le cinquième suivant les
+                        positions, les distances et les lieux ; le sixième suivant <milestone unit="paragraph" n="37"/>les mélanges ; le septième suivant la quantité
+                        et la constitution des objets ; le huitième suivant le relatif ; le neuvième
                         suivant le caractère continu ou rare des rencontres, le dixième suivant les
                         choix de vie, les coutumes, les lois, les croyances aux mythes<milestone unit="paragraph" n="38"/> et les suppositions dogmatiques. Nous
                         n’utilisons cet ordre que de manière conventionnelle. Trois modes se placent
@@ -78,11 +217,12 @@
                         qui est jugé relèvent le septième et le dixième, de ce qui est composé des
                         deux relèvent le cinquième, le sixième, <milestone unit="paragraph" n="39"/>le huitième et le neuvième. A leur tour, ces trois modes se ramènent à
                         celui du relatif, de telle sorte que le trope du relatif est le genre le
-                        plus haut, dont les trois sont des espèces, dont les dix dépendent. Voilà pour ce que nous avons à dire sur leur quantité en suivant ce qui est 
+                        plus haut, dont les trois sont des espèces, dont les dix dépendent. Voilà
+                        pour ce que nous avons à dire sur leur quantité en suivant ce qui est
                         plausible. Passons à ce qu'il en est de leur force</ab>
-                    
+
                     <ab>(...)</ab>
-                    
+
                     <ab type="testimonium" ana="#quartus_modus" xml:lang="grc" xml:id="T7_Aenesidemus" corresp="#Aenesidemus" n="7">
                         <milestone unit="paragraph" n="102"/>εἰ δέ τις λέγει ὅτι χυμῶν τινων
                         παραπλοκὴ ἀνοικείους φαντασίας ἐκ τῶν ὑποκειμένων ποιεῖ τοῖς παρὰ φύσιν
@@ -109,12 +249,12 @@
                         contraire à la nature des bien portants et dans l’état naturel des malades,
                         de sorte qu’eux aussi, qui sont dans un état naturel relatif, doivent
                         emporter <milestone unit="paragraph" n="104"/>notre conviction </ab>
-                    
-                    
+
+
                 </div>
                 <div type="chapitre" n="17">
                     <head xml:lang="grc">ιζ' τίνες τρόποι τῆς τῶν αἰτιολογικῶν ἀνατροπῆς.</head>
-                    <head type="translatio" xml:lang="fr">Chapitre 37 : quels sont modes de
+                    <head type="translatio" xml:lang="fr">Chapitre 17 : quels sont modes de
                         réfutation de ceux qui expliquent par les causes</head>
                     <ab type="fragmentum" ana="#causa #phainomenon #modi_octo #aporia" xml:lang="grc" xml:id="F9_Aenesidemus" corresp="#Aenesidemus" n="9">
                         <milestone unit="paragraph" n="180"/>Ὥσπερ δὲ τοὺς τρόπους 〈τῆς〉 ἐποχῆς
@@ -123,15 +263,14 @@
                         ταύταις αὐτοὺς μέγα φρονεῖν. καὶ δὴ <persName>Αἰνησίδημος</persName> ὀκτὼ
                         τρόπους παραδίδωσι καθ' οὓς οἴεται πᾶσαν δογματικὴν αἰτιολογίαν ὡς μοχθηρὰν
                         ἐλέγχων ἀποφήνασθαι,<milestone unit="paragraph" n="181"/>
-                        <lb/> ὧν πρῶτον μὲν
-                        εἶναί φησι καθ' ὃν [τρόπον] τὸ τῆς αἰτιολογίας γένος ἐν ἀφανέσιν
-                        ἀναστρεφόμενον οὐχ ὁμολογουμένην ἔχει τὴν ἐκ τῶν φαινομένων ἐπιμαρτύρησιν˙
-                        δεύτερον δὲ καθ' ὃν πολλάκις εὐεπιφορίας οὔσης δαψιλοῦς ὥστε πολυτρόπως
-                        αἰτιολογῆσαι τὸ ζητούμενον, καθ' ἕνα μόνον <milestone unit="paragraph" n="182"/> τρόπον τοῦτό τινες αἰτιολογοῦσιν˙ <lb/> τρίτον καθ' ὃν τῶν
-                        τεταγμένως γινομένων αἰτίας ἀποδιδόασιν οὐδεμίαν τάξιν ἐπιφαινούσας˙<lb/>
-                        τέταρτον καθ' ὃν τὰ φαινόμενα λαβόντες ὡς γίνεται, καὶ τὰ μὴ φαινόμενα
-                        νομίζουσιν ὡς γίνεται κατειληφέναι, τάχα μὲν ὁμοίως τοῖς φαινομένοις τῶν
-                        ἀφανῶν ἐπιτελουμένων, τάχα δ' οὐχ ὁμοίως ἀλλ' ἰδιαζόντως˙<lb/>
+                        <lb/> ὧν πρῶτον μὲν εἶναί φησι καθ' ὃν [τρόπον] τὸ τῆς αἰτιολογίας γένος ἐν
+                        ἀφανέσιν ἀναστρεφόμενον οὐχ ὁμολογουμένην ἔχει τὴν ἐκ τῶν φαινομένων
+                        ἐπιμαρτύρησιν˙<lb/> δεύτερον δὲ καθ' ὃν πολλάκις εὐεπιφορίας οὔσης δαψιλοῦς
+                        ὥστε πολυτρόπως αἰτιολογῆσαι τὸ ζητούμενον, καθ' ἕνα μόνον <milestone unit="paragraph" n="182"/> τρόπον τοῦτό τινες αἰτιολογοῦσιν˙ <lb/>
+                        τρίτον καθ' ὃν τῶν τεταγμένως γινομένων αἰτίας ἀποδιδόασιν οὐδεμίαν τάξιν
+                        ἐπιφαινούσας˙<lb/> τέταρτον καθ' ὃν τὰ φαινόμενα λαβόντες ὡς γίνεται, καὶ τὰ
+                        μὴ φαινόμενα νομίζουσιν ὡς γίνεται κατειληφέναι, τάχα μὲν ὁμοίως τοῖς
+                        φαινομένοις τῶν ἀφανῶν ἐπιτελουμένων, τάχα δ' οὐχ ὁμοίως ἀλλ' ἰδιαζόντως˙<lb/>
                         <milestone unit="paragraph" n="183"/> πέμπτον καθ' ὃν πάντες ὡς ἔπος εἰπεῖν
                         κατὰ τὰς ἰδίας τῶν στοιχείων ὑποθέσεις ἀλλ' οὐ κατά τινας κοινὰς καὶ
                         ὁμολογουμένας ἐφόδους αἰτιολογοῦσιν˙<lb/> ἕκτον καθ' ὃν πολλάκις τὰ μὲν
@@ -155,16 +294,17 @@
                         genre de l'explication causale, en tant qu'il renvoie aux choses obscures,
                         ne reçoit des phénomènes aucune confirmation sur laquelle il y ait un
                         accord.<lb/> Le deuxième est celui suivant lequel alors que souvent il y a
-                        abondance de moyens pour expliquer de manière causale de plusieurs façons ce
-                        que l'on cherche, certains dogmatiques <milestone unit="paragraph" n="182"/>
-                        donnent une explication causale d'une seule façon.<lb/> Le troisième est
-                        celui suivant lequel ils donnent aux choses qui sont ordonnées des causes
-                        qui ne manifestent aucun ordre.<lb/> Le quatrième est celui suivant lequel,
-                        quand ils saisissent comment les phénomènes arrivent, ils pensent qu'ils ont
-                        aussi compris comment arrivent les choses non apparentes, alors que
-                        peut-être que les choses obscures s'accomplissent de la même façon que les
-                        phénomènes, mais peut être qu'elles ne le font pas de la même façon, mais
-                        d'une façon particulière.<lb/>
+                        abondance de moyens pour donner de plusieurs façons une explication causale
+                        de ce que l'on cherche, certains dogmatiques <milestone unit="paragraph" n="182"/> donnent une explication causale d'une seule façon.<lb/> Le
+                        troisième est celui suivant lequel ils donnent aux choses qui sont ordonnées
+                        des causes qui ne manifestent aucun ordre.<lb/> Le quatrième est celui
+                        suivant lequel, quand ils saisissent comment les phénomènes arrivent, ils
+                        pensent qu'ils ont aussi compris comment arrivent les choses non apparentes,
+                        (4) Le quatrième est celui suivant lequel, quand ils saisissent comment les
+                        phénomènes arrivent, ils pensent qu'ils ont aussi compris comment arrivent
+                        les choses non apparentes, alors que les choses obscures s'accomplissent
+                        peut-être de la même façon que les phénomènes, mais peut être ne le
+                        font-elles pas de la même façon, mais d'une façon particulière.<lb/>
                         <milestone unit="paragraph" n="183"/> Le cinquième est celui suivant lequel
                         tous, pour ainsi dire, donnent des explications selon leurs propres
                         hypothèses sur les éléments, mais pas selon les approches communes et
@@ -181,6 +321,67 @@
                         que certains se trompent dans leurs explications causales selon des tropes
                         mélangés, en lien avec ceux que nous avons décrit. </ab>
                 </div>
+                <div type="chapitre" n="28">
+                    <head xml:lang="grc">κη´ παραπήγματα ὑπὲρ τῶν σκεπτικῶν φωνῶν.</head>
+                    <head type="translatio" xml:lang="fr">Chapitre 28 : Règles sur les expressions
+                        sceptiques</head>
+                    <ab type="excerptum" ana="voces_scepticae" xml:lang="grc" xml:id="PH_I_206">
+                        <milestone unit="paragraph" n="206"/>Περὶ τοσούτων ἀρκέσει τῶν φωνῶν ὡς ἐν
+                        ὑποτυπώσει διεξελθεῖν, ἄλλως τε καὶ ἐπεὶ ἐκ τῶν νῦν ἡμῖν εἰρημένων δυνατόν
+                        ἐστι λέγειν καὶ περὶ τῶν παραλελειμμένων. περὶ πασῶν γὰρ τῶν σκεπτικῶν φωνῶν
+                        ἐκεῖνο χρὴ προειληφέναι, ὅτι περὶ τοῦ ἀληθεῖς αὐτὰς εἶναι πάντως οὐ
+                        διαβεβαιούμεθα, ὅπου γε καὶ ὑφ' ἑαυτῶν αὐτὰς ἀναιρεῖσθαι λέγομεν δύνασθαι,
+                        συμπεριγραφομένας ἐκείνοις περὶ ὧν λέγονται, καθάπερ τὰ καθαρτικὰ τῶν
+                        φαρμάκων οὐ μόνον τοὺς χυμοὺς ὑπεξαιρεῖ τοῦ σώματος, ἀλλὰ καὶ ἑαυτὰ τοῖς
+                        χυμοῖς συνεξάγει. </ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#PH_I_206">
+                        <milestone unit="paragraph" n="206"/>C'est assez en ce qui concerne les
+                        expressions sceptiques pour en parler en esquisse, d'autant plus qu'il est
+                        possible de parler aussi de la suite en s'appuyant sur ce que nous venons de
+                        dire. Car, pour toutes les expressions sceptiques il faut d’abord comprendre
+                        ceci : nous n’assurons absolument pas qu’elles sont vraies, puisque nous
+                        disons qu’elles peuvent être détruites par elles-mêmes, en se supprimant en
+                        même temps que ce sur quoi elles portent, à la manière des remèdes purgatifs
+                        qui éliminent non seulement les humeurs du corps, mais elles s’expulsent
+                        elles-mêmes aussi avec ces humeurs</ab>
+                </div>
+
+                <div type="chapitre" n="29">
+                    <head xml:lang="grc">κθ´ ὅτι διαφέρει ἡ σκεπτικὴ ἀγωγὴ τῆς Ἡρακλειτ<supplied reason="omitted">εί</supplied>ου φιλοσοφίας.</head>
+                    <head type="translatio" xml:lang="fr">Chapitre 29 : Que la voie sceptique est
+                        différente de la philosophie d'Héraclite</head>
+                    <ab type="testimonium" ana="phainomenon #interpretatio_heracliti" xml:lang="grc" xml:id="T11_Aenesidemus" corresp="#Aenesidemus" n="11">
+                        <bibl>Polito B22 partim</bibl>
+                        <milestone unit="paragraph" n="210"/>Ὅτι μὲν οὖν αὕτη διαφέρει τῆς ἡμετέρας
+                        ἀγωγῆς, πρόδηλον˙ ὁ μὲν γὰρ <persName>Ἡράκλειτος</persName> περὶ πολλῶν
+                        ἀδήλων ἀποφαίνεται δογματικῶς, ἡμεῖς δ' οὐχί, καθάπερ εἴρηται. ἐπεὶ δὲ οἱ
+                        περὶ τὸν <persName>Αἰνησίδημον</persName> ἔλεγον ὁδὸν εἶναι τὴν σκεπτικὴν
+                        ἀγωγὴν ἐπὶ τὴν Ἡρακλείτειον φιλοσοφίαν, διότι προηγεῖται τοῦ τἀναντία περὶ
+                        τὸ αὐτὸ ὑπάρχειν τὸ τἀναντία περὶ τὸ αὐτὸ φαίνεσθαι, καὶ οἱ μὲν
+                            <persName>σκεπτικοὶ</persName> φαίνεσθαι λέγουσι τὰ ἐναντία περὶ τὸ
+                        αὐτό, οἱ δὲ <persName>Ἡρακλείτειοι</persName> ἀπὸ τούτου καὶ ἐπὶ τὸ ὑπάρχειν
+                        αὐτὰ μετέρχονται, φαμὲν πρὸς τούτους, ὅτι τὸ τὰ ἐναντία περὶ τὸ αὐτὸ
+                        φαίνεσθαι οὐ δόγμα ἐστὶ τῶν σκεπτικῶν ἀλλὰ πρᾶγμα οὐ μόνον τοῖς σκεπτικοῖς
+                        ἀλλὰ καὶ τοῖς ἄλλοις φιλοσόφοις καὶ πᾶσιν ἀνθρώποις ὑποπίπτον˙ </ab>
+                    <ab type="translatio" corresp="#T11_Aenesidemus">
+                        <milestone unit="paragraph" n="210"/>Assurément, que la philosophie
+                            d'<persName>Héraclite</persName> est différente de notre voie, cela est
+                        évident : car <persName>Héraclite</persName> fait des affirmations
+                        dogmatiques sur de nombreuses choses obscures, tandis que nous ne le faisons
+                        pas, comme cela a été dit. Mais, puisque les disciples
+                            d'<persName>Enésidème</persName> disaient que la voie sceptique est un
+                        chemin vers la philosophie d'<persName>Héraclite</persName> parce que
+                        l'affirmation selon laquelle les contraires paraissent appartenir à la même
+                        chose amène à l'affirmation selon laquelle les contraires appartiennent
+                        réellement à la même chose et que les <persName>sceptiques</persName> disent
+                        que les contraires paraissent appartenir à la même chose et les
+                            <persName>Héraclitéens</persName> vont à partir de là jusqu'à dire aussi
+                        qu'ils lui appartiennent réellement, nous disons contre ces derniers que le
+                        fait que les contraires paraissent appartenir à la même chose n'est pas un
+                        dogme des <persName>sceptiques </persName>mais un fait qui tombe sous le
+                        sens non seulement des <persName>sceptiques</persName>, mais aussi de tous
+                        les autres philosophes et de tous les hommes.</ab>
+                </div>
                 <div type="chapitre" n="33">
                     <head xml:lang="grc">λγ´ τίνι διαφέρει τῆς Ἀκαδημαϊκῆς φιλοσοφίας ἡ
                         σκέψις.</head>
@@ -193,24 +394,48 @@
                         Ἀκαδημίαι δὲ γεγόνασιν, ὡς φασὶ〈ν οἱ〉 πλείους [ἢ], τρεῖς, μία μὲν καὶ
                         ἀρχαιοτάτη ἡ τῶν περὶ <persName>Πλάτωνα</persName>, δευτέρα δὲ καὶ μέση ἡ
                         τῶν περὶ <persName>Ἀρκεσίλαον</persName> τὸν ἀκουστὴν
-                        <persName>Πολέμωνος</persName>, τρίτη δὲ καὶ νέα ἡ τῶν περὶ
-                        <persName>Καρνεάδην</persName> καὶ <persName>Κλειτόμαχον</persName>˙
+                            <persName>Πολέμωνος</persName>, τρίτη δὲ καὶ νέα ἡ τῶν περὶ
+                            <persName>Καρνεάδην</persName> καὶ <persName>Κλειτόμαχον</persName>˙
                         ἔνιοι δὲ καὶ τετάρτην προστιθέασι τὴν περὶ <persName>Φίλωνα </persName>καὶ
-                        <persName>Χαρμίδαν</persName>, τινὲς δὲ καὶ πέμπτην καταλέγουσι τὴν περὶ
+                            <persName>Χαρμίδαν</persName>, τινὲς δὲ καὶ πέμπτην καταλέγουσι τὴν περὶ
                         [τὸν] <persName>Ἀντίοχον</persName>.</ab>
                     <ab type="translatio" corresp="#T8_Arcesilas">
                         <milestone unit="paragraph" n="220"/> Mais certains affirment que la
                         philosophie académicienne est la même chose que le scepticisme. Pour cette
                         raison, il serait cohérent aussi d'aborder ce sujet. La plupart des gens
                         disent qu'il y a eu trois Académies : une, la plus ancienne, est celle de
-                        <persName>Platon</persName>; la deuxième, la Moyenne Académie, celle
-                        d'<persName>Arcésilas</persName>, le disciple de
-                        <persName>Polémon</persName> ; la troisième, la Nouvelle Académie, celle
+                            <persName>Platon</persName>; la deuxième, la Moyenne Académie, celle
+                            d'<persName>Arcésilas</persName>, le disciple de
+                            <persName>Polémon</persName> ; la troisième, la Nouvelle Académie, celle
                         de <persName>Carnéade</persName> et <persName>Clitomaque</persName>. Mais
                         certains ajoutent aussi une quatrième Académie, celle de
-                        <persName>Philon</persName> et <persName>Charmadas</persName>, et
+                            <persName>Philon</persName> et <persName>Charmadas</persName>, et
                         d'autres encore une cinquième, celle d'<persName>Antiochus</persName>.</ab>
-                    
+                    <ab type="testimonium" ana="#differentia_inter_academicos_et_pyrrhonios #academiae_historia" xml:lang="grc" xml:id="T6_Carneades" n="6" corresp="#Carneades #Clitomachus">
+                        <milestone unit="paragraph" n="229"/>εἰ δὲ καὶ πείθεσθαί τισιν οἵ τε ἀπὸ τῆς
+                        Ἀκαδημίας καὶ οἱ ἀπὸ τῆς σκέψεως λέγουσι, πρόδηλος καὶ ἡ κατὰ τοῦτο διαφορὰ
+                        τῶν φιλοσοφιῶν. <milestone unit="paragraph" n="230"/>τὸ γὰρ πείθεσθαι
+                        λέγεται διαφόρως, τό τε μὴ ἀντιτείνειν ἀλλ' ἁπλῶς ἕπεσθαι ἄνευ σφοδρᾶς
+                        προσκλίσεως καὶ προσπαθείας, ὡς ὁ παῖς πείθεσθαι λέγεται τῷ παιδαγωγῷ˙ ἅπαξ
+                        δὲ τὸ μετὰ αἱρέσεως καὶ οἱονεὶ συμπαθείας κατὰ τὸ σφόδρα συγκατατίθεσθαί
+                        τινι, ὡς ὁ ἄσωτος πείθεται τῷ δαπανητικῶς βιοῦν ἀξιοῦντι. διόπερ ἐπειδὴ οἱ
+                        μὲν περὶ <persName>Καρνεάδην</persName> καὶ <persName>Κλειτόμαχον</persName>
+                        μετὰ προσκλίσεως σφοδρᾶς πείθεσθαί τε καὶ πιθανὸν εἶναί τί φασιν, ἡμεῖς δὲ
+                        κατὰ τὸ ἁπλῶς εἴκειν ἄνευ προσπαθείας, καὶ κατὰ τοῦτο ἂν αὐτῶν διαφέροιμεν. </ab>
+                    <ab type="translatio" corresp="#T6_Carneades">
+                        <milestone unit="paragraph" n="229"/>Même si les Académiciens et les
+                        sceptiques disent qu’ils sont persuadés par certaines choses, la différence
+                        entre les deux philosophies ici aussi est évidente.<milestone unit="paragraph" n="230"/> Car le fait d’être persuadé peut avoir des
+                        sens différents : le fait de ne pas résister mais simplement de suivre sans
+                        grande inclination ni adhésion, comme on dit qu’un enfant est persuadé par
+                        son précepteur, parfois cependant cela signifie donner son assentiment à
+                        quelque chose selon une volonté ferme après un choix et pour ainsi dire une
+                        sympathie, comme un homme prodigue est persuadé par la personne qui défend
+                        le choix de vivre avec prodigalité. Pour cette raison, comme
+                            <persName>Carnéade</persName> et <persName>Clitomaque</persName> disent
+                        qu’ils sont persuadés avec une grande inclination et que quelque chose est
+                        plausible, tandis que pour nous c’est selon un simple renoncement sans
+                        adhésion, cela aussi fait que nous sommes différents d’eux.</ab>
                 </div>
             </div>
             <div type="livre" n="3">
@@ -232,6 +457,40 @@
                         rien dans ce qu'ils appellent les biens n’agit sur tout le monde en tant que
                         bien, comme nous allons le rappeler. Il n’y a donc pas de bien par
                         nature.</ab>
+                </div>
+                <div type="chapitre" n="32">
+                    <ab type="excerptum" ana="#methodus" xml:lang="grc" xml:id="PH_III_280">
+                        <milestone unit="paragraph" n="280"/> Ὁ σκεπτικὸς διὰ τὸ φιλάνθρωπος εἶναι
+                        τὴν τῶν δογματικῶν οἴησίν τε καὶ προπέτειαν κατὰ δύναμιν ἰᾶσθαι λόγῳ
+                        βούλεται. καθάπερ οὖν οἱ τῶν σωματικῶν παθῶν ἰατροὶ διάφορα κατὰ μέγεθος
+                        ἔχουσι βοηθήματα, καὶ τοῖς μὲν σφοδρῶς πεπονθόσι τὰ σφοδρὰ τούτων
+                        προσάγουσι, τοῖς δὲ κούφως τὰ κουφότερα, καὶ ὁ σκεπτικὸς οὕτως διαφόρους
+                        ἐρωτᾷ [καὶ] <milestone unit="paragraph" n="281"/>κατὰ ἰσχὺν λόγους, καὶ τοῖς
+                        μὲν ἐμβριθέσι καὶ εὐτόνως ἀνασκευάζειν δυναμένοις τὸ τῆς οἰήσεως τῶν
+                        δογματικῶν πάθος ἐπὶ τῶν σφοδρᾷ τῇ προπετείᾳ κεκακωμένων χρῆται, τοῖς δὲ
+                        κουφοτέροις ἐπὶ τῶν ἐπιπόλαιον καὶ εὐίατον ἐχόντων τὸ τῆς οἰήσεως πάθος καὶ
+                        ὑπὸ κουφοτέρων πιθανοτήτων ἀνασκευάζεσθαι δυναμένων. διόπερ ὁτὲ μὲν
+                        ἐμβριθεῖς ταῖς πιθανότησιν, ὁτὲ δὲ καὶ ἀμαυροτέρους φαινομένους οὐκ ὀκνεῖ
+                        λόγους συνερωτᾶν ὁ ἀπὸ τῆς σκέψεως ὁρμώμενος, ἐπίτηδες, ὡς ἀρκοῦντας αὐτῷ
+                        πολλάκις πρὸς τὸ ἀνύειν τὸ προκείμενον. </ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#PH_III_280">
+                        <milestone unit="paragraph" n="280"/>Le sceptique, parce qu’il est
+                        philanthrope, veut guérir la présomption et la précipitation des dogmatiques
+                        par un argument en fonction de ce qu'il peut. Car, de même que les médecins
+                        qui s’occupent des affections du corps ont des remèdes différents en
+                        fonction de la gravité et aux malades qui souffrent fortement préconisent
+                        des remèdes forts, et pour ceux qui souffrent légèrement des remèdes plus
+                        légers, de même le sceptique donne <milestone unit="paragraph" n="281"/>des
+                        arguments en fonction de la force, et pour ceux qui sont atteints fortement
+                        par la précipitation il utilise des arguments de poids capables de détruire
+                        vigoureusement l’affection produite par la présomption des dogmatiques, et
+                        des arguments plus légers pour ceux qui sont atteints par un affect de la
+                        présomption superficiel et simple à guérir et qui peuvent en être
+                        débarrassés par des arguments persuasifs plus légers. Pour cette raison,
+                        celui qui s’engage dans la voie sceptique n’hésite pas à donner des
+                        arguments qui paraissent tantôt de poids pour leur plausibilité, tantôt plus
+                        faibles, et cela de façon délibéré puisque souvent ces derniers lui
+                        suffisent pour parvenir à sa fin. </ab>
                 </div>
             </div>
         </body>
