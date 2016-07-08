@@ -44,11 +44,11 @@
       <profileDesc>
          <textClass>
             <keywords>
-
+               
                <term xml:id="ataraxia">ataraxia</term>
                <term xml:id="apatheia">apatheia</term>
-
-
+               
+               
                <term xml:id="quartus_modus">quartus modus</term>
                <term xml:id="modi_decem">modi decem</term>
                <term xml:id="phainomenon">phainomenon</term>
@@ -75,8 +75,10 @@
                <term xml:id="methodus">methodus</term>
                <term xml:id="memoria">memoria</term>
                <term xml:id="signum">signum</term>
-
-
+               <term xml:id="observatio_vitae">observatio vitae</term>               
+               <term xml:id="voces_scepticae">voces scepticae</term>               
+               
+               
             </keywords>
          </textClass>
       </profileDesc>
@@ -161,7 +163,7 @@
                </p>
                <p>15 Parvis René Descartes</p>
                <p>69342 Lyon cedex 07</p>
-
+               
                <p> License : <ref target="http://creativecommons.org/licenses/by-sa/3.0/fr/">CC-BY-SA</ref>
                </p>
             </div>
@@ -184,21 +186,21 @@
                      ouvertes par l'encodage XML/TEI pour rassembler et donner à lire l'ensemble des
                      textes sur le phénomène sceptique dans l'Antiquité.</p>
                   <p>Trois entrées possibles dans les textes sont aménagées :<list>
-                        <item>une entrée par collection de livres (dite VOLUMINA) où le lecteur
-                           dispose des textes en langue originale et sa traduction (inédite) à
-                           partir de la structure éditoriale des textes tels qu'ils sont édités sur
-                           papier. On pourra ainsi lire les <title>Esquisses Pyrrhoniennes</title>
-                           de Sextus Empiricus, les <title>Académiques</title> de Cicéron,
-                           etc...</item>
-                        <item>une entrée par philosophe des traditions sceptiques (dite SCEPTICI) où
-                           le lecteur pourra disposer des textes (œuvres, fragments et témoignages)
-                           attribués au philosophe en question. Le lecteur pourra ainsi accéder à la
-                           totalité des témoignages sur Pyrrhon, aux fragments d'Enésidème, de
-                           Carnéade, etc...</item>
-                        <item>une entrée par mots-clefs liés au scepticisme (dite NOTIONES) : le
-                           lecteur pourra ainsi disposer d'un ensemble de textes liés aux
-                           problématiques sceptiques comme l'épochè, l'isosthénie, etc.</item>
-                     </list>
+                     <item>une entrée par collection de livres (dite VOLUMINA) où le lecteur
+                        dispose des textes en langue originale et sa traduction (inédite) à
+                        partir de la structure éditoriale des textes tels qu'ils sont édités sur
+                        papier. On pourra ainsi lire les <title>Esquisses Pyrrhoniennes</title>
+                        de Sextus Empiricus, les <title>Académiques</title> de Cicéron,
+                        etc...</item>
+                     <item>une entrée par philosophe des traditions sceptiques (dite SCEPTICI) où
+                        le lecteur pourra disposer des textes (œuvres, fragments et témoignages)
+                        attribués au philosophe en question. Le lecteur pourra ainsi accéder à la
+                        totalité des témoignages sur Pyrrhon, aux fragments d'Enésidème, de
+                        Carnéade, etc...</item>
+                     <item>une entrée par mots-clefs liés au scepticisme (dite NOTIONES) : le
+                        lecteur pourra ainsi disposer d'un ensemble de textes liés aux
+                        problématiques sceptiques comme l'épochè, l'isosthénie, etc.</item>
+                  </list>
                   </p>
                   <p>Parallèlement à ces entrées, une base bibliographique sera proposée sur chaque
                      philosophe, accompagnée d'une biographie.</p>
@@ -211,7 +213,7 @@
                      édités de manière à exprimer correctement les différents niveaux de citations,
                      en suivant les préconisations de <ref target="http://www.homermultitext.org/hmt-doc/cite/index.html">CITE
                         ARCHITECTURE</ref>, et <ref target="http://www.homermultitext.org/hmt-doc/cite/texts/cts.html">Canonical
-                        Text Services</ref>. L'exploitation et la diffusion du corpus s'appuieront
+                           Text Services</ref>. L'exploitation et la diffusion du corpus s'appuieront
                      sur une base de données XML native (BaseX) et bénéficieront de l'expertise
                      développée par <ref target="http://ahn.ens-lyon.fr">l'Atelier des Humanités
                         Numériques de l'ENS de Lyon</ref> à travers l'application SynopsX. </p>
@@ -232,20 +234,20 @@
                      together a range of texts on the sceptical phenomenon in ancient times and
                      allows users the opportunity to access and study them.</p>
                   <p>There are three possible ways to access the texts:<list>
-                        <item>by book collection (called VOLUMINA), where the reader can access
-                           texts in their original language and their (unpublished) translation in
-                           the editorial structure of the reference editions. This will allow users
-                           access to, for example, Sextus Empiricus’ <title>Outlines of
-                              Pyrrhonism</title>, Cicero’s <title>Academica</title>, etc.</item>
-                        <item>by ancient sceptic philosopher (called SCEPTICI), where the reader can
-                           access texts (works, fragments and testimonies) attributed to the
-                           philosopher in question. The reader will thus be able to access, for
-                           example, the ensemble of eyewitness accounts on Pyrrho, Aenesidemus’ and
-                           Carneades’ fragments, etc.</item>
-                        <item>by keywords relating to scepticism (called NOTIONES). The reader will
-                           thus be able to access a range of texts relating to sceptic problematics
-                           such as epoché, isosthenia, etc.</item>
-                     </list>
+                     <item>by book collection (called VOLUMINA), where the reader can access
+                        texts in their original language and their (unpublished) translation in
+                        the editorial structure of the reference editions. This will allow users
+                        access to, for example, Sextus Empiricus’ <title>Outlines of
+                           Pyrrhonism</title>, Cicero’s <title>Academica</title>, etc.</item>
+                     <item>by ancient sceptic philosopher (called SCEPTICI), where the reader can
+                        access texts (works, fragments and testimonies) attributed to the
+                        philosopher in question. The reader will thus be able to access, for
+                        example, the ensemble of eyewitness accounts on Pyrrho, Aenesidemus’ and
+                        Carneades’ fragments, etc.</item>
+                     <item>by keywords relating to scepticism (called NOTIONES). The reader will
+                        thus be able to access a range of texts relating to sceptic problematics
+                        such as epoché, isosthenia, etc.</item>
+                  </list>
                   </p>
                   <p>Parallel to these ways of accessing the texts, a bibliographic database will be
                      offered, with entries for each philosopher accompanied by a biography.</p>
@@ -258,12 +260,12 @@
                      constructed from citations – will be edited in a way to correctly cite
                      resources by following the recommendations of <ref target="http://www.homermultitext.org/hmt-doc/cite/index.html">CITE
                         Architecture</ref>, and <ref target="http://www.homermultitext.org/hmt-doc/cite/texts/cts.html">Canonical
-                        Text Services</ref>. The operation and dissemination of the corpus will be
+                           Text Services</ref>. The operation and dissemination of the corpus will be
                      based on an XML native (BaseX) database and will benefit from the expertise of
                      the <ref target="http://ahn.ens-lyon.fr">Atelier des Humanités Numériques of
                         the ENS de Lyon</ref>, using the application SynopsX.</p>
                </div>
-
+               
             </div>
          </div>
       </body>
