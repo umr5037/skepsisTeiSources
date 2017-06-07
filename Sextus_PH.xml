@@ -33,8 +33,8 @@
                     <ab type="translatio" xml:lang="fr" corresp="#PH_I_5">
                         <milestone unit="paragraph" n="5"/>Il y a donc un exposé de la philosophie
                         sceptique qui est dit général et un autre spécifique. L’exposé général est
-                        celui dans lequel nous expliquons le caractère spécifique du scepticisme, en
-                        disant quelle est sa notion, quels sont ses principes, ses arguments, son
+                        celui dans lequel nous expliquons le caractère distinctif du scepticisme, en
+                        exposant quelle est sa notion, quels sont ses principes, ses arguments, son
                         critère, son but, quels sont les tropes de la suspension du jugement,
                         comment nous comprenons les affirmations sceptiques, et quelle est la
                         différence du scepticisme avec les philosophies qui lui sont voisines.
@@ -56,7 +56,7 @@
                         l’ataraxie</ab>
                 </div>
                 <div type="chapitre" n="6">
-                    <ab type="excerptum" ana="#methodus #phainomenon" xml:lang="grc" xml:id="PH_I_12">
+                    <ab type="excerptum" ana="#ataraxia  #methodus" xml:lang="grc" xml:id="PH_I_12">
                         <milestone unit="paragraph" n="12"/> Ἀρχὴν δὲ τῆς σκεπτικῆς αἰτιώδη μέν
                         φαμεν εἶναι τὴν ἐλπίδα τοῦ ἀταρακτήσειν˙ οἱ γὰρ μεγαλοφυεῖς τῶν ἀνθρώπων
                         ταρασσόμενοι διὰ τὴν ἐν τοῖς πράγμασιν ἀνωμαλίαν, καὶ ἀποροῦντες τίσιν αὐτῶν
@@ -65,10 +65,15 @@
                         συστάσεως δὲ τῆς σκεπτικῆς ἐστιν ἀρχὴ μάλιστα τὸ παντὶ λόγῳ λόγον ἴσον
                         ἀντικεῖσθαι· ἀπὸ γὰρ τούτου καταλήγειν δοκοῦμεν εἰς τὸ μὴ δογματίζειν </ab>
                     <ab type="translatio" xml:lang="fr" corresp="#PH_I_12">
-                        <milestone unit="paragraph" n="12"/> (...) mais le principe constitutif du
-                        scepticisme est surtout le fait qu’à tout argument s’oppose un argument égal
-                        ; car c’est à partir de cela, nous semble-t-il, que nous arrivons à ne pas
-                        dogmatiser</ab>
+                        <milestone unit="paragraph" n="12"/> Nous disons que le principe causal du
+                        scepticisme est l’espoir d'atteindre l'état d'ataraxie. Car les hommes bien
+                        nés, qui sont troublés par l’irrégularité qu’il y a dans les choses et
+                        embarrassés pour décider quelles sont celles auxquelles il faut donner son
+                        assentiment, ont été amenés à chercher ce qui est vrai et ce qui est faux
+                        dans ces choses, espérant que cette décision leur apportera l’ataraxie. Mais
+                        le principe constitutif du scepticisme est surtout le fait qu’à tout
+                        argument s’oppose un argument égal ; car c’est à partir de cela, nous
+                        semble-t-il, que nous arrivons à ne pas dogmatiser.</ab>
                 </div>
                 <div type="chapitre" n="10">
                     <ab type="excerptum" ana="#phainomenon" xml:lang="grc" xml:id="PH_I_19">
@@ -371,16 +376,43 @@
                         pas, comme cela a été dit. Mais, puisque les disciples
                             d'<persName>Enésidème</persName> disaient que la voie sceptique est un
                         chemin vers la philosophie d'<persName>Héraclite</persName> parce que
-                        l'affirmation selon laquelle les contraires paraissent appartenir à la même
-                        chose amène à l'affirmation selon laquelle les contraires appartiennent
-                        réellement à la même chose et que les <persName>sceptiques</persName> disent
-                        que les contraires paraissent appartenir à la même chose et les
+                        l'affirmation selon laquelle les contraires paraissent porter sur la même
+                        chose amène à l'affirmation selon laquelle les contraires portent
+                        réellement sur la même chose et que les <persName>sceptiques</persName> disent
+                        que les contraires paraissent porter à la même chose et les
                             <persName>Héraclitéens</persName> vont à partir de là jusqu'à dire aussi
                         qu'ils lui appartiennent réellement, nous disons contre ces derniers que le
-                        fait que les contraires paraissent appartenir à la même chose n'est pas un
-                        dogme des <persName>sceptiques </persName>mais un fait qui tombe sous le
-                        sens non seulement des <persName>sceptiques</persName>, mais aussi de tous
-                        les autres philosophes et de tous les hommes.</ab>
+                        fait que les contraires paraissent porter sur la même chose n'est pas un
+                        dogme des <persName>sceptiques </persName> mais un fait qui s’impose non
+                        seulement aux sceptiques, mais aussi aux autres philosophes et à tous les
+                        hommes.</ab>
+                    <ab type="excerptum" ana="#interpretatio_heracliti" xml:lang="grc" xml:id="PH_I_211">
+                        <milestone unit="paragraph" n="210"/> οὐδεὶς γοῦν τολμήσαι ἂν εἰπεῖν ὅτι τὸ
+                        μέλι οὐ γλυκάζει τοὺς ὑγιαίνοντας ἢ ὅτι τοὺς ἰκτερικοὺς οὐ πικράζει, ὥστε
+                        ἀπὸ κοινῆς τῶν ἀνθρώπων προλήψεως ἄρχονται οἱ Ἡρακλείτειοι, καθάπερ καὶ
+                        ἡμεῖς, ἴσως δὲ καὶ αἱ ἄλλαι φιλοσοφίαι. διόπερ εἰ μὲν ἀπό τινος τῶν
+                        σκεπτικῶς λεγομένων ἐλάμβανον τὸ τἀναντία περὶ τὸ αὐτὸ ὑποκεῖσθαι, οἷον τοῦ
+                        "πάντα ἐστὶν ἀκατάληπτα" ἢ τοῦ "οὐδὲν ὁρίζω" ἤ τινος τῶν παραπλησίων, ἴσως
+                        ἂν συνῆγον ὃ λέγουσιν˙ ἐπεὶ δὲ ἀρχὰς ἔχουσιν οὐ μόνον ἡμῖν ἀλλὰ καὶ τοῖς
+                        ἄλλοις φιλοσόφοις καὶ τῷ βίῳ ὑποπιπτούσας, τί μᾶλλον τὴν ἡμετέραν ἀγωγὴν ἢ
+                        ἑκάστην τῶν ἄλλων φιλοσοφιῶν ἢ καὶ τὸν βίον ὁδὸν ἐπὶ τὴν Ἡρακλείτειον
+                        φιλοσοφίαν εἶναι λέγοι τις ἄν, ἐπειδὴ πάντες κοιναῖς ὕλαις κεχρήμεθα; </ab>
+                    <ab type="translatio">
+            <milestone unit="paragraph" n="211"/>Par exemple, personne
+                        n’osera dire que le miel ne soit pas doux au goût de ceux qui sont en bonne
+                        santé ou qu’il ne soit pas amer au goût de ceux qui souffrent d’ictère, de
+                        sorte que les Héraclitéens s’appuient sur une préconception commune aux
+                        hommes, comme nous le faisons aussi, et de même aussi certainement les
+                        autres philosophies. C’est pourquoi s’il avait tiré l’idée que les
+                        contraires portent réellement sur les mêmes choses à partir de ce qui est
+                        dit à la manière des sceptiques comme « tout est incompréhensible » ou « je
+                        ne détermine rien » ou d’une autre expression du même genre peut-être
+                        aurait-il prouvé ce qu’ils disent. Mais puisqu’ils ont des principes qui ne
+                        s’imposent pas seulement à nous, mais aussi aux autres philosophes, ainsi
+                        que dans la vie quotidienne, pourquoi faudrait-il dire que notre voie
+                        constitue davantage un chemin vers la philosophie héraclitéenne plutôt que
+                        tout autre philosophie ou que la vie quotidienne, puisque tous nous
+                        utilisons des matières communes. </ab>
                 </div>
                 <div type="chapitre" n="33">
                     <head xml:lang="grc">λγ´ τίνι διαφέρει τῆς Ἀκαδημαϊκῆς φιλοσοφίας ἡ
@@ -411,6 +443,7 @@
                         certains ajoutent aussi une quatrième Académie, celle de
                             <persName>Philon</persName> et <persName>Charmadas</persName>, et
                         d'autres encore une cinquième, celle d'<persName>Antiochus</persName>.</ab>
+                    <ab>(...)</ab>
                     <ab type="testimonium" ana="#differentia_inter_academicos_et_pyrrhonios #academiae_historia" xml:lang="grc" xml:id="T6_Carneades" n="6" corresp="#Carneades #Clitomachus">
                         <milestone unit="paragraph" n="229"/>εἰ δὲ καὶ πείθεσθαί τισιν οἵ τε ἀπὸ τῆς
                         Ἀκαδημίας καὶ οἱ ἀπὸ τῆς σκέψεως λέγουσι, πρόδηλος καὶ ἡ κατὰ τοῦτο διαφορὰ
@@ -428,14 +461,14 @@
                         entre les deux philosophies ici aussi est évidente.<milestone unit="paragraph" n="230"/> Car le fait d’être persuadé peut avoir des
                         sens différents : le fait de ne pas résister mais simplement de suivre sans
                         grande inclination ni adhésion, comme on dit qu’un enfant est persuadé par
-                        son précepteur, parfois cependant cela signifie donner son assentiment à
+                        son précepteur ; parfois cependant cela signifie donner son assentiment à
                         quelque chose selon une volonté ferme après un choix et pour ainsi dire une
                         sympathie, comme un homme prodigue est persuadé par la personne qui défend
                         le choix de vivre avec prodigalité. Pour cette raison, comme
                             <persName>Carnéade</persName> et <persName>Clitomaque</persName> disent
                         qu’ils sont persuadés avec une grande inclination et que quelque chose est
                         plausible, tandis que pour nous c’est selon un simple renoncement sans
-                        adhésion, cela aussi fait que nous sommes différents d’eux.</ab>
+                        adhésion ; cela aussi fait que nous sommes différents d’eux.</ab>
                 </div>
             </div>
             <div type="livre" n="3">
@@ -476,21 +509,20 @@
                     <ab type="translatio" xml:lang="fr" corresp="#PH_III_280">
                         <milestone unit="paragraph" n="280"/>Le sceptique, parce qu’il est
                         philanthrope, veut guérir la présomption et la précipitation des dogmatiques
-                        par un argument en fonction de ce qu'il peut. Car, de même que les médecins
-                        qui s’occupent des affections du corps ont des remèdes différents en
-                        fonction de la gravité et aux malades qui souffrent fortement préconisent
-                        des remèdes forts, et pour ceux qui souffrent légèrement des remèdes plus
-                        légers, de même le sceptique donne <milestone unit="paragraph" n="281"/>des
-                        arguments en fonction de la force, et pour ceux qui sont atteints fortement
-                        par la précipitation il utilise des arguments de poids capables de détruire
-                        vigoureusement l’affection produite par la présomption des dogmatiques, et
-                        des arguments plus légers pour ceux qui sont atteints par un affect de la
-                        présomption superficiel et simple à guérir et qui peuvent en être
-                        débarrassés par des arguments persuasifs plus légers. Pour cette raison,
-                        celui qui s’engage dans la voie sceptique n’hésite pas à donner des
-                        arguments qui paraissent tantôt de poids pour leur plausibilité, tantôt plus
-                        faibles, et cela de façon délibéré puisque souvent ces derniers lui
-                        suffisent pour parvenir à sa fin. </ab>
+                        par un argument déterminé en fonction de la puissance (κατὰ δύναμιν). Car,
+                        de même que les médecins qui s’occupent des affections du corps ont des
+                        remèdes différents en fonction de la gravité, et aux malades qui souffrent
+                        fortement préconisent des remèdes forts, et pour ceux qui souffrent
+                        légèrement des remèdes plus légers, de même le sceptique donne<milestone unit="paragraph" n="281"/> des arguments qui diffèrent selon leur force,
+                        et pour ceux qui sont affectés fortement par la précipitation, il utilise
+                        des arguments de poids et capables de détruire vigoureusement l’affection
+                        produite par la présomption des dogmatiques, et des arguments plus légers
+                        pour ceux qui sont atteints par un affect de présomption superficiel et
+                        simple à guérir et qui peuvent en être débarrassés par des arguments
+                        persuasifs plus légers. Pour cette raison, celui qui s’engage dans la voie
+                        sceptique n’hésite pas à donner des arguments qui paraissent tantôt de poids
+                        pour leur plausibilité, tantôt plus faibles, et cela de façon délibérée
+                        puisque souvent ces derniers lui suffisent pour parvenir à sa fin. </ab>
                 </div>
             </div>
         </body>
