@@ -22,6 +22,13 @@
                     Schiche. Leipzig. Teubner. 1915</bibl>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2017-06-22"/>
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -31,7 +38,7 @@
                         <bibl>F11 Mette</bibl>
                         <milestone unit="paragraph" n="2"/>
                         <rs ref="Socrates">qui </rs> mos cum a posterioribus non esset retentus,
-                        <persName>Arcesilas</persName> eum revocavit instituitque ut ii, qui se
+                            <persName>Arcesilas</persName> eum revocavit instituitque ut ii, qui se
                         audire vellent, non de se quaererent, sed ipsi dicerent, quid sentirent;
                         quod cum dixissent, ille contra. sed eum qui audiebant, quoad poterant,
                         defendebant sententiam suam. </q>
@@ -42,6 +49,27 @@
                         diraient eux-mêmes ce qu'ils pensaient, et quoi qu'ils disent, Arcésilas
                         parlait contre. Et ceux qui l'écoutaient défendaient leur position autant
                         qu'ils le pouvaient.</q>
+                </div>
+
+                <div type="chapitre" n="13">
+                    <ab type="testimonium" ana="#ou_mallon" corresp="#Pyrrho" xml:id="T8_Pyrrho" xml:lang="la" n="8">
+                        <bibl>T69B DC</bibl>
+                        <milestone unit="paragraph" n="43"/> Quae quod <persName>Aristoni</persName>
+                        et <persName>Pyrrhoni</persName> omnino visa sunt pro nihilo, ut inter
+                        optime valere et gravissime aegrotare nihil prorsus dicerent interesse,
+                        recte iam pridem contra eos desitum est disputari. dum enim in una virtute
+                        sic omnia esse voluerunt, ut eam rerum selectione expoliarent nec ei
+                        quicquam, aut unde oriretur, darent, aut ubi niteretur, virtutem ipsam, quam
+                        amplexabantur, sustulerunt.</ab>
+                    <ab type="translatio" xml:lang="fr" corresp="#T8_Pyrrho" n="8">
+                        <milestone unit="paragraph" n="43"/>C’est à bon droit qu’on a renoncé depuis
+                        longtemps à argumenter contre <persName>Ariston</persName> et <persName>Pyrrhon</persName>, ces philosophes qui
+                        considèrent que ce que la nature approuve avant tout ne compte pour rien, de
+                        sorte que, pour eux, il n’y a aucune différence entre être en bonne santé et
+                        être gravement malade. En effet, puisqu’ils veulent que tout soit dans la
+                        seule vertu, ils lui enlèvent la faculté de choisir entre les choses et ne
+                        lui donnent ni occasion d’apparaître ni objet sur lequel elle puisse
+                        s’appliquer ; cette vertu qu’ils chérissaient, ils l’ont détruite.</ab>
                 </div>
             </div>
         </body>
