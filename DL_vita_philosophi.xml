@@ -16,7 +16,14 @@
                 <bibl n="Description de la source principale">Hicks, Robert Drew, W. Heinemann,
                     1925</bibl>
             </sourceDesc>
-        </fileDesc>
+                    </fileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2017-06-22"/>
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
