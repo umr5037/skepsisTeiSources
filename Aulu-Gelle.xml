@@ -22,7 +22,13 @@
                     Hosius ed., Stutgardt, Teubner, 1903</bibl>
             </sourceDesc>
         </fileDesc>
-        
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2017-06-22"/>
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
