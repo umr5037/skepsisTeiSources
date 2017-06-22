@@ -87,6 +87,13 @@
             <p/>
          </projectDesc>
       </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2017-06-22"/>
+            </item>
+         </list>
+      </revisionDesc>
    </teiHeader>
    <text>
       <front>
