@@ -20,7 +20,13 @@
                     Lucullo, O. Plasberg ed., Leipzig, Teubner, 1922</bibl>
             </sourceDesc>
         </fileDesc>
-        
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2017-06-22"/>
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -140,14 +146,14 @@
                     <q type="translatio" corresp="#F1_Clitomachus" xml:lang="fr">
                         <ab type="translatio" xml:lang="fr" corresp="#T3_Carneades">
                             <milestone unit="paragraph" n="104"/>Après avoir exposé cela,
-                            <persName>Clitomaque</persName> ajoute qu'on peut dire en deux sens
-                            que « le sage suspend son assentiment ». Selon le premier sens il faut
+                            <persName>Clitomaque</persName> ajoute que l'on peut dire en deux sens
+                            que « le sage suspend son assentiment ». Selon le premier sens, il faut
                             comprendre que le sage ne donne son assentiment absolument à rien. Selon
                             le second sens, il s'abstient de donner une réponse qui fasse qu'il
                             approuve ou désapprouve quoi que ce soit, de sorte qu'il ne nie ni
                             n’affirme rien. Puisqu’il en est ainsi, il accepte d'un côté le premier
                             sens de sorte qu'il ne donne jamais son assentiment, de l'autre, il
-                            maintient le second sens de sorte qu'il suit ce qui est convaincant, et
+                            maintient le second sens de sorte qu'il suit ce qui est plausible, et
                             lorsque celui-ci se présente, ou au contraire lorsqu'il manque, il peut
                             répondre "oui" ou "non". Puisqu'il pense que celui qui, à toutes choses,
                             s'abstient de donner son assentiment se meut pourtant et agit, il
