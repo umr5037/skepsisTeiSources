@@ -17,6 +17,13 @@
                     Opera, Vol I, Mutschmann, Hermann edidit in aedibus B. G. Teubneri , 1912</bibl>
             </sourceDesc>
         </fileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2017-06-13"/>
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
@@ -151,14 +158,14 @@
                     <ab type="translatio" xml:lang="fr" corresp="#PH_I_28">
                         <milestone unit="paragraph" n="28"/>En fait, il est arrivé au sceptique
                         précisément ce qu'on dit du peintre Apelle. On raconte qu’alors qu’il
-                        peignait un cheval et qu’il essayait d’imiter l’écume du cheval dans son
-                        tableau, son échec fut tel qu’il renonça et jeta sur le tableau l’éponge sur
-                        laquelle il essuyait les couleurs de son pinceau ; au contact du tableau
-                        l’éponge produisit une imitation de l’écume du cheval. <milestone unit="paragraph" n="29"/> Donc les sceptiques aussi espéraient obtenir
-                        l’ataraxie en prenant des décisions face à l’irrégularité des phénomènes et
-                        des choses pensées, et comme ils ne pouvaient prendre de décision, ils
-                        suspendirent leur jugement. Mais, une fois suspendu leur jugement l’ataraxie
-                        s’ensuivit comme par hasard, de même qu’une ombre suit un corps </ab>
+                        peignait un cheval et qu’il essayait d’en imiter l’écume dans son tableau,
+                        son échec fut tel qu’il renonça et jeta sur le tableau l’éponge sur laquelle
+                        il essuyait les couleurs de son pinceau ; au contact du tableau l’éponge
+                        produisit une imitation de l’écume du cheval. <milestone unit="paragraph" n="29"/> Donc les sceptiques aussi espéraient obtenir l’ataraxie en
+                        prenant des décisions face à l’irrégularité des phénomènes et des choses
+                        pensées, et comme ils ne pouvaient prendre de décision, ils suspendirent
+                        leur jugement. Mais, une fois suspendu leur jugement l’ataraxie s’ensuivit
+                        comme par hasard, de même qu’une ombre suit un corps </ab>
 
                 </div>
                 <div type="chapitre" n="13">
@@ -377,9 +384,9 @@
                             d'<persName>Enésidème</persName> disaient que la voie sceptique est un
                         chemin vers la philosophie d'<persName>Héraclite</persName> parce que
                         l'affirmation selon laquelle les contraires paraissent porter sur la même
-                        chose amène à l'affirmation selon laquelle les contraires portent
-                        réellement sur la même chose et que les <persName>sceptiques</persName> disent
-                        que les contraires paraissent porter à la même chose et les
+                        chose amène à l'affirmation selon laquelle les contraires portent réellement
+                        sur la même chose et que les <persName>sceptiques</persName> disent que les
+                        contraires paraissent porter à la même chose et les
                             <persName>Héraclitéens</persName> vont à partir de là jusqu'à dire aussi
                         qu'ils lui appartiennent réellement, nous disons contre ces derniers que le
                         fait que les contraires paraissent porter sur la même chose n'est pas un
@@ -398,21 +405,20 @@
                         ἑκάστην τῶν ἄλλων φιλοσοφιῶν ἢ καὶ τὸν βίον ὁδὸν ἐπὶ τὴν Ἡρακλείτειον
                         φιλοσοφίαν εἶναι λέγοι τις ἄν, ἐπειδὴ πάντες κοιναῖς ὕλαις κεχρήμεθα; </ab>
                     <ab type="translatio">
-            <milestone unit="paragraph" n="211"/>Par exemple, personne
-                        n’osera dire que le miel ne soit pas doux au goût de ceux qui sont en bonne
-                        santé ou qu’il ne soit pas amer au goût de ceux qui souffrent d’ictère, de
-                        sorte que les Héraclitéens s’appuient sur une préconception commune aux
-                        hommes, comme nous le faisons aussi, et de même aussi certainement les
-                        autres philosophies. C’est pourquoi s’il avait tiré l’idée que les
-                        contraires portent réellement sur les mêmes choses à partir de ce qui est
-                        dit à la manière des sceptiques comme « tout est incompréhensible » ou « je
-                        ne détermine rien » ou d’une autre expression du même genre peut-être
-                        aurait-il prouvé ce qu’ils disent. Mais puisqu’ils ont des principes qui ne
-                        s’imposent pas seulement à nous, mais aussi aux autres philosophes, ainsi
-                        que dans la vie quotidienne, pourquoi faudrait-il dire que notre voie
-                        constitue davantage un chemin vers la philosophie héraclitéenne plutôt que
-                        tout autre philosophie ou que la vie quotidienne, puisque tous nous
-                        utilisons des matières communes. </ab>
+                        <milestone unit="paragraph" n="211"/>Par exemple, personne n’osera dire que
+                        le miel n'est pas doux au goût de ceux qui sont en bonne santé ou qu’il n'est
+                        pas amer au goût de ceux qui souffrent d’ictère, de sorte que les
+                        Héraclitéens s’appuient sur une préconception commune aux hommes, comme nous
+                        le faisons aussi, et de même aussi certainement les autres philosophies.
+                        C’est pourquoi s’il avait tiré l’idée que les contraires portent réellement
+                        sur les mêmes choses à partir de ce qui est dit à la manière des sceptiques
+                        comme « tout est incompréhensible » ou « je ne détermine rien » ou d’une
+                        autre expression du même genre peut-être aurait-il prouvé ce qu’ils disent.
+                        Mais puisqu’ils ont des principes qui ne s’imposent pas seulement à nous,
+                        mais aussi aux autres philosophes, ainsi que dans la vie quotidienne,
+                        pourquoi faudrait-il dire que notre voie constitue davantage un chemin vers
+                        la philosophie héraclitéenne plutôt que tout autre philosophie ou que la vie
+                        quotidienne, puisque tous nous utilisons des matières communes. </ab>
                 </div>
                 <div type="chapitre" n="33">
                     <head xml:lang="grc">λγ´ τίνι διαφέρει τῆς Ἀκαδημαϊκῆς φιλοσοφίας ἡ
@@ -509,20 +515,20 @@
                     <ab type="translatio" xml:lang="fr" corresp="#PH_III_280">
                         <milestone unit="paragraph" n="280"/>Le sceptique, parce qu’il est
                         philanthrope, veut guérir la présomption et la précipitation des dogmatiques
-                        par un argument déterminé en fonction de la puissance (κατὰ δύναμιν). Car,
-                        de même que les médecins qui s’occupent des affections du corps ont des
-                        remèdes différents en fonction de la gravité, et aux malades qui souffrent
-                        fortement préconisent des remèdes forts, et pour ceux qui souffrent
-                        légèrement des remèdes plus légers, de même le sceptique donne<milestone unit="paragraph" n="281"/> des arguments qui diffèrent selon leur force,
-                        et pour ceux qui sont affectés fortement par la précipitation, il utilise
-                        des arguments de poids et capables de détruire vigoureusement l’affection
+                        par un argument en fonction de ce qu’il peut. Car, de même que les médecins
+                        qui s’occupent des affections du corps ont des remèdes différents en
+                        fonction de la gravité et aux malades qui souffrent fortement préconisent
+                        des remèdes forts, et pour ceux qui souffrent légèrement des remèdes plus
+                        légers, de même le sceptique donne <milestone unit="paragraph" n="281"/> des arguments en fonction de la force, et
+                        pour ceux qui sont atteints fortement par la précipitation il utilise des
+                        arguments de poids capables de détruire vigoureusement l’affection que
                         produite par la présomption des dogmatiques, et des arguments plus légers
-                        pour ceux qui sont atteints par un affect de présomption superficiel et
+                        pour ceux qui sont atteints par un affect de la présomption superficiel et
                         simple à guérir et qui peuvent en être débarrassés par des arguments
                         persuasifs plus légers. Pour cette raison, celui qui s’engage dans la voie
                         sceptique n’hésite pas à donner des arguments qui paraissent tantôt de poids
-                        pour leur plausibilité, tantôt plus faibles, et cela de façon délibérée
-                        puisque souvent ces derniers lui suffisent pour parvenir à sa fin. </ab>
+                        pour leur plausibilité, tantôt plus faibles, et cela de façon délibéré
+                        puisque souvent ces derniers lui suffisent pour parvenir à sa fin.</ab>
                 </div>
             </div>
         </body>
