@@ -19,14 +19,37 @@
                     Teubneri, 1914</bibl>
             </sourceDesc>
         </fileDesc>
-
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2017-06-22"/>
+                </item>
+            </list>
+        </revisionDesc>
     </teiHeader>
     <text>
         <body>
 
             <div type="livre" n="7">
-
                 <div type="page" n="1">
+                    <ab type="excerptum" ana="#methodus" xml:lang="grc" xml:id="AM_VII_1">
+                        <milestone unit="paragraph" n="1"/>Ὁ μὲν καθόλου τῆς σκεπτικῆς δυνάμεως
+                        χαρακτὴρ μετὰ τῆς προσηκούσης ἐξεργασίας ὑποδέδεικται, τὰ μὲν προηγουμένως
+                        τὰ δὲ καὶ κατὰ διορισμὸν τῶν παρακειμένων φιλοσοφιῶν ἐκτυπωθείς˙ ἀπολείπεται
+                        δὲ ἑξῆς καὶ τὴν ἐπὶ τῶν κατὰ μέρος αὐτοῦ χρῆσιν διδάσκειν εἰς τὸ μήτε ἰδίᾳ
+                        περὶ τῶν πραγμάτων σκεπτομένους μήτε τοῖς δογματικοῖς ἀνταίροντας ῥᾳδίως
+                        προπίπτειν.</ab>
+                    <ab type="translatio" corresp="#AM_VII_1" xml:lang="fr">
+                        <milestone unit="paragraph" n="1"/>Le caractère distinctif de la faculté
+                        sceptique en général a été montré avec la méthode qui convient : certains
+                        traits ont été esquissés directement, d'autres à partir d'une différence par
+                        rapport aux philosophies voisines. Il reste maintenant à expliquer comment
+                        appliquer ce caractère sur les parties de la philosophie afin de ne pas
+                        céder trop facilement à la précipitation que cela soit lorsque nous faisons
+                        notre des recherches sur nos propres objets, ou lorsque nous nous opposons
+                        aux dogmatiques.</ab>
+                </div>
+                <div type="page" n="2">
                     <ab type="testimonium" corresp="#Arcesilas" ana="#katalèpsis" xml:id="T2_Arcesilas" n="2" xml:lang="gr">
                         <bibl>F1 Mette - l.13-17</bibl>
                         <listBibl>
@@ -65,7 +88,7 @@
                         telle qu’elle ne peut devenir fausse comme le montrent des exemples nombreux
                         et variés</ab>
                 </div>
-                <div type="page" n="2">
+                <div type="page" n="3">
                     <ab type="testimonium" corresp="#Arcesilas" ana="#eulogon #apraxia" xml:id="T5_Arcesilas" n="5" xml:lang="gr">
                         <bibl>F1 Mette - l.36-44</bibl>
                         <listBibl>
@@ -95,7 +118,7 @@
                         raisonnable. Par conséquent, celui qui suit ce qui est raisonnable agira
                         droitement et sera heureux </ab>
                 </div>
-                <div type="page" n="3">
+                <div type="page" n="4">
                     <ab type="testimonium" corresp="#Carneades" ana="#pithanon" xml:id="T1_Carneades" xml:lang="gr" n="1">
                         <bibl>F2 Mette (l.105-112)</bibl>
                         <listBibl>
@@ -120,7 +143,7 @@
                         concours ne l'ébranle comme étant fausse il dit que ce qui le touche est
                         vrai.</ab>
                 </div>
-                <div type="page" n="4">
+                <div type="page" n="5">
                     <ab type="testimonium" corresp="#Carneades" ana="#pithanon" xml:id="T2_Carneades" xml:lang="gr" n="2">
                         <bibl>F2 Mette - l.130-139</bibl>
                         <listBibl>
@@ -143,29 +166,25 @@
                         μὴ ἀπρόσδεκτός ἐστιν. </ab>
                     <ab type="translatio" corresp="#T2_Carneades" xml:lang="fr">
                         <milestone unit="paragraph" n="182"/>En ce qui concerne le concours
-                        d’impressions pour celle qui est examinée en détail, nous examinons
-                        soigneusement chacune d’elles dans ce concours d’impressions, comme ce qui
-                        se fait pour les assemblées, lorsque le peuple examine si chacun des
-                        prétendants pour commander ou juger mérite qu’on lui fasse confiance pour
-                        exercer la charge exécutive ou judiciaire.<milestone unit="paragraph" n="183"/>En ce qui concerne le concours d’impressions pour celle qui est
-                        examinée en détail, nous examinons soigneusement chacune d’elles dans ce
-                        concours, comme ce qui se fait pour les assemblées, lorsque le peuple
-                        examine si chacun des prétendants pour commander ou juger mérite qu’on lui
-                        fasse confiance pour exercer la charge exécutive ou judiciaire. Par exemple,
+                        d’impressions, pour celle qui est examinée en détail, nous examinons
+                        soigneusement chacune d’elles dans ce concours, comme ce qui se fait pour
+                        les assemblées, lorsque le peuple examine si chacun des prétendants pour
+                        commander ou juger mérite qu’on lui fasse confiance pour exercer la charge
+                        exécutive ou judiciaire. <milestone unit="paragraph" n="183"/>Par exemple,
                         comme il y a le sujet et l’objet du jugement, le milieu par l’intermédiaire
                         duquel le jugement se fait, la distance et l’intervalle, le lieu, le temps,
                         la manière, la disposition, la puissance, nous examinons précisément leurs
                         caractéristiques : le sujet du jugement, pour savoir si sa vue n’est pas
                         diminuée (car si c’était le cas, elle serait inappropriée pour le jugement),
-                        l’objet jugé, pour savoir s’il n’est pas trop petit, le milieu dans lequel le
-                        jugement se fait, pour savoir si l’air n’y est pas trop sombre, la distance,
-                        si elle n’est pas trop grande, l’intervalle, s’il n’est pas raccourci, le
-                        lieu, s’il n’est pas trop vaste ; le temps, s’il n’est pas trop court, la
-                        disposition, si elle n’apparaissait pas être celle d’un fou, l’activité,
-                            <milestone unit="paragraph" n="184"/>si elle n’est pas inadmissible. </ab>
-
+                        l’objet jugé, pour savoir s’il n’est pas trop petit, le milieu dans lequel
+                        le jugement se fait, pour savoir si l’air n’y est pas trop sombre, la
+                        distance, si elle n’est pas trop grande, l’intervalle, s’il n’est pas
+                        raccourci, le lieu, s’il n’est pas trop vaste ; le temps, s’il n’est pas
+                        trop court, la disposition, si elle n’apparaissait pas être celle d’un fou,
+                        l’activité, <milestone unit="paragraph" n="184"/>si elle n’est pas
+                        inadmissible. </ab>
                 </div>
-                <div type="page" n="5">
+                <div type="page" n="6">
                     <ab type="testimonium" corresp="#Arcesilas" ana="#katalèpsis" xml:id="T4_Arcesilas" n="4" xml:lang="gr">
                         <bibl>40H LS - partim</bibl>
                         <milestone unit="paragraph" n="409"/>ἐπὶ γὰρ τῶν ὁμοίων μὲν κατὰ μορφήν,
@@ -223,17 +242,17 @@
                         les phénomènes, et dit que parmi les phénomènes, certains apparaissent de
                         façon commune, et d'autres en particulier à quelqu'un ; parmi eux, sont
                         vrais les phénomènes qui apparaissent à tous de façon commune, mais sont
-                        faux ceux qui ne sont pas ainsi. De là vient aussi que ce qui n'est pas
+                        faux ceux qui ne sont pas comme cela. De là vient aussi que ce qui n'est pas
                         caché (τὸ μὴ λῆθον) <milestone unit="paragraph" n="9"/> au sens commun est
                         dit, avec un nom significatif, vrai (ἀληθὲς).</ab>
-                    <ab type="translatio">Épicure, en revanche dit que tous les sensibles sont vrais
+                    <ab type="translatio">Épicure, en revanche, a dit que tous les sensibles sont vrais
                         et existants. En effet, il ne fait pas de différence entre dire qu'une chose
                         est vraie ou qu'elle est existante : c'est pourquoi aussi lorsqu'il décrit
                         le vrai et le faux il dit : <quote>« est vrai ce qui est tel qu'il est dit
                             être »</quote> et <quote>« est faux ce qui n'est pas tel qu'il est dit
                             être »</quote>. En outre, [il dit que] comme la sensation est propre à
                         recevoir ce qui vient à sa rencontre et n'enlève ni n'ajoute ni ne change
-                        quoique ce soit du fait qu'elle est sans raison, elle dit toujours vrai et
+                        quoi que ce soit du fait qu'elle est sans raison, elle dit toujours vrai et
                         saisit ce qui est tel qu'il est lui-même par nature. En revanche, les objets
                         d'opinions diffèrent des sensibles qui sont toujours vrais, et parmi eux
                         certains sont vrais, d'autres faux,<milestone unit="paragraph" n="10"/>
