@@ -1,9 +1,11 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xml:id="De_ebrietate">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xml:id="De_ebrietate" xml:space="preserve">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                
+
                 <title key="De Ebrietate">De ebrietate</title>
                 <author key=" Philo Judaeus">Philo Alexandrinus</author>
                 <editor key="Marchand, Stéphane">Stéphane Marchand</editor>
@@ -31,17 +33,20 @@
         <body>
             <div type="livre" n=" ">
                 <div type="page" n="1">
-                    <ab type="testimonium" xml:id="T8_Aenesidemus" xml:lang="grc" ana="#modi_decem #methodus" corresp="#Aenesidemus" n="8">
+                    <ab type="testimonium" xml:id="T8_Aenesidemus" xml:lang="grc"
+                        ana="#modi_decem #methodus" corresp="#Aenesidemus" n="8">
                         <milestone unit="paragraph" n="169"/> τὸν μέντοι σεμνυνόμενον ἢ ἐπὶ τῷ
                         βουλεύεσθαι ἢ ἐπὶ τῷ τὰ μὲν αἱρεῖσθαι τὰ δὲ φεύγειν ἱκανῶς δύνασθαι διὰ
                         τούτων ὑπομνηστέον· εἰ μὲν ἀπὸ τῶν αὐτῶν τὰς αὐτὰς ἀεὶ συνέβαινε προσπίπτειν
                         ἀπαραλλάκτους φαντασίας, ἦν ἴσως ἀναγκαῖον τά τε ἐν ἡμῖν αὐτοῖς φύσει
                         κατασκευασθέντα διττὰ κριτήρια, αἴσθησίν τε καὶ νοῦν, ὡς ἀψευδῆ καὶ ἀδέκαστα
                         θαυμάζειν καὶ περὶ μηδενὸς ἐνδοιάζοντας ἐπέχειν, ἀλλὰ τοῖς ἅπαξ φανεῖσι
-                        πιστεύοντας τὰ μὲν αἱρεῖσθαι, τὰ δὲ <milestone unit="paragraph" n="170"/>ἔμπαλιν ἀποστρέφεσθαι. ἐπειδὴ δὲ διαφόρως ἀπ’ αὐτῶν εὑρισκόμεθα
+                        πιστεύοντας τὰ μὲν αἱρεῖσθαι, τὰ δὲ <milestone unit="paragraph" n="170"
+                        />ἔμπαλιν ἀποστρέφεσθαι. ἐπειδὴ δὲ διαφόρως ἀπ’ αὐτῶν εὑρισκόμεθα
                         κινούμενοι, βέβαιον περὶ οὐδενὸς οὐδὲν ἂν ἔχοιμεν εἰπεῖν, ἅτε μὴ ἑστῶτος τοῦ
                         φανέντος, ἀλλὰ πολυτρόποις καὶ πολυμόρφοις χρωμένου ταῖς μεταβολαῖς· ἀνάγκη
-                        γὰρ ἀνιδρύτου τῆς φαντασίας οὔσης ἀνίδρυτον <milestone unit="paragraph" n="171"/>εἶναι καὶ τὴν ἐπ’ αὐτῇ κρίσιν. αἴτια δὲ τούτου πολλά </ab>
+                        γὰρ ἀνιδρύτου τῆς φαντασίας οὔσης ἀνίδρυτον <milestone unit="paragraph"
+                            n="171"/>εἶναι καὶ τὴν ἐπ’ αὐτῇ κρίσιν. αἴτια δὲ τούτου πολλά </ab>
                     <ab type="translatio" xml:lang="fr" corresp="#T8_Aenesidemus">
                         <milestone unit="paragraph" n="169"/>A celui qui prétend savoir délibérer ou
                         choisir et exclure avec compétence, il faut rappeler la vérité grâce à ce
@@ -49,16 +54,20 @@
                         surviennent à partir des mêmes choses, il serait peut-être nécessaire
                         d’admirer les deux facultés de juger, la sensation et l’esprit, qui sont par
                         nature disposées en nous-mêmes, comme vraies, intègres, et lorsque nous
-                        doutons, de ne suspendre notre assentiment sur rien,<milestone unit="paragraph" n="170"/> mais en se fiant aux choses dès qu’elles
+                        doutons, de ne suspendre notre assentiment sur rien,<milestone
+                            unit="paragraph" n="170"/> mais en se fiant aux choses dès qu’elles
                         apparaissent, d’en choisir certaines, et de se détourner au contraire
                         d’autres. Mais puisque nous nous trouvons touchés par elles de manière
                         différente, nous ne saurions rien dire de certain sur rien, puisque ce qui
                         apparaît n’est pas constant, mais est soumis à des changements de
                         différentes sortes et de différentes formes. En effet, l’impression étant
-                        instable, le jugement qui porte sur elle <milestone unit="paragraph" n="171"/>aussi est instable. Plusieurs raisons à cela… </ab>
+                        instable, le jugement qui porte sur elle <milestone unit="paragraph" n="171"
+                        />aussi est instable. Plusieurs raisons à cela… </ab>
                 </div>
                 <div type="page" n="2">
-                    <ab type="testimonium" xml:id="T6_Aenesidemus" xml:lang="grc" ana="#modi_decem #quartus_modus #methodus">(...)<milestone unit="paragraph" n="178"/>καίτοι τί ταῦτά φαμεν; αὐτός τις εἷς ὢν ἕκαστος ἐφ’ ἑαυτοῦ, τὸ
+                    <ab type="testimonium" xml:id="T6_Aenesidemus" xml:lang="grc"
+                        ana="#modi_decem #quartus_modus #methodus">(...)<milestone unit="paragraph"
+                            n="178"/>καίτοι τί ταῦτά φαμεν; αὐτός τις εἷς ὢν ἕκαστος ἐφ’ ἑαυτοῦ, τὸ
                         παραδοξότατον, μυρίας μεταβολὰς καὶ τροπὰς δεχόμενος κατά τε σῶμα καὶ ψυχὴν
                         τοτὲ μὲν αἱρεῖται, τοτὲ δ’ ἀποστρέ- φεται οὐδαμῶς μεταβάλλοντα, μένειν δ’
                         ἐπὶ τῆς αὐτῆς πεφυκότα κατασκευῆς <milestone unit="paragraph" n="179"/>· οὐ
@@ -70,11 +79,13 @@
                         πᾶσα ἡ σώματος καὶ ψυχῆς κατὰ φύσιν τε αὖ καὶ παρὰ φύσιν κίνησις αἰτία τῆς
                         περὶ τὰ φαινόμενα ἀστάτου φορᾶς <milestone unit="paragraph" n="181"/>γίνεται
                         μαχόμενα καὶ ἀσύμφωνα προσβαλλούσης ὀνείρατα</ab>
-                    <ab type="translatio" xml:lang="fr" corresp="#T6_Aenesidemus">(...)<milestone unit="paragraph" n="178"/>Mais à quoi bon dire tout cela ? chaque
+                    <ab type="translatio" xml:lang="fr" corresp="#T6_Aenesidemus">(...)<milestone
+                            unit="paragraph" n="178"/>Mais à quoi bon dire tout cela ? chaque
                         individu pris en particulier subit, de façon très paradoxale, dans son corps
                         et dans son âme, d'innombrables changements et variations, tantôt choisit
                         librement et tantôt rejette des choses, qui, elles ne changent pas, mais
-                        sont faites pour demeurer dans la même constitution.<milestone unit="paragraph" n="179"/>Car les mêmes impressions n'atteignent pas les
+                        sont faites pour demeurer dans la même constitution.<milestone
+                            unit="paragraph" n="179"/>Car les mêmes impressions n'atteignent pas les
                         bien-portants et les malades, les éveillés et les dormeurs, les jeunes et
                         les malades, les éveillés et les dormeurs, les jeunes et les vieux. Un même
                         homme voit des aspects différents suivant qu'il est immobile ou en
