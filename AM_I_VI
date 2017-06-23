@@ -1,5 +1,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xml:id="Adversus_Mathematicos_I-VI">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+   xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xml:id="Adversus_Mathematicos_I-VI" xml:space="preserve">
 
    <teiHeader>
       <fileDesc>
@@ -41,34 +43,37 @@
                   εἴποι, ἀπὸ τοιούτων τινῶν ἀφορμῶν πολεμεῖν τοῖς μαθήμασιν ἠξίου, οἱ δὲ ἀπὸ
                   Πύρρωνος οὔτε διὰ τὸ μηδὲν συνεργεῖν αὐτὰ πρὸς σοφίαν, δογματικὸς γὰρ ὁ λόγος,
                   οὔτε διὰ τὴν προσοῦσαν αὐτοῖς ἀπαιδευσίαν· σὺν γὰρ τῷ πεπαιδεῦσθαι καὶ
-                  πολυπειροτέρους παρὰ τοὺς ἄλλους ὑπάρχειν φιλοσόφους ἔτι καὶ <milestone unit="paragraph" n="6"/>
+                  πολυπειροτέρους παρὰ τοὺς ἄλλους ὑπάρχειν φιλοσόφους ἔτι καὶ <milestone
+                     unit="paragraph" n="6"/>
                   <supplied reason="omitted">ἀ</supplied>διαφόρως ἔχουσι πρὸς τὴν παρὰ τοῖς πολλοῖς
                   δόξαν· καὶ μὴν οὐδὲ δυσμενείας χάριν τῆς πρός τινας (μακρὰν γὰρ αὐτῶν τῆς
                   πραότητός ἐστιν ἡ τοιαύτη κακία)· ἀλλὰ τοιοῦτόν τι ἐπὶ τῶν μαθημάτων παθόντες
                   ὁποῖον ἐφ’ ὅλης ἔπαθον τῆς <supplied reason="omitted">φιλο</supplied>σοφίας. καθὰ
                   γὰρ ἐπὶ ταύτην ἦλθον πόθῳ τοῦ τυχεῖν τῆς ἀληθείας, ἰσοσθενεῖ δὲ μάχῃ καὶ ἀνωμαλίᾳ
                   τῶν πραγμάτων ὑπαντήσαντες ἐπέσχον, οὕτω καὶ ἐπὶ τῶν μαθημάτων ὁρμήσαντες ἐπὶ τὴν
-                  ἀνάληψιν αὐτῶν, ζητοῦντες καὶ τὸ ἐνταῦθα μαθεῖν ἀληθές, τὰς δὲ ἴσας <milestone unit="paragraph" n="7"/> εὑρόντες ἀπορίας, οὐκ ἀπεκρύψαντο. διόπερ καὶ ἡμεῖς
+                  ἀνάληψιν αὐτῶν, ζητοῦντες καὶ τὸ ἐνταῦθα μαθεῖν ἀληθές, τὰς δὲ ἴσας <milestone
+                     unit="paragraph" n="7"/> εὑρόντες ἀπορίας, οὐκ ἀπεκρύψαντο. διόπερ καὶ ἡμεῖς
                   τὴν αὐτὴν τούτοις ἀγωγὴν μεταδιώκοντες πειρασόμεθα χωρὶς φιλονεικίας τὰ
                   πραγματικῶς λεγόμενα πρὸς αὐτὰ ἐπιλεξάμενοι θεῖναι. </ab>
-               <ab type="translatio" corresp="#AM_1_5" xml:lang="fr"> <milestone unit="paragraph" n="5"/>Du reste, c’est sur ces bases
-                  qu’Épicure, pour ce que qu’on peut en conjecturer, s’est appuyé pour critiquer les
-                  arts libéraux, mais en ce qui concerne les pyrrhoniens, ce n’est ni parce que ces
-                  arts ne contribuent pas à la sagesse – car c’est un argument dogmatique – ni à
-                  cause d’un manque d’éducation qui leur serait inhérent. Car en plus d’être bien
-                  éduqués et bien plus expérimentés que les autres philosophes, ils sont aussi
-                  indifférents aux opinions du plus grand nombre ; ce n’est pas non plus à cause
-                  d’une malveillance contre quiconque, car ce type de méchanceté est bien éloignée
-                  de leur douceur. Mais ils ont vis-à-vis des arts libéraux le même sentiment que
-                  pour la  <milestone unit="paragraph" n="6"/>philosophie . En effet, de même qu’alors qu’ils allaient s’y consacrer en
-                  désirant accéder à la vérité, confrontés par un conflit d’égal valeur et
-                  l’anomalie entre les choses, ils suspendirent leur jugement, de même lorsqu’ils
-                  s’intéressèrent aux arts libéraux en vue de les connaître, en cherchant aussi en
-                  elles à apprendre la vérité, alors qu’ils rencontraient les  <milestone unit="paragraph" n="7"/> mêmes apories, ils ne
-                  les ont pas cachées. Pour cette raison, nous aussi en poursuivant dans la même
-                  voie qu’eux nous essaierons, sans esprit de compétition, de développer notre
-                  propos en choisissant pragmatiquement les arguments contre les arts libéraux.
-               </ab>
+               <ab type="translatio" corresp="#AM_1_5" xml:lang="fr">
+                  <milestone unit="paragraph" n="5"/>Du reste, c’est sur ces bases qu’Épicure, pour
+                  ce que qu’on peut en conjecturer, s’est appuyé pour critiquer les arts libéraux,
+                  mais en ce qui concerne les pyrrhoniens, ce n’est ni parce que ces arts ne
+                  contribuent pas à la sagesse – car c’est un argument dogmatique – ni à cause d’un
+                  manque d’éducation qui leur serait inhérent. Car en plus d’être bien éduqués et
+                  bien plus expérimentés que les autres philosophes, ils sont aussi indifférents aux
+                  opinions du plus grand nombre ; ce n’est pas non plus à cause d’une malveillance
+                  contre quiconque, car ce type de méchanceté est bien éloignée de leur douceur.
+                  Mais ils ont vis-à-vis des arts libéraux le même sentiment que pour la <milestone
+                     unit="paragraph" n="6"/>philosophie . En effet, de même qu’alors qu’ils
+                  allaient s’y consacrer en désirant accéder à la vérité, confrontés par un conflit
+                  d’égal valeur et l’anomalie entre les choses, ils suspendirent leur jugement, de
+                  même lorsqu’ils s’intéressèrent aux arts libéraux en vue de les connaître, en
+                  cherchant aussi en elles à apprendre la vérité, alors qu’ils rencontraient les
+                     <milestone unit="paragraph" n="7"/> mêmes apories, ils ne les ont pas cachées.
+                  Pour cette raison, nous aussi en poursuivant dans la même voie qu’eux nous
+                  essaierons, sans esprit de compétition, de développer notre propos en choisissant
+                  pragmatiquement les arguments contre les arts libéraux. </ab>
             </div>
          </div>
 
