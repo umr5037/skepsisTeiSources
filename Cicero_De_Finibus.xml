@@ -1,10 +1,13 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xml:id="De_finibus">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xml:id="De_finibus" xml:space="preserve">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title key="De Finibus" ref="urn:cts:latinLit:phi0474.phi048">De Finibus</title>
-                <author key=" Cicero (0106-0043 av. J.-C.)" ref="urn:cite:perseus:author.364">Cicero</author>
+                <author key=" Cicero (0106-0043 av. J.-C.)" ref="urn:cite:perseus:author.364"
+                    >Cicero</author>
                 <editor key="Marchand, Stéphane">Stéphane Marchand <forename>Stéphane</forename>
                     <surname>Marchand</surname>
                 </editor>
@@ -34,7 +37,8 @@
         <body>
             <div type="livre" n="2">
                 <div type="chapitre" n="1">
-                    <q type="testimonium" ana="#methodus" corresp="#Arcesilas" xml:id="T7_Arcesilas" xml:lang="la" n="7">
+                    <q type="testimonium" ana="#methodus" corresp="#Arcesilas" xml:id="T7_Arcesilas"
+                        xml:lang="la" n="7">
                         <bibl>F11 Mette</bibl>
                         <milestone unit="paragraph" n="2"/>
                         <rs ref="Socrates">qui </rs> mos cum a posterioribus non esset retentus,
@@ -52,7 +56,8 @@
                 </div>
 
                 <div type="chapitre" n="13">
-                    <ab type="testimonium" ana="#ou_mallon" corresp="#Pyrrho" xml:id="T8_Pyrrho" xml:lang="la" n="8">
+                    <ab type="testimonium" ana="#ou_mallon" corresp="#Pyrrho" xml:id="T8_Pyrrho"
+                        xml:lang="la" n="8">
                         <bibl>T69B DC</bibl>
                         <milestone unit="paragraph" n="43"/> Quae quod <persName>Aristoni</persName>
                         et <persName>Pyrrhoni</persName> omnino visa sunt pro nihilo, ut inter
@@ -63,13 +68,14 @@
                         amplexabantur, sustulerunt.</ab>
                     <ab type="translatio" xml:lang="fr" corresp="#T8_Pyrrho" n="8">
                         <milestone unit="paragraph" n="43"/>C’est à bon droit qu’on a renoncé depuis
-                        longtemps à argumenter contre <persName>Ariston</persName> et <persName>Pyrrhon</persName>, ces philosophes qui
-                        considèrent que ce que la nature approuve avant tout ne compte pour rien, de
-                        sorte que, pour eux, il n’y a aucune différence entre être en bonne santé et
-                        être gravement malade. En effet, puisqu’ils veulent que tout soit dans la
-                        seule vertu, ils lui enlèvent la faculté de choisir entre les choses et ne
-                        lui donnent ni occasion d’apparaître ni objet sur lequel elle puisse
-                        s’appliquer ; cette vertu qu’ils chérissaient, ils l’ont détruite.</ab>
+                        longtemps à argumenter contre <persName>Ariston</persName> et
+                            <persName>Pyrrhon</persName>, ces philosophes qui considèrent que ce que
+                        la nature approuve avant tout ne compte pour rien, de sorte que, pour eux,
+                        il n’y a aucune différence entre être en bonne santé et être gravement
+                        malade. En effet, puisqu’ils veulent que tout soit dans la seule vertu, ils
+                        lui enlèvent la faculté de choisir entre les choses et ne lui donnent ni
+                        occasion d’apparaître ni objet sur lequel elle puisse s’appliquer ; cette
+                        vertu qu’ils chérissaient, ils l’ont détruite.</ab>
                 </div>
             </div>
         </body>
