@@ -1,5 +1,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xml:id="Vitae_philosophorum">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xml:id="Vitae_philosophorum" xml:space="preserve">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,7 +18,7 @@
                 <bibl n="Description de la source principale">Hicks, Robert Drew, W. Heinemann,
                     1925</bibl>
             </sourceDesc>
-                    </fileDesc>
+        </fileDesc>
         <revisionDesc>
             <list>
                 <item>
@@ -29,7 +31,8 @@
         <body>
             <div type="livre" n="4">
                 <div type="page" n="1">
-                    <ab type="testimonium" xml:id="T1_Arcesilas" corresp="#Arcesilas" n="1" ana="#epochè #methodus" xml:lang="gr">
+                    <ab type="testimonium" xml:id="T1_Arcesilas" corresp="#Arcesilas" n="1"
+                        ana="#epochè #methodus" xml:lang="gr">
                         <bibl>T1A Mette - l.24-29</bibl>
                         <milestone unit="paragraph" n="28"/>
                         <persName>Ἀρκεσίλαος</persName> Σεύθου (ἢ <persName>Σκύθου</persName>, ὡς
@@ -53,7 +56,8 @@
             </div>
             <div type="livre" n="9">
                 <div type="page" n="2">
-                    <ab type="testimonium" xml:id="T1_Pyrrho" n="1" corresp="#Pyrrho" ana="#ou_mallon #epochè #akatalepsia" xml:lang="gr">
+                    <ab type="testimonium" xml:id="T1_Pyrrho" n="1" corresp="#Pyrrho"
+                        ana="#ou_mallon #epochè #akatalepsia" xml:lang="gr">
                         <bibl>1A Decleva Caizzi</bibl>
                         <milestone unit="paragraph" n="61"/>
                         <persName>Πύρρων</persName> Ἠλεῖος <persName>Πλειστάρχου</persName> μὲν ἦν
@@ -87,13 +91,15 @@
 
                 </div>
                 <div type="page" n="3">
-                    <ab type="testimonium" xml:id="T2_Pyrrho" n="2" corresp="#Pyrrho" ana="#apraxia #epochè" xml:lang="gr">
+                    <ab type="testimonium" xml:id="T2_Pyrrho" n="2" corresp="#Pyrrho"
+                        ana="#apraxia #epochè" xml:lang="gr">
                         <bibl>T7 Decleva Caizzi</bibl>
                         <milestone unit="paragraph" n="62"/>Ἀκόλουθος δ' ἦν καὶ τῷ βίῳ, μηδὲν
                         ἐκτρεπόμενος μηδὲ φυλαττόμενος, ἅπαντα ὑφιστάμενος, ἀμάξας, εἰ τύχοι, καὶ
                         κρημνοὺς καὶ κύνας καὶ ὅσα 〈τοιαῦτα〉 μηδὲν ταῖς αἰσθήσεσιν ἐπιτρέπων.
                         σώζεσθαι μέντοι, καθά φασιν οἱ περὶ τὸν Καρύστιον
-                            <persName>Ἀντίγονον</persName>, ὑπὸ τῶν γνωρίμων παρακολουθούντων. <q type="fragmentum" source="#Aenesidemus" xml:id="F2_Aenesidemus" n="2">
+                            <persName>Ἀντίγονον</persName>, ὑπὸ τῶν γνωρίμων παρακολουθούντων. <q
+                            type="fragmentum" source="#Aenesidemus" xml:id="F2_Aenesidemus" n="2">
                             <bibl>B6 Polito (partim)</bibl>
                             <milestone unit="paragraph" n="(62)"/>
                             <persName ref="Aenesidemus">Αἰνεσίδημος</persName> δέ φησι φιλοσοφεῖν
@@ -108,16 +114,18 @@
                         rien à ses sensations pour toutes ces choses. Il n'était sauvé, cependant,
                         comme le dit <persName>Antigone</persName> de Caryste, que par ses disciples
                         qui l'accompagnaient.<q corresp="#F2_Aenesidemus">
-                            <milestone unit="paragraph" n="(62)"/>Mais <persName ref="Aenesidemus">Enésidème</persName> dit qu'il (sc. Pyrrhon) philosophait selon la
+                            <milestone unit="paragraph" n="(62)"/>Mais <persName ref="Aenesidemus"
+                                >Enésidème</persName> dit qu'il (sc. Pyrrhon) philosophait selon la
                             théorie de la suspension du jugement, mais que pour chaque chose, il
                             n'agissait pas sans précaution.</q>
                     </ab>
                 </div>
                 <div type="page" n="4">
-                    <ab type="testimonium" xml:id="T7_Pyrrho" n="7" corresp="#Pyrrho" ana="#ataraxia" xml:lang="gr">
+                    <ab type="testimonium" xml:id="T7_Pyrrho" n="7" corresp="#Pyrrho"
+                        ana="#ataraxia" xml:lang="gr">
                         <listBibl>
                             <bibl>T17A Decleva Caizzi</bibl>
-                      <bibl>Posidonius 287 Edelstein-Kidd</bibl>
+                            <bibl>Posidonius 287 Edelstein-Kidd</bibl>
                         </listBibl>
                         <milestone unit="paragraph" n="68"/>
                         <persName>Ποσειδώνιος </persName>δὲ καὶ τοιοῦτόν τι διέξεισι περὶ αὐτοῦ. τῶν
@@ -134,10 +142,12 @@
                 </div>
 
                 <div type="page" n="5">
-                    <ab type="testimonium" xml:id="T5_Pyrrho" n="5" corresp="#Pyrrho" ana="#ou_mallon #methodus" xml:lang="gr">
+                    <ab type="testimonium" xml:id="T5_Pyrrho" n="5" corresp="#Pyrrho"
+                        ana="#ou_mallon #methodus" xml:lang="gr">
                         <bibl>T54 Decleva Caizzi</bibl>
                         <milestone unit="paragraph" n="76"/>
-                        <q type="fragmentum" source="#Timon" xml:id="F3_Timon_Python" xml:lang="gr" n="3">
+                        <q type="fragmentum" source="#Timon" xml:id="F3_Timon_Python" xml:lang="gr"
+                            n="3">
                             <milestone unit="paragraph" n="76"/>ἀναιροῦσι δ᾽ οἱ σκεπτικοὶ καὶ αὐτὴν
                             τὴν "Οὐδὲν μᾶλλον" φωνήν: ὡς γὰρ οὐ μᾶλλόν ἐστι πρόνοια ἢ οὐκ ἔστιν,
                             οὕτω καὶ τὸ Οὐδὲν μᾶλλον οὐ μᾶλλόν ἐστιν ἢ οὐκ ἔστι. σημαίνει οὖν ἡ
@@ -161,7 +171,8 @@
                     </ab>
                 </div>
                 <div type="page" n="6">
-                    <ab type="testimonium" xml:lang="grc" xml:id="T5_Aenesidemus" ana="#modi_decem #memoria #methodus" corresp="#Aenesidemus" n="5">
+                    <ab type="testimonium" xml:lang="grc" xml:id="T5_Aenesidemus"
+                        ana="#modi_decem #memoria #methodus" corresp="#Aenesidemus" n="5">
                         <bibl>B16 Polito</bibl>
                         <milestone unit="paragraph" n="78"/>Ἔστιν οὖν ὁ Πυρρώνειος λόγος μνήμη τις
                         τῶν φαινομένων ἢ τῶν ὁπωσοῦν νοουμένων, καθ᾽ ἣν πάντα πᾶσι συμβάλλεται καὶ
@@ -171,7 +182,8 @@
                         προαποδεικνύντες καθ᾽ οὓς τρόπους πείθει τὰ πράγματα, κατὰ τοὺς αὐτοὺς
                         ἀνῄρουν τὴν περὶ αὐτῶν πίστιν: πείθειν γὰρ τά τε κατ᾽ αἴσθησιν συμφώνως
                         ἔχοντα καὶ τὰ μηδέποτε ἢ σπανίως γοῦν μεταπίπτοντα τά τε συνήθη καὶ τὰ
-                        νόμοις διεσταλμένα καὶ τὰ τέρποντα καὶ τὰ θαυμαζόμενα. <milestone unit="paragraph" n="79"/> ἐδείκνυσαν οὖν ἀπὸ τῶν ἐναντίων τοῖς πείθουσιν
+                        νόμοις διεσταλμένα καὶ τὰ τέρποντα καὶ τὰ θαυμαζόμενα. <milestone
+                            unit="paragraph" n="79"/> ἐδείκνυσαν οὖν ἀπὸ τῶν ἐναντίων τοῖς πείθουσιν
                         ἴσας τὰς πιθανότητας. Αἱ δ᾽ ἀπορίαι κατὰ τὰς συμφωνίας τῶν φαινομένων ἢ
                         νοουμένων, ἃς ἀπεδίδοσαν, ἦσαν κατὰ δέκα τρόπους, καθ᾽ οὓς τὰ ὑποκείμενα
                         παραλλάττοντα ἐφαίνετο.</ab>
@@ -197,7 +209,8 @@
                         manifestent avec des écarts.</ab>
                 </div>
                 <div type="page" n="7">
-                    <ab type="testimonium" xml:lang="grc" xml:id="T9_Aenesidemus" ana="#modi_decem #quartus_modus" corresp="#Aenesidemus" n="9">
+                    <ab type="testimonium" xml:lang="grc" xml:id="T9_Aenesidemus"
+                        ana="#modi_decem #quartus_modus" corresp="#Aenesidemus" n="9">
                         <milestone unit="paragraph" n="82"/>Τέταρτος ὁ παρὰ τὰς διαθέσεις καὶ κοινῶς
                         παραλλαγάς, οἷον ὑγίειαν, νόσον, ὕπνον, ἐγρήγορσιν, χαράν, λύπην, νεότητα,
                         γῆρας, θάρσος, φόβον, ἔνδειαν, πλήρωσιν, μῖσος, φιλίαν, θερμασίαν, ψύξιν:
@@ -223,7 +236,8 @@
                     <!-- revoir trad et texte grec -->
                 </div>
                 <div type="page" n="8">
-                    <ab type="excerptum" xml:lang="grc" xml:id="DL_104" ana="#phainomenon #apraxia #epochè">
+                    <ab type="excerptum" xml:lang="grc" xml:id="DL_104"
+                        ana="#phainomenon #apraxia #epochè">
                         <milestone unit="paragraph" n="104"/>Πάλιν οἱ δογματικοί φασιν καὶ τὸν βίον
                         αὐτοὺς ἀναιρεῖν, ἐν ᾧ πάντ' ἐκβάλλουσιν ἐξ ὧν ὁ βίος συνέστηκεν. οἱ δὲ
                         ψεύδεσθαί φασιν αὐτούς˙ οὐ γὰρ τὸ ὁρᾶν ἀναιρεῖν, ἀλλὰ τὸ πῶς ὁρᾶν ἀγνοεῖν.
@@ -247,12 +261,17 @@
                         φθείρεται πῶς δὲ ταῦτα γίνεται οὐκ ἴσμεν. μόνον οὖν, φασίν, ἀνθιστάμεθα πρὸς
                         τὰ παρυφιστάμενα τοῖς φαινομένοις ἄδηλα. καὶ γὰρ ὅτε τὴν εἰκόνα ἐξοχὰς
                         λέγομεν ἔχειν, τὸ φαινόμενον διασαφοῦμεν: ὅταν δ᾽ εἴπωμεν μὴ ἔχειν αὐτὴν
-                        ἐξοχάς, οὐκέτι ὃ φαίνεται, ἕτερον δὲ λέγομεν:<q type="fragmentum" source="#Timon" xml:id="F6_Timon_Python" n="6" xml:lang="grc">
-                            <milestone unit="paragraph" n="(105)"/> ὅθεν καὶ ὁ <persName ref="Timon">Τίμων </persName>ἐν τῷ <title>Πύθωνί</title>
-                            φησι <quote>μὴ ἐκβεβηκέναι τὴν συνήθειαν</quote>
-                        </q>. καὶ ἐν τοῖς <title>Ἰνδαλμοῖς</title> οὕτω λέγει,<q type="fragmentum" source="#Timon" xml:id="F5_Timon_Indalmoi" n="5" xml:lang="grc">
+                        ἐξοχάς, οὐκέτι ὃ φαίνεται, ἕτερον δὲ λέγομεν:<q type="fragmentum"
+                            source="#Timon" xml:id="F6_Timon_Python" n="6" xml:lang="grc">
+                            <milestone unit="paragraph" n="(105)"/> ὅθεν καὶ ὁ <persName ref="Timon"
+                                >Τίμων </persName>ἐν τῷ <title>Πύθωνί</title> φησι <quote>μὴ
+                                ἐκβεβηκέναι τὴν συνήθειαν</quote>
+                        </q>. καὶ ἐν τοῖς <title>Ἰνδαλμοῖς</title> οὕτω λέγει,<q type="fragmentum"
+                            source="#Timon" xml:id="F5_Timon_Indalmoi" n="5" xml:lang="grc">
                             <milestone unit="paragraph" n="(105)"/> ἀ<quote>λλὰ τὸ φαινόμενον πάντη
-                                σθένει οὗπερ ἂν ἔλθῃ</quote>.</q> καὶ <q type="fragmentum" source="#Timon" xml:id="F4_Timon_Sur_les_Sensations" n="4" xml:lang="grc">
+                                σθένει οὗπερ ἂν ἔλθῃ</quote>.</q> καὶ <q type="fragmentum"
+                            source="#Timon" xml:id="F4_Timon_Sur_les_Sensations" n="4"
+                            xml:lang="grc">
                             <milestone unit="paragraph" n="(105)"/>ἐν τοῖς <title>Περὶ
                                 αἰσθήσεών</title> φησι, <quote>τὸ μέλι ὅτι ἐστὶ γλυκὺ οὐ τίθημι, τὸ
                                 δ᾽ ὅτι φαίνεται ὁμολογῶ</quote>.</q>
@@ -280,12 +299,14 @@
 
                 </div>
                 <div type="page" n="10">
-                    <q type="fragmentum" xml:lang="grc" xml:id="F1_Aenesidemus" n="1" source="#Aenesidemus" ana="#phainomenon #methodus">
+                    <q type="fragmentum" xml:lang="grc" xml:id="F1_Aenesidemus" n="1"
+                        source="#Aenesidemus" ana="#phainomenon #methodus">
                         <bibl>B5 Polito</bibl>
                         <milestone unit="paragraph" n="106"/>
                         <ab type="testimonium" corresp="#Pyrrho" xml:id="T3_Pyrrho" n="3">
                             <bibl>T8 Decleva Caizzi</bibl>
-                            <milestone unit="paragraph" n="(106)"/> Καὶ <persName ref="Aenesidemus">Αἰνεσίδημος</persName> ἐν τῷ πρώτῳ <title>Πυρρωνείων λόγων</title>
+                            <milestone unit="paragraph" n="(106)"/> Καὶ <persName ref="Aenesidemus"
+                                >Αἰνεσίδημος</persName> ἐν τῷ πρώτῳ <title>Πυρρωνείων λόγων</title>
                             οὐδέν φησιν ὁρίζειν τὸν <persName ref="Pyrrho">Πύρρωνα</persName>
                             δογματικῶς διὰ τὴν ἀντιλογίαν, τοῖς δὲ φαινομένοις ἀκολουθεῖν.
                         </ab>ταὐτὰ δὲ λέγει κἀν τῷ <title>Κατὰ σοφίας</title> κἀν τῷ <title>Περὶ
