@@ -1,11 +1,14 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xml:id="Academica">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xml:id="Academica" xml:space="preserve">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                
+
                 <title key="Academica" ref="urn:cts:latinLit:phi0474.phi045">Academica</title>
-                <author key=" Cicero (0106-0043 av. J.-C.)" ref="urn:cite:perseus:author.364">Cicero</author>
+                <author key=" Cicero (0106-0043 av. J.-C.)" ref="urn:cite:perseus:author.364"
+                    >Cicero</author>
                 <editor key="Marchand, Stéphane">Stéphane Marchand</editor>
             </titleStmt>
             <publicationStmt>
@@ -30,14 +33,15 @@
     </teiHeader>
     <text>
         <body>
-            
+
             <div type="livre" n="1">
                 <div type="chapitre" n="12">
-                    <ab type="testimonium" xml:id="T6_Arcesilas" xml:lang="la" corresp="#Arcesilas" ana="#epochè #akatalepsia #methodus" n="6">
+                    <ab type="testimonium" xml:id="T6_Arcesilas" xml:lang="la" corresp="#Arcesilas"
+                        ana="#epochè #akatalepsia #methodus" n="6">
                         <bibl>F9 Mette (partim)</bibl>
                         <milestone unit="paragraph" n="45"/>itaque <persName>Arcesilas</persName>
                         negabat esse quicquam quod sciri posset, ne illud quidem ipsum quod
-                        <persName>Socrates</persName> sibi reliquisset, ut nihil scire se
+                            <persName>Socrates</persName> sibi reliquisset, ut nihil scire se
                         sciret; sic omnia latere censebat in occulto neque esse quicquam quod cerni
                         aut intellegi posset; quibus de causis nihil oportere neque profiteri neque
                         affirmare quemquam neque assensione approbare, cohibereque semper et ab omni
@@ -46,24 +50,27 @@
                         et perceptioni assensionem approbationemque praecurrere. huic rationi quod
                         erat consentaneum faciebat, ut contra omnium sententias disserens de sua
                         plerosque deduceret, ut cum in eadem re paria contrariis in partibus momenta
-                        rationum invenirentur facilius ab utraque parte assensio sustineretur.
-                    </ab>
-                    <ab type="testimonium" xml:id="T9_Arcesilas" xml:lang="la" corresp="#Arcesilas" ana="#historia_academiae #methodus" n="9">
+                        rationum invenirentur facilius ab utraque parte assensio sustineretur. </ab>
+                    <ab type="testimonium" xml:id="T9_Arcesilas" xml:lang="la" corresp="#Arcesilas"
+                        ana="#historia_academiae #methodus" n="9">
                         <bibl>F9 Mette (partim)</bibl>
-                        <milestone unit="paragraph" n="46"/> Hanc Academiam novam appellant, quae mihi vetus videtur, si
-                        quidem <persName ref="Plato">Platonem</persName> ex illa vetere
-                        numeramus, cuius in libris nihil affirmatur et in utramque partem multa
-                        disseruntur, de omnibus quaeritur nihil certi dicitur. 
-                        <q type="testimonium" xml:id="T4_Carneades" corresp="#Carneades" xml:lang="la" ana="#academiae_historia" n="4">
-                            <!-- changer en seg selon le développement !-->       
+                        <milestone unit="paragraph" n="46"/> Hanc Academiam novam appellant, quae
+                        mihi vetus videtur, si quidem <persName ref="Plato">Platonem</persName> ex
+                        illa vetere numeramus, cuius in libris nihil affirmatur et in utramque
+                        partem multa disseruntur, de omnibus quaeritur nihil certi dicitur. <q
+                            type="testimonium" xml:id="T4_Carneades" corresp="#Carneades"
+                            xml:lang="la" ana="#academiae_historia" n="4">
+                            <!-- changer en seg selon le développement !-->
                             <bibl>T4 Mette (partim)</bibl>
-                            <milestone unit="paragraph" n="(46)"/> —sed tamen illa quam exposuisti vetus,
-                            haec nova nominetur. quae usque ad <persName ref="Carneades">Carneadem</persName> perducta, qui quartus ab <persName ref="#Arcesilas">Arcesila</persName> fuit, in eadem <persName ref="#Arcesilas">Arcesilae</persName> ratione permansit.</q>
-                        
+                            <milestone unit="paragraph" n="(46)"/> —sed tamen illa quam exposuisti
+                            vetus, haec nova nominetur. quae usque ad <persName ref="Carneades"
+                                >Carneadem</persName> perducta, qui quartus ab <persName
+                                ref="#Arcesilas">Arcesila</persName> fuit, in eadem <persName
+                                ref="#Arcesilas">Arcesilae</persName> ratione permansit.</q>
                     </ab>
                     <ab type="translatio" xml:lang="fr" corresp="#T6_Arcesilas">
                         <milestone unit="paragraph" n="45"/>Pour cette raison
-                        <persName>Arcésilas</persName> refusait que quoi que ce soit puisse être
+                            <persName>Arcésilas</persName> refusait que quoi que ce soit puisse être
                         connu, pas même ce que <persName>Socrate</persName> s'était concédé à
                         lui-même : savoir qu'il ne savait rien. . Il pensait donc que tout se cache
                         dans l'obscurité et que rien ne peut être perçu ou compris, que pour ces
@@ -76,30 +83,32 @@
                         changer d'avis nombreux de ses auditeurs en argumentant contre les positions
                         de tout le monde, puisque lorsqu'on découvrait qu'il y avait sur le même
                         sujet des arguments d'égale importance en faveur de positions contraires, il
-                        était plus facile de suspendre son assentiment sur chacune des positions.</ab>
+                        était plus facile de suspendre son assentiment sur chacune des
+                        positions.</ab>
                     <ab type="translatio" corresp="#T9_Arcesilas" xml:lang="fr">
-                        <milestone unit="paragraph" n="46"/> On appelle cette Académie
-                        "nouvelle", bien qu'elle me semble ancienne, si cependant on compte bien
-                        <persName>Platon</persName> parmi cette ancienne Académie, lui qui
+                        <milestone unit="paragraph" n="46"/> On appelle cette Académie "nouvelle",
+                        bien qu'elle me semble ancienne, si cependant on compte bien
+                            <persName>Platon</persName> parmi cette ancienne Académie, lui qui
                         n'affirme rien dans ses livres et discute de nombreuses choses dans un sens
                         et dans un autre, lui qui à propos de tout cherche et ne dit rien de
-                        certain. 
-                        
-                        <seg type="translatio" corresp="#T4_Carneades" xml:lang="fr">   <milestone unit="paragraph" n="(46)"/> Acceptons cependant
-                            d'appeler "ancienne" l'académie que tu as décrite, et "nouvelle" celle dont
-                            je vais parler. Cette dernière va jusqu'à <persName>Carnéade</persName>, qui
-                            fut le quatrième successeur d'<persName>Arcesilas</persName> et qui conserva
-                            la même méthode qu'<persName>Arcesilas</persName>.</seg> </ab>
+                        certain. <seg type="translatio" corresp="#T4_Carneades" xml:lang="fr">
+                            <milestone unit="paragraph" n="(46)"/> Acceptons cependant d'appeler
+                            "ancienne" l'académie que tu as décrite, et "nouvelle" celle dont je
+                            vais parler. Cette dernière va jusqu'à <persName>Carnéade</persName>,
+                            qui fut le quatrième successeur d'<persName>Arcesilas</persName> et qui
+                            conserva la même méthode qu'<persName>Arcesilas</persName>.</seg>
+                    </ab>
                 </div>
             </div>
             <div type="livre" n="2">
                 <div type="chapitre" n="24">
-                    <ab type="testimonium" xml:id="T3_Arcesilas" xml:lang="la" corresp="#Arcesilas" ana="#katalèpsis" n="3">
+                    <ab type="testimonium" xml:id="T3_Arcesilas" xml:lang="la" corresp="#Arcesilas"
+                        ana="#katalèpsis" n="3">
                         <bibl>F9 Mette</bibl>
                         <milestone unit="paragraph" n="77"/>Tum illum ita definisse,<quote> ex eo
                             quod esset sicut esset, impressum et signatum et effictum</quote>. Post
                         requisitum etiamne si eiusdem modi esset uisum uerum quale uel falsum. Hic
-                        <persName>Zenonem</persName> uidisse acute nullum esse uisum quod
+                            <persName>Zenonem</persName> uidisse acute nullum esse uisum quod
                         percipi posset, si id tale esset ab eo quod est cuius modi ab eo quod non
                         est posset esse. Recte consensit <persName>Arcesilas</persName> ad
                         definitionem additum, neque enim falsum percipi posse neque uerum si esset
@@ -111,10 +120,10 @@
                         marquée, modelée à partir d’un objet réel, exactement tel qu’il est ».
                         Ensuite <persName>Arcésilas</persName> demanda si cela serait encore le cas
                         si une impression vraie était identique à une impression fausse. Ici
-                        <persName>Zénon</persName> vit subtilement qu’aucune impression ne
+                            <persName>Zénon</persName> vit subtilement qu’aucune impression ne
                         serait compréhensible si une impression qui vient d’un objet réel pouvait
                         être identique à celle qui vient d’un autre objet. A raison
-                        <persName>Arcésilas</persName> était d’accord qu’il fallait un ajout à
+                            <persName>Arcésilas</persName> était d’accord qu’il fallait un ajout à
                         la définition car ni le faux ni le faux ne peuvent être saisis si le vrai
                         est identique au faux. Mais il pris soin dans ces discussions à montrer
                         qu’il n’y avait aucune impression provenant du vrai qui ne puisse être
@@ -123,7 +132,8 @@
                 <div type="chapitre" n="32">
                     <q type="fragmentum" source="#Clitomachus" xml:id="F1_Clitomachus" n="1">
                         <bibl>F4 Mette</bibl>
-                        <ab type="testimonium" xml:id="T3_Carneades" xml:lang="la" corresp="#Carneades" ana="#pithanon #katalèpsis #apraxia" n="3">
+                        <ab type="testimonium" xml:id="T3_Carneades" xml:lang="la"
+                            corresp="#Carneades" ana="#pithanon #katalèpsis #apraxia" n="3">
                             <bibl>F5 Mette - l.126-137</bibl>
                             <listBibl>
                                 <bibl>F5 Mette - l.126-137</bibl>
@@ -146,11 +156,11 @@
                     <q type="translatio" corresp="#F1_Clitomachus" xml:lang="fr">
                         <ab type="translatio" xml:lang="fr" corresp="#T3_Carneades">
                             <milestone unit="paragraph" n="104"/>Après avoir exposé cela,
-                            <persName>Clitomaque</persName> ajoute que l'on peut dire en deux sens
-                            que « le sage suspend son assentiment ». Selon le premier sens, il faut
-                            comprendre que le sage ne donne son assentiment absolument à rien. Selon
-                            le second sens, il s'abstient de donner une réponse qui fasse qu'il
-                            approuve ou désapprouve quoi que ce soit, de sorte qu'il ne nie ni
+                                <persName>Clitomaque</persName> ajoute que l'on peut dire en deux
+                            sens que « le sage suspend son assentiment ». Selon le premier sens, il
+                            faut comprendre que le sage ne donne son assentiment absolument à rien.
+                            Selon le second sens, il s'abstient de donner une réponse qui fasse
+                            qu'il approuve ou désapprouve quoi que ce soit, de sorte qu'il ne nie ni
                             n’affirme rien. Puisqu’il en est ainsi, il accepte d'un côté le premier
                             sens de sorte qu'il ne donne jamais son assentiment, de l'autre, il
                             maintient le second sens de sorte qu'il suit ce qui est plausible, et
@@ -164,8 +174,8 @@
                             impressions de ce genre qui sont approuvées, mais celles qui ne sont
                             empêchées par rien.</ab>
                     </q>
-                    
-                    
+
+
                 </div>
             </div>
         </body>
