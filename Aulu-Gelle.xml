@@ -1,5 +1,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xml:id="Noctes_Atticae">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xml:id="Noctes_Atticae" xml:space="preserve">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -7,7 +9,7 @@
                     Atticae</title>
                 <author key=" Gellius, Aulus 0123?-0180?" ref="urn:cite:perseus:author.659">Aulus
                     Gellius</author>
-                
+
                 <editor key="Marchand, Stéphane">Stéphane Marchand</editor>
             </titleStmt>
             <publicationStmt>
@@ -34,7 +36,8 @@
         <body>
             <div type="livre" n="11">
                 <div type="chapitre" n="5">
-                    <ab type="excerptum" ana="#differentia_inter_academicos_et_pyrrhonios #methodus" xml:lang="la" xml:id="Gell_NA_XI_5_6">
+                    <ab type="excerptum" ana="#differentia_inter_academicos_et_pyrrhonios #methodus"
+                        xml:lang="la" xml:id="Gell_NA_XI_5_6">
                         <milestone unit="paragraph" n="6"/> Vetus autem quaestio et a multis
                         scriptoribus Graecis tractata, an quid et quantum Pyrronios et Academicos
                         philosophos intersit. Vtrique enim σκεπτικοί, ἐφεκτικοί, ἀπορητικοί
@@ -42,7 +45,7 @@
                         ex omnibus rebus proinde visa dicunt fieri, quas φαντασίας appellant, non ut
                         rerum ipsarum natura est, sed ut adfectio animi corporisve est eorum, ad
                         quos ea visa perveniunt. </ab>
-                    
+
                     <ab type="translatio" xml:lang="fr" corresp="#Gell_NA_XI_5_6">
                         <milestone unit="paragraph" n="6"/> C'est une vieille question, qui a été
                         examinée par de nombreux auteurs grecs, de savoir en quoi et combien
@@ -54,9 +57,9 @@
                         ne sont pas selon la nature des choses elles-mêmes, mais selon l'affection
                         de l'esprit et du corps de ceux à qui ces images apparaissent. </ab>
                 </div>
-                
+
             </div>
-            
+
         </body>
     </text>
 </TEI>
