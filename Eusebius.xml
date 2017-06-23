@@ -1,11 +1,15 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xml:id="Preparatio_Evangelicae">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xml:id="Preparatio_Evangelicae" xml:space="preserve">
     <teiHeader>
         <fileDesc>
             <titleStmt>
 
-                <title key="Praeparationis Evangelicae" ref="urn:cts:greekLit:tlg2018.tlg001">Preparatio Evangelica</title>
-                <author key="Eusebius Caesariensis (0260?-0340?)" ref="urn:cite:perseus:author.603">Eusebius Caesariensis</author>
+                <title key="Praeparationis Evangelicae" ref="urn:cts:greekLit:tlg2018.tlg001"
+                    >Preparatio Evangelica</title>
+                <author key="Eusebius Caesariensis (0260?-0340?)" ref="urn:cite:perseus:author.603"
+                    >Eusebius Caesariensis</author>
             </titleStmt>
             <publicationStmt>
                 <publisher>Ecole Normale Supérieure de Lyon</publisher>
@@ -30,7 +34,8 @@
                 <div type="chapitre" n="7">
                     <q type="fragmentum" xml:lang="grc" source="#Numenius" n="26">
                         <bibl>F26 des Places</bibl>
-                        <ab type="testimonium" xml:id="T1_Lacydes" n="1" corresp="#Lacydes" ana="#memoria #adoxastôs" xml:lang="grc">
+                        <ab type="testimonium" xml:id="T1_Lacydes" n="1" corresp="#Lacydes"
+                            ana="#memoria #adoxastôs" xml:lang="grc">
                             <bibl>T3 Mette - l. 57-61</bibl>
                             <milestone unit="paragraph" n="9"/> οἱ δ’ ὑπολαβόντες τὰς προσβολὰς
                             ἐκείνου αὐτοί γε ᾤοντο ὑπ’ αὐτοῦ παίζεσθαι, ἐπεὶ σοφῷ γε ὄντι δεδόχθαι
@@ -61,13 +66,15 @@
                                 attribue cependant le titre et les index à Eusèbe</note> -->
                     <q type="fragmentum" xml:lang="grc" source="#Aristocles" n="4">
                         <bibl>F4 Chiesara</bibl>
-                        <ab type="testimonium" xml:id="T4_Pyrrho" n="4" corresp="#Pyrrho" ana="#methodus #adoxastôs #ou_mallon #ataraxia" xml:lang="grc">
+                        <ab type="testimonium" xml:id="T4_Pyrrho" n="4" corresp="#Pyrrho"
+                            ana="#methodus #adoxastôs #ou_mallon #ataraxia" xml:lang="grc">
                             <bibl>T53 Decleva Caizzi</bibl>
                             <milestone unit="paragraph" n="1"/> Ἀναγκαίως δ’ ἔχει πρὸ παντὸς
                             διασκέψασθαι περὶ τῆς ἡμῶν αὐτῶν γνώσεως· εἰ γὰρ αὐτοὶ μηδὲν πεφύκαμεν
                             γνωρίζειν, οὐδὲν ἔτι δεῖ περὶ τῶν ἄλλων σκοπεῖν. Ἐγένοντο μὲν οὖν καὶ
                             τῶν πάλαι τινὲς οἱ ἀφέντες τήνδε τὴν φωνήν, οἷς ἀντείρηκεν
-                                <persName>Ἀριστοτέλης</persName>.<q type="fragmentum" source="#Timon" xml:id="F1_Timon" n="1">
+                                <persName>Ἀριστοτέλης</persName>.<q type="fragmentum"
+                                source="#Timon" xml:id="F1_Timon" n="1">
                                 <bibl>T53 Decleva Caizzi - partim</bibl>
                                 <milestone unit="paragraph" n="2"/> Ἴσχυσε μέντοι τοιαῦτα λέγων καὶ
                                     <persName>Πύρρων</persName> ὁ Ἠλεῖος. Ἀλλ’ αὐτὸς μὲν οὐδὲν ἐν
@@ -82,45 +89,51 @@
                                     <milestone unit="paragraph" n="4"/> Διὰ τοῦτο οὖν μηδὲ πιστεύειν
                                     αὐταῖς δεῖν, ἀλλ’ ἀδοξάστους καὶ ἀκλινεῖς καὶ ἀκραδάντους εἶναι,
                                     περὶ ἑνὸς ἑκάστου λέγοντας, ὅτι οὐ μᾶλλον ἔστιν ἢ οὐκ ἔστιν, ἢ
-                                    καὶ ἔστι καὶ οὐκ ἔστιν, ἢ οὔτε ἔστιν, οὔτ’ οὐκ ἔστιν. <milestone unit="paragraph" n="5"/> Τοῖς μέντοι γε διακειμένοις οὕτω
+                                    καὶ ἔστι καὶ οὐκ ἔστιν, ἢ οὔτε ἔστιν, οὔτ’ οὐκ ἔστιν. <milestone
+                                        unit="paragraph" n="5"/> Τοῖς μέντοι γε διακειμένοις οὕτω
                                     περιέσεσθαι <persName>Τίμων</persName> φησὶ πρῶτον μὲν ἀφασίαν,
                                     ἔπειτα δ’ ἀταραξίαν</quote>
-                            </q>, <q source="#Aenesidemus" type="fragmentum" xml:id="F3_Aenesidemus" n="3">
+                            </q>, <q source="#Aenesidemus" type="fragmentum" xml:id="F3_Aenesidemus"
+                                n="3">
                                 <persName>Αἰνησίδημος</persName> δὲ ἡδονήν.</q>
                         </ab>
-                  
-
-                    <p>(...)</p>
-                    <ab type="testimonium" xml:lang="grc" xml:id="T10_Aenesidemus" n="10" ana="#modi_decem #adoxastôs" corresp="#Aenesidemus">
-                        <bibl>B18 Polito</bibl>
-                        <milestone unit="paragraph" n="11"/>ὁπόταν γε μὴν
-                            <persName>Αἰνησίδημος</persName> ἐν τῇ <title>Ὑποτυπώσει</title> τοὺς
-                        ἐννέα διεξίῃ τρόπους (κατὰ τοσούτους γὰρ ἀποφαίνειν ἄδηλα τὰ πράγματα
-                        πεπείραται), πότερον αὐτὸν φῶμεν εἰδότα λέγειν αὐτοὺς ἢ ἀγνοοῦντα; φησὶ γὰρ
-                        ὅτι τὰ ζῷα διαφέρει καὶ ἡμεῖς αὐτοὶ καὶ αἱ πόλεις καὶ οἱ βίοι καὶ τὰ ἔθη καὶ
-                        οἱ νόμοι· καὶ τὰς αἰσθήσεις δέ φησιν ἡμῶν ἀσθενεῖς &#xA0;εἶναι καὶ πολλὰ τὰ
-                        ἔξωθεν λυμαινόμενα τὴν γνῶσιν, ἀποστήματα καὶ μεγέθη καὶ κινήσεις· ἔτι δὲ τὸ
-                        μὴ ὁμοίως διακεῖσθαι νέους καὶ πρεσβυτέρους καὶ ἐγρηγορότας καὶ κοιμωμένους
-                        καὶ ὑγιαίνοντας καὶ νοσοῦντας· οὐδενός τε <milestone unit="paragraph" n="12"/>ἡμᾶς ἁπλοῦ καὶ ἀκραιφνοῦς ἀντιλαμβάνεσθαι· πάντα γὰρ εἶναι συγκεχυμένα καὶ
-                        πρός τι λεγόμενα. ταῦτα δή, φημί, καὶ τὰ τοιαῦτα κομψολογοῦντα αὐτὸν ἡδέως
-                        ἄν τις ἤρετο, πότερον εὖ εἰδὼς λέγοι διότι τὰ πράγματα τοῦτον ἔχει τὸν
-                        τρόπον ἢ ἀγνοῶν· εἰ μὲν γὰρ οὐκ ᾔδει, πῶς ἂν ἡμεῖς αὐτῷ πιστεύοιμεν; εἰ δ’
-                        ἐγίνωσκε, κομιδῇ τις ἦν ἠλίθιος ἅμα μὲν ἄδηλα πάντα ἀποφαινόμενος,
-                            &#xA0;<milestone unit="paragraph" n="13"/>&#xA0;ἅμα δὲ τοσαῦτα λέγων
-                        εἰδέναι. καὶ μὴν ὁπότε γε τὰ τοιαῦτα διεξίοιεν, οὐδὲν ἀλλ’ ἢ ἐπαγωγήν τινα
-                        λέγουσι, δεικνύντες ὁποῖ’ ἄττα εἴη τὰ φαινόμενα καὶ τὰ καθ’ ἕκαστα· τὸ δὲ
-                        τοιοῦτο καὶ ἔστι καὶ λέγεται πίστις. εἰ μὲν οὖν αὐτῇ συγκατατίθενται, δῆλον
-                        ὅτι δοξάζουσιν· εἰ δ’ οὐ πιστεύουσιν, οὐδ’ ἂν <milestone unit="paragraph" n="14"/>&#xA0;ἡμεῖς προσέχειν αὐτοῖς βουληθείημεν</ab>
-                    <p>(...)</p>
-                    <ab type="testimonium" xml:lang="grc" xml:id="T6_Pyrrho" n="6" corresp="#Pyrrho" ana="#ataraxia #apatheia">
-                        <bibl>T. 58 Decleva Caizzi</bibl>
-                        <milestone unit="paragraph" n="18"/>(....)ἐνθυμεῖσθαι μέντοι χρὴ καὶ ταῦτα
-                        γὰρ ἂν γένοιτο πολίτης ἢ δικαστὴς ἢ σύμβουλος ἢ φίλος ἢ ἁπλῶς εἰπεῖν
-                        ἄνθρωπος ὅ γε τοιοῦτος; ἢ τί τῶν κακῶν οὐ τολμήσειεν ἂν ὁ μηδὲν ὡς ἀληθῶς
-                        οἰόμενος εἶναι κακὸν ἢ αἰσχρὸν ἢ δίκαιον ἢ ἄδικον; οὐδὲ γὰρ ἐκεῖνο φαίη τις
-                        ἄν, ὅτι τοὺς νόμους δεδοίκασι καὶ τὰς τιμωρίας οἱ τοιοῦτοι· πῶς γὰρ οἵ
-                            <milestone unit="paragraph" n="19"/> γε ἀπαθεῖς καὶ ἀτάραχοι, καθάπερ
-                        αὐτοί φασιν, ὄντες; </ab>
+                        <p>(...)</p>
+                        <ab type="testimonium" xml:lang="grc" xml:id="T10_Aenesidemus" n="10"
+                            ana="#modi_decem #adoxastôs" corresp="#Aenesidemus">
+                            <bibl>B18 Polito</bibl>
+                            <milestone unit="paragraph" n="11"/>ὁπόταν γε μὴν
+                                <persName>Αἰνησίδημος</persName> ἐν τῇ <title>Ὑποτυπώσει</title>
+                            τοὺς ἐννέα διεξίῃ τρόπους (κατὰ τοσούτους γὰρ ἀποφαίνειν ἄδηλα τὰ
+                            πράγματα πεπείραται), πότερον αὐτὸν φῶμεν εἰδότα λέγειν αὐτοὺς ἢ
+                            ἀγνοοῦντα; φησὶ γὰρ ὅτι τὰ ζῷα διαφέρει καὶ ἡμεῖς αὐτοὶ καὶ αἱ πόλεις
+                            καὶ οἱ βίοι καὶ τὰ ἔθη καὶ οἱ νόμοι· καὶ τὰς αἰσθήσεις δέ φησιν ἡμῶν
+                            ἀσθενεῖς &#xA0;εἶναι καὶ πολλὰ τὰ ἔξωθεν λυμαινόμενα τὴν γνῶσιν,
+                            ἀποστήματα καὶ μεγέθη καὶ κινήσεις· ἔτι δὲ τὸ μὴ ὁμοίως διακεῖσθαι νέους
+                            καὶ πρεσβυτέρους καὶ ἐγρηγορότας καὶ κοιμωμένους καὶ ὑγιαίνοντας καὶ
+                            νοσοῦντας· οὐδενός τε <milestone unit="paragraph" n="12"/>ἡμᾶς ἁπλοῦ καὶ
+                            ἀκραιφνοῦς ἀντιλαμβάνεσθαι· πάντα γὰρ εἶναι συγκεχυμένα καὶ πρός τι
+                            λεγόμενα. ταῦτα δή, φημί, καὶ τὰ τοιαῦτα κομψολογοῦντα αὐτὸν ἡδέως ἄν
+                            τις ἤρετο, πότερον εὖ εἰδὼς λέγοι διότι τὰ πράγματα τοῦτον ἔχει τὸν
+                            τρόπον ἢ ἀγνοῶν· εἰ μὲν γὰρ οὐκ ᾔδει, πῶς ἂν ἡμεῖς αὐτῷ πιστεύοιμεν; εἰ
+                            δ’ ἐγίνωσκε, κομιδῇ τις ἦν ἠλίθιος ἅμα μὲν ἄδηλα πάντα ἀποφαινόμενος,
+                                &#xA0;<milestone unit="paragraph" n="13"/>&#xA0;ἅμα δὲ τοσαῦτα λέγων
+                            εἰδέναι. καὶ μὴν ὁπότε γε τὰ τοιαῦτα διεξίοιεν, οὐδὲν ἀλλ’ ἢ ἐπαγωγήν
+                            τινα λέγουσι, δεικνύντες ὁποῖ’ ἄττα εἴη τὰ φαινόμενα καὶ τὰ καθ’ ἕκαστα·
+                            τὸ δὲ τοιοῦτο καὶ ἔστι καὶ λέγεται πίστις. εἰ μὲν οὖν αὐτῇ
+                            συγκατατίθενται, δῆλον ὅτι δοξάζουσιν· εἰ δ’ οὐ πιστεύουσιν, οὐδ’ ἂν
+                                <milestone unit="paragraph" n="14"/>&#xA0;ἡμεῖς προσέχειν αὐτοῖς
+                            βουληθείημεν</ab>
+                        <p>(...)</p>
+                        <ab type="testimonium" xml:lang="grc" xml:id="T6_Pyrrho" n="6"
+                            corresp="#Pyrrho" ana="#ataraxia #apatheia">
+                            <bibl>T. 58 Decleva Caizzi</bibl>
+                            <milestone unit="paragraph" n="18"/>(....)ἐνθυμεῖσθαι μέντοι χρὴ καὶ
+                            ταῦτα γὰρ ἂν γένοιτο πολίτης ἢ δικαστὴς ἢ σύμβουλος ἢ φίλος ἢ ἁπλῶς
+                            εἰπεῖν ἄνθρωπος ὅ γε τοιοῦτος; ἢ τί τῶν κακῶν οὐ τολμήσειεν ἂν ὁ μηδὲν
+                            ὡς ἀληθῶς οἰόμενος εἶναι κακὸν ἢ αἰσχρὸν ἢ δίκαιον ἢ ἄδικον; οὐδὲ γὰρ
+                            ἐκεῖνο φαίη τις ἄν, ὅτι τοὺς νόμους δεδοίκασι καὶ τὰς τιμωρίας οἱ
+                            τοιοῦτοι· πῶς γὰρ οἵ <milestone unit="paragraph" n="19"/> γε ἀπαθεῖς καὶ
+                            ἀτάραχοι, καθάπερ αὐτοί φασιν, ὄντες; </ab>
                     </q>
 
                     <q type="translatio" source="#Aristocles" n="4">
@@ -128,7 +141,8 @@
                             <milestone unit="paragraph" n="1"/>Avant toute chose, il est nécessaire
                             d’examiner attentivement notre propre connaissance, car si au contraire
                             par nature nous ne connaissons rien, alors il ne sert à rien de faire
-                            des recherches sur les autres choses. <milestone unit="paragraph" n="2"/>Or, effectivement chez les Anciens aussi certains l’ont affirmé,
+                            des recherches sur les autres choses. <milestone unit="paragraph" n="2"
+                            />Or, effectivement chez les Anciens aussi certains l’ont affirmé,
                             contre lesquels <persName>Aristote</persName> a produit une
                                 réfutation.<q source="#Timon" corresp="#F1_Timon" n="1">
                                 <persName>Pyrrhon</persName> d’Élis a lui aussi tenu avec force de
@@ -143,18 +157,20 @@
                                     révélait qu’en ce qui concerne les choses, celles-ci sont
                                     également indifférenciées, instables et indéterminées, et que
                                     par conséquent ni nos sensations, ni nos opinions ne disent la
-                                    vérité ni ne nous trompent. <milestone unit="paragraph" n="4"/>C’est la raison pour laquelle il ne faut pas leur accorder
+                                    vérité ni ne nous trompent. <milestone unit="paragraph" n="4"
+                                    />C’est la raison pour laquelle il ne faut pas leur accorder
                                     notre confiance, mais être sans opinion, sans inclination,
                                     inébranlables, et dire de chaque chose pas davantage «&#xA0;elle
                                     est&#xA0;» que «&#xA0;elle n’est pas&#xA0;», ou «&#xA0;à la fois
                                     elle est et elle n’est pas&#xA0;», ou «&#xA0;elle n'est pas et
-                                    elle n’est pas n’est pas&#xA0;».<milestone unit="paragraph" n="5"/>Pour ceux qui se sont disposés de cette façon,
+                                    elle n’est pas n’est pas&#xA0;».<milestone unit="paragraph"
+                                        n="5"/>Pour ceux qui se sont disposés de cette façon,
                                         <persName>Timon</persName> dit qu’il en résultera d’abord
                                     l’aphasie, ensuite l’ataraxie</quote>
                             </q>
                             <q corresp="#F3_Aenesidemus"> et pour <persName>Énésidème</persName>
                                 <quote>le plaisir. </quote>
-              </q>
+                            </q>
                         </ab>
                         <p>(...)</p>
                         <ab type="translatio" xml:lang="fr" corresp="#T10_Aenesidemus">
@@ -169,7 +185,8 @@
                             mouvements, que les dispositions ne sont pas les mêmes dans la jeunesse
                             et la vieillesse, la veille et le sommeil, la santé et la maladie ; que
                             nous ne percevons rien de simple et de pur ; car tout ce qu’on dit ne
-                            l’est que relativement et confusément.<milestone unit="paragraph" n="12"/> Devant ces subtilités, dis-je, et d'autres du même genre, on se
+                            l’est que relativement et confusément.<milestone unit="paragraph" n="12"
+                            /> Devant ces subtilités, dis-je, et d'autres du même genre, on se
                             plairait à demander si on prête aux choses un tel mode en connaissance
                             de cause ou par ignorance ; car s'il ne le savait pas, comment nous
                             fierions-nous à lui? Et s'il avait la connaissance, il apparaîtrait
@@ -179,7 +196,8 @@
                             d’induction, en montrant ce que sont les phénomènes, c’est-à-dire les
                             cas particuliers ; or il s’agit là de ce qui est et de ce qu’on appelle
                             la confiance ; donc s’ils donnent leur assentiment à la confiance, il
-                            est clair qu'ils opinent ; et s'ils n’ont pas confiance,<milestone unit="paragraph" n="14"/> nous leur refuserons notre attention nous
+                            est clair qu'ils opinent ; et s'ils n’ont pas confiance,<milestone
+                                unit="paragraph" n="14"/> nous leur refuserons notre attention nous
                             leur refuserons notre attention </ab>
                         <p>(...)</p>
                         <ab type="translatio" xml:lang="fr" corresp="#T6_Pyrrho">
