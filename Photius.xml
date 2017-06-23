@@ -1,10 +1,13 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xml:id="Bibliotheca">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xml:id="Bibliotheca" xml:space="preserve">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title key="urn:cts:greekLit:tlg4040.tlg001">Bibliotheca</title>
-                <author key=" Photius (?820-?891)" ref="urn:cite:perseus:author.1120">Photius</author>
+                <author key=" Photius (?820-?891)" ref="urn:cite:perseus:author.1120"
+                    >Photius</author>
                 <editor key="Marchand, Stéphane">Stéphane Marchand</editor>
             </titleStmt>
             <publicationStmt>
@@ -31,18 +34,20 @@
             <div type="livre" n="212">
                 <head xml:lang="grc">Codex 212</head>
                 <div type="page" n="1">
-                    <ab type="testimonium" ana="#differentia_inter_academicos_et_pyrrhonios #katalèpsis #ou_mallon #aporia" corresp="#Aenesidemus" xml:id="T1_Aenesidemus" n="1">
+                    <ab type="testimonium"
+                        ana="#differentia_inter_academicos_et_pyrrhonios #katalèpsis #ou_mallon #aporia"
+                        corresp="#Aenesidemus" xml:id="T1_Aenesidemus" n="1">
                         <bibl>B1 Polito</bibl>
                         <milestone unit="paragraph" n="169b18"/>Ἀνεγνώσθη
-                        <persName>Αἰνησιδήμου</persName>
+                            <persName>Αἰνησιδήμου</persName>
                         <title>Πυρρωνίων λόγοι</title> ηʹ. Ἡ μὲν ὅλη πρόθεσις τοῦ βιβλίου βεβαιῶσαι
                         ὅτι οὐδὲν βέβαιον εἰς κατάληψιν, οὔτε δι’ αἰσθήσεως, ἀλλ’ οὔτε μὴν διὰ
                         νοήσεως· διὸ οὔτε τοὺς Πυρρωνίους οὔτε τοὺς ἄλλους εἰδέναι τὴν ἐν τοῖς οὖσιν
                         ἀλήθειαν, ἀλλὰ τοὺς μὲν κατὰ ἄλλην αἵρεσιν φιλοσοφοῦντας ἀγνοεῖν τε τἄλλα
                         καὶ ἑαυτοὺς μάτην κατατρίβειν καὶ δαπανᾶν συνεχέσιν ἀνίαις, καὶ αὐτὸ δὲ
                         τοῦτο ἀγνοεῖν, ὅτι οὐδὲν αὐτοῖς τῶν δοξάντων εἰς κατάληψιν ἐληλυθέναι
-                        κατείληπται.<milestone unit="paragraph" n="169b27"/> Ὁ δὲ κατὰ
-                        <persName>Πύρρωνα</persName> φιλοσοφῶν τά τε ἄλλα εὐδαιμονεῖ, καὶ σοφός
+                            κατείληπται.<milestone unit="paragraph" n="169b27"/> Ὁ δὲ κατὰ
+                            <persName>Πύρρωνα</persName> φιλοσοφῶν τά τε ἄλλα εὐδαιμονεῖ, καὶ σοφός
                         ἐστι τοῦ μάλιστα εἰδέναι ὅτι οὐδὲν αὐτῷ βεβαίως κατείληπται· ἃ δὲ καὶ
                         εἰδείη, οὐδὲν μᾶλλον αὐτῶν τῇ καταφάσει ἢ τῇ ἀποφάσει γενναῖός ἐστι
                         συγκατατίθεσθαι. <milestone unit="paragraph" n="169b31"/>Ἡ μὲν ὅλη τοῦ
@@ -52,36 +57,40 @@
                         λαμπρῷ ἐκ προγόνων καὶ πολιτικὰς ἀρχὰς οὐ τὰς τυχούσας μετιόντι. </ab>
                     <ab type="translatio" xml:lang="fr" corresp="#T1_Aenesidemus">
                         <milestone unit="paragraph" n="169b18"/>J'ai lu les huit livres des
-                        <title>Arguments des Pyrrhoniens</title>
-                        d'<persName>Enésidème</persName>. Le projet général du livre est
+                            <title>Arguments des Pyrrhoniens</title>
+                            d'<persName>Enésidème</persName>. Le projet général du livre est
                         d'assurer que rien n'est sûr pour la compréhension, ni par l'intermédiaire
                         de la sensation, et encore moins par l'intermédiaire de l'intellect. Pour
                         cette raison ni les Pyrrhoniens ni les autres ne connaissent la vérité qui
                         est dans les êtres, mais ceux qui philosophent selon une autre école
                         ignorent tout et ils s'épuisent eux-mêmes en vain et se consument par des
                         ennuis perpétuels, ils ignorent en outre cela même, que rien de ce qu’ils
-                        croyaient avoir été compris n'a été compris. <milestone unit="paragraph" n="169b27"/>&#xA0; Mais celui qui philosophe selon
-                        <persName>Pyrrhon</persName> est heureux en toute chose et il est sage
+                        croyaient avoir été compris n'a été compris. <milestone unit="paragraph"
+                            n="169b27"/>&#xA0; Mais celui qui philosophe selon
+                            <persName>Pyrrhon</persName> est heureux en toute chose et il est sage
                         d'avoir conscience avant tout que rien n'est compris par lui de manière
                         assurée ; en outre, quant aux choses qu'il saurait, il est noble qu’il ne
                         donne pas davantage son assentiment à leur affirmation qu’à leur négation.
-                        <milestone unit="paragraph" n="169b31"/>&#xA0; Voilà ce que recherche la
+                            <milestone unit="paragraph" n="169b31"/>&#xA0; Voilà ce que recherche la
                         conception générale du livre. <persName>Enésidème</persName> a écrit ces
-                        <title>Arguments</title> en les dédiant à un membre de l’Académie,
-                        <persName>Lucius Tubéron</persName>, d'origine romaine, homme brillant
+                            <title>Arguments</title> en les dédiant à un membre de l’Académie,
+                            <persName>Lucius Tubéron</persName>, d'origine romaine, homme brillant
                         par la réputation de ses ancêtres et aspirant à des pouvoirs politiques qui
                         ne sont pas les moindres. </ab>
                 </div>
                 <div type="page" n="2">
-                    <ab type="testimonium" ana="#differentia_inter_academicos_et_pyrrhonios #katalèpsis #ou_mallon #aporia" corresp="#Aenesidemus" xml:id="T2_Aenesidemus" n="2">
+                    <ab type="testimonium"
+                        ana="#differentia_inter_academicos_et_pyrrhonios #katalèpsis #ou_mallon #aporia"
+                        corresp="#Aenesidemus" xml:id="T2_Aenesidemus" n="2">
                         <bibl>B2 Polito</bibl>
                         <milestone unit="paragraph" n="169b36"/>&#xA0;Ἐν μὲν οὖν τῷ πρώτῳ λόγῳ
                         διαφορὰν τῶν τε <persName>Πυρρωνίων</persName> καὶ τῶν
-                        <persName>Ἀκαδημαϊκῶν</persName> εἰσάγων μικροῦ γλώσσῃ αὐτῇ ταῦτά φησιν,
+                            <persName>Ἀκαδημαϊκῶν</persName> εἰσάγων μικροῦ γλώσσῃ αὐτῇ ταῦτά φησιν,
                         ὡς οἱ μὲν ἀπὸ τῆς Ἀκαδημίας δογματικοί τέ εἰσι καὶ τὰ μὲν τίθενται
                         ἀδιστάκτως, τὰ δὲ αἴρουσιν ἀναμφιβόλως, οἱ δ’ ἀπὸ
-                        <persName>Πύρρωνος</persName> ἀπορητικοί τέ εἰσι καὶ παντὸς ἀπολελυμένοι
-                        δόγματος, καὶ οὐδεὶς αὐτῶν τὸ παράπαν οὔτε ἀκατάληπτα πάντα<milestone unit="paragraph" n="170a"/>&#xA0; εἴρηκεν οὔτε καταληπτά, ἀλλ’ οὐδὲν
+                            <persName>Πύρρωνος</persName> ἀπορητικοί τέ εἰσι καὶ παντὸς ἀπολελυμένοι
+                        δόγματος, καὶ οὐδεὶς αὐτῶν τὸ παράπαν οὔτε ἀκατάληπτα πάντα<milestone
+                            unit="paragraph" n="170a"/>&#xA0; εἴρηκεν οὔτε καταληπτά, ἀλλ’ οὐδὲν
                         μᾶλλον τοιάδε ἢ τοιάδε, ἢ τότε μὲν τοῖα τότε δὲ οὐ τοῖα, ἢ ᾧ μὲν τοιαῦτα ᾧ
                         δὲ οὐ τοιαῦτα ᾧ δ’ οὐδ’ ὅλως ὄντα· οὐδὲ μὴν ἐφικτὰ πάντα κοινῶς ἤ τινα
                         τούτων ἢ οὐκ ἐφικτά, ἀλλ’ οὐδὲν μᾶλλον ἐφικτὰ ἢ οὐκ ἐφικτά, ἢ τότε μὲν
@@ -89,8 +98,8 @@
                         ψεῦδος, οὐδὲ πιθανὸν οὐδ’ ἀπίθανον, οὐδ’ ὂν οὐδὲ μὴ ὄν, ἀλλὰ τὸ αὐτὸ ὡς
                         εἰπεῖν οὐ μᾶλλον ἀληθὲς ἢ ψεῦδος, ἢ πιθανὸν ἢ ἀπίθανον, ἢ ὂν ἢ οὐκ ὄν, ἢ
                         τότε μὲν τοῖον τότε δὲ τοῖον, ἢ ᾧ μὲν τοιονδὶ ᾧ δὲ καὶ οὐ τοιονδί.
-                        <milestone unit="paragraph" n="170a12"/>Καθόλου γὰρ οὐδὲν ὁ
-                        <persName>Πυρρώνιος</persName> ὁρίζει, ἀλλ’οὐδὲ αὐτὸ τοῦτο, ὅτι οὐδὲν
+                            <milestone unit="paragraph" n="170a12"/>Καθόλου γὰρ οὐδὲν ὁ
+                            <persName>Πυρρώνιος</persName> ὁρίζει, ἀλλ’οὐδὲ αὐτὸ τοῦτο, ὅτι οὐδὲν
                         διορίζεται· ἀλλ’ οὐκ ἔχοντες, φησίν, ὅπως τὸ νοούμενον ἐκλαλήσωμεν, οὕτω
                         φράζομεν. Οἱ δ’ ἀπὸ τῆς <persName>Ἀκαδημίας</persName>, φησί, μάλιστα τῆς
                         νῦν, καὶ στωϊκαῖς συμφέρονται ἐνίοτε δόξαις, καὶ εἰχρὴ τἀληθὲς εἰπεῖν,
@@ -102,9 +111,10 @@
                         ceux qui suivent l'<persName>Académie</persName> sont dogmatiques,
                         c'est-à-dire qu'ils affirment certaines choses sans aucun doute et en
                         refusent d'autres sans ambiguïté ; mais ceux qui suivent
-                        <persName>Pyrrhon</persName> sont aporétiques en ce qu'ils sont détachés
+                            <persName>Pyrrhon</persName> sont aporétiques en ce qu'ils sont détachés
                         de toute opinion, et personne parmi eux n'a dit en aucune manière ni que
-                        toutes les choses sont incompréhensibles,<milestone unit="paragraph" n="170a"/> ni que toutes sont compréhensibles, mais qu'elles ne sont pas
+                        toutes les choses sont incompréhensibles,<milestone unit="paragraph"
+                            n="170a"/> ni que toutes sont compréhensibles, mais qu'elles ne sont pas
                         davantage telles que telles, ou parfois telles, mais parfois autrement, ou
                         pour quelqu'un elles sont ainsi, mais pour quelqu'un d'autre non, et pour un
                         troisième elles n’existent pas du tout ; en outre [personne parmi eux n'a
@@ -116,16 +126,18 @@
                         mais la même chose n'est, pour ainsi dire, pas davantage vraie que fausse,
                         ou plausible que non-plausible, ou existante que non-existante, ou parfois
                         ainsi, mais parfois autrement, ou pour l'un ainsi, mais pour l'autre non.
-                        <milestone unit="paragraph" n="170a12"/>&#xA0;Car en général le
-                        <persName>Pyrrhonien</persName> ne détermine rien, pas même cela, que
+                            <milestone unit="paragraph" n="170a12"/>&#xA0;Car en général le
+                            <persName>Pyrrhonien</persName> ne détermine rien, pas même cela, que
                         rien n'est déterminé ; mais, dit-il, n'ayant pas moyen d'exprimer ce que
                         nous avons conçu, c'est ainsi que nous parlons. Quant à ceux qui suivent
-                        l'<persName>Académie</persName>, dit-il, surtout celle d'aujourd'hui,
+                            l'<persName>Académie</persName>, dit-il, surtout celle d'aujourd'hui,
                         ils sont parfois en accord avec des opinions stoïciennes, et pour dire vrai,
                         ils ressemblent à des stoïciens affrontant des stoïciens. </ab>
                 </div>
                 <div type="page" n="3">
-                    <ab type="testimonium" ana=" #differentia_inter_academicos_et_pyrrhonios #katalèpsis #aporia" corresp="#Aenesidemus" xml:id="T3_Aenesidemus" n="3">
+                    <ab type="testimonium"
+                        ana=" #differentia_inter_academicos_et_pyrrhonios #katalèpsis #aporia"
+                        corresp="#Aenesidemus" xml:id="T3_Aenesidemus" n="3">
                         <bibl>B3 Polito</bibl>
                         <milestone unit="paragraph" n="170a18"/>Δεύτερον περὶ πολλῶν δογματίζουσιν.
                         Ἀρετήν τε γὰρ καὶ ἀφροσύνην εἰσάγουσι, καὶ ἀγαθὸν καὶ κακὸν ὑποτίθενται, καὶ
@@ -136,19 +148,19 @@
                         φησίν, ὁμοίας τὰς εὐθύνας τοῖς ἄλλοις φιλοσόφοις ὑπέχουσι, τὸ δὲ μέγιστον,
                         οἱ μὲν περὶ παντὸς τοῦ προτεθέντος διαποροῦντες τό τε σύστοιχον διατηροῦσι
                         καὶ ἑαυτοῖς οὐ μάχονται, οἱ δὲ μαχόμενοι ἑαυτοῖς οὐ συνίσασι· τὸ γὰρ ἅμα
-                        τιθέναι τι καὶ αἴρειν ἀναμφιβόλως, ἅμα τε φάναι κοινῶς ὑπάρχειν
-                        καταληπτά, μάχην ὁμολογουμένην εἰσάγει, ἐπεὶ πῶς οἷόν τε γινώσκοντα τόδε μὲν
-                        εἶναι ἀληθὲς τόδε δὲ ψεῦδος ἔτι διαπορεῖν καὶ διστάσαι, καὶ οὐ σαφῶς τὸ μὲν
+                        τιθέναι τι καὶ αἴρειν ἀναμφιβόλως, ἅμα τε φάναι κοινῶς ὑπάρχειν καταληπτά,
+                        μάχην ὁμολογουμένην εἰσάγει, ἐπεὶ πῶς οἷόν τε γινώσκοντα τόδε μὲν εἶναι
+                        ἀληθὲς τόδε δὲ ψεῦδος ἔτι διαπορεῖν καὶ διστάσαι, καὶ οὐ σαφῶς τὸ μὲν
                         ἑλέσθαι τὸ δὲ περιστῆναι; Εἰ μὲν γὰρ ἀγνοεῖται ὅτι τόδε ἐστὶν ἀγαθὸν ἢ
                         κακόν, ἢ τόδε μὲν ἀληθὲς τόδε δὲ ψεῦδος, καὶ τόδε μὲν ὂν τόδε δὲ μὴ ὄν,
                         πάντως ὁμολογητέον ἕκαστον ἀκατάληπτον εἶναι· εἰ δ’ ἐναργῶς κατ’ αἴσθησιν ἢ
                         κατὰ νόησιν καταλαμβάνεται, καταληπτὸν ἕκαστον φατέον.&#xA0;Ταῦτα μὲν
                         ἀρχόμενος <title>τῶν λόγων</title> καὶ τοιαῦθ’ ἕτερα τὴν διαφορὰν τῶν
                         Πυρρωνίων καὶ Ἀκαδημαϊκῶν ὑποδεικνύς, ἀναγράφει ὁ Αἰνησίδημος ὁ ἐξ Αἰγῶν·
-                        ἐφεξῆς<milestone unit="paragraph" n="170b"/> &#xA0;δὲ κατὰ τὸν αὐτὸν
+                            ἐφεξῆς<milestone unit="paragraph" n="170b"/> &#xA0;δὲ κατὰ τὸν αὐτὸν
                         λόγον πρῶτον καὶ τὴν ὅλην ἀγωγὴν ὡς τύπῳ καὶ κεφαλαιωδῶς τῶν Πυρρωνίων
                         παραδίδωσι λόγων. </ab>
-                    
+
                     <ab type="translatio" xml:lang="fr" corresp="#T3_Aenesidemus">
                         <milestone unit="paragraph" n="170a18"/>&#xA0;&#xA0; En second lieu, ils
                         dogmatisent sur de nombreuses choses. En effet, ils introduisent la vertu et
@@ -167,10 +179,10 @@
                         général les choses sont compréhensibles, conduit à un conflit que tous
                         reconnaissent. Et comment, sachant que cette chose-ci est vraie et celle-là
                         est fausse, être encore capable de produire des apories et de douter, et ne
-                        pas clairement choisir l'une et se détourner de l'autre ? Car si l'on
-                        ignore que cette chose est bonne ou mauvaise, ou que celle-là est vraie mais
-                        que celle-ci est fausse, et que celle-ci est un être, mais que celle-là est
-                        un non-être, il faut absolument reconnaître que chacune de ces choses est
+                        pas clairement choisir l'une et se détourner de l'autre ? Car si l'on ignore
+                        que cette chose est bonne ou mauvaise, ou que celle-là est vraie mais que
+                        celle-ci est fausse, et que celle-ci est un être, mais que celle-là est un
+                        non-être, il faut absolument reconnaître que chacune de ces choses est
                         incompréhensible ; mais si chacune de ces choses est saisie avec évidence
                         soit par la sensation soit par la conception, il faut dire que chacune est
                         compréhensible. <milestone unit="paragraph" n="170b"/>&#xA0;Tels sont les
@@ -181,7 +193,9 @@
                         entier des arguments pyrrhoniens. </ab>
                 </div>
                 <div type="page" n="4">
-                    <ab type="testimonium" ana="#katalèpsis #ethica #physica #logica #causa #modi_octo #aporia" corresp="#Aenesidemus" xml:id="T4_Aenesidemus" n="4">
+                    <ab type="testimonium"
+                        ana="#katalèpsis #ethica #physica #logica #causa #modi_octo #aporia"
+                        corresp="#Aenesidemus" xml:id="T4_Aenesidemus" n="4">
                         <bibl>B8 Polito</bibl>
                         <milestone unit="paragraph" n="170b4"/> Ἐν δὲ τῷ βʹ κατὰ μέρος ἤδη ἀρχόμενος
                         ἐπεξιέναι τὰ ἐν κεφαλαίῳ εἰρημένα, περί τε ἀρχῶν καὶ αἰτίων διαλαμβάνει καὶ
@@ -193,8 +207,8 @@
                         <milestone unit="paragraph" n="170b13"/>Ἐν δὲ τῷ δʹ σημεῖα μὲν ὥσπερ τὰ
                         φανερά φαμεν τῶν ἀφανῶν, οὐδ’ ὅλως εἶναί φησιν, ἠπατῆσθαι δὲ κενῇ προσπαθείᾳ
                         τοὺς οἰομένους· ἐγείρει δὲ τὰς ἐξ ἔθους ἐφεξῆς ἀπορίας περί τε ὅλης τῆς
-                        φύσεως καὶ κόσμου καὶ θεῶν, οὐδὲν <supplied reason="omitted">τού</supplied> τῶν εἰς
-                        κατάληψιν πεσεῖν ἐντεινόμενος. <lb/>
+                        φύσεως καὶ κόσμου καὶ θεῶν, οὐδὲν <supplied reason="omitted">τού</supplied>
+                        τῶν εἰς κατάληψιν πεσεῖν ἐντεινόμενος. <lb/>
                         <milestone unit="paragraph" n="170b17"/>Προβάλλεται αὐτῷ καὶ ὁ εʹλόγος τὰς
                         κατὰ τῶν αἰτίων ἀπορητικὰς λαβάς, μηδὲν μὲν μηδενὸς αἴτιον ἐνδιδοὺς εἶναι,
                         ἠπατῆσθαι δὲ τοὺς αἰτιολογοῦντας φάσκων, καὶ τρόπους ἀριθμῶν καθ’οὓς οἴεται
@@ -213,11 +227,12 @@
                         ἀλλ’ ἁπλῶς οὐκ εἶναι τέλος τὸ πᾶσιν ὑμνούμενον.<lb/>
                         <!-- ici créer une nouvelle page, ce n'est plus un témoignage sur Enésidème -->
                         <milestone unit="paragraph" n="170b36"/>Οἱ μὲν οὖν τοῦ
-                        <persName>Αἰνησιδήμου</persName> λόγοι πρὸς τοιοῦτον ἀγῶνα κονίζονται·
+                            <persName>Αἰνησιδήμου</persName> λόγοι πρὸς τοιοῦτον ἀγῶνα κονίζονται·
                         ὅτι δὲ ματαιότης αὐτῶν καὶ πολλὴ λέσχη ἡ σπουδή,
-                        <persName>Πλάτωνί</persName> τε καὶ πολλοῖς ἄλλοις τῶν πρὸ ἡμῶν τὸν
+                            <persName>Πλάτωνί</persName> τε καὶ πολλοῖς ἄλλοις τῶν πρὸ ἡμῶν τὸν
                         ἔλεγχον ἔδοσαν· καὶ ὅτι μηδὲν εἰς δόγμα συντελεῖ, καὶ τοῦτο κατάδηλον, ὅπου
-                        γε καὶ τὰς ἐνούσας δογματικὰς θεωρίας ἐλαύνειν ἡμῶν τῆς διανοίας <milestone unit="paragraph" n="171a"/> ἐπεχείρησαν. Τοῖς μέντοι κατὰ διαλεκτικὴν
+                        γε καὶ τὰς ἐνούσας δογματικὰς θεωρίας ἐλαύνειν ἡμῶν τῆς διανοίας <milestone
+                            unit="paragraph" n="171a"/> ἐπεχείρησαν. Τοῖς μέντοι κατὰ διαλεκτικὴν
                         μελέτην πονουμένοις, ἂν μὴ τὸ ἀστήρικτον αὐτῶν τοῖς λογισμοῖς ἐνεδρεύῃ καὶ ἡ
                         κρίσις πρὸς ἀγχίνοιαν οὐ νενοθευμένη τὸ βιβλίον οὐκ ἄχρηστον.</ab>
                     <ab type="translatio" xml:lang="fr" corresp="#T4_Aenesidemus">
@@ -257,19 +272,20 @@
                         quiconque parmi ceux qui vivent selon la philosophie n'existe, mais que
                         cette fin célébrée par tous n’existe absolument pas.<lb/>
                         <milestone unit="paragraph" n="170b36"/>Les livres
-                        d'<persName>Enésidème</persName> se préparent donc à la lutte pour ce
+                            d'<persName>Enésidème</persName> se préparent donc à la lutte pour ce
                         combat : que leur zèle soit un vaste bavardage et de la vanité de leur part,
                         ils en ont donné la preuve à <persName>Platon</persName> et à de nombreux
                         autres [philosophes] avant nous ; et qu'il [sc. Enésidème] ne contribue en
                         rien à la doctrine, cela est évident, puisqu'ils entreprennent de chasser
-                        aussi les théories dogmatiques <milestone unit="paragraph" n="171a"/>présentes dans nos esprits. Néanmoins pour ceux qui s'exercent à la
+                        aussi les théories dogmatiques <milestone unit="paragraph" n="171a"
+                        />présentes dans nos esprits. Néanmoins pour ceux qui s'exercent à la
                         dialectique, pourvu que leur propre instabilité ne soit pas prise au piège
                         de ces raisonnements et que l'intelligence de leur jugement ne soit pas
                         corrompue, ce livre n'est pas inutile. </ab>
                 </div>
             </div>
-            
-            
+
+
         </body>
     </text>
 </TEI>
