@@ -1,11 +1,14 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML" xml:id="Stobaeus">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+   xmlns:svg="http://www.w3.org/2000/svg" xmlns:math="http://www.w3.org/1998/Math/MathML"
+   xml:id="Stobaeus" xml:space="preserve">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title key="Eclogarum physicarum et ethicarum" ref="urn:cts:greekLit:tlg2037.tlg001">Eclogarum</title>
+            <title key="Eclogarum physicarum et ethicarum" ref="urn:cts:greekLit:tlg2037.tlg001"
+               >Eclogarum</title>
             <author key=" Stobaeus" ref="urn:cite:perseus:author.1332">Stobaeus</author>
-            
+
             <editor key="Marchand, Stéphane">Stéphane Marchand</editor>
          </titleStmt>
          <publicationStmt>
@@ -30,10 +33,11 @@
    </teiHeader>
    <text>
       <body>
-         
+
          <div type="livre" n="2">
             <div type="chapitre" n="6">
-               <ab type="testimonium" xml:id="T1_Philo_Larissaeus" n="1" xml:lang="grc" corresp="#Philo_Larissaeus" ana="#ethica #ars_vitae">
+               <ab type="testimonium" xml:id="T1_Philo_Larissaeus" n="1" xml:lang="grc"
+                  corresp="#Philo_Larissaeus" ana="#ethica #ars_vitae">
                   <bibl>F2 Mette</bibl>
                   <listBibl>
                      <bibl>F22 Brittain</bibl>
@@ -42,7 +46,7 @@
                   <milestone unit="paragraph" n="2"/>
                   <milestone unit="page_Meineke" n="[p.14 M]"/>
                   <persName>Φίλων</persName> ἐγένετο Λαρισαῖος, φιλόσοφος Ἀκαδημιακός, ἀκουστὴς
-                  <persName>Κλειτομάχου</persName>, τῶν ἱκανὴν εἰσενεγκαμένων προκοπὴν ἐν τοῖς
+                     <persName>Κλειτομάχου</persName>, τῶν ἱκανὴν εἰσενεγκαμένων προκοπὴν ἐν τοῖς
                   λοιποῖς. Οὗτος ὁ <persName>Φίλων</persName> τά τε ἄλλα πεπραγμάτευται δεξιῶς καὶ
                   διαίρεσιν τοῦ κατὰ φιλοσοφίαν λόγου, ἣν ἐγὼ προχειριοῦμαι [περὶ ἧς ὁ λόγος].<lb/>
                   Ἐοικέναι δή φησι τὸν φιλόσοφον ἰατρῷ. Καθάπερ οὖν ἔργον ἰατροῦ πρῶτον μὲν πεῖσαι
@@ -60,7 +64,8 @@
                   δοξῶν, δι’ ἃς τὰ κριτήρια νοσοποιεῖται τῆς ψυχῆς, προσάγει λόγον, τὸ δὲ τῶν ὑγιῶς
                   ἐχουσῶν ἐνθετικόν. Δεύτερος οὖν ὁ περὶ ἀγαθῶν καὶ κακῶν τόπος, ἐφ’ ὃν καὶ δι’ὃν ἡ
                   προτροπή.<lb/> Τῷ δὲ τρίτῳ πάλιν ὁ τρίτος ἀναλογήσει. Καὶ γὰρ τῇ ἰατρικῇ σπουδὴ
-                  πᾶσα περὶ τὸ τέλος, τοῦτο δ’ ἦν ὑγίεια, καὶ τῇ φιλοσοφίᾳ περὶ τὴν<milestone unit="page_Meineke" n="[p.15 M]"/> εὐδαιμονίαν. Συνάπτεται δὲ τῷ περὶ τελῶν
+                  πᾶσα περὶ τὸ τέλος, τοῦτο δ’ ἦν ὑγίεια, καὶ τῇ φιλοσοφίᾳ περὶ τὴν<milestone
+                     unit="page_Meineke" n="[p.15 M]"/> εὐδαιμονίαν. Συνάπτεται δὲ τῷ περὶ τελῶν
                   λόγῳ λόγος 〈ὁ〉 περὶ βίων.Ἐπί τε γὰρ τῆς ἰατρικῆς οὐκ ἀρκεῖ τὴν ὑγίειαν ἐμποιῆσαι,
                   χρεία δὲ καὶ τοῦ παρασχεῖν παραγγέλματα περὶ τῆς ὑγιείας, οἷς προσέχοντες τὸν νοῦν
                   τὴν εὐεξίαν τοῦ σώματος διαφυλάξουσι· καὶ δὴ κἀπὶ τοῦ βίου θεωρημάτων τινῶν ἐστι
@@ -79,56 +84,55 @@
                   τῆς ἑκάστου χρήσεως ὑποθήκας ἐν ἐπιτομαῖς ἕξουσιν. Οὕτως μὲν οὖν ἡ Φίλωνος ἔχει
                   διαίρεσις.</ab>
                <ab type="translatio" corresp="#T1_Philo_Larissaeus">
-            <persName>Philon</persName>, né à Larissa, était un
-                  philosophe académicien, disciple de <persName>Clitomaque</persName>, dont les
-                  oeuvres qui restent introduisent un progrès intéressant.
-                  <persName>Philon</persName> a aussi produit, fort à propos, une division dans
-                  le discours philosophique, que je vais examiner.<lb/> Il dit que le philosophe est
-                  semblable au médecin. En effet, de même que la tâche du médecin est d'abord de
-                  convaincre le malade d'accepter la thérapie, puis de défaire les arguments de ceux
-                  qui sont d'un avis contraire, il en est de même pour le philosophe. Chacune de ces
-                  deux tâches se trouve dans ce qu'on appelle le discours protreptique, en effet le
-                  discours protreptique est le discours qui incite à la vertu. Une partie de ce
-                  discours montre la grande utilité de la vertu, une autre partie réfute ceux qui
-                  critiquent, qui accusent ou qui, d'une façon ou d'une autre, veulent nuire à la
-                  philosophie.<lb/> Le second discours, après celui-ci, a la seconde place dans
-                  l'analogie avec la médecine. De même que la tâche du médecin, après avoir
-                  convaincu le patient d'accepter la thérapie, est d'administrer cette thérapie, ce
-                  qui consiste d'une part à détruire les causes qui produisent des maladies et
-                  d'autre part à introduire les causes qui favorisent la santé, il en de même aussi
-                  encore pour la science. En effet, après les discours protreptiques, le philosophe
-                  essaie d'introduire les discours thérapeutiques, pour cela, il utilise des
-                  stimulants de deux façons : il introduit le discours qui détruit les opinions qui
-                  sont produites faussement, par lesquelles ce qui juge dans l'âme est malade et le
-                  discours qui produit des opinons acquises sainement. Donc le deuxième objet porte
-                  sur les biens et les maux, ce à propos de quoi et pour quoi il y a
-                  exhortation.<lb/> Egalement le troisième objet correspondra à la troisième tâche
-                  du médecin. En effet, pour la médecine, tout effort est en vue d'une fin,
-                  c'est-à-dire la santé, et pour la philosophie, en vue du bonheur. Mais le discours
-                  sur les existences rejoint celui sur les fins. En effet, pour la médecine, il ne
-                  suffit pas de produire la santé, il faut aussi produire des instructions pour la
-                  santé, par lesquelles ceux qui y prêteront attention garderont la bonne
-                  constitution du corps. Donc pour l'existence aussi, il faut des théorèmes par
-                  lesquels la conservation de la fin se fera. Mais il y a aussi deux discours sur
-                  les existences : un discours particulier et un discours général. Parmi eux, il
-                  faut que le discours spécifique observe ce qui est particulier à chacun, par
-                  exemple si l'homme avisé doit faire de la politique ou vivre avec des dirigeants,
-                  ou si le sage doit se marier. Quant au discours général, il doit observer ce qui
-                  est valable pour tous, par exemple : quel est le meilleur régime politique ?
-                  Faut-il des pouvoirs partagés en commun, ou pour les privilégiés ? Ce discours
-                  général doit être appelé politique, il doit être classé à part, même s'il est une
-                  partie du discours sur les existences, à cause de son importance et de sa
-                  généralité. S'il était donné à tout le monde d'être sage, il ne serait pas
-                  nécessaire d'en dire plus sur ce sujet. En effet, les distinctions suivantes sont
-                  de simples subdvisions de ce qui a été dit auparavant. Mais il faut faire
-                  attention aussi aux hommes ordinaires, qui peuvent profiter de ce qui provient des
-                  discours plus détaillés, puisqu'ils ne peuvent pas profiter des exposés détaillés,
-                  soit par manque de temps, soit par manque du loisir nécessaire, et donc il faut
-                  introduire le discours hypothétique par lequel ils auront dans des résumés les
-                  conseils pour la sécurité et la droiture dans l'usage de chaque chose. Voilà donc
-                  ce qu'est la division de <persName>Philon</persName>.</ab>
+                  <persName>Philon</persName>, né à Larissa, était un philosophe académicien,
+                  disciple de <persName>Clitomaque</persName>, dont les oeuvres qui restent
+                  introduisent un progrès intéressant. <persName>Philon</persName> a aussi produit,
+                  fort à propos, une division dans le discours philosophique, que je vais
+                  examiner.<lb/> Il dit que le philosophe est semblable au médecin. En effet, de
+                  même que la tâche du médecin est d'abord de convaincre le malade d'accepter la
+                  thérapie, puis de défaire les arguments de ceux qui sont d'un avis contraire, il
+                  en est de même pour le philosophe. Chacune de ces deux tâches se trouve dans ce
+                  qu'on appelle le discours protreptique, en effet le discours protreptique est le
+                  discours qui incite à la vertu. Une partie de ce discours montre la grande utilité
+                  de la vertu, une autre partie réfute ceux qui critiquent, qui accusent ou qui,
+                  d'une façon ou d'une autre, veulent nuire à la philosophie.<lb/> Le second
+                  discours, après celui-ci, a la seconde place dans l'analogie avec la médecine. De
+                  même que la tâche du médecin, après avoir convaincu le patient d'accepter la
+                  thérapie, est d'administrer cette thérapie, ce qui consiste d'une part à détruire
+                  les causes qui produisent des maladies et d'autre part à introduire les causes qui
+                  favorisent la santé, il en de même aussi encore pour la science. En effet, après
+                  les discours protreptiques, le philosophe essaie d'introduire les discours
+                  thérapeutiques, pour cela, il utilise des stimulants de deux façons : il introduit
+                  le discours qui détruit les opinions qui sont produites faussement, par lesquelles
+                  ce qui juge dans l'âme est malade et le discours qui produit des opinons acquises
+                  sainement. Donc le deuxième objet porte sur les biens et les maux, ce à propos de
+                  quoi et pour quoi il y a exhortation.<lb/> Egalement le troisième objet
+                  correspondra à la troisième tâche du médecin. En effet, pour la médecine, tout
+                  effort est en vue d'une fin, c'est-à-dire la santé, et pour la philosophie, en vue
+                  du bonheur. Mais le discours sur les existences rejoint celui sur les fins. En
+                  effet, pour la médecine, il ne suffit pas de produire la santé, il faut aussi
+                  produire des instructions pour la santé, par lesquelles ceux qui y prêteront
+                  attention garderont la bonne constitution du corps. Donc pour l'existence aussi,
+                  il faut des théorèmes par lesquels la conservation de la fin se fera. Mais il y a
+                  aussi deux discours sur les existences : un discours particulier et un discours
+                  général. Parmi eux, il faut que le discours spécifique observe ce qui est
+                  particulier à chacun, par exemple si l'homme avisé doit faire de la politique ou
+                  vivre avec des dirigeants, ou si le sage doit se marier. Quant au discours
+                  général, il doit observer ce qui est valable pour tous, par exemple : quel est le
+                  meilleur régime politique ? Faut-il des pouvoirs partagés en commun, ou pour les
+                  privilégiés ? Ce discours général doit être appelé politique, il doit être classé
+                  à part, même s'il est une partie du discours sur les existences, à cause de son
+                  importance et de sa généralité. S'il était donné à tout le monde d'être sage, il
+                  ne serait pas nécessaire d'en dire plus sur ce sujet. En effet, les distinctions
+                  suivantes sont de simples subdvisions de ce qui a été dit auparavant. Mais il faut
+                  faire attention aussi aux hommes ordinaires, qui peuvent profiter de ce qui
+                  provient des discours plus détaillés, puisqu'ils ne peuvent pas profiter des
+                  exposés détaillés, soit par manque de temps, soit par manque du loisir nécessaire,
+                  et donc il faut introduire le discours hypothétique par lequel ils auront dans des
+                  résumés les conseils pour la sécurité et la droiture dans l'usage de chaque chose.
+                  Voilà donc ce qu'est la division de <persName>Philon</persName>.</ab>
             </div>
-            
+
          </div>
       </body>
    </text>
